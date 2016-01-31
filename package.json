@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-partridge",
+  "version": "1.0.0",
+  "description": "eslint config files",
+  "main": "base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^5.0.0-beta8",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "eslint-plugin-react": "^3.16.1"
+  }
+}
