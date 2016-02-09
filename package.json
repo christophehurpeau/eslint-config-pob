@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-partridge",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "eslint config files",
   "main": "base.js",
   "scripts": {
