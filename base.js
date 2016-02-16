@@ -16,6 +16,7 @@ module.exports = {
 
     // changed rules
     "indent": [2, 4, {"SwitchCase": 1}],        // http://eslint.org/docs/rules/indent
+    "react/jsx-indent-props": [2, 4],
     "no-multiple-empty-lines": [1, {"max": 2}], // http://eslint.org/docs/rules/no-multiple-empty-lines
     "no-unused-vars": [2, {"args": "none"}],
     "no-use-before-define": [2, "nofunc"],
