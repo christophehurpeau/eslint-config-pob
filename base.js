@@ -7,11 +7,6 @@ module.exports = {
     "constructor-super": 2,
     "prefer-spread": 2,
     "dot-location": [2, "property"],
-    "sort-imports": [2, {
-      "ignoreCase": false,
-      "ignoreMemberSort": false,
-      "memberSyntaxSortOrder": ["none", "all", "single", "multiple"]
-    }],
 
     "react/jsx-curly-spacing": 2,
     "react/jsx-no-duplicate-props": 2,
