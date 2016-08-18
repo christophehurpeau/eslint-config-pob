@@ -11,5 +11,6 @@ module.exports = {
     'flowtype/space-after-type-colon': ['error'],
     'flowtype/type-id-match': ['error'],
     'flowtype/valid-syntax': ['error'],
+    'flowtype/use-flow-type': ['error', { 'no-unused-vars': 1 }],
   },
 };
