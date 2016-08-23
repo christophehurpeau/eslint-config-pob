@@ -1,3 +1,10 @@
+### v7.1.0
+
+- [`70476c4`](https://github.com/christophehurpeau/eslint-config-pob/commit/70476c49772ecc533ed9d7555c62c8a4dd3c6a86) flowtype warnings (Christophe Hurpeau)
+- [`9d017ca`](https://github.com/christophehurpeau/eslint-config-pob/commit/9d017cad62525e175a3df43910a2b2d29457de0e) flow: add use-flow-type to fix unused-vars (Christophe Hurpeau)
+- [`6e59a6b`](https://github.com/christophehurpeau/eslint-config-pob/commit/6e59a6b9f9a2c556242e4cef888eee6eb3899385) flow use comma, not semicolon (Christophe Hurpeau)
+- [`790b003`](https://github.com/christophehurpeau/eslint-config-pob/commit/790b0032acf7faa0dbc01c9e39950696679999b1) globals: PRODUCTION, BROWSER and NODEJS (Christophe Hurpeau)
+
 ### v7.0.1
 
 - [`9b8b9b6`](https://github.com/christophehurpeau/eslint-config-pob/commit/9b8b9b66df776d1ba32b7b3be5df93d36b46a758) jsx 2 spaces indent (Christophe Hurpeau)
