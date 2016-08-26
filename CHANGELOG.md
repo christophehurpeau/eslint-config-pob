@@ -1,3 +1,7 @@
+### v7.2.0
+
+- [`721a31f`](https://github.com/christophehurpeau/eslint-config-pob/commit/721a31fcfb4eec817fb72d354ff62081692f8ca3) update dependencies (Christophe Hurpeau)
+
 ### v7.1.0
 
 - [`70476c4`](https://github.com/christophehurpeau/eslint-config-pob/commit/70476c49772ecc533ed9d7555c62c8a4dd3c6a86) flowtype warnings (Christophe Hurpeau)
