@@ -1,3 +1,7 @@
+### v11.1.0
+
+- [`33925b6`](https://github.com/christophehurpeau/eslint-config-pob/commit/33925b63cd618c2d3e3ed24171e45f694e20902c) add expert file and disable no-await-in-loop, allow for of (Christophe Hurpeau)
+
 ### v11.0.0
 
 - [`2ed2f28`](https://github.com/christophehurpeau/eslint-config-pob/commit/2ed2f289790390dc52bc09bd0fa4d29a9f998132) add code quality (Christophe Hurpeau)
