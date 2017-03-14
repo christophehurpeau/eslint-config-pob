@@ -1,5 +1,7 @@
 # eslint-config-pob
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/eslint-config-pob.svg)](https://greenkeeper.io/)
+
 Eslint config for Pile Of Bones.
 
 Based on Airbnb.
