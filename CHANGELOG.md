@@ -1,3 +1,17 @@
+<a name="23.0.0"></a>
+# [23.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v22.0.3...v23.0.0) (2018-09-16)
+
+
+### Features
+
+* split react and typescript-react ([0f475af](https://github.com/christophehurpeau/eslint-config-pob/commit/0f475af))
+
+
+### BREAKING CHANGES
+
+* replace react by typescript-react
+
+
 <a name="22.0.3"></a>
 ## [22.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v22.0.2...v22.0.3) (2018-08-25)
 
