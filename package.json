@@ -2,23 +2,25 @@
   "name": "eslint-config-pob",
   "version": "24.0.2",
   "description": "eslint config files",
+  "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
   "repository": "git@github.com:christophehurpeau/eslint-config-pob.git",
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">=6.5.0"
   },
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint --ext .js,.jsx --fix rules/ plugins/ *.js",
+    "clean": "rm -Rf dist",
+    "lint": "eslint lib/",
     "preversion": "yarn run lint && pob-repository-check-clean",
     "release": "pob-repository-check-clean && pob-release",
     "version": "pob-version"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
+      "commit-msg": "commitlint -e $GIT_PARAMS",
       "post-checkout": "yarnhook",
       "post-merge": "yarnhook",
       "post-rewrite": "yarnhook",
@@ -27,17 +29,11 @@
   },
   "lint-staged": {
     "{package.json,.eslintrc.json}": [
-      "prettier --write",
+      "prettier --parser json --write",
       "git add"
     ],
-    "lib/**/*.json": [
-      "prettier --write",
-      "git add"
-    ],
-    "lib/**/*.js": [
-      "eslint --fix --quiet",
-      "git add"
-    ]
+    "lib/**/*.json": ["prettier --parser json --write", "git add"],
+    "lib/**/*.js": ["eslint --fix --quiet", "git add"]
   },
   "prettier": {
     "trailingComma": "es5",
@@ -45,9 +41,7 @@
     "arrowParens": "always"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": ["@commitlint/config-conventional"]
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
@@ -61,18 +55,19 @@
     "prettier": "^1.15.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.2.1",
-    "@commitlint/config-conventional": "^7.1.2",
-    "eslint": "^5.9.0",
+    "@commitlint/cli": "7.2.1",
+    "@commitlint/config-conventional": "7.1.2",
+    "eslint": "5.10.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-config-pob": "24.0.2",
+    "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-node": "8.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "husky": "^1.1.4",
-    "lint-staged": "^8.0.4",
-    "pob-release": "^4.5.0",
-    "prettier": "^1.15.2",
-    "yarnhook": "^0.3.0"
+    "husky": "1.2.0",
+    "lint-staged": "8.1.0",
+    "pob-release": "4.6.1",
+    "prettier": "1.15.3",
+    "yarnhook": "0.3.0"
   }
 }
