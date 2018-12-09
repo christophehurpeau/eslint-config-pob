@@ -1,3 +1,13 @@
+<a name="24.0.3"></a>
+## [24.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v24.0.2...v24.0.3) (2018-12-09)
+
+
+### Bug Fixes
+
+* add react/react-in-jsx-scope in typescript preset ([db428aa](https://github.com/christophehurpeau/eslint-config-pob/commit/db428aa))
+* lint script ([a5b5ffd](https://github.com/christophehurpeau/eslint-config-pob/commit/a5b5ffd))
+
+
 <a name="24.0.2"></a>
 ## [24.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v24.0.1...v24.0.2) (2018-11-23)
 
