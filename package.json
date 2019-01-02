@@ -65,7 +65,7 @@
     "eslint-plugin-react": "7.12.1",
     "husky": "1.2.0",
     "lint-staged": "8.1.0",
-    "pob-release": "4.6.1",
+    "pob-release": "4.6.3",
     "prettier": "1.15.3",
     "yarnhook": "0.3.0"
   }
