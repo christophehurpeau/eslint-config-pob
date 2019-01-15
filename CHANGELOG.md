@@ -1,3 +1,22 @@
+<a name="25.0.0"></a>
+# [25.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v24.0.3...v25.0.0) (2019-01-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v7 (#38) ([8c61601](https://github.com/christophehurpeau/eslint-config-pob/commit/8c61601))
+
+### Features
+
+* reenable react/react-in-jsx-scope ([1ec536b](https://github.com/christophehurpeau/eslint-config-pob/commit/1ec536b))
+* update dep eslint-config-prettier ([ad7f003](https://github.com/christophehurpeau/eslint-config-pob/commit/ad7f003))
+
+
+### BREAKING CHANGES
+
+* reenabled rule react/react-in-jsx-scope. You will need to add `import React from react;` to all your jsx files.
+
+
 <a name="24.0.3"></a>
 ## [24.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v24.0.2...v24.0.3) (2018-12-09)
 
