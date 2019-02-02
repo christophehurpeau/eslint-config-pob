@@ -1,3 +1,12 @@
+<a name="26.0.8"></a>
+## [26.0.8](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.7...v26.0.8) (2019-02-02)
+
+
+### Bug Fixes
+
+* disable import/named ([fb8fd7c](https://github.com/christophehurpeau/eslint-config-pob/commit/fb8fd7c))
+
+
 <a name="26.0.7"></a>
 ## [26.0.7](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.6...v26.0.7) (2019-02-02)
 
