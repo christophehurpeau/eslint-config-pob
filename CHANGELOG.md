@@ -1,3 +1,17 @@
+<a name="28.0.0"></a>
+# [28.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v27.0.0...v28.0.0) (2019-02-11)
+
+
+### Features
+
+* reenable rules prefer-arrow-callback and change quotes rule ([f4207b6](https://github.com/christophehurpeau/eslint-config-pob/commit/f4207b6))
+
+
+### BREAKING CHANGES
+
+* new rules enabled
+
+
 <a name="27.0.0"></a>
 # [27.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v26.0.8...v27.0.0) (2019-02-10)
 
