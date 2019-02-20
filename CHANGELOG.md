@@ -1,3 +1,12 @@
+<a name="28.0.1"></a>
+## [28.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v28.0.0...v28.0.1) (2019-02-20)
+
+
+### Bug Fixes
+
+* typescript recommended config path ([8c0e593](https://github.com/christophehurpeau/eslint-config-pob/commit/8c0e593))
+
+
 <a name="28.0.0"></a>
 # [28.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v27.0.0...v28.0.0) (2019-02-11)
 
