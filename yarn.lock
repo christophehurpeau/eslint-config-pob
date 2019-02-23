@@ -3001,10 +3001,10 @@ please-upgrade-node@^3.0.2, please-upgrade-node@^3.1.1:
   dependencies:
     semver-compare "^1.0.0"
 
-pob-release@4.8.2:
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/pob-release/-/pob-release-4.8.2.tgz#c235fb3918b04870069c1ad0ed14d54bb1188ba5"
-  integrity sha512-7T53yj0iYi5NeANHCLprS52JDxEyUeOJTNZGYq24CYCtFjHVTq1eWRauI/kYO3jdw0AmEizTBQ7KQ5kM/sobxw==
+pob-release@4.8.3:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/pob-release/-/pob-release-4.8.3.tgz#2f9c008c1585cc8e337d984aa17c36658ce04fa8"
+  integrity sha512-2fat4iT9SF9cmaNIjg8rIu1ebVRsRwRDHBQxPbAGtdNtntZRpaLG3cxPY5sEaqYrro3SRnWq0RZxV95OKycZKw==
   dependencies:
     conventional-recommended-bump "^0.3.0"
     inquirer "^6.2.1"
