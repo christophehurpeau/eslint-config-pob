@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [30.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v29.2.0...v30.0.0) (2019-04-19)
+
+
+### Features
+
+* explicit-member-accessibility to no-public ([4a926c3](https://github.com/christophehurpeau/eslint-config-pob/commit/4a926c3))
+
+
+### BREAKING CHANGES
+
+* typescript-eslint/explicit-member-accessibility rule changed
+
+
+
+
+
 # [29.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v29.1.1...v29.2.0) (2019-04-05)
 
 
