@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [31.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v31.0.0...v31.1.0) (2019-04-26)
+
+
+### Features
+
+* enable prefer-includes and prefer-string-starts-ends-with ([fff4885](https://github.com/christophehurpeau/eslint-config-pob/commit/fff4885))
+
+
+
+
+
 # [31.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v30.0.1...v31.0.0) (2019-04-26)
 
 
