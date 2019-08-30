@@ -1077,10 +1077,10 @@
     universal-user-agent "^3.0.0"
     url-template "^2.0.8"
 
-"@pob/repo-config@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@pob/repo-config/-/repo-config-1.0.0.tgz#8881ab613740bf7d97c94ac99e27a4497276424c"
-  integrity sha512-3uL7MIkvtBcTqIJa2ifY4gIlwYUT4RUN8PovxoSIy4bwiiFbsIU6x2ZrXYRnH2dNgmEb4ezZ0nC81bb2H3pt2A==
+"@pob/repo-config@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@pob/repo-config/-/repo-config-1.0.1.tgz#791f8bebf821a3e706ca9f0f8b41184468e16d21"
+  integrity sha512-24QdDOys5XWM4fbl6G897L5VfzBYJW4wURbc8k284VLC+3ex5bFrVdLPFaXGVVwq0vxvoK1SnJKUrsiycFpuHg==
   dependencies:
     "@commitlint/cli" "8.1.0"
     "@commitlint/config-conventional" "8.1.0"
