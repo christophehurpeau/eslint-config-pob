@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [32.0.9](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.8...v32.0.9) (2019-08-30)
+
+
+### Bug Fixes
+
+* disable react/static-property-placement ([66e23da](https://github.com/christophehurpeau/eslint-config-pob/commit/66e23da))
+
+
+
+
+
 ## [32.0.8](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.7...v32.0.8) (2019-08-30)
 
 
