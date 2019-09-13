@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [32.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.13...v32.1.0) (2019-09-13)
+
+
+### Features
+
+* drop node 6 support ([cd84c76](https://github.com/christophehurpeau/eslint-config-pob/commit/cd84c76))
+* update dependencies ([ee1a828](https://github.com/christophehurpeau/eslint-config-pob/commit/ee1a828))
+
+
+
+
+
 ## [32.0.10](https://github.com/christophehurpeau/eslint-config-pob/compare/v32.0.9...v32.0.10) (2019-09-06)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript-react
