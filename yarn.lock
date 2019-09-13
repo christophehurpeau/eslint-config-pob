@@ -1089,10 +1089,10 @@
     yarn-deduplicate "1.1.1"
     yarnhook "^0.4.2"
 
-"@pob/version@4.33.0":
-  version "4.33.0"
-  resolved "https://registry.yarnpkg.com/@pob/version/-/version-4.33.0.tgz#082ed563105d21585a9ab560f7b64af5d69cf358"
-  integrity sha512-bwZTi2d11ig0k518hTRu+vr+cD8IlHuaAw6uzDOJL/AKByPVSH6BKlKu15LFdjZpHaxGLL0kxpYA0Aka6SECdQ==
+"@pob/version@4.33.2":
+  version "4.33.2"
+  resolved "https://registry.yarnpkg.com/@pob/version/-/version-4.33.2.tgz#a27b21610196c67e7f069760c2f15a42c386354f"
+  integrity sha512-L9AyAm3HePpyScZ3oLTpy98j58Gyr4+AHBhJTM55ieUThA2KWRJif7CVUwxZCKfBGxwQSio1orJWEDcNJ6OfHg==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -2583,10 +2583,10 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@6.2.2:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.2.2.tgz#03298280e7750d81fcd31431f3d333e43d93f24f"
-  integrity sha512-mf0elOkxHbdyGX1IJEUsNBzCDdyoUgljF3rRlgfyYh0pwGnreLc0jjD6ZuleOibjmnUWZLY2eXwSooeOgGJ2jw==
+eslint@6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.3.0.tgz#1f1a902f67bfd4c354e7288b81e40654d927eb6a"
+  integrity sha512-ZvZTKaqDue+N8Y9g0kp6UPZtS4FSY3qARxBs7p4f0H0iof381XHduqVerFWtK8DPtKmemqbqCFENWSQgPR/Gow==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
