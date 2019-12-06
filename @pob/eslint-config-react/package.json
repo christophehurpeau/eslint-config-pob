@@ -12,14 +12,14 @@
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "engines": {
-    "node": ">=8.6.0"
+    "node": ">=8.9.0"
   },
   "publishConfig": {
     "access": "public"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint": "eslint --quiet lib/"
+    "lint": "eslint --quiet lib"
   },
   "prettier": {
     "trailingComma": "es5",
@@ -35,7 +35,7 @@
     "eslint-plugin-react-hooks": "^2.0.1"
   },
   "devDependencies": {
-    "eslint": "6.3.0",
-    "prettier": "1.18.2"
+    "eslint": "6.7.2",
+    "prettier": "1.19.1"
   }
 }

@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://npmjs.org/package/@pob/eslint-config-react"><img src="https://img.shields.io/npm/v/@pob/eslint-config-react.svg?style=flat-square"></a>
-  <a href="https://david-dm.org/christophehurpeau/eslint-config-pob?path=packages/@pob/eslint-config-react"><img src="https://david-dm.org/christophehurpeau/eslint-config-pob.svg?path=packages/@pob/eslint-config-react?style=flat-square"></a>
+  <a href="https://david-dm.org/christophehurpeau/eslint-config-pob?path=@pob/eslint-config-react"><img src="https://david-dm.org/christophehurpeau/eslint-config-pob.svg?path=@pob/eslint-config-react?style=flat-square"></a>
 </p>
 
 ## Install
