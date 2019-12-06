@@ -25,11 +25,11 @@
   },
   "devDependencies": {
     "@pob/repo-config": "1.0.2",
-    "@pob/version": "4.33.2",
-    "eslint": "6.3.0",
+    "@pob/version": "4.33.4",
+    "eslint": "6.7.2",
     "husky": "3.1.0",
-    "lerna": "3.16.4",
-    "prettier": "1.18.2",
+    "lerna": "3.19.0",
+    "prettier": "1.19.1",
     "repository-check-dirty": "1.0.2"
   }
 }
