@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [33.0.8](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.7...v33.0.8) (2019-12-06)
+
+
+### Bug Fixes
+
+* disable unicorn/consistent-function-scoping ([fabf67b](https://github.com/christophehurpeau/eslint-config-pob/commit/fabf67b46d2191932b844b41c4a4d3d861284b26))
+
+
+
+
+
 ## [33.0.7](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.6...v33.0.7) (2019-12-06)
 
 
