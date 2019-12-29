@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@pob/repo-config": "1.0.3",
-    "@pob/version": "4.33.4",
+    "@pob/version": "5.0.1",
     "eslint": "6.7.2",
     "husky": "3.1.0",
     "lerna": "3.19.0",

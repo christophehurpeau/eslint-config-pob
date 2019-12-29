@@ -1089,10 +1089,10 @@
     yarn-deduplicate "1.1.1"
     yarnhook "^0.4.3"
 
-"@pob/version@4.33.4":
-  version "4.33.4"
-  resolved "https://registry.yarnpkg.com/@pob/version/-/version-4.33.4.tgz#5f7730eed78c9403e230669ad288c512862dc303"
-  integrity sha512-UKj4KiPDa0fCLuE/BH9uapnlipZgi7W9rqhTw5Kg8OXIw4TdU9fb2oYJ9TMSazxtKu8jUYs8BkLr6A+kN7ygDg==
+"@pob/version@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@pob/version/-/version-5.0.1.tgz#0ec6765b6a4839825e3ed5bded568b5f352cd29b"
+  integrity sha512-ssh0Khru4cAzX8VyeKAhx6Kf6OxccWGL9ZTFOqYpBD37nAqY+V5J59sUojDrehlozPRQsbMiXvcxRx33GB2RVw==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
