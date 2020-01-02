@@ -26,10 +26,10 @@
   "devDependencies": {
     "@pob/repo-config": "1.0.3",
     "@pob/version": "4.33.4",
-    "eslint": "6.7.2",
+    "eslint": "6.8.0",
     "husky": "3.1.0",
-    "lerna": "3.19.0",
+    "lerna": "3.20.2",
     "prettier": "1.19.1",
-    "repository-check-dirty": "1.0.2"
+    "repository-check-dirty": "1.0.3"
   }
 }
