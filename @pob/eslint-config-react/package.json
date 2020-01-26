@@ -12,7 +12,7 @@
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "engines": {
-    "node": ">=8.9.0"
+    "node": ">=10.13.0"
   },
   "publishConfig": {
     "access": "public"
@@ -36,7 +36,7 @@
     "eslint-plugin-react-hooks": "^2.3.0"
   },
   "devDependencies": {
-    "eslint": "6.7.2",
+    "eslint": "6.8.0",
     "prettier": "1.19.1"
   }
 }
