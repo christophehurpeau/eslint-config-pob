@@ -7464,15 +7464,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"repository-check-dirty@npm:1.0.3":
-  version: 1.0.3
-  resolution: "repository-check-dirty@npm:1.0.3"
-  bin:
-    repository-check-dirty: ./repository-check-dirty.sh
-  checksum: ff81d148c332b7c1519236b81ee4f94f1917ab15d3566d548dbfbada6531d5dff0155d24629dbd5644e3a0bb163076f32e33a745d1d5ebb93e6cf32b61eb9a04
-  languageName: node
-  linkType: hard
-
 "request@npm:^2.88.0":
   version: 2.88.0
   resolution: "request@npm:2.88.0"
@@ -7684,7 +7675,6 @@ __metadata:
     husky: 4.2.1
     lerna: 3.20.2
     prettier: 1.19.1
-    repository-check-dirty: 1.0.3
   languageName: unknown
   linkType: soft
 
