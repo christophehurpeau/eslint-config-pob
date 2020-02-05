@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [35.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v34.0.0...v35.0.0) (2020-02-05)
+
+
+### Bug Fixes
+
+* remove @pob/eslint-config-typescript peer dependency in @pob/eslint-config-typescript-react ([98b8da1](https://github.com/christophehurpeau/eslint-config-pob/commit/98b8da151fe237446456f23b928f4fe20a3986c9))
+* remove cross-env needed in yarn2 ([f3b2528](https://github.com/christophehurpeau/eslint-config-pob/commit/f3b252854e1303eb3c05f2bab5bdba274f191726))
+
+
+### chore
+
+* yarn 2 ([88254ac](https://github.com/christophehurpeau/eslint-config-pob/commit/88254ac8740cb51872ff10fbe64b0ee3ae1b7c28))
+
+
+### Features
+
+* update husky ([fc77d4a](https://github.com/christophehurpeau/eslint-config-pob/commit/fc77d4a4dd0a8a598c1cfb8af7503f1d9064bb81))
+
+
+### BREAKING CHANGES
+
+* to support yarn 2, you need to add eslint plugins as devdep in your project
+
+
+
+
+
 # [34.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v33.0.8...v34.0.0) (2020-01-26)
 
 

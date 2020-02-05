@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-babel-node",
-  "version": "34.0.0",
+  "version": "35.0.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -31,7 +31,7 @@
     "eslint-plugin-node": "^11.0.0"
   },
   "dependencies": {
-    "@pob/use-eslint-plugin": "^0.1.0-pre",
+    "@pob/use-eslint-plugin": "^35.0.0",
     "eslint-plugin-node": "^11.0.0"
   }
 }
