@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [35.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v35.0.0...v35.0.1) (2020-02-07)
+
+
+### Bug Fixes
+
+* add peerDependenciesMeta ([26f1d31](https://github.com/christophehurpeau/eslint-config-pob/commit/26f1d31b69a3329ae16e86a25f96bee4a2a1c086))
+
+
+
+
+
 # [35.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v34.0.0...v35.0.0) (2020-02-05)
 
 
