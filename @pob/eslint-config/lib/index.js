@@ -21,8 +21,9 @@ module.exports = {
 
   overrides: [
     {
-      files: ['lint-staged.config.js', 'husky.config.js'],
+      files: ['lint-staged.config.js', 'husky.config.js', 'scripts/**'],
       rules: {
+        'no-console': 'off',
         'import/no-extraneous-dependencies': [
           'error',
           {

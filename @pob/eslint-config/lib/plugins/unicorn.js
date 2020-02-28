@@ -148,4 +148,13 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
     'unicorn/prefer-modern-dom-apis': 'error',
   },
+
+  overrides: [
+    {
+      files: ['scripts/**'],
+      rules: {
+        'unicorn/no-process-exit': 'off',
+      },
+    },
+  ],
 };

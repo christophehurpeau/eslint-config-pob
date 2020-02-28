@@ -28,6 +28,7 @@
   },
   "pob": {},
   "peerDependencies": {
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
   },
   "peerDependenciesMeta": {
