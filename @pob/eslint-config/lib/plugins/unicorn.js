@@ -145,7 +145,7 @@ module.exports = {
     'unicorn/prefer-modern-dom-apis': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-replace-all.md
-    'unicorn/prefer-replace-all': 'off'
+    'unicorn/prefer-replace-all': 'off',
   },
 
   overrides: [
