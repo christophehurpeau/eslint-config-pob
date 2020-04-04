@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [37.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v36.0.0...v37.0.0) (2020-04-04)
+
+
+### Features
+
+* update airbnb config ([bc56c9d](https://github.com/christophehurpeau/eslint-config-pob/commit/bc56c9d8b3833cf96108b6b1977bcf5d9c44bf7c))
+* update eslint-plugin-unicorn ([2cf7c71](https://github.com/christophehurpeau/eslint-config-pob/commit/2cf7c71d48116b4c63630f3ee7431f929d0a00a9))
+* update prettier ([b619cac](https://github.com/christophehurpeau/eslint-config-pob/commit/b619cac4a567f7bfa0ac1ca6851ec1f4d98b9a34))
+* update typescript-eslint ([039252b](https://github.com/christophehurpeau/eslint-config-pob/commit/039252b85baf9bf544c9499c44e009549ef4dac0))
+
+
+### BREAKING CHANGES
+
+* requires prettier 2
+
+
+
+
+
 # [36.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v35.0.1...v36.0.0) (2020-02-28)
 
 
