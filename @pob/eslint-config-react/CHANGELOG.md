@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [37.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v36.0.0...v37.0.0) (2020-04-04)
+
+
+### Features
+
+* update airbnb config ([bc56c9d](https://github.com/christophehurpeau/eslint-config-pob/commit/bc56c9d8b3833cf96108b6b1977bcf5d9c44bf7c))
+
+
+
+
+
 # [36.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v35.0.1...v36.0.0) (2020-02-28)
 
 **Note:** Version bump only for package @pob/eslint-config-react
