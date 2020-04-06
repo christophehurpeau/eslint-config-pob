@@ -85,7 +85,7 @@ try {
                 semver.minVersion(expectedVersion)
               )
             ) {
-              console.warn(message);
+              console.warn(`Warning: ${message}`);
             } else {
               throw new Error(message);
             }
