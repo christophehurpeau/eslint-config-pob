@@ -1352,7 +1352,7 @@ __metadata:
     eslint-config-airbnb-base: 14.1.0
     eslint-import-resolver-node: 0.3.3
     eslint-plugin-import: 2.20.0
-    eslint-plugin-node: 11.0.0
+    eslint-plugin-node: 11.1.0
     eslint-plugin-prefer-class-properties: 1.0.0
     eslint-plugin-prettier: 3.1.2
     eslint-plugin-unicorn: 18.0.1
@@ -3487,7 +3487,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-node@npm:11.0.0, eslint-plugin-node@npm:^11.0.0":
+"eslint-plugin-node@npm:11.1.0":
+  version: 11.1.0
+  resolution: "eslint-plugin-node@npm:11.1.0"
+  dependencies:
+    eslint-plugin-es: ^3.0.0
+    eslint-utils: ^2.0.0
+    ignore: ^5.1.1
+    minimatch: ^3.0.4
+    resolve: ^1.10.1
+    semver: ^6.1.0
+  peerDependencies:
+    eslint: ">=5.16.0"
+  checksum: 2/634e03613a4aa0ffd5ccf0807a375840a915797781a4e5d44fb1c4d331cd2a5e6b3da41924a0d6a2123c1a51626db032a038210153fbba6a0012e0b7c7f26499
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-node@npm:^11.0.0":
   version: 11.0.0
   resolution: "eslint-plugin-node@npm:11.0.0"
   dependencies:
