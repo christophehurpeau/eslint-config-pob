@@ -74,17 +74,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime-corejs3@npm:^7.7.4":
-  version: 7.8.3
-  resolution: "@babel/runtime-corejs3@npm:7.8.3"
-  dependencies:
-    core-js-pure: ^3.0.0
-    regenerator-runtime: ^0.13.2
-  checksum: 2/0c1666a4cabf600da5e2309254159258fd83ad9d0ce8a401d26e28eecb44604178361e81d5e9709fc993364bb5e4e6eb7aaf3eff273bf916991c6208ea130c58
-  languageName: node
-  linkType: hard
-
-"@babel/runtime-corejs3@npm:^7.8.3":
+"@babel/runtime-corejs3@npm:^7.7.4, @babel/runtime-corejs3@npm:^7.8.3":
   version: 7.9.2
   resolution: "@babel/runtime-corejs3@npm:7.9.2"
   dependencies:
@@ -2589,14 +2579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^4.0.1":
-  version: 4.1.0
-  resolution: "commander@npm:4.1.0"
-  checksum: 2/90e7ae2735d850e3b33986e26fdc44dcaf0aacc464aba9b7c38f10aa28f2379f6984266bcb5e23cc04baf6945b10cfc0829f0bb58339783d805d37408bac1dde
-  languageName: node
-  linkType: hard
-
-"commander@npm:^4.1.1":
+"commander@npm:^4.0.1, commander@npm:^4.1.1":
   version: 4.1.1
   resolution: "commander@npm:4.1.1"
   checksum: 2/448585071bf8fb4c0bf9dd52abaee43dea086f801334caec2c8e8c9f456f8abc224c1614ccbbdbf7da5ac2524d230f13cf1fc86c233cf8a041ebecea7df106e9
@@ -7342,14 +7325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.2":
-  version: 0.13.3
-  resolution: "regenerator-runtime@npm:0.13.3"
-  checksum: 2/fc026f997801876927d8b11bd94b1d445c01fb1b112dcc35b1c4e83490b87954d26d8164c50098cdebaa8edc3cbfaa0e474758a57e28efc25930972148274b7a
-  languageName: node
-  linkType: hard
-
-"regenerator-runtime@npm:^0.13.4":
+"regenerator-runtime@npm:^0.13.2, regenerator-runtime@npm:^0.13.4":
   version: 0.13.5
   resolution: "regenerator-runtime@npm:0.13.5"
   checksum: 2/8d8ee0eca26e0491085033caf2b1b95379c4db21e38d79cde52bbd4014a3865eee26ec0f4f958682e8600f185f2f5dbcd8c6685b9b9261639767929c19b5bcd2
@@ -7366,21 +7342,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regexp-tree@npm:^0.1.21":
+"regexp-tree@npm:^0.1.21, regexp-tree@npm:~0.1.1":
   version: 0.1.21
   resolution: "regexp-tree@npm:0.1.21"
   bin:
     regexp-tree: bin/regexp-tree
   checksum: 2/b101cb99d4c25e1eb22d7be764464cd414c495d572dcf4c436c05f48942cc885069d46d63cd350523ffd19c667a9be4d0b724ea672769d2602365fa5a917286b
-  languageName: node
-  linkType: hard
-
-"regexp-tree@npm:~0.1.1":
-  version: 0.1.17
-  resolution: "regexp-tree@npm:0.1.17"
-  bin:
-    regexp-tree: ./bin/regexp-tree
-  checksum: 2/0fc2d2b5bcf9d5192d6a68997e9ace5c032924c4fc4ea1d643b307be9da387fbd2aac8bd5eab04eb7c7ddc09008a8b6efd8938d555a60dc1b4567bbbe0e26b40
   languageName: node
   linkType: hard
 
@@ -7732,21 +7699,12 @@ resolve@^1.15.1:
   languageName: node
   linkType: hard
 
-"semver@npm:7.1.3, semver@npm:^7.1.3":
+"semver@npm:7.1.3, semver@npm:^7.1.2, semver@npm:^7.1.3":
   version: 7.1.3
   resolution: "semver@npm:7.1.3"
   bin:
     semver: bin/semver.js
   checksum: 2/a3e1074182f6acb79aba09ac0547000b6bdc12bf793b47236bdf00dbb1b13d4b574c8f1bc55d89b149a19fbb77351e93f9f254082732d41a959acbe99b1a42b9
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.1.2":
-  version: 7.1.2
-  resolution: "semver@npm:7.1.2"
-  bin:
-    semver: bin/semver.js
-  checksum: 2/16ab13f3e12cad85a2c0afa5456cf54a38abd337a8cc986d1eaa1a267386598855ecaf688225070b21b1887771a51664fd2576821d93b4addc340e314f0e5afe
   languageName: node
   linkType: hard
 
