@@ -1,6 +1,26 @@
 {
-  "extends": [
-    "config:js-lib",
-    "@pob"
+  "extends": ["config:js-lib", "@pob"],
+
+  "packageRules": [
+    {
+      "groupName": null,
+      "packageNames": [
+        "eslint",
+        "eslint-import-resolver-node",
+        "eslint-plugin-import",
+        "eslint-plugin-jsx-a11y",
+        "eslint-plugin-node",
+        "eslint-plugin-prefer-class-properties",
+        "eslint-plugin-prettier",
+        "eslint-plugin-react",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-unicorn"
+      ],
+      "schedule": ["at any time"]
+    },
+    {
+      "groupName": "Airbnb Config",
+      "packageNames": ["eslint-config-airbnb", "eslint-config-airbnb-base"]
+    }
   ]
 }
