@@ -1360,6 +1360,7 @@ __metadata:
     lerna: 3.20.2
     prettier: 2.0.4
     semver: 7.3.2
+    yarn-berry-deduplicate: ^2.0.0
   languageName: unknown
   linkType: soft
 
@@ -1657,6 +1658,15 @@ __metadata:
   version: 1.1.0
   resolution: "@yarnpkg/lockfile@npm:1.1.0"
   checksum: 2/76f3f2625334fb4d37881408643b61ae08e1cfcdeb5db3e3e92f626b3535f99e963df8bafe5c07d85aa1dd09a308939eb4d0667ed4a4e93e645417b6af6e9a2f
+  languageName: node
+  linkType: hard
+
+"@yarnpkg/parsers@npm:^2.0.0-rc.10":
+  version: 2.0.0-rc.11
+  resolution: "@yarnpkg/parsers@npm:2.0.0-rc.11"
+  dependencies:
+    js-yaml: ^3.10.0
+  checksum: 2/6d47aef5418d1f02ca6dac8263344770f159b850744b0dd32b4c09449bddf6404ae0ec4c02ae763f352b9de800586e0301883a171a2484d520a5567f0dda925b
   languageName: node
   linkType: hard
 
@@ -5229,7 +5239,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^3.13.1":
+"js-yaml@npm:^3.10.0, js-yaml@npm:^3.13.1":
   version: 3.13.1
   resolution: "js-yaml@npm:3.13.1"
   dependencies:
@@ -7539,7 +7549,7 @@ resolve@^1.15.1:
 
 "resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#builtin<compat/resolve>":
   version: 1.15.0
-  resolution: "resolve@patch:resolve@npm%3A1.15.0#builtin<compat/resolve>::version=1.15.0&hash=8fccd0"
+  resolution: "resolve@patch:resolve@npm%3A1.15.0#builtin<compat/resolve>::version=1.15.0&hash=e7677c"
   dependencies:
     path-parse: ^1.0.6
   checksum: 2/a977306c59618000d5954b2fb9d6c100c15f2c4df6acdab3e86bdbd3ae1e8d52e89cbbf19e6dce93ce535af1bba097c26332b1a0f85fd4daa45943ec06d90fe8
@@ -7548,7 +7558,7 @@ resolve@^1.15.1:
 
 "resolve@patch:resolve@^1.15.1#builtin<compat/resolve>":
   version: 1.15.1
-  resolution: "resolve@patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=8fccd0"
+  resolution: "resolve@patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=e7677c"
   dependencies:
     path-parse: ^1.0.6
   checksum: 2/fe7e72ddef33d5c157991b824ba2d439cafcd386cb4b26d86c32e77fea442bdd9a93c6cdd93ab90f87a29449008df64b53a8310dd89ebe88ea87fb5db09c03aa
@@ -7709,16 +7719,7 @@ resolve@^1.15.1:
   languageName: node
   linkType: hard
 
-"semver@npm:7.1.3, semver@npm:^7.1.2, semver@npm:^7.1.3":
-  version: 7.1.3
-  resolution: "semver@npm:7.1.3"
-  bin:
-    semver: bin/semver.js
-  checksum: 2/a3e1074182f6acb79aba09ac0547000b6bdc12bf793b47236bdf00dbb1b13d4b574c8f1bc55d89b149a19fbb77351e93f9f254082732d41a959acbe99b1a42b9
-  languageName: node
-  linkType: hard
-
-"semver@npm:7.3.2":
+"semver@npm:7.1.3, semver@npm:7.3.2, semver@npm:^7.1.2, semver@npm:^7.1.3":
   version: 7.3.2
   resolution: "semver@npm:7.3.2"
   bin:
@@ -9032,6 +9033,19 @@ resolve@^1.15.1:
     y18n: ^4.0.0
     yargs-parser: ^15.0.0
   checksum: 2/26ab33c452a139185c2e3a698962ba686dad467ab4d441a6f570dacdd53e776ecef94dda0a9db88e245c040c07144133109f49dccd8d4fb10e939b4d0acd7ff9
+  languageName: node
+  linkType: hard
+
+"yarn-berry-deduplicate@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "yarn-berry-deduplicate@npm:2.0.0"
+  dependencies:
+    "@yarnpkg/parsers": ^2.0.0-rc.10
+    commander: ^4.1.1
+    semver: 7.1.3
+  bin:
+    yarn-berry-deduplicate: cli.js
+  checksum: 2/f1787e5746fe4f733c9876e4f20f1d56d14bf4940930b08d33d169595bae645bb9282c154cfbcdfe1454e3b421bf1fc69d83f67dadc83458e1e4a60169727986
   languageName: node
   linkType: hard
 
