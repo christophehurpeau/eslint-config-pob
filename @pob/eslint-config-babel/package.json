@@ -30,8 +30,5 @@
   "dependencies": {
     "@pob/eslint-config-babel-common": "^37.0.1",
     "babel-eslint": "^10.0.3"
-  },
-  "devDependencies": {
-    "eslint": "6.8.0"
   }
 }

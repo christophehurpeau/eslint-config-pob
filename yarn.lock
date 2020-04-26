@@ -1333,7 +1333,6 @@ __metadata:
   dependencies:
     "@pob/eslint-config": ^37.0.1
     "@pob/use-eslint-plugin": ^37.0.1
-    eslint: 6.8.0
     eslint-config-airbnb-base: ^14.1.0
     eslint-plugin-prefer-class-properties: ^1.0.0
   peerDependencies:
@@ -1350,7 +1349,6 @@ __metadata:
   resolution: "@pob/eslint-config-babel-node@workspace:@pob/eslint-config-babel-node"
   dependencies:
     "@pob/use-eslint-plugin": ^37.0.1
-    eslint: 6.8.0
     eslint-plugin-node: ^11.0.0
   peerDependencies:
     eslint-plugin-node: ^11.0.0
@@ -1366,7 +1364,6 @@ __metadata:
   dependencies:
     "@pob/eslint-config-babel-common": ^37.0.1
     babel-eslint: ^10.0.3
-    eslint: 6.8.0
   languageName: unknown
   linkType: soft
 
@@ -1399,7 +1396,6 @@ __metadata:
   resolution: "@pob/eslint-config-node@workspace:@pob/eslint-config-node"
   dependencies:
     "@pob/use-eslint-plugin": ^37.0.1
-    eslint: 6.8.0
     eslint-plugin-node: ^11.0.0
   peerDependencies:
     eslint-plugin-node: ^11.0.0
@@ -1414,7 +1410,6 @@ __metadata:
   resolution: "@pob/eslint-config-react@workspace:@pob/eslint-config-react"
   dependencies:
     "@pob/eslint-config": ^37.0.1
-    eslint: 6.8.0
     eslint-config-airbnb: ^18.1.0
     eslint-config-prettier: ^6.7.0
     eslint-plugin-jsx-a11y: ^6.2.3
@@ -1440,7 +1435,6 @@ __metadata:
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
     "@pob/eslint-config-react": ^37.0.1
-    eslint: 6.8.0
   languageName: unknown
   linkType: soft
 
@@ -1452,7 +1446,6 @@ __metadata:
     "@pob/use-eslint-plugin": ^37.0.1
     "@typescript-eslint/eslint-plugin": ^2.26.0
     "@typescript-eslint/parser": ^2.26.0
-    eslint: 6.8.0
     eslint-config-prettier: ^6.7.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^2.26.0
@@ -1514,8 +1507,6 @@ __metadata:
 "@pob/use-eslint-plugin@^37.0.1, @pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin":
   version: 0.0.0-use.local
   resolution: "@pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin"
-  dependencies:
-    eslint: 6.8.0
   languageName: unknown
   linkType: soft
 
