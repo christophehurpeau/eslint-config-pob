@@ -41,8 +41,5 @@
     "@pob/use-eslint-plugin": "^37.0.1",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
-  },
-  "devDependencies": {
-    "eslint": "6.8.0"
   }
 }
