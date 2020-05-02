@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [37.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.0.1...v37.0.2) (2020-05-02)
+
+
+### Bug Fixes
+
+* disable node/no-extraneous-import ([95f8cd9](https://github.com/christophehurpeau/eslint-config-pob/commit/95f8cd95a9de57f5a065c40c76b158ee4431d0d3))
+
+
+
+
+
 ## [37.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.0.0...v37.0.1) (2020-04-07)
 
 **Note:** Version bump only for package @pob/eslint-config-babel-node
