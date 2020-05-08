@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config",
-  "version": "37.0.2",
+  "version": "37.1.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
