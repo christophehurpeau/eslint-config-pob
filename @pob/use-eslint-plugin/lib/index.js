@@ -9,18 +9,18 @@ const usePlugin = (pluginDependencyPackage) => {
       `${pluginDependencyPackage.name}/package.json`,
       {
         paths: [process.cwd()],
-      }
+      },
     ));
   } catch (err) {
     console.error(
-      `It seems the package ${pluginDependencyPackage.name} is not in your devDependencies`
+      `It seems the package ${pluginDependencyPackage.name} is not in your devDependencies`,
     );
     throw err;
   }
 
   if (pluginDependencyPackage.version !== pluginRootPackage.version) {
     throw new Error(
-      `Invalid version ${pluginRootPackage.version} of ${pluginDependencyPackage.name}, expected ${pluginDependencyPackage.version}`
+      `Invalid version ${pluginRootPackage.version} of ${pluginDependencyPackage.name}, expected ${pluginDependencyPackage.version}`,
     );
   }
 };
