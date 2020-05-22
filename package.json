@@ -8,15 +8,15 @@
   "repository": "https://github.com:christophehurpeau/eslint-config-pob.git",
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "engines": {
-    "node": ">=6.5.0"
+    "node": ">=10.13.0"
   },
   "workspaces": [
     "@pob/*"
   ],
   "scripts": {
     "checks": "node ./scripts/check-packages-dependencies.js",
-    "lint": "eslint .",
-    "preversion": "eslint . && repository-check-dirty",
+    "lint": "eslint --ext js,ts,tsx .",
+    "preversion": "yarn run lint && repository-check-dirty",
     "release": "GH_TOKEN=$POB_GITHUB_TOKEN lerna version --conventional-commits --conventional-graduate --create-release=github -m 'chore: release' && lerna publish from-git"
   },
   "prettier": {
@@ -30,9 +30,8 @@
     ]
   },
   "devDependencies": {
-    "@pob/commitlint-config": "1.1.1",
-    "@pob/root": "1.5.0",
-    "@yarnpkg/pnpify": "2.0.0-rc.22",
+    "@pob/commitlint-config": "1.1.2",
+    "@pob/root": "2.0.0",
     "eslint": "6.8.0",
     "eslint-config-airbnb": "18.1.0",
     "eslint-config-airbnb-base": "14.1.0",
