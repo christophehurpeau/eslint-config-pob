@@ -14,7 +14,7 @@
     "@pob/*"
   ],
   "scripts": {
-    "checks": "node ./scripts/check-packages-dependencies.js",
+    "checks": "node scripts/check-packages-dependencies.js",
     "lint": "eslint --ext js,ts,tsx .",
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "GH_TOKEN=$POB_GITHUB_TOKEN lerna version --conventional-commits --conventional-graduate --create-release=github -m 'chore: release' && lerna publish from-git"
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@pob/commitlint-config": "1.1.2",
-    "@pob/root": "2.0.0",
+    "@pob/root": "2.2.0",
     "eslint": "6.8.0",
     "eslint-config-airbnb": "18.1.0",
     "eslint-config-airbnb-base": "14.1.0",

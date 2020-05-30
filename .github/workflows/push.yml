@@ -34,8 +34,12 @@ jobs:
         run: yarn install --immutable
 
       - name: Checks
-        run: yarn checks
+        run: yarn run checks
 
       - name: Lint
         run: yarn run lint
         if: startsWith(matrix.node-version, '12.')
+
+      - name: Check nothing was forgotten before commit
+        if: startsWith(matrix.node-version, '12.')
+        run: yarn run repository-check-dirty
