@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [38.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.1.0...v38.2.0) (2020-07-18)
+
+
+### Bug Fixes
+
+* move react-native to eslint-config-typescript-react ([f0333f4](https://github.com/christophehurpeau/eslint-config-pob/commit/f0333f4987810885c56b16e9b756a51048ceb8b4))
+
+
+
+
+
 # [38.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v37.2.0...v38.0.0) (2020-06-05)
 
 
