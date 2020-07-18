@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [38.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.1.0...v38.2.0) (2020-07-18)
+
+
+### Features
+
+* support importing .dts files ([d3a48ef](https://github.com/christophehurpeau/eslint-config-pob/commit/d3a48efccd218edc98fec70f36a4653825ec794c))
+
+
+
+
+
 # [38.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v38.0.2...v38.1.0) (2020-06-05)
 
 
