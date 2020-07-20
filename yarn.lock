@@ -1221,7 +1221,7 @@ __metadata:
     eslint: 6.8.0
     eslint-config-airbnb: 18.1.0
     eslint-config-airbnb-base: 14.1.0
-    eslint-import-resolver-node: 0.3.3
+    eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.20.2
     eslint-plugin-node: 11.1.0
     eslint-plugin-prettier: 3.1.3
@@ -3210,13 +3210,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:0.3.3, eslint-import-resolver-node@npm:^0.3.2":
-  version: 0.3.3
-  resolution: "eslint-import-resolver-node@npm:0.3.3"
+"eslint-import-resolver-node@npm:0.3.4, eslint-import-resolver-node@npm:^0.3.2":
+  version: 0.3.4
+  resolution: "eslint-import-resolver-node@npm:0.3.4"
   dependencies:
     debug: ^2.6.9
     resolve: ^1.13.1
-  checksum: 05700934524b9ea1fea24b5de61fe7c3ae61070b67d5a42da5df3f11d8b0c3e21eff5be92a324d4ba813c16b0d0701bb99e7ca9385d5dd9788d3823c127b41bd
+  checksum: 825e34e662c988ece8229e6956a95f12d2fa19265b429e3e3db14e58bfe72e270c999cda0cfc690793ed6e6a3e49ffa8df0e0a8842d668a1f0f7de5ae1aa36f9
   languageName: node
   linkType: hard
 
