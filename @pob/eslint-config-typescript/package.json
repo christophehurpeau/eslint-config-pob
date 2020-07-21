@@ -40,8 +40,8 @@
   "dependencies": {
     "@pob/eslint-config": "^38.2.0",
     "@pob/use-eslint-plugin": "^38.2.0",
-    "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.26.0",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.11.0"
   }
