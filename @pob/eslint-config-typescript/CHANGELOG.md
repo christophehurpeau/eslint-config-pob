@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [39.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.2...v39.0.3) (2020-07-26)
+
+
+### Bug Fixes
+
+* naming-convention rule should be a warning ([aedf424](https://github.com/christophehurpeau/eslint-config-pob/commit/aedf4241acded72cedd9743effd25d3a6eff0ac8))
+
+
+
+
+
 ## [39.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.1...v39.0.2) (2020-07-26)
 
 
