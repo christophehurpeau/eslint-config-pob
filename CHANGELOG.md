@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [40.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.4...v40.0.0) (2020-09-19)
+
+
+### Features
+
+* update plugins ([afb715d](https://github.com/christophehurpeau/eslint-config-pob/commit/afb715db72a76353e02488fce1de2cf363d38ab0))
+* update typescript-eslint ([135f5e2](https://github.com/christophehurpeau/eslint-config-pob/commit/135f5e288126c26db6a9b0b71881afcc7f56a435))
+
+
+### BREAKING CHANGES
+
+* see https://github.com/typescript-eslint/typescript-eslint/releases/tag/v4.0.0 for more info ; enabled rule consistent-type-imports and no-redeclare
+
+
+
+
+
 ## [39.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.3...v39.0.4) (2020-08-16)
 
 
