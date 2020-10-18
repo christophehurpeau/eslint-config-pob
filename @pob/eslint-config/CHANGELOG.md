@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [40.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v40.0.0...v40.1.0) (2020-10-18)
+
+
+### Features
+
+* update eslint-plugin-unicorn ([39d47cc](https://github.com/christophehurpeau/eslint-config-pob/commit/39d47ccdc17665e5b8b9769b34dc5143a28d9325))
+
+
+
+
+
 # [40.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v39.0.4...v40.0.0) (2020-09-19)
 
 
