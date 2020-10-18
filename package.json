@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@pob/commitlint-config": "1.1.2",
-    "@pob/root": "2.2.2",
+    "@pob/root": "2.4.3",
     "eslint": "7.11.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-airbnb-base": "14.2.0",
