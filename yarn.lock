@@ -1357,7 +1357,7 @@ __metadata:
     "@pob/root": 2.4.5
     eslint: 7.13.0
     eslint-config-airbnb: 18.2.0
-    eslint-config-airbnb-base: 14.2.0
+    eslint-config-airbnb-base: 14.2.1
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.22.1
     eslint-plugin-node: 11.1.0
@@ -1393,7 +1393,7 @@ __metadata:
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     eslint: ^7.5.0
-    eslint-plugin-import: ^2.22.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-node: ^11.1.0
   peerDependenciesMeta:
     eslint-plugin-import:
@@ -1415,7 +1415,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.1.2
   peerDependencies:
     eslint: ^7.5.0
-    eslint-plugin-import: ^2.22.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.3.1
     eslint-plugin-react: ^7.20.6
     eslint-plugin-react-hooks: ^4.1.2
@@ -1438,15 +1438,15 @@ __metadata:
     "@pob/use-eslint-plugin": ^40.1.0
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
-    eslint-config-airbnb-base: ^14.2.0
+    eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^6.11.0
-    eslint-plugin-import: ^2.22.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.1.4
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
     eslint: ^7.5.0
-    eslint-plugin-import: ^2.22.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.1.4
     prettier: ^2.0.5
   peerDependenciesMeta:
@@ -1466,13 +1466,13 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@pob/use-eslint-plugin": ^40.1.0
-    eslint-config-airbnb-base: ^14.2.0
+    eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^6.11.0
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-unicorn: ^23.0.0
   peerDependencies:
     eslint: ^7.5.0
-    eslint-plugin-import: ^2.22.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-prettier: ^3.1.4
     eslint-plugin-unicorn: ^23.0.0
     prettier: ^2.0.5
@@ -2298,6 +2298,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"call-bind@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "call-bind@npm:1.0.0"
+  dependencies:
+    function-bind: ^1.1.1
+    get-intrinsic: ^1.0.0
+  checksum: aeb82f8f5dfd56592c7dcef89367227daa60be4f8e7fdb7689d6c1f8712872911d7e31fddd3336534f45cea56d9a4e7d48889596ce6d2f1ada4507573306e6b1
+  languageName: node
+  linkType: hard
+
 "call-me-maybe@npm:^1.0.1":
   version: 1.0.1
   resolution: "call-me-maybe@npm:1.0.1"
@@ -2688,10 +2698,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"confusing-browser-globals@npm:^1.0.9":
-  version: 1.0.9
-  resolution: "confusing-browser-globals@npm:1.0.9"
-  checksum: 319e6d15384745d3ff4a5ca0357b687e0d36a1ab29a03084e192ea12802532de0fa7319169b09e971aba6a291f8a5ca333105e0fb239ed3f6c891f13eea2bea6
+"confusing-browser-globals@npm:^1.0.10":
+  version: 1.0.10
+  resolution: "confusing-browser-globals@npm:1.0.10"
+  checksum: 47e9365de6afe12e11b8dfbd12ce38d20bf8f4fd4614c838f88be5deb7c84dd20a5f00e432a6dd7e85d9e2be4601553cc6f28cc54d4cb07a3b04508aae0b4bd0
   languageName: node
   linkType: hard
 
@@ -3078,7 +3088,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"define-properties@npm:^1.1.2, define-properties@npm:^1.1.3":
+"define-properties@npm:^1.1.3":
   version: 1.1.3
   resolution: "define-properties@npm:1.1.3"
   dependencies:
@@ -3398,17 +3408,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-base@npm:14.2.0, eslint-config-airbnb-base@npm:^14.2.0":
-  version: 14.2.0
-  resolution: "eslint-config-airbnb-base@npm:14.2.0"
+"eslint-config-airbnb-base@npm:14.2.1, eslint-config-airbnb-base@npm:^14.2.0, eslint-config-airbnb-base@npm:^14.2.1":
+  version: 14.2.1
+  resolution: "eslint-config-airbnb-base@npm:14.2.1"
   dependencies:
-    confusing-browser-globals: ^1.0.9
-    object.assign: ^4.1.0
+    confusing-browser-globals: ^1.0.10
+    object.assign: ^4.1.2
     object.entries: ^1.1.2
   peerDependencies:
     eslint: ^5.16.0 || ^6.8.0 || ^7.2.0
-    eslint-plugin-import: ^2.21.2
-  checksum: 2d76c5e7acac1a56c9641947eaa36c0239374889e1dab6ed12890b1406178ed3417f33c01de78067d1bf064cd0b2781ac1bb2dd94ed68eb4af08b9ebc0383b2d
+    eslint-plugin-import: ^2.22.1
+  checksum: ef1057740ed109bd6df0cddbd973e6ceee42551c6aa7f31c8cae53438011765b67b2fe47ad9f5e72593a8661abef4acef2478b0aae8861a5a89baa911715e611
   languageName: node
   linkType: hard
 
@@ -3474,7 +3484,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.22.1, eslint-plugin-import@npm:^2.22.0":
+"eslint-plugin-import@npm:2.22.1, eslint-plugin-import@npm:^2.22.1":
   version: 2.22.1
   resolution: "eslint-plugin-import@npm:2.22.1"
   dependencies:
@@ -4240,6 +4250,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-intrinsic@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "get-intrinsic@npm:1.0.1"
+  dependencies:
+    function-bind: ^1.1.1
+    has: ^1.0.3
+    has-symbols: ^1.0.1
+  checksum: c38bc558f1eca73bde2d9e22c7798b06c4b93650f39b2053a875a23a6c00fbafb0919ad20fe0d3a3e16916a8a59450502f91e75a918d264456c8ded070fe93c4
+  languageName: node
+  linkType: hard
+
 "get-own-enumerable-property-symbols@npm:^3.0.0":
   version: 3.0.2
   resolution: "get-own-enumerable-property-symbols@npm:3.0.2"
@@ -4561,7 +4582,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"has-symbols@npm:^1.0.0, has-symbols@npm:^1.0.1":
+"has-symbols@npm:^1.0.1":
   version: 1.0.1
   resolution: "has-symbols@npm:1.0.1"
   checksum: 84e2a03ada6f530f0c1ebea64df5932556ac20a4b78998f1f2b5dd0cf736843e8082c488b0ea7f08b9aec72fb6d8b736beed2fd62fac60dcaebfdc0b8d2aa7ac
@@ -6418,7 +6439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-keys@npm:^1.0.11, object-keys@npm:^1.0.12, object-keys@npm:^1.1.1":
+"object-keys@npm:^1.0.12, object-keys@npm:^1.1.1":
   version: 1.1.1
   resolution: "object-keys@npm:1.1.1"
   checksum: 30d72d768b7f3f42144cee517b80e70c40cf39bb76f100557ffac42779613c591780135c54d8133894a78d2c0ae817e24a5891484722c6019a5cd5b58c745c66
@@ -6434,15 +6455,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.assign@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "object.assign@npm:4.1.0"
+"object.assign@npm:^4.1.0, object.assign@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "object.assign@npm:4.1.2"
   dependencies:
-    define-properties: ^1.1.2
-    function-bind: ^1.1.1
-    has-symbols: ^1.0.0
-    object-keys: ^1.0.11
-  checksum: 92e20891ddf04d9974f7b178ae70d198727dcd638c8a5a422f07f730f40140c4fe02451cdc9c37e9f22392e5487b9162975003a9f20b16a87b9d13fe150cf62d
+    call-bind: ^1.0.0
+    define-properties: ^1.1.3
+    has-symbols: ^1.0.1
+    object-keys: ^1.1.1
+  checksum: a5855cc6db3f64606c41ceb97cb9847e667d8240889d771d65638244be1d35c2e2ccb5762f437bb76abf4e98ab4634a9d302380398121cee288a44dce5028f54
   languageName: node
   linkType: hard
 
