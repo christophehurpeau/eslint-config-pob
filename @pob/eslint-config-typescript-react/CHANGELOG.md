@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [41.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.0.2...v41.0.3) (2020-11-13)
+
+
+### Bug Fixes
+
+* remove prettier from peer dependencies ([31a0326](https://github.com/christophehurpeau/eslint-config-pob/commit/31a0326bdd9eb0061a5581c652296edbca6ca79f))
+
+
+
+
+
 # [41.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v40.1.0...v41.0.0) (2020-11-13)
 
 
