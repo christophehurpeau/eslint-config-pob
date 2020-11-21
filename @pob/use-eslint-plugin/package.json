@@ -29,6 +29,6 @@
   },
   "pob": {},
   "devDependencies": {
-    "eslint": "7.13.0"
+    "eslint": "7.14.0"
   }
 }
