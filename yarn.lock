@@ -1355,7 +1355,7 @@ __metadata:
   dependencies:
     "@pob/commitlint-config": 2.0.0
     "@pob/root": 3.0.0
-    eslint: 7.13.0
+    eslint: 7.14.0
     eslint-config-airbnb: 18.2.1
     eslint-config-airbnb-base: 14.2.1
     eslint-import-resolver-node: 0.3.4
@@ -1374,7 +1374,7 @@ __metadata:
   resolution: "@pob/eslint-config-node@workspace:@pob/eslint-config-node"
   dependencies:
     "@pob/use-eslint-plugin": ^41.0.4
-    eslint: 7.13.0
+    eslint: 7.14.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     eslint: ^7.5.0
@@ -1390,7 +1390,7 @@ __metadata:
   resolution: "@pob/eslint-config-typescript-node@workspace:@pob/eslint-config-typescript-node"
   dependencies:
     "@pob/use-eslint-plugin": ^41.0.4
-    eslint: 7.13.0
+    eslint: 7.14.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     eslint: ^7.5.0
@@ -1409,7 +1409,7 @@ __metadata:
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
     "@pob/eslint-config": ^41.0.4
-    eslint: 7.13.0
+    eslint: 7.14.0
     eslint-config-airbnb: ^18.2.1
     eslint-config-prettier: ^6.11.0
     eslint-plugin-jsx-a11y: ^6.4.1
@@ -1439,7 +1439,7 @@ __metadata:
     "@pob/use-eslint-plugin": ^41.0.4
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
-    eslint: 7.13.0
+    eslint: 7.14.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^6.11.0
     eslint-plugin-import: ^2.22.1
@@ -1463,7 +1463,7 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@pob/use-eslint-plugin": ^41.0.4
-    eslint: 7.13.0
+    eslint: 7.14.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^6.11.0
     eslint-plugin-unicorn: ^23.0.0
@@ -1505,7 +1505,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin"
   dependencies:
-    eslint: 7.13.0
+    eslint: 7.14.0
   languageName: unknown
   linkType: soft
 
@@ -3639,9 +3639,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:7.13.0":
-  version: 7.13.0
-  resolution: "eslint@npm:7.13.0"
+"eslint@npm:7.14.0":
+  version: 7.14.0
+  resolution: "eslint@npm:7.14.0"
   dependencies:
     "@babel/code-frame": ^7.0.0
     "@eslint/eslintrc": ^0.2.1
@@ -3682,7 +3682,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 6ea6c763f1b1e484ec5da67e10125cc9b6ccef5c355470cb71a2e29c70b24c0ef325dd45e775800dd78dbcfba2a9c85b9096f438cdb468b32b6680c2ddebb459
+  checksum: 6c1c9ae3cd1ec1c9238a92380049509e9c18fecfb4c9982d4f4d49ec681ec7a2cbc04bbd354ddf10588727f143a158c7a0a82b2fd662197f554bd435cfdb250f
   languageName: node
   linkType: hard
 
