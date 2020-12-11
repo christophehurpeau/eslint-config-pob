@@ -44,7 +44,7 @@
   "dependencies": {
     "@pob/use-eslint-plugin": "^41.0.4",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-unicorn": "^23.0.0"
   },
   "devDependencies": {
