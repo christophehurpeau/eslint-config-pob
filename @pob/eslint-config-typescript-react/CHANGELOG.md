@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [41.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.1.0...v41.1.1) (2020-12-13)
+
+
+### Bug Fixes
+
+* import in typescript-react ([a84b8cb](https://github.com/christophehurpeau/eslint-config-pob/commit/a84b8cbadd43f826630fff1bbeae0091403d1c3c))
+
+
+
+
+
 # [41.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.0.4...v41.1.0) (2020-12-13)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript-react
