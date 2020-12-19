@@ -1,3 +1,5 @@
+/* eslint-disable max-lines */
+
 'use strict';
 
 const usePlugin = require('@pob/use-eslint-plugin');
