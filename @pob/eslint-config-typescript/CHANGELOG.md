@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [41.1.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.1.2...v41.1.3) (2020-12-20)
+
+
+### Bug Fixes
+
+* no-use-before-define ([e66faf2](https://github.com/christophehurpeau/eslint-config-pob/commit/e66faf26c3bf00f1092d84fee90481ad2e47a013))
+
+
+
+
+
 ## [41.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.1.1...v41.1.2) (2020-12-19)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript
