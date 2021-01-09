@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [42.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v42.0.0...v42.0.1) (2021-01-09)
+
+
+### Bug Fixes
+
+* disable arrow-body-style ([27272e3](https://github.com/christophehurpeau/eslint-config-pob/commit/27272e383b4f498d16daef0345d7bfe249da0e84))
+
+
+
+
+
 # [42.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v41.1.3...v42.0.0) (2021-01-09)
 
 
