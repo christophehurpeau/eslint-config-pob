@@ -1361,7 +1361,7 @@ __metadata:
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.22.1
     eslint-plugin-node: 11.1.0
-    eslint-plugin-unicorn: 24.0.0
+    eslint-plugin-unicorn: 25.0.1
     husky: 4.3.6
     lerna: 3.22.1
     prettier: 2.2.1
@@ -1466,11 +1466,11 @@ __metadata:
     eslint: 7.17.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^7.1.0
-    eslint-plugin-unicorn: ^24.0.0
+    eslint-plugin-unicorn: ^25.0.1
   peerDependencies:
     eslint: ^7.5.0
     eslint-plugin-import: ^2.22.1
-    eslint-plugin-unicorn: ^24.0.0
+    eslint-plugin-unicorn: ^25.0.1
   peerDependenciesMeta:
     eslint-plugin-import:
       optional: true
@@ -3549,9 +3549,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:24.0.0, eslint-plugin-unicorn@npm:^24.0.0":
-  version: 24.0.0
-  resolution: "eslint-plugin-unicorn@npm:24.0.0"
+"eslint-plugin-unicorn@npm:25.0.1, eslint-plugin-unicorn@npm:^25.0.1":
+  version: 25.0.1
+  resolution: "eslint-plugin-unicorn@npm:25.0.1"
   dependencies:
     ci-info: ^2.0.0
     clean-regexp: ^1.0.0
@@ -3568,7 +3568,7 @@ __metadata:
     semver: ^7.3.4
   peerDependencies:
     eslint: ">=7.15.0"
-  checksum: a1a697b1b2a18b430668a9ecd3fe09ab8fa91f34c61993ed530189034ee0f263275d62209b25d867e7cba097a61f42e538a9da9678f1c8038df49d989f373aea
+  checksum: dba34c42a143e491959c75cf1f924f487433c9f2015750f4352ddc765161e359a076bf3ae127ac5bfc595906db7677798e70fd8f1b8ecaea1662990d89b9d45a
   languageName: node
   linkType: hard
 
