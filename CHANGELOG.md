@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [43.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v43.0.0...v43.1.0) (2021-01-23)
+
+
+### Features
+
+* add eslint-config-node/module for overriding ([6b024ed](https://github.com/christophehurpeau/eslint-config-pob/commit/6b024ed697e63c72362d23e37fda9e42bbdef898))
+
+
+
+
+
 # [43.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v42.0.1...v43.0.0) (2021-01-17)
 
 
