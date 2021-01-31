@@ -47,6 +47,6 @@
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
-    "eslint": "7.18.0"
+    "eslint": "7.19.0"
   }
 }
