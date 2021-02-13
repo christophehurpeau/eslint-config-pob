@@ -5,12 +5,12 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4":
-  version: 7.10.4
-  resolution: "@babel/code-frame@npm:7.10.4"
+"@babel/code-frame@npm:7.12.11, @babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4":
+  version: 7.12.11
+  resolution: "@babel/code-frame@npm:7.12.11"
   dependencies:
     "@babel/highlight": ^7.10.4
-  checksum: 05245d3b22a3ae849439195c4ee9ce9903dfd8c3fcb5124e77923c45e9f1ceac971cce4c61505974f411a9db432949531abe10ddee92937a0a9c306dc380a5b2
+  checksum: 033d3fb3bf911929c0d904282ee69d1197c8d8ae9c6492aaab09e530bca8c463b11c190185dfda79866556facb5bb4c8dc0b4b32b553d021987fcc28c8dd9c6c
   languageName: node
   linkType: hard
 
@@ -1102,7 +1102,7 @@ __metadata:
     "@pob/commitlint-config": 2.0.1
     "@pob/lerna-light": 3.23.0
     "@pob/root": 3.1.1
-    eslint: 7.19.0
+    eslint: 7.20.0
     eslint-config-airbnb: 18.2.1
     eslint-config-airbnb-base: 14.2.1
     eslint-import-resolver-node: 0.3.4
@@ -1120,7 +1120,7 @@ __metadata:
   resolution: "@pob/eslint-config-node@workspace:@pob/eslint-config-node"
   dependencies:
     "@pob/use-eslint-plugin": ^43.0.0
-    eslint: 7.19.0
+    eslint: 7.20.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     eslint: ^7.5.0
@@ -1136,7 +1136,7 @@ __metadata:
   resolution: "@pob/eslint-config-typescript-node@workspace:@pob/eslint-config-typescript-node"
   dependencies:
     "@pob/use-eslint-plugin": ^43.0.0
-    eslint: 7.19.0
+    eslint: 7.20.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     eslint: ^7.5.0
@@ -1155,7 +1155,7 @@ __metadata:
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
     "@pob/eslint-config": ^43.0.0
-    eslint: 7.19.0
+    eslint: 7.20.0
     eslint-config-airbnb: ^18.2.1
     eslint-config-prettier: ^7.1.0
     eslint-plugin-jsx-a11y: ^6.4.1
@@ -1185,7 +1185,7 @@ __metadata:
     "@pob/use-eslint-plugin": ^43.0.0
     "@typescript-eslint/eslint-plugin": ^4.1.1
     "@typescript-eslint/parser": ^4.1.1
-    eslint: 7.19.0
+    eslint: 7.20.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^7.1.0
     eslint-plugin-import: ^2.22.1
@@ -1209,7 +1209,7 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@pob/use-eslint-plugin": ^43.0.0
-    eslint: 7.19.0
+    eslint: 7.20.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^7.1.0
     eslint-plugin-unicorn: ^25.0.1
@@ -1320,7 +1320,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin"
   dependencies:
-    eslint: 7.19.0
+    eslint: 7.20.0
   languageName: unknown
   linkType: soft
 
@@ -3383,11 +3383,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:7.19.0":
-  version: 7.19.0
-  resolution: "eslint@npm:7.19.0"
+"eslint@npm:7.20.0":
+  version: 7.20.0
+  resolution: "eslint@npm:7.20.0"
   dependencies:
-    "@babel/code-frame": ^7.0.0
+    "@babel/code-frame": 7.12.11
     "@eslint/eslintrc": ^0.3.0
     ajv: ^6.10.0
     chalk: ^4.0.0
@@ -3399,7 +3399,7 @@ __metadata:
     eslint-utils: ^2.1.0
     eslint-visitor-keys: ^2.0.0
     espree: ^7.3.1
-    esquery: ^1.2.0
+    esquery: ^1.4.0
     esutils: ^2.0.2
     file-entry-cache: ^6.0.0
     functional-red-black-tree: ^1.0.1
@@ -3426,7 +3426,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 0461e8b2b53c9097995efe131f659e2df77deda1daf79d7673654e2cbdac90bd2a412758b0ee0db48d29bf58f4b4d99170a70e17df1345782f0c8fa511bb0734
+  checksum: 1d56cabc7e21f43b8bb6a1934f2488b27d86b018ce2246bc9b89e52931e26b306c5883f5e4ff5c6e0228e0e8673553a460e98eacc4890f9e5984002df0292123
   languageName: node
   linkType: hard
 
@@ -3451,12 +3451,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esquery@npm:^1.2.0, esquery@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "esquery@npm:1.3.1"
+"esquery@npm:^1.3.1, esquery@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "esquery@npm:1.4.0"
   dependencies:
     estraverse: ^5.1.0
-  checksum: 0aac7572bc8cf4aad87f4424b3e5e80917c214d15a1da02718c4bb0e6030552b0dea700777747507d5e310cfba43ea719e6397a45050fb50b9b68c0f7de6b26a
+  checksum: 3293ecc1507a8cec8d2da8a4707275c2ccf5413e7a3c771fe41c16cee603cacd193bb7383a6e219d1f7d2449156ef575ffd66c839073d4a8058f72856a15f622
   languageName: node
   linkType: hard
 
