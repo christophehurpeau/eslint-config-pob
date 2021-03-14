@@ -32,7 +32,7 @@
     ]
   },
   "devDependencies": {
-    "@pob/commitlint-config": "2.0.1",
+    "@pob/commitlint-config": "2.1.0",
     "@pob/lerna-light": "3.24.0",
     "@pob/root": "3.1.1",
     "eslint": "7.22.0",
