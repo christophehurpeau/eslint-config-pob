@@ -21,7 +21,7 @@
   "sideEffects": false,
   "scripts": {
     "lint": "yarn run lint:eslint",
-    "lint:eslint": "yarn --cwd ../.. eslint --report-unused-disable-directives --quiet @pob/eslint-config-typescript"
+    "lint:eslint": "yarn --cwd ../.. run eslint --report-unused-disable-directives --quiet @pob/eslint-config-typescript"
   },
   "prettier": {
     "trailingComma": "all",
