@@ -196,6 +196,33 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md
     'unicorn/prefer-default-parameters': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md
+    'unicorn/no-new-array': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md
+    'unicorn/prefer-array-index-of': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md
+    'unicorn/prefer-regexp-test': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-destructuring.md
+    'unicorn/consistent-destructuring': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-for-each.md
+    'unicorn/no-array-for-each': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-push-push.md
+    'unicorn/no-array-push-push': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-this-assignment.md
+    'unicorn/no-this-assignment': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-static-only-class.md
+    'unicorn/no-static-only-class': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat.md
+    'unicorn/prefer-array-flat': 'error',
   },
 
   overrides: [
