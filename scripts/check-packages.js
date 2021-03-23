@@ -1,37 +1,30 @@
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
+const {
+  createCheckPackageWithWorkspaces,
+} = require('check-package-dependencies');
 const semver = require('semver');
+const rootPkg = require('../package.json');
 
-try {
-  const readPackage = (path) => JSON.parse(fs.readFileSync(path, 'utf-8'));
-
-  const configDependencies = [
-    'eslint-config-airbnb-base',
-    'eslint-config-airbnb',
-  ];
-
-  const rootPkg = readPackage('package.json');
-
-  const devDependencies = Object.keys(rootPkg.devDependencies);
-
-  configDependencies.forEach((configDependency) => {
-    if (!devDependencies.includes(configDependency)) {
-      throw new Error(`missing dependency ${configDependency}`);
-    }
-  });
-
-  // const rootPkg = readPackage('package.json');
-  const packages = fs.readdirSync('@pob');
-
-  packages.forEach((packageName) => {
-    const pkgPath = path.resolve('@pob', packageName, 'package.json');
-    if (!fs.existsSync(pkgPath)) {
-      return;
-    }
-
-    const pkg = readPackage(pkgPath);
+createCheckPackageWithWorkspaces()
+  .checkRecommended({
+    isLibrary: () => true,
+    directDuplicateDependenciesOnlyWarnsFor: ['semver'],
+  })
+  .forRoot((checkRootPkg) => {
+    return checkRootPkg
+      .checkSatisfiesVersionsFromDependency('./@pob/eslint-config', {
+        devDependencies: ['eslint-config-airbnb-base'],
+      })
+      .checkSatisfiesVersionsFromDependency(
+        './@pob/eslint-config-typescript-react',
+        {
+          devDependencies: ['eslint-config-airbnb'],
+        },
+      );
+  })
+  .forEach((checkPkg) => {
+    const pkg = checkPkg.pkg;
 
     if (pkg.peerDependencies) {
       Object.keys(pkg.peerDependencies).forEach((peerDep) => {
@@ -39,7 +32,7 @@ try {
           const expectedVersion = pkg.dependencies[peerDep];
           if (pkg.peerDependencies[peerDep] !== expectedVersion) {
             throw new Error(
-              `Invalid ${peerDep} version in ${packageName}: should be ${expectedVersion}`,
+              `Invalid ${peerDep} version in ${pkg.name}: should be ${expectedVersion}`,
             );
           }
         }
@@ -47,12 +40,16 @@ try {
     }
 
     if (pkg.dependencies) {
+      const configDependencies = [
+        'eslint-config-airbnb-base',
+        'eslint-config-airbnb',
+      ];
       configDependencies.forEach((configDep) => {
         if (pkg.dependencies[configDep]) {
           const expectedVersion = rootPkg.devDependencies[configDep];
           if (pkg.dependencies[configDep].slice(1) !== expectedVersion) {
             throw new Error(
-              `Invalid ${configDep} version in ${packageName}: should be ${expectedVersion}`,
+              `Invalid ${configDep} version in ${pkg.name}: should be ${expectedVersion}`,
             );
           }
         }
@@ -63,13 +60,7 @@ try {
           configDep.startsWith('@pob') ||
           configDependencies.includes(configDep)
         ) {
-          const configDepPkg = readPackage(
-            require.resolve(
-              `${
-                configDep.startsWith('@pob') ? `../${configDep}` : configDep
-              }/package.json`,
-            ),
-          );
+          const configDepPkg = checkPkg.getDependencyPackageJson(configDep);
 
           if (!configDepPkg.peerDependencies) return;
 
@@ -116,7 +107,3 @@ try {
       });
     }
   });
-} catch (err) {
-  console.error(err.message);
-  process.exit(1);
-}

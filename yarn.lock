@@ -1274,12 +1274,16 @@ __metadata:
     "@pob/commitlint-config": 2.1.0
     "@pob/lerna-light": 3.24.0
     "@pob/root": 3.2.0
+    check-package-dependencies: 1.2.1
     eslint: 7.22.0
     eslint-config-airbnb: 18.2.1
     eslint-config-airbnb-base: 14.2.1
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.22.1
+    eslint-plugin-jsx-a11y: 6.4.1
     eslint-plugin-node: 11.1.0
+    eslint-plugin-react: 7.21.5
+    eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-unicorn: 29.0.0
     husky: 4.3.8
     prettier: 2.2.1
@@ -1330,6 +1334,7 @@ __metadata:
     eslint: 7.22.0
     eslint-config-airbnb: ^18.2.1
     eslint-config-prettier: ^7.1.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react: ^7.21.5
     eslint-plugin-react-hooks: ^4.1.2
@@ -1384,6 +1389,7 @@ __metadata:
     eslint: 7.22.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^7.1.0
+    eslint-plugin-import: ^2.22.1
     eslint-plugin-unicorn: ^29.0.0
   peerDependencies:
     eslint: ^7.5.0
@@ -2198,6 +2204,20 @@ __metadata:
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
   checksum: b71a4ee4648489291af86418b96247824a8c1ee4f4f95d6268967fb40e9fbf70500e72fb737d5186a23cf98c8a02b91d68cb2f426d7428e92883af9d31a037ec
+  languageName: node
+  linkType: hard
+
+"check-package-dependencies@npm:1.2.1":
+  version: 1.2.1
+  resolution: "check-package-dependencies@npm:1.2.1"
+  dependencies:
+    chalk: ^4.1.0
+    glob: ^7.1.6
+    semver: ^7.3.4
+    type-fest: ^1.0.0
+  bin:
+    check-package-dependencies: bin/check-package-dependencies.js
+  checksum: a064584c2163d5bc96176f47314cdc98e41c39b94f9fe0b5aa1f58e0d2a8c16ac06fb60f1406a943957849be11bc346c8ca3e842a1ecda60379e4c54dd4d57a9
   languageName: node
   linkType: hard
 
@@ -3056,7 +3076,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:^6.4.1":
+"eslint-plugin-jsx-a11y@npm:6.4.1, eslint-plugin-jsx-a11y@npm:^6.4.1":
   version: 6.4.1
   resolution: "eslint-plugin-jsx-a11y@npm:6.4.1"
   dependencies:
@@ -3093,16 +3113,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "eslint-plugin-react-hooks@npm:4.1.2"
+"eslint-plugin-react-hooks@npm:4.2.0, eslint-plugin-react-hooks@npm:^4.1.2":
+  version: 4.2.0
+  resolution: "eslint-plugin-react-hooks@npm:4.2.0"
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: 252496dbaaafa6812fbd3aeaafac1192a1e35238172d8271eb370025b43604e10f04cecec3583da395358a3e6be3ace6958ec938102fe3c1b77caf30f1393c91
+  checksum: 5378d16b5a56431a7a77b56d61464dbbfa343e8607da87b851a6caee44b96e08847147321f5f38de30d20668418691d859f69d9c5262dfb5308856382252096c
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.21.5":
+"eslint-plugin-react@npm:7.21.5, eslint-plugin-react@npm:^7.21.5":
   version: 7.21.5
   resolution: "eslint-plugin-react@npm:7.21.5"
   dependencies:
@@ -7298,6 +7318,13 @@ __metadata:
   version: 0.8.1
   resolution: "type-fest@npm:0.8.1"
   checksum: f8c4b4249f52e8bea7a4fc55b3653c96c2d547240e4c772e001d02b7cc38b8c3eb493ab9fbe985a76a203cd1aa7044776b728a71ba12bf36e7131f989597885b
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "type-fest@npm:1.0.1"
+  checksum: 3bd90161148674da21a3fc74cc784163b9b3e577fe70c0f110a456e6140109251a7b3ef4a4b07d10839fda8c119484a13c8b5d4c3984ba6c9aeb89cbf6eecbde
   languageName: node
   linkType: hard
 
