@@ -36,7 +36,7 @@
     "@pob/lerna-light": "3.24.0",
     "@pob/root": "3.2.0",
     "check-package-dependencies": "1.2.1",
-    "eslint": "7.22.0",
+    "eslint": "7.23.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-import-resolver-node": "0.3.4",
