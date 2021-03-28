@@ -1336,13 +1336,13 @@ __metadata:
     eslint-config-prettier: ^7.1.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-react: ^7.21.5
+    eslint-plugin-react: ^7.23.1
     eslint-plugin-react-hooks: ^4.1.2
   peerDependencies:
     eslint: ^7.5.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-react: ^7.21.5
+    eslint-plugin-react: ^7.23.1
     eslint-plugin-react-hooks: ^4.1.2
   peerDependenciesMeta:
     eslint-plugin-jsx-a11y:
@@ -3130,7 +3130,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.23.1, eslint-plugin-react@npm:^7.21.5":
+"eslint-plugin-react@npm:7.23.1, eslint-plugin-react@npm:^7.23.1":
   version: 7.23.1
   resolution: "eslint-plugin-react@npm:7.23.1"
   dependencies:
