@@ -91,6 +91,9 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': 'error',
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': 'error',
+    '@typescript-eslint/consistent-indexed-object-style': 'error',
+    '@typescript-eslint/no-unnecessary-type-constraint': 'error',
+    '@typescript-eslint/non-nullable-type-assertion-style': 'error',
 
     // enable dot-notation, like https://github.com/airbnb/javascript/blob/5b462a04cdfebba712a3df18926edfcb4103d2a9/packages/eslint-config-airbnb-base/rules/best-practices.js#L40-L41
     'dot-notation': 'off',
@@ -142,6 +145,7 @@ module.exports = {
         format: ['PascalCase'],
       },
     ],
+    '@typescript-eslint/no-confusing-void-expression': 'warn',
 
     /* changed */
     '@typescript-eslint/explicit-function-return-type': [
