@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [43.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v43.1.0...v43.2.0) (2021-03-28)
+
+
+### Features
+
+* update eslint-plugin-react ([18ad5a0](https://github.com/christophehurpeau/eslint-config-pob/commit/18ad5a0d6af0bcabfcc10b98674a38112c078fe6))
+* update eslint-plugin-unicorn to v29 ([98468e1](https://github.com/christophehurpeau/eslint-config-pob/commit/98468e15a99fc2240234fd75a6ff1afdeaed6dda))
+* update typescript-eslint ([0693a5f](https://github.com/christophehurpeau/eslint-config-pob/commit/0693a5f0663b1b5a286fa98744416f6bb6eaab81))
+
+
+
+
+
 # [43.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v43.0.0...v43.1.0) (2021-01-23)
 
 
