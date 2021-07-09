@@ -232,7 +232,7 @@ module.exports = {
     'unicorn/prefer-switch': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-protocol.md
-    'unicorn/prefer-node-protocol': 'warn',
+    'unicorn/prefer-node-protocol': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md
     'unicorn/prefer-module': 'warn',
