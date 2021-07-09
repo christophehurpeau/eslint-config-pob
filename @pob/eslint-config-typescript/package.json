@@ -57,5 +57,6 @@
   },
   "devDependencies": {
     "eslint": "7.30.0"
-  }
+  },
+  "type": "commonjs"
 }
