@@ -112,7 +112,7 @@ module.exports = {
     'unicorn/prefer-keyboard-event-key': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat-map.md
-    'unicorn/prefer-array-flat-map': 'off',
+    'unicorn/prefer-array-flat-map': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-keyword-prefix.md
     'unicorn/no-keyword-prefix': 'off',
@@ -227,6 +227,43 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat.md
     'unicorn/prefer-array-flat': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-switch.md
+    'unicorn/prefer-switch': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-protocol.md
+    'unicorn/prefer-node-protocol': 'warn',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md
+    'unicorn/prefer-module': 'warn',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-document-cookie.md
+    'unicorn/no-document-cookie': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/require-array-join-separator.md
+    'unicorn/require-array-join-separator': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/require-number-to-fixed-digits-argument.md
+    'unicorn/require-number-to-fixed-digits-argument': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-prototype-methods.md
+    'unicorn/prefer-prototype-methods': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-object-has-own.md
+    'unicorn/prefer-object-has-own': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-method-this-argument.md
+    'unicorn/no-array-method-this-argument': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/require-post-message-target-origin.md
+    'unicorn/require-post-message-target-origin': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-top-level-await.md
+    // use when node 12 support drop
+    'unicorn/prefer-top-level-await': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-at.md
+    'unicorn/prefer-at': 'off',
   },
 
   overrides: [
