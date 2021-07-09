@@ -35,7 +35,7 @@
     "@pob/commitlint-config": "2.2.0",
     "@pob/lerna-light": "3.24.0",
     "@pob/root": "4.1.0",
-    "check-package-dependencies": "1.2.1",
+    "check-package-dependencies": "1.2.6",
     "eslint": "7.30.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-airbnb-base": "14.2.1",
