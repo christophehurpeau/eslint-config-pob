@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [44.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v44.0.1...v44.0.2) (2021-07-09)
+
+
+### Bug Fixes
+
+* **@pob/eslint-config-node:** always specify mjs extension ([a018707](https://github.com/christophehurpeau/eslint-config-pob/commit/a018707e28eb231afdb5c73fe0c5040e23f55ae1))
+
+
+
+
+
 # [44.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v43.2.0...v44.0.0) (2021-07-09)
 
 
