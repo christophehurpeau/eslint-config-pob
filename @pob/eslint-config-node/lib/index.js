@@ -21,5 +21,16 @@ module.exports = {
     'no-process-exit': 'off',
     'no-restricted-modules': 'off',
     'no-sync': 'off',
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        mjs: 'always',
+        js: 'never',
+        ts: 'never',
+      },
+    ],
   },
 };
