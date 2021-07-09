@@ -1291,7 +1291,7 @@ __metadata:
     "@pob/commitlint-config": 2.2.0
     "@pob/lerna-light": 3.24.0
     "@pob/root": 4.1.0
-    check-package-dependencies: 1.2.1
+    check-package-dependencies: 1.2.6
     eslint: 7.30.0
     eslint-config-airbnb: 18.2.1
     eslint-config-airbnb-base: 14.2.1
@@ -1315,7 +1315,7 @@ __metadata:
     eslint: 7.30.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-node: ^11.1.0
   peerDependenciesMeta:
     eslint-plugin-node:
@@ -1331,7 +1331,7 @@ __metadata:
     eslint: 7.30.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-node: ^11.1.0
   peerDependenciesMeta:
@@ -1355,7 +1355,7 @@ __metadata:
     eslint-plugin-react: ^7.23.1
     eslint-plugin-react-hooks: ^4.1.2
   peerDependencies:
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react: ^7.23.1
@@ -1385,7 +1385,7 @@ __metadata:
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.19.0
     "@typescript-eslint/parser": ^4.19.0
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-import: ^2.22.1
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
@@ -1408,7 +1408,7 @@ __metadata:
     eslint-plugin-import: ^2.22.1
     eslint-plugin-unicorn: ^34.0.1
   peerDependencies:
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-unicorn: ^34.0.1
   peerDependenciesMeta:
@@ -2245,9 +2245,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"check-package-dependencies@npm:1.2.1":
-  version: 1.2.1
-  resolution: "check-package-dependencies@npm:1.2.1"
+"check-package-dependencies@npm:1.2.6":
+  version: 1.2.6
+  resolution: "check-package-dependencies@npm:1.2.6"
   dependencies:
     chalk: ^4.1.0
     glob: ^7.1.6
@@ -2255,7 +2255,7 @@ __metadata:
     type-fest: ^1.0.0
   bin:
     check-package-dependencies: bin/check-package-dependencies.js
-  checksum: a064584c2163d5bc96176f47314cdc98e41c39b94f9fe0b5aa1f58e0d2a8c16ac06fb60f1406a943957849be11bc346c8ca3e842a1ecda60379e4c54dd4d57a9
+  checksum: d7105cf0d717770ede9dcc6197dbeedf3f9b522d04977969287979ab82784b45552d268da00b79c42e232a01940d2ec12802315aedf51d7abbee6cc6a18fd540
   languageName: node
   linkType: hard
 

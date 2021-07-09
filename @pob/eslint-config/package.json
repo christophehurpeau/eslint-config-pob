@@ -30,7 +30,7 @@
   },
   "pob": {},
   "peerDependencies": {
-    "eslint": "^7.5.0",
+    "eslint": "^7.30.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-unicorn": "^34.0.1"
   },
