@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [44.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v43.2.0...v44.0.0) (2021-07-09)
+
+
+### chore
+
+* **deps:** update dependency eslint-plugin-unicorn to v34 ([#229](https://github.com/christophehurpeau/eslint-config-pob/issues/229)) ([7699ed4](https://github.com/christophehurpeau/eslint-config-pob/commit/7699ed4106459d64535ccd07f64b7d28dd5cd3b0))
+* update min node versions ([8f9d645](https://github.com/christophehurpeau/eslint-config-pob/commit/8f9d64521001fb4b066323ac4e82f19984381516))
+
+
+### BREAKING CHANGES
+
+* **deps:** requires eslint-plugin-unicorn 34 and enable new rules 
+* requires new min supported node versions
+
+
+
+
+
 # [43.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v43.1.0...v43.2.0) (2021-03-28)
 
 **Note:** Version bump only for package @pob/use-eslint-plugin

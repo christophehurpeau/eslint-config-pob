@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-node",
-  "version": "43.2.0",
+  "version": "44.0.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -39,7 +39,7 @@
     }
   },
   "dependencies": {
-    "@pob/use-eslint-plugin": "^43.2.0",
+    "@pob/use-eslint-plugin": "^44.0.0",
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
