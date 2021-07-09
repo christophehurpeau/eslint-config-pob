@@ -1406,11 +1406,11 @@ __metadata:
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^7.1.0
     eslint-plugin-import: ^2.22.1
-    eslint-plugin-unicorn: ^34.0.0
+    eslint-plugin-unicorn: ^34.0.1
   peerDependencies:
     eslint: ^7.5.0
     eslint-plugin-import: ^2.22.1
-    eslint-plugin-unicorn: ^29.0.0
+    eslint-plugin-unicorn: ^34.0.1
   peerDependenciesMeta:
     eslint-plugin-import:
       optional: true
@@ -3181,7 +3181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:34.0.1, eslint-plugin-unicorn@npm:^34.0.0":
+"eslint-plugin-unicorn@npm:34.0.1, eslint-plugin-unicorn@npm:^34.0.1":
   version: 34.0.1
   resolution: "eslint-plugin-unicorn@npm:34.0.1"
   dependencies:
