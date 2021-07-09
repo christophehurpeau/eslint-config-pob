@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [44.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v44.0.0...v44.0.1) (2021-07-09)
+
+
+### Bug Fixes
+
+* **@pob/eslint-config:** disable unicorn/prefer-node-protocol ([e6e3633](https://github.com/christophehurpeau/eslint-config-pob/commit/e6e3633721446f25870dc70093fa1426299fcb88))
+
+
+
+
+
 # [44.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v43.2.0...v44.0.0) (2021-07-09)
 
 
