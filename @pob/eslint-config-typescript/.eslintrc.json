@@ -2,7 +2,7 @@
   "root": true,
   "extends": [
     "../eslint-config/root.js",
-    "../eslint-config/commonjs",
+    "../eslint-config/commonjs.js",
     "../eslint-config-node/lib/index.js"
   ]
 }
