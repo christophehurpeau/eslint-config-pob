@@ -1315,7 +1315,7 @@ __metadata:
     eslint: 7.30.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-node: ^11.1.0
   peerDependenciesMeta:
     eslint-plugin-node:
@@ -1331,7 +1331,7 @@ __metadata:
     eslint: 7.30.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-node: ^11.1.0
   peerDependenciesMeta:
@@ -1355,7 +1355,7 @@ __metadata:
     eslint-plugin-react: ^7.23.1
     eslint-plugin-react-hooks: ^4.1.2
   peerDependencies:
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react: ^7.23.1
@@ -1385,7 +1385,7 @@ __metadata:
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^4.19.0
     "@typescript-eslint/parser": ^4.19.0
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-import: ^2.22.1
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
@@ -1408,7 +1408,7 @@ __metadata:
     eslint-plugin-import: ^2.22.1
     eslint-plugin-unicorn: ^29.0.0
   peerDependencies:
-    eslint: ^7.5.0
+    eslint: ^7.30.0
     eslint-plugin-import: ^2.22.1
     eslint-plugin-unicorn: ^29.0.0
   peerDependenciesMeta:
