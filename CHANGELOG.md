@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [45.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.0.0...v45.0.1) (2021-07-10)
+
+
+### Bug Fixes
+
+* dev-only import ([2252c3f](https://github.com/christophehurpeau/eslint-config-pob/commit/2252c3f410c4cb9d8d1968836542d1bd33a77ec1))
+* force using extension with node module config ([b5583ed](https://github.com/christophehurpeau/eslint-config-pob/commit/b5583ed32fd95f3ac3faf68d68d7815bd7a165fd))
+
+
+
+
+
 # [45.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v44.0.2...v45.0.0) (2021-07-10)
 
 

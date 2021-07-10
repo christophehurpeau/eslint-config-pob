@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-typescript",
-  "version": "45.0.0",
+  "version": "45.0.1",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -57,7 +57,7 @@
     }
   },
   "dependencies": {
-    "@pob/eslint-config": "^45.0.0",
+    "@pob/eslint-config": "^45.0.1",
     "@pob/use-eslint-plugin": "^45.0.0",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
