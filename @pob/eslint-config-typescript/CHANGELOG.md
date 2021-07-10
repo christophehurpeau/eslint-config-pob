@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [45.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v44.0.2...v45.0.0) (2021-07-10)
+
+
+### Code Refactoring
+
+* explicit commonjs and module, regroup node in parent package ([445abed](https://github.com/christophehurpeau/eslint-config-pob/commit/445abed870f587c9cfc766b91d1bb39b72b5edd4))
+
+
+### BREAKING CHANGES
+
+* explicit commonjs and module, use exports'
+
+
+
+
+
 ## [44.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v44.0.0...v44.0.1) (2021-07-09)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript
