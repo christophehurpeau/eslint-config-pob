@@ -12,6 +12,17 @@ module.exports = {
   rules: {
     ...overrideRules,
     'unicorn/prefer-module': 'error',
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        mjs: 'always',
+        cjs: 'always',
+        js: 'always',
+      },
+    ],
   },
 
   overrides: [
