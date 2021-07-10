@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  extends: ['./node-module', './dev-only'].map(require.resolve),
+  extends: ['./node-module', './rules/dev-only'].map(require.resolve),
 };
