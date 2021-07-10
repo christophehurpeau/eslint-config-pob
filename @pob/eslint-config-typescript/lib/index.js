@@ -3,16 +3,13 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
 
-  extends: [
-    'eslint-config-airbnb-base',
-    '@pob/eslint-config/lib/prettier',
-    '@pob/eslint-config/lib/plugins/unicorn',
-    '@pob/eslint-config/lib/rules/best-practices',
-    '@pob/eslint-config/lib/rules/code-quality',
-    '@pob/eslint-config/lib/rules/style',
-    '@pob/eslint-config/lib/rules/expert',
-    './plugins/typescript-eslint',
-  ].map(require.resolve),
+  extends: ['@pob/eslint-config', './plugins/typescript-eslint'].map(
+    require.resolve,
+  ),
+
+  parserOptions: {
+    sourceType: 'module',
+  },
 
   settings: {
     'import/resolver': {
@@ -28,6 +25,8 @@ module.exports = {
   },
 
   rules: {
+    strict: 'off',
+
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
     // disallow require when using babel
     'import/no-commonjs': 'error',

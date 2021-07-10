@@ -35,6 +35,8 @@
     "@pob/commitlint-config": "2.2.0",
     "@pob/lerna-light": "3.24.0",
     "@pob/root": "4.1.0",
+    "@typescript-eslint/eslint-plugin": "4.19.0",
+    "@typescript-eslint/parser": "4.19.0",
     "check-package-dependencies": "1.2.6",
     "eslint": "7.30.0",
     "eslint-config-airbnb": "18.2.1",
@@ -47,6 +49,7 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-unicorn": "34.0.1",
     "prettier": "2.3.2",
-    "semver": "7.3.5"
+    "semver": "7.3.5",
+    "typescript": "4.3.5"
   }
 }

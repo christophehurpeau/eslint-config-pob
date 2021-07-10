@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "parserOptions": {
+    "project": "./@pob/eslint-config-typescript/test/tsconfig.json"
+  },
+  "extends": ["../lib/index.js"]
+}

@@ -3,7 +3,7 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base',
-    './prettier',
+    './plugins/prettier',
     './plugins/unicorn',
     './rules/best-practices',
     './rules/code-quality',
@@ -24,6 +24,12 @@ module.exports = {
       files: ['*.mjs'],
       parserOptions: {
         sourceType: 'module',
+      },
+    },
+    {
+      files: ['*.cjs'],
+      parserOptions: {
+        sourceType: 'script',
       },
     },
   ],

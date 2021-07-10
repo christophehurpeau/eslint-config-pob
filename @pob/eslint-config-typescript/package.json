@@ -18,6 +18,12 @@
     "access": "public"
   },
   "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./node": "./lib/node.js",
+    "./test": "./lib/test.js",
+    "./package.json": "./package.json"
+  },
   "sideEffects": false,
   "scripts": {
     "lint": "yarn run lint:eslint",
@@ -33,7 +39,8 @@
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
     "eslint": "^7.30.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
@@ -44,6 +51,9 @@
     },
     "eslint-plugin-import": {
       "optional": true
+    },
+    "eslint-plugin-node": {
+      "optional": true
     }
   },
   "dependencies": {
@@ -53,7 +63,8 @@
     "@typescript-eslint/parser": "^4.19.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.1.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
     "eslint": "7.30.0"

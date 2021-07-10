@@ -17,7 +17,17 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "./lib/index.js",
+  "main": "./lib/base.js",
+  "exports": {
+    ".": "./lib/base.js",
+    "./node-commonjs": "./lib/node-commonjs.js",
+    "./node-module": "./lib/node-module.js",
+    "./root-commonjs": "./lib/root-commonjs.js",
+    "./root-module": "./lib/root-module.js",
+    "./prettier": "./lib/prettier.js",
+    "./rules/expert": "./lib/rules/expert.js",
+    "./package.json": "./package.json"
+  },
   "sideEffects": false,
   "scripts": {
     "lint": "yarn run lint:eslint",
@@ -32,10 +42,14 @@
   "peerDependencies": {
     "eslint": "^7.30.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-unicorn": "^34.0.1"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-import": {
+      "optional": true
+    },
+    "eslint-plugin-node": {
       "optional": true
     },
     "eslint-plugin-unicorn": {
@@ -47,6 +61,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-unicorn": "^34.0.1"
   },
   "devDependencies": {

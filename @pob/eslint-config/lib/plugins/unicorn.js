@@ -235,7 +235,8 @@ module.exports = {
     'unicorn/prefer-node-protocol': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-module.md
-    'unicorn/prefer-module': 'warn',
+    // unicorn/prefer-module is enabled in node configs.
+    'unicorn/prefer-module': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-document-cookie.md
     'unicorn/no-document-cookie': 'error',

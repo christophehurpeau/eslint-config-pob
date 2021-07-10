@@ -18,6 +18,10 @@
     "access": "public"
   },
   "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
   "sideEffects": false,
   "scripts": {
     "lint": "yarn run lint:eslint",
