@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [45.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.0.1...v45.0.2) (2021-07-11)
+
+
+### Bug Fixes
+
+* disable unicorn/import-index for node module ([f3ea9fd](https://github.com/christophehurpeau/eslint-config-pob/commit/f3ea9fdd9aefd85abae40a9020ea992d7a006323))
+
+
+
+
+
 ## [45.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.0.0...v45.0.1) (2021-07-10)
 
 
