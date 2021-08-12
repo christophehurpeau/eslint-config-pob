@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [45.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.0.2...v45.0.3) (2021-08-12)
+
+
+### Bug Fixes
+
+* adjust import/extensions for mjs files ([7a1f7d1](https://github.com/christophehurpeau/eslint-config-pob/commit/7a1f7d1564adaa02f4e31d4a7bb3a7910e9efd78))
+* disable node/no-missing-require and node/no-missing-import and import already does that ([13617a9](https://github.com/christophehurpeau/eslint-config-pob/commit/13617a9c3da46308a4baa3fc6ec7b55007947a03))
+
+
+
+
+
 ## [45.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.0.1...v45.0.2) (2021-07-11)
 
 
