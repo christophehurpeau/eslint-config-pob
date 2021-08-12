@@ -18,6 +18,15 @@ module.exports = {
       rules: {
         ...overrideRules,
         'unicorn/prefer-module': 'error',
+        'import/extensions': [
+          'error',
+          'ignorePackages',
+          {
+            mjs: 'always',
+            cjs: 'always',
+            js: 'always',
+          },
+        ],
       },
     },
     {
