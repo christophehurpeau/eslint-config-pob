@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@pob/commitlint-config", "npm:3.1.1"],
             ["@pob/lerna-light", "npm:4.1.0"],
-            ["@pob/root", "npm:5.4.1"],
+            ["@pob/root", "npm:5.4.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["@typescript-eslint/parser", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["check-package-dependencies", "npm:2.0.2"],
@@ -1612,7 +1612,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@pob/eslint-config-monorepo", "workspace:."],
             ["@pob/commitlint-config", "npm:3.1.1"],
             ["@pob/lerna-light", "npm:4.1.0"],
-            ["@pob/root", "npm:5.4.1"],
+            ["@pob/root", "npm:5.4.2"],
             ["@typescript-eslint/eslint-plugin", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["@typescript-eslint/parser", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["check-package-dependencies", "npm:2.0.2"],
@@ -1704,10 +1704,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@pob/root", [
-        ["npm:5.4.1", {
-          "packageLocation": "./.yarn/cache/@pob-root-npm-5.4.1-f1ce0b4b66-3a813852ea.zip/node_modules/@pob/root/",
+        ["npm:5.4.2", {
+          "packageLocation": "./.yarn/cache/@pob-root-npm-5.4.2-4de8777f74-ecb7102694.zip/node_modules/@pob/root/",
           "packageDependencies": [
-            ["@pob/root", "npm:5.4.1"],
+            ["@pob/root", "npm:5.4.2"],
             ["@commitlint/cli", "npm:13.1.0"],
             ["@pob/pretty-eslint-config", "npm:2.1.2"],
             ["@pob/pretty-pkg", "npm:3.1.2"],
