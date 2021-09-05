@@ -4,7 +4,7 @@
     {
       "packagePatterns": ["^@typescript-eslint/", "^eslint-"],
       "packageNames": ["eslint", "typescript"],
-      "labels": [":soon: automerge"],
+      "labels": [":vertical_traffic_light: automerge"],
       "reviewers": ["christophehurpeau"]
     }
   ]
