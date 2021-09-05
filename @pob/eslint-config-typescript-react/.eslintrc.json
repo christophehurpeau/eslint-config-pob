@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["../eslint-config/lib/node-commonjs.js"]
+  "extends": ["../eslint-config/lib/root-commonjs.js"]
 }

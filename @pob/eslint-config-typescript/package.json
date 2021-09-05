@@ -11,6 +11,7 @@
     "directory": "@pob/eslint-config-typescript"
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
+  "type": "commonjs",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
@@ -27,7 +28,7 @@
   "sideEffects": false,
   "scripts": {
     "lint": "yarn run lint:eslint",
-    "lint:eslint": "yarn --cwd ../.. run eslint --report-unused-disable-directives --quiet @pob/eslint-config-typescript"
+    "lint:eslint": "yarn --cwd ../.. run eslint--report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config-typescript"
   },
   "prettier": {
     "trailingComma": "all",
@@ -68,6 +69,5 @@
   },
   "devDependencies": {
     "eslint": "7.32.0"
-  },
-  "type": "commonjs"
+  }
 }
