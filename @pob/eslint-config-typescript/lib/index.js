@@ -3,9 +3,11 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
 
-  extends: ['@pob/eslint-config', './plugins/typescript-eslint'].map(
-    require.resolve,
-  ),
+  extends: [
+    '@pob/eslint-config',
+    './plugins/typescript-eslint',
+    '@pob/eslint-config/prettier',
+  ].map(require.resolve),
 
   parserOptions: {
     sourceType: 'module',

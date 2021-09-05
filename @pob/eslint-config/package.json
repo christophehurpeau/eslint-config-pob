@@ -25,7 +25,7 @@
     "./node-module": "./lib/node-module.js",
     "./root-commonjs": "./lib/root-commonjs.js",
     "./root-module": "./lib/root-module.js",
-    "./prettier": "./lib/prettier.js",
+    "./prettier": "./lib/plugins/prettier.js",
     "./rules/expert": "./lib/rules/expert.js",
     "./package.json": "./package.json"
   },
