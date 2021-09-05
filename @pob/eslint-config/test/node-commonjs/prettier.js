@@ -3,8 +3,8 @@
 const cart = {};
 const updateCart = () => {};
 
-// eslint-disable-next-line curly
 if (cart.items && cart.items[0] && cart.items[0].quantity === 0)
+  // eslint-disable-next-line curly
   updateCart(cart);
 
 const interpolation = '';
