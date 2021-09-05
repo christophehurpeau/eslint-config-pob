@@ -11,13 +11,14 @@
     "directory": "@pob/eslint-config"
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
+  "type": "commonjs",
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "publishConfig": {
     "access": "public"
   },
-  "main": "./lib/base.js",
+  "main": "./lib/index.js",
   "exports": {
     ".": "./lib/base.js",
     "./node-commonjs": "./lib/node-commonjs.js",
@@ -31,7 +32,7 @@
   "sideEffects": false,
   "scripts": {
     "lint": "yarn run lint:eslint",
-    "lint:eslint": "yarn --cwd ../.. run eslint --report-unused-disable-directives --quiet @pob/eslint-config"
+    "lint:eslint": "yarn --cwd ../.. run eslint--report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config"
   },
   "prettier": {
     "trailingComma": "all",
@@ -66,6 +67,5 @@
   },
   "devDependencies": {
     "eslint": "7.32.0"
-  },
-  "type": "commonjs"
+  }
 }

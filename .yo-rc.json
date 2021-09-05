@@ -6,8 +6,6 @@
       "documentation": false,
       "packageNames": [
         "@pob/use-eslint-plugin",
-        "@pob/eslint-config-node",
-        "@pob/eslint-config-typescript-node",
         "@pob/eslint-config",
         "@pob/eslint-config-typescript-react",
         "@pob/eslint-config-typescript"
@@ -20,7 +18,8 @@
     },
     "project": {
       "type": "lib",
-      "yarn2": true
+      "yarnNodeLinker": "pnp",
+      "packageManager": "yarn"
     }
   }
 }
