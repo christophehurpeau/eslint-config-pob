@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [45.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.0.3...v45.1.0) (2021-09-05)
+
+
+### Bug Fixes
+
+* prettier config export ([1305f97](https://github.com/christophehurpeau/eslint-config-pob/commit/1305f97d3380405e56355201b35897101bae26bb))
+
+
+### Features
+
+* **deps:** update dependency eslint-config-prettier to v8 ([#225](https://github.com/christophehurpeau/eslint-config-pob/issues/225)) ([6ade5f2](https://github.com/christophehurpeau/eslint-config-pob/commit/6ade5f2f3f6dab3f15e25b632b0b37aca3791483))
+
+
+
+
+
 ## [45.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.0.2...v45.0.3) (2021-08-12)
 
 
