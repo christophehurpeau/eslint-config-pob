@@ -265,6 +265,15 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-at.md
     'unicorn/prefer-at': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-object-from-entries.md
+    'unicorn/prefer-object-from-entries': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-length-check.md
+    'unicorn/no-useless-length-check': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-spread.md
+    'unicorn/no-useless-spread': 'error',
   },
 
   overrides: [
