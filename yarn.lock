@@ -1276,12 +1276,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:3.1.0":
-  version: 3.1.0
-  resolution: "@pob/commitlint-config@npm:3.1.0"
+"@pob/commitlint-config@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@pob/commitlint-config@npm:3.1.1"
   dependencies:
     "@commitlint/config-conventional": ^13.0.0
-  checksum: 367df96256ff82a1db04811d9bf38d43c85f3fbb873c86e4320770129fabed2ffbaa2c6f06e2a816f0bf5a60dd2114e08c16fb0596dfc2d127fde3a1ef581422
+  checksum: 366e9405c9d741b27e0cadab174f6ba1ebc8996a4b8388fff4020c66735143e25378732d15d72e1ab418f2b54983b71274013da7e8d3a29b0dc10ca2adeb31f2
   languageName: node
   linkType: hard
 
@@ -1289,7 +1289,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-monorepo@workspace:."
   dependencies:
-    "@pob/commitlint-config": 3.1.0
+    "@pob/commitlint-config": 3.1.1
     "@pob/lerna-light": 4.1.0
     "@pob/root": 5.4.1
     "@typescript-eslint/eslint-plugin": 4.30.0

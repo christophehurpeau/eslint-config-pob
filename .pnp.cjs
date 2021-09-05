@@ -55,7 +55,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@pob/commitlint-config", "npm:3.1.0"],
+            ["@pob/commitlint-config", "npm:3.1.1"],
             ["@pob/lerna-light", "npm:4.1.0"],
             ["@pob/root", "npm:5.4.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
@@ -1527,10 +1527,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@pob/commitlint-config", [
-        ["npm:3.1.0", {
-          "packageLocation": "./.yarn/cache/@pob-commitlint-config-npm-3.1.0-c41cd34058-367df96256.zip/node_modules/@pob/commitlint-config/",
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/@pob-commitlint-config-npm-3.1.1-1b977d9d8d-366e9405c9.zip/node_modules/@pob/commitlint-config/",
           "packageDependencies": [
-            ["@pob/commitlint-config", "npm:3.1.0"],
+            ["@pob/commitlint-config", "npm:3.1.1"],
             ["@commitlint/config-conventional", "npm:13.1.0"]
           ],
           "linkType": "HARD",
@@ -1610,7 +1610,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@pob/eslint-config-monorepo", "workspace:."],
-            ["@pob/commitlint-config", "npm:3.1.0"],
+            ["@pob/commitlint-config", "npm:3.1.1"],
             ["@pob/lerna-light", "npm:4.1.0"],
             ["@pob/root", "npm:5.4.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
