@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@pob/commitlint-config", "npm:3.1.0"],
             ["@pob/lerna-light", "npm:4.0.0"],
-            ["@pob/root", "npm:5.3.0"],
+            ["@pob/root", "npm:5.4.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["@typescript-eslint/parser", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["check-package-dependencies", "npm:2.0.2"],
@@ -1612,7 +1612,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@pob/eslint-config-monorepo", "workspace:."],
             ["@pob/commitlint-config", "npm:3.1.0"],
             ["@pob/lerna-light", "npm:4.0.0"],
-            ["@pob/root", "npm:5.3.0"],
+            ["@pob/root", "npm:5.4.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["@typescript-eslint/parser", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["check-package-dependencies", "npm:2.0.2"],
@@ -1684,38 +1684,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@pob/pretty-eslint-config", [
-        ["npm:2.1.1", {
-          "packageLocation": "./.yarn/cache/@pob-pretty-eslint-config-npm-2.1.1-3733130196-70ea767a07.zip/node_modules/@pob/pretty-eslint-config/",
+        ["npm:2.1.2", {
+          "packageLocation": "./.yarn/cache/@pob-pretty-eslint-config-npm-2.1.2-9cd688e875-45285afa91.zip/node_modules/@pob/pretty-eslint-config/",
           "packageDependencies": [
-            ["@pob/pretty-eslint-config", "npm:2.1.1"],
-            ["@pob/sort-eslint-config", "npm:2.1.0"],
+            ["@pob/pretty-eslint-config", "npm:2.1.2"],
+            ["@pob/sort-eslint-config", "npm:2.1.1"],
             ["prettier", "npm:2.3.2"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pob/pretty-pkg", [
-        ["npm:3.1.1", {
-          "packageLocation": "./.yarn/cache/@pob-pretty-pkg-npm-3.1.1-119ebaf935-76b8899e16.zip/node_modules/@pob/pretty-pkg/",
+        ["npm:3.1.2", {
+          "packageLocation": "./.yarn/cache/@pob-pretty-pkg-npm-3.1.2-d93ccde3a6-838c41af7d.zip/node_modules/@pob/pretty-pkg/",
           "packageDependencies": [
-            ["@pob/pretty-pkg", "npm:3.1.1"],
-            ["@pob/sort-pkg", "npm:3.1.0"],
+            ["@pob/pretty-pkg", "npm:3.1.2"],
+            ["@pob/sort-pkg", "npm:3.2.0"],
             ["prettier", "npm:2.3.2"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pob/root", [
-        ["npm:5.3.0", {
-          "packageLocation": "./.yarn/cache/@pob-root-npm-5.3.0-626f07d1f7-14a2ec5b7e.zip/node_modules/@pob/root/",
+        ["npm:5.4.1", {
+          "packageLocation": "./.yarn/cache/@pob-root-npm-5.4.1-f1ce0b4b66-3a813852ea.zip/node_modules/@pob/root/",
           "packageDependencies": [
-            ["@pob/root", "npm:5.3.0"],
+            ["@pob/root", "npm:5.4.1"],
             ["@commitlint/cli", "npm:13.1.0"],
-            ["@pob/pretty-eslint-config", "npm:2.1.1"],
-            ["@pob/pretty-pkg", "npm:3.1.1"],
+            ["@pob/pretty-eslint-config", "npm:2.1.2"],
+            ["@pob/pretty-pkg", "npm:3.1.2"],
             ["husky", "npm:7.0.1"],
             ["lint-staged", "npm:11.1.2"],
-            ["repository-check-dirty", "npm:3.1.0"],
+            ["repository-check-dirty", "npm:3.1.1"],
             ["semver", "npm:7.3.5"],
             ["which-pm-runs", "npm:1.0.0"]
           ],
@@ -1723,30 +1723,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@pob/sort-eslint-config", [
-        ["npm:2.1.0", {
-          "packageLocation": "./.yarn/cache/@pob-sort-eslint-config-npm-2.1.0-4532afe4f5-25570c0de2.zip/node_modules/@pob/sort-eslint-config/",
+        ["npm:2.1.1", {
+          "packageLocation": "./.yarn/cache/@pob-sort-eslint-config-npm-2.1.1-8886cf70d7-dca7be29e8.zip/node_modules/@pob/sort-eslint-config/",
           "packageDependencies": [
-            ["@pob/sort-eslint-config", "npm:2.1.0"],
-            ["@pob/sort-object", "npm:3.1.0"]
+            ["@pob/sort-eslint-config", "npm:2.1.1"],
+            ["@pob/sort-object", "npm:3.1.1"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pob/sort-object", [
-        ["npm:3.1.0", {
-          "packageLocation": "./.yarn/cache/@pob-sort-object-npm-3.1.0-967e100924-b53f4ee916.zip/node_modules/@pob/sort-object/",
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/@pob-sort-object-npm-3.1.1-4dcb0f17a1-8b255c2e36.zip/node_modules/@pob/sort-object/",
           "packageDependencies": [
-            ["@pob/sort-object", "npm:3.1.0"]
+            ["@pob/sort-object", "npm:3.1.1"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@pob/sort-pkg", [
-        ["npm:3.1.0", {
-          "packageLocation": "./.yarn/cache/@pob-sort-pkg-npm-3.1.0-04115451a2-eb1459000b.zip/node_modules/@pob/sort-pkg/",
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/cache/@pob-sort-pkg-npm-3.2.0-53f0975705-b495feb914.zip/node_modules/@pob/sort-pkg/",
           "packageDependencies": [
-            ["@pob/sort-pkg", "npm:3.1.0"],
-            ["@pob/sort-object", "npm:3.1.0"]
+            ["@pob/sort-pkg", "npm:3.2.0"],
+            ["@pob/sort-object", "npm:3.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -7401,10 +7401,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["repository-check-dirty", [
-        ["npm:3.1.0", {
-          "packageLocation": "./.yarn/cache/repository-check-dirty-npm-3.1.0-bbfaae82a6-5921165e00.zip/node_modules/repository-check-dirty/",
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/repository-check-dirty-npm-3.1.1-fc8f44010d-8f8d5d9bf0.zip/node_modules/repository-check-dirty/",
           "packageDependencies": [
-            ["repository-check-dirty", "npm:3.1.0"]
+            ["repository-check-dirty", "npm:3.1.1"]
           ],
           "linkType": "HARD",
         }]
