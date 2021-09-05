@@ -56,7 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@pob/commitlint-config", "npm:3.1.0"],
-            ["@pob/lerna-light", "npm:4.0.0"],
+            ["@pob/lerna-light", "npm:4.1.0"],
             ["@pob/root", "npm:5.4.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["@typescript-eslint/parser", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
@@ -1611,7 +1611,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@pob/eslint-config-monorepo", "workspace:."],
             ["@pob/commitlint-config", "npm:3.1.0"],
-            ["@pob/lerna-light", "npm:4.0.0"],
+            ["@pob/lerna-light", "npm:4.1.0"],
             ["@pob/root", "npm:5.4.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
             ["@typescript-eslint/parser", "virtual:4daf4384ae158a1578be5cfb064ba7083f507d555e4d51e40a019f51ffae407da816a7d01613b5260aafe676aaeaf7b159bff1ed18336a922a13fd811cfaa54d#npm:4.30.0"],
@@ -1669,10 +1669,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@pob/lerna-light", [
-        ["npm:4.0.0", {
-          "packageLocation": "./.yarn/cache/@pob-lerna-light-npm-4.0.0-88487ecc09-30aff7608b.zip/node_modules/@pob/lerna-light/",
+        ["npm:4.1.0", {
+          "packageLocation": "./.yarn/cache/@pob-lerna-light-npm-4.1.0-489dcbd680-40ba87cffe.zip/node_modules/@pob/lerna-light/",
           "packageDependencies": [
-            ["@pob/lerna-light", "npm:4.0.0"],
+            ["@pob/lerna-light", "npm:4.1.0"],
             ["@lerna/changed", "npm:4.0.0"],
             ["@lerna/cli", "npm:4.0.0"],
             ["@lerna/exec", "npm:4.0.0"],
