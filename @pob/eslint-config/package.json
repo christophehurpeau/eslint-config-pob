@@ -65,7 +65,7 @@
     "eslint-plugin-unicorn": "^34.0.1"
   },
   "devDependencies": {
-    "eslint": "7.30.0"
+    "eslint": "7.32.0"
   },
   "type": "commonjs"
 }
