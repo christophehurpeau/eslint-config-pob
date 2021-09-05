@@ -9,7 +9,6 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    require.resolve('eslint-config-prettier/@typescript-eslint'),
   ],
 
   rules: {
