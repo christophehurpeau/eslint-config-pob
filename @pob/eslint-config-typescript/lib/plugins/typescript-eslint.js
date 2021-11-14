@@ -20,6 +20,9 @@ module.exports = {
     // too much errors on existing code
     '@typescript-eslint/unbound-method': 'off',
 
+    // too verbose and eslint already makes sure we don't modify parameters
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
+
     /* Not enabled */
 
     '@typescript-eslint/generic-type-naming': 'off',
