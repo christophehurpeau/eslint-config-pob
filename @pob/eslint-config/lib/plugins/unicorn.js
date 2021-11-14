@@ -274,6 +274,22 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-spread.md
     'unicorn/no-useless-spread': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-fallback-in-spread.md
+    'unicorn/no-useless-fallback-in-spread': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-invalid-remove-event-listener.md
+    'unicorn/no-invalid-remove-event-listener': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/template-indent.md
+    // prettier does that
+    'unicorn/template-indent': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-empty-file.md
+    'unicorn/no-empty-file': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-export-from.md
+    'unicorn/prefer-export-from': 'error',
   },
 
   overrides: [
