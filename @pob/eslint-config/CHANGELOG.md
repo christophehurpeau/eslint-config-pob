@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [47.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v46.0.0...v47.0.0) (2021-11-14)
+
+
+### Bug Fixes
+
+* missing export in @pob/eslint-config ([aa76510](https://github.com/christophehurpeau/eslint-config-pob/commit/aa7651048102462c6dff72eb183d3ff2317aa06f))
+
+
+
+
+
 # [46.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.1.0...v46.0.0) (2021-11-14)
 
 **Note:** Version bump only for package @pob/eslint-config

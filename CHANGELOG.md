@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [47.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v46.0.0...v47.0.0) (2021-11-14)
+
+
+### Bug Fixes
+
+* missing export in @pob/eslint-config ([aa76510](https://github.com/christophehurpeau/eslint-config-pob/commit/aa7651048102462c6dff72eb183d3ff2317aa06f))
+* **@pob/eslint-config-typescript:** apply typescript rules from airbnb style ([d3f82a4](https://github.com/christophehurpeau/eslint-config-pob/commit/d3f82a4b38b01caf39352dbb93fd04b707df3a7b))
+
+
+### chore
+
+* **deps:** update typescript-eslint monorepo to v5 (major) ([#254](https://github.com/christophehurpeau/eslint-config-pob/issues/254)) ([4889ac1](https://github.com/christophehurpeau/eslint-config-pob/commit/4889ac1e2e36cc96ac266b2c752d97dcab65f783))
+
+
+### BREAKING CHANGES
+
+* **deps:** use of @typescript-eslint v5 and new rules ; ; #
+
+
+
+
+
 # [46.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.1.0...v46.0.0) (2021-11-14)
 
 
