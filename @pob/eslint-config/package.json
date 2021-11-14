@@ -27,6 +27,7 @@
     "./root-module": "./lib/root-module.js",
     "./prettier": "./lib/plugins/prettier.js",
     "./rules/expert": "./lib/rules/expert.js",
+    "./lib/rules/style": "./lib/rules/style.js",
     "./package.json": "./package.json"
   },
   "sideEffects": false,
