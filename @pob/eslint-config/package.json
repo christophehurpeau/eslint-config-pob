@@ -45,7 +45,7 @@
     "eslint": "^7.30.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^35.0.0"
+    "eslint-plugin-unicorn": "^38.0.1"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-import": {
@@ -64,6 +64,6 @@
     "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^38.0.0"
+    "eslint-plugin-unicorn": "^38.0.1"
   }
 }
