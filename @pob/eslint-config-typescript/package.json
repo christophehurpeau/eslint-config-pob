@@ -37,8 +37,8 @@
   },
   "pob": {},
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.19.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
     "eslint": "^7.30.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0"
@@ -60,8 +60,8 @@
   "dependencies": {
     "@pob/eslint-config": "^46.0.0",
     "@pob/use-eslint-plugin": "^46.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.19.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0"
