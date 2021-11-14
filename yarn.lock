@@ -1306,7 +1306,7 @@ __metadata:
   resolution: "@pob/eslint-config-monorepo@workspace:."
   dependencies:
     "@pob/commitlint-config": 3.2.0
-    "@pob/lerna-light": 4.1.0
+    "@pob/lerna-light": 4.2.0
     "@pob/root": 5.7.2
     "@typescript-eslint/eslint-plugin": 4.30.0
     "@typescript-eslint/parser": 4.30.0
@@ -1410,9 +1410,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/lerna-light@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@pob/lerna-light@npm:4.1.0"
+"@pob/lerna-light@npm:4.2.0":
+  version: 4.2.0
+  resolution: "@pob/lerna-light@npm:4.2.0"
   dependencies:
     "@lerna/changed": 4.0.0
     "@lerna/cli": 4.0.0
@@ -1422,7 +1422,7 @@ __metadata:
     "@lerna/version": 4.0.0
   bin:
     lerna: bin/cli.js
-  checksum: 40ba87cffeee6d2e3cd31b1dffbcd29142913b5823ca1ae3b463ebc4d15fa70b01aa7a6f0f2a96a625b438dc6c3f6ac4fb857853704b70ec0c06ed6576a4fa0b
+  checksum: 514084b01aa2dea477d44c2a194f5c5f95d7e518bfeab9feb019d698696db49901528ccf85ceccce970b34e855ecd6bad1df92ab1963accdbccf6de1e3607086
   languageName: node
   linkType: hard
 
