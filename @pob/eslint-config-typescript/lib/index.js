@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     '@pob/eslint-config',
     './plugins/typescript-eslint',
+    './plugins/typescript-eslint-replace-eslint',
     '@pob/eslint-config/prettier',
   ].map(require.resolve),
 
