@@ -28,7 +28,7 @@
   "sideEffects": false,
   "scripts": {
     "lint": "yarn run lint:eslint",
-    "lint:eslint": "yarn --cwd ../.. run eslint--report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config-typescript"
+    "lint:eslint": "cd ../.. && yarn run eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config-typescript"
   },
   "prettier": {
     "trailingComma": "all",
@@ -65,8 +65,5 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0"
-  },
-  "devDependencies": {
-    "eslint": "7.32.0"
   }
 }

@@ -1323,7 +1323,6 @@ __metadata:
     eslint-plugin-unicorn: 35.0.0
     prettier: 2.4.1
     semver: 7.3.5
-    typescript: 4.3.5
   languageName: unknown
   linkType: soft
 
@@ -1332,7 +1331,6 @@ __metadata:
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
     "@pob/eslint-config": ^45.1.0
-    eslint: 7.32.0
     eslint-config-airbnb: ^18.2.1
     eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.4.1
@@ -1362,7 +1360,6 @@ __metadata:
     "@pob/use-eslint-plugin": ^45.1.0
     "@typescript-eslint/eslint-plugin": ^4.19.0
     "@typescript-eslint/parser": ^4.19.0
-    eslint: 7.32.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-plugin-import: ^2.22.1
     eslint-plugin-node: ^11.1.0
@@ -1389,7 +1386,6 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@pob/use-eslint-plugin": ^45.1.0
-    eslint: 7.32.0
     eslint-config-airbnb-base: ^14.2.1
     eslint-config-prettier: ^8.0.0
     eslint-plugin-import: ^2.22.1
@@ -1501,8 +1497,6 @@ __metadata:
 "@pob/use-eslint-plugin@^45.1.0, @pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin":
   version: 0.0.0-use.local
   resolution: "@pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin"
-  dependencies:
-    eslint: 7.32.0
   languageName: unknown
   linkType: soft
 
@@ -7413,16 +7407,6 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@4.3.5:
-  version: 4.3.5
-  resolution: "typescript@npm:4.3.5"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: bab033b5e2b0790dd35b77fd005df976ef80b8d84fd2c6e63cc31808151875beae9216e5a315fe7068e8499905c3c354248fe83272cdfc13b7705635f0c66c97
-  languageName: node
-  linkType: hard
-
 typescript@^4.4.3:
   version: 4.4.4
   resolution: "typescript@npm:4.4.4"
@@ -7430,16 +7414,6 @@ typescript@^4.4.3:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 89ecb8436bb48ef5594d49289f5f89103071716b6e4844278f4fb3362856e31203e187a9c76d205c3f0b674d221a058fd28310dbcbcf5d95e9a57229bb5203f1
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@4.3.5#~builtin<compat/typescript>":
-  version: 4.3.5
-  resolution: "typescript@patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=ddd1e8"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 61fc1a2ca5037420de5bbe17c6ddc4cbcc0d52301ed94f0a7b5821c55ff9eb96307f0816f745ca8f0fc87ed92f3951cde6d97cd6fd6bc6920c02ea63b5b26259
   languageName: node
   linkType: hard
 
