@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [46.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.1.0...v46.0.0) (2021-11-14)
+
+
+### Bug Fixes
+
+* **@pob/eslint-config-typescript:** disable @typescript-eslint/prefer-readonly-parameter-types ([7da2839](https://github.com/christophehurpeau/eslint-config-pob/commit/7da2839eefccc9a0f3e96c81dd837ecfa0167c69))
+
+
+### Features
+
+* enable all typescript-eslint rules by default ([12cdd73](https://github.com/christophehurpeau/eslint-config-pob/commit/12cdd732b21611ab24259f13137b8628f3b676fb))
+
+
+### BREAKING CHANGES
+
+* typescript rules added
+
+
+
+
+
 # [45.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v45.0.3...v45.1.0) (2021-09-05)
 
 
