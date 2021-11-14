@@ -8,6 +8,7 @@ const {
   rules: baseErrorsRules,
 } = require('eslint-config-airbnb-base/rules/errors');
 const { rules: baseES6Rules } = require('eslint-config-airbnb-base/rules/es6');
+const { rules: baseEs6Rules } = require('eslint-config-airbnb-base/rules/es6');
 const {
   rules: baseStyleRules,
 } = require('eslint-config-airbnb-base/rules/style');
@@ -109,6 +110,11 @@ module.exports = {
     'no-redeclare': 'off',
     '@typescript-eslint/no-redeclare': baseBestPracticesRules['no-redeclare'],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-redeclare.md
+    'no-restricted-imports': 'off',
+    '@typescript-eslint/no-restricted-imports':
+      baseEs6Rules['no-restricted-imports'],
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': baseVariablesRules['no-shadow'],
@@ -141,6 +147,11 @@ module.exports = {
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing':
       baseStyleRules['object-curly-spacing'],
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/padding-line-between-statements.md
+    'padding-line-between-statements': 'off',
+    '@typescript-eslint/padding-line-between-statements':
+      baseStyleRules['padding-line-between-statements'],
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/quotes.md
     quotes: 'off',
