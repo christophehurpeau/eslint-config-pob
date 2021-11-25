@@ -22,7 +22,7 @@ module.exports = {
 
     // too verbose and eslint already makes sure we don't modify parameters
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
-    
+
     // most of the time it's sorted by the developer as it is easier to read
     '@typescript-eslint/sort-type-union-intersection-members': 'off',
 
