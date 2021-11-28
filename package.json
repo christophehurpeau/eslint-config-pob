@@ -34,7 +34,7 @@
   "devDependencies": {
     "@pob/commitlint-config": "3.2.0",
     "@pob/lerna-light": "4.2.0",
-    "@pob/root": "5.7.2",
+    "@pob/root": "5.8.0",
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "@typescript-eslint/parser": "5.4.0",
     "check-package-dependencies": "2.0.2",
