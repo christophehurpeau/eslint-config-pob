@@ -1330,7 +1330,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
-    "@pob/eslint-config": ^47.0.0
+    "@pob/eslint-config": ^47.1.0
     eslint-config-airbnb: ^18.2.1
     eslint-plugin-import: ^2.22.1
     eslint-plugin-jsx-a11y: ^6.4.1
@@ -1356,7 +1356,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript"
   dependencies:
-    "@pob/eslint-config": ^47.0.0
+    "@pob/eslint-config": ^47.1.0
     "@pob/use-eslint-plugin": ^47.0.0
     "@typescript-eslint/eslint-plugin": ^5.3.1
     "@typescript-eslint/parser": ^5.3.1
@@ -1381,7 +1381,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config@^47.0.0, @pob/eslint-config@workspace:@pob/eslint-config":
+"@pob/eslint-config@^47.1.0, @pob/eslint-config@workspace:@pob/eslint-config":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
