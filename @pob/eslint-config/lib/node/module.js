@@ -7,6 +7,10 @@ module.exports = {
   extends: ['plugin:node/recommended-module'],
   parserOptions: {
     sourceType: 'module',
+    // https://node.green/#ES2020
+    // most 2020 features are supported in node 14
+    // current ecmaVersion in eslint-plugin-node is 2019
+    ecmaVersion: 2020,
   },
   env,
   rules: {
