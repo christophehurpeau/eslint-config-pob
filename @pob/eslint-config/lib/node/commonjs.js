@@ -10,9 +10,9 @@ module.exports = {
   parserOptions: {
     // https://node.green/#ES2020
     // most 2020 features are supported in node 14
-    // top level await is introduced in 2021
+    // top level await is introduced in 2022
     // current ecmaVersion in eslint-plugin-node is 2019
-    ecmaVersion: 2021,
+    ecmaVersion: 2022,
   },
 
   rules: {
