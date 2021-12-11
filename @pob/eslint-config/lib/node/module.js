@@ -40,7 +40,7 @@ module.exports = {
       files: ['*.cjs'],
       extends: ['plugin:node/recommended-script'],
       parserOptions: {
-        sourceType: 'strict',
+        sourceType: 'script',
         ecmaVersion: 2022,
       },
       rules: {
