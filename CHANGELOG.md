@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [48.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.2...v48.0.3) (2021-12-11)
+
+
+### Bug Fixes
+
+* make sure cjs files are treated as commonjs ([de37d3d](https://github.com/christophehurpeau/eslint-config-pob/commit/de37d3dbbb4e3b1edbe75541f380b4d99e051385))
+* use ecmaVersion 2022 for node ([6fd0f78](https://github.com/christophehurpeau/eslint-config-pob/commit/6fd0f7847e208d7a66cbf98a99858572dd8f1ac7))
+
+
+
+
+
 ## [48.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.1...v48.0.2) (2021-12-11)
 
 
