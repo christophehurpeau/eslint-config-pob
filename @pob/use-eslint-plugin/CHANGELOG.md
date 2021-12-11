@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [48.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v47.1.0...v48.0.0) (2021-12-11)
+
+
+### chore
+
+* update dev deps ([b1e3588](https://github.com/christophehurpeau/eslint-config-pob/commit/b1e3588e32b525548975639d2e35ac3c60b55617))
+
+
+### BREAKING CHANGES
+
+* drop node 12, requires node 14
+
+
+
+
+
 # [47.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v46.0.0...v47.0.0) (2021-11-14)
 
 **Note:** Version bump only for package @pob/use-eslint-plugin

@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [48.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v47.1.0...v48.0.0) (2021-12-11)
+
+
+### chore
+
+* update dev deps ([b1e3588](https://github.com/christophehurpeau/eslint-config-pob/commit/b1e3588e32b525548975639d2e35ac3c60b55617))
+
+
+### Features
+
+* update to eslint 8 ([2a7b679](https://github.com/christophehurpeau/eslint-config-pob/commit/2a7b67970cb1bb4fdee06badc24948f7d15193e6))
+
+
+### BREAKING CHANGES
+
+* eslint 8 and other peer dependencies updated for eslint 8
+* drop node 12, requires node 14
+
+
+
+
+
 # [47.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v47.0.1...v47.1.0) (2021-12-10)
 
 
