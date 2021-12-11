@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [48.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.0...v48.0.1) (2021-12-11)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript-react:** mark eslint-plugin-import as optional peer dep ([58206b6](https://github.com/christophehurpeau/eslint-config-pob/commit/58206b62de1cfe185a230da77757eb3b026ebcae))
+
+
+
+
+
 # [48.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v47.1.0...v48.0.0) (2021-12-11)
 
 
