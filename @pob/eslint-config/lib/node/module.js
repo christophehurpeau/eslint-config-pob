@@ -39,7 +39,12 @@ module.exports = {
     {
       files: ['*.cjs'],
       extends: ['plugin:node/recommended-script'],
+      parserOptions: {
+        sourceType: 'strict',
+        ecmaVersion: 2022,
+      },
       rules: {
+        strict: ['error', 'safe'],
         ...overrideRules,
         'unicorn/prefer-module': 'off',
       },
