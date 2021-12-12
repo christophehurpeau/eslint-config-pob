@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [48.0.6](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.5...v48.0.6) (2021-12-12)
+
+
+### Bug Fixes
+
+* allow to import with extensions for package ([05ecfe6](https://github.com/christophehurpeau/eslint-config-pob/commit/05ecfe6e6fa3dab4e52bf6d79ea748fc6b07176f))
+
+
+
+
+
 ## [48.0.5](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.4...v48.0.5) (2021-12-12)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript-react
