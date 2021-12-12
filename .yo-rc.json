@@ -7,8 +7,8 @@
       "packageNames": [
         "@pob/use-eslint-plugin",
         "@pob/eslint-config",
-        "@pob/eslint-config-typescript-react",
-        "@pob/eslint-config-typescript"
+        "@pob/eslint-config-typescript",
+        "@pob/eslint-config-typescript-react"
       ],
       "typescript": false,
       "eslint": true
