@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [48.0.5](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.4...v48.0.5) (2021-12-12)
+
+
+### Bug Fixes
+
+* add ignorePatterns in root configs ([a70086d](https://github.com/christophehurpeau/eslint-config-pob/commit/a70086db27321aea807a3a07a5a3a0f40b3aa1cd))
+
+
+
+
+
 ## [48.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.3...v48.0.4) (2021-12-11)
 
 
