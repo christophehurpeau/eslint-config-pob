@@ -58,8 +58,9 @@ module.exports = {
       'error',
       'ignorePackages',
       {
-        mjs: 'never',
-        js: 'never',
+        js: 'ignorePackages',
+        cjs: 'ignorePackages',
+        mjs: 'ignorePackages',
         ts: 'never',
       },
     ],
