@@ -1220,7 +1220,7 @@ __metadata:
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
     "@pob/eslint-config": ^48.0.5
-    eslint-config-airbnb: ^19.0.2
+    eslint-config-airbnb: ^19.0.4
     eslint-plugin-import: ^2.25.3
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-react: ^7.28.0
@@ -2941,7 +2941,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb@npm:19.0.4, eslint-config-airbnb@npm:^19.0.2":
+"eslint-config-airbnb@npm:19.0.4, eslint-config-airbnb@npm:^19.0.4":
   version: 19.0.4
   resolution: "eslint-config-airbnb@npm:19.0.4"
   dependencies:
