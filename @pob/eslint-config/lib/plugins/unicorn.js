@@ -296,6 +296,18 @@ module.exports = {
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md
     'unicorn/no-await-expression-member': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-thenable.md
+    'unicorn/no-thenable': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-promise-resolve-reject.md
+    'unicorn/no-useless-promise-resolve-reject': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md
+    'unicorn/relative-url-style': ['error', 'always'],
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md
+    'unicorn/prefer-json-parse-buffer': 'error',
   },
 
   overrides: [
