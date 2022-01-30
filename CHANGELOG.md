@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [48.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.7...v48.1.0) (2022-01-30)
+
+
+### Features
+
+* add allow-unsafe ([bd6c23a](https://github.com/christophehurpeau/eslint-config-pob/commit/bd6c23aa12a16048187cc9d4a59923858915c3c3))
+
+
+
+
+
 ## [48.0.7](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.6...v48.0.7) (2022-01-02)
 
 **Note:** Version bump only for package @pob/eslint-config-monorepo
