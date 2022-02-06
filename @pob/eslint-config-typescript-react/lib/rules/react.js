@@ -42,7 +42,7 @@ module.exports = {
     'react/function-component-definition': [
       'error',
       {
-        namedComponents: 'function-declaration',
+        namedComponents: ['function-declaration', 'arrow-function'],
         unnamedComponents: 'arrow-function',
       },
     ],
