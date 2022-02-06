@@ -24,6 +24,10 @@ module.exports = {
     {
       files: ['*.mjs'],
       extends: ['plugin:node/recommended-module'],
+      parserOptions: {
+        sourceType: 'module',
+        ecmaVersion: 2022,
+      },
       rules: {
         ...overrideRules,
         'unicorn/prefer-module': 'error',
