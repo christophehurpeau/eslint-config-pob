@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [48.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.1.0...v48.1.1) (2022-02-06)
+
+**Note:** Version bump only for package @pob/eslint-config-typescript-react
+
+
+
+
+
 # [48.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.7...v48.1.0) (2022-01-30)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript-react

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [48.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.1.0...v48.1.1) (2022-02-06)
+
+
+### Bug Fixes
+
+* support latest ecma version in mjs files ([873404e](https://github.com/christophehurpeau/eslint-config-pob/commit/873404ee659c50b10937b25329fc695fdbd436f9))
+
+
+
+
+
 # [48.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.0.7...v48.1.0) (2022-01-30)
 
 **Note:** Version bump only for package @pob/eslint-config
