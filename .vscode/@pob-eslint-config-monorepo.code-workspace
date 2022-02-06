@@ -1,0 +1,51 @@
+{
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "EditorConfig.EditorConfig",
+      "esbenp.prettier-vscode"
+    ],
+    "unwantedRecommendations": []
+  },
+  "settings": {
+    "search.exclude": {
+      "**/.yarn": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": false
+    },
+    "eslint.workingDirectories": ["."],
+    "eslint.options": {
+      "resolvePluginsRelativeTo": ".",
+      "reportUnusedDisableDirectives": "error"
+    },
+    "eslint.lintTask.enable": true,
+    "eslint.format.enable": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "folders": [
+    {
+      "name": "✨ root",
+      "path": ".."
+    },
+    {
+      "name": "@pob/eslint-config",
+      "path": "../@pob/eslint-config"
+    },
+    {
+      "name": "@pob/eslint-config-typescript",
+      "path": "../@pob/eslint-config-typescript"
+    },
+    {
+      "name": "@pob/eslint-config-typescript-react",
+      "path": "../@pob/eslint-config-typescript-react"
+    },
+    {
+      "name": "@pob/use-eslint-plugin",
+      "path": "../@pob/use-eslint-plugin"
+    }
+  ]
+}
