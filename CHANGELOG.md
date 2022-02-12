@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [49.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.0.0...v49.0.1) (2022-02-12)
+
+
+### Bug Fixes
+
+* dont override react/react-in-jsx-scope ([1e71f62](https://github.com/christophehurpeau/eslint-config-pob/commit/1e71f62cf44dc9b8311bd84b30d8b72c5417cf55))
+
+
+
+
+
 # [49.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.1.1...v49.0.0) (2022-02-12)
 
 
