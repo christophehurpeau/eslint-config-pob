@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [49.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.1.1...v49.0.0) (2022-02-12)
+
+
+### Features
+
+* **eslint-config-typescript-react:** allow arrow functions named components ([1fd7337](https://github.com/christophehurpeau/eslint-config-pob/commit/1fd73375d739c04a6224f24dc6be69baf5c1a932))
+* use jsx-runtime ([7dc07d4](https://github.com/christophehurpeau/eslint-config-pob/commit/7dc07d4030e94c50b30731d2263e7919a64e2b72))
+
+
+### BREAKING CHANGES
+
+* requires to configure jsx-runtime
+
+
+
+
+
 ## [48.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v48.1.0...v48.1.1) (2022-02-06)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript-react
