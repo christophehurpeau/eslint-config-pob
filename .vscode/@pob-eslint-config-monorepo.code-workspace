@@ -11,6 +11,7 @@
     "search.exclude": {
       "**/.yarn": true
     },
+    "npm.packageManager": "yarn",
     "editor.formatOnSave": true,
     "eslint.codeActionsOnSave.mode": "all",
     "editor.codeActionsOnSave": {
