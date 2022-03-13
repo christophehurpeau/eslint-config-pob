@@ -1017,7 +1017,7 @@ __metadata:
     eslint-plugin-react: ^7.28.0
     eslint-plugin-react-hooks: ^4.3.0
   peerDependencies:
-    eslint: ^8.4.1
+    eslint: ^8.11.0
     eslint-plugin-import: ^2.25.3
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-react: ^7.28.0
@@ -1048,7 +1048,7 @@ __metadata:
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.3.1
     "@typescript-eslint/parser": ^5.3.1
-    eslint: ^8.4.1
+    eslint: ^8.11.0
     eslint-plugin-import: ^2.25.3
     eslint-plugin-node: ^11.1.0
   peerDependenciesMeta:
@@ -1074,7 +1074,7 @@ __metadata:
     eslint-plugin-node: ^11.1.0
     eslint-plugin-unicorn: ^41.0.0
   peerDependencies:
-    eslint: ^8.4.1
+    eslint: ^8.11.0
     eslint-plugin-import: ^2.25.3
     eslint-plugin-node: ^11.1.0
     eslint-plugin-unicorn: ^40.1.0
