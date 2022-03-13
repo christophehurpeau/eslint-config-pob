@@ -11,9 +11,10 @@ module.exports = {
   rules: {
     // disabled by prettier : indent, member-delimiter-style, type-annotation-spacing
 
-    /* same as recommended */
+    /* warnings: not required to be fixed, but should require attention */
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-non-null-assertion': 'warn',
+    '@typescript-eslint/no-redundant-type-constituents': 'warn',
 
     /* disabled */
 
