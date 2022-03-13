@@ -1,5 +1,6 @@
 'use strict';
 
+const { enableIfVSCode } = require('@pob/eslint-config/utils');
 const usePlugin = require('@pob/use-eslint-plugin');
 
 usePlugin(require('@typescript-eslint/eslint-plugin/package.json'));
@@ -56,7 +57,7 @@ module.exports = {
     // Testing rules as warn
     '@typescript-eslint/prefer-as-const': 'warn',
     '@typescript-eslint/naming-convention': [
-      'warn',
+      enableIfVSCode('warn'),
       // Enforce that interface names do not begin with an I
       {
         selector: 'interface',
