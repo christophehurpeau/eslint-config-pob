@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [49.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.1.0...v49.2.0) (2022-03-13)
+
+
+### Features
+
+* app override ([07e5710](https://github.com/christophehurpeau/eslint-config-pob/commit/07e5710723fa19cd3eb31cb462d8a0201c5782d0))
+
+
+
+
+
 # [49.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.0.1...v49.1.0) (2022-03-13)
 
 
