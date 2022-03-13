@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [49.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.0.1...v49.1.0) (2022-03-13)
+
+
+### Bug Fixes
+
+* faster eslint cli as @typescript-eslint/naming-convention only enabled in vscode ([6f3b715](https://github.com/christophehurpeau/eslint-config-pob/commit/6f3b715fe8b55714a05d7a630f86dd7fc535ea7b))
+* no-redundant-type-constituents as warning ([f1cfccf](https://github.com/christophehurpeau/eslint-config-pob/commit/f1cfccfe337e122e9458b7d9956cbfc9afa2066f))
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-unicorn to v41 ([#323](https://github.com/christophehurpeau/eslint-config-pob/issues/323)) ([999c202](https://github.com/christophehurpeau/eslint-config-pob/commit/999c20267998adbeba86a87137d7f70012909174))
+* increase max complexity to 8 ([a08fec7](https://github.com/christophehurpeau/eslint-config-pob/commit/a08fec71f249e6d06a70f504edd9e17a0f9b15b5))
+
+
+
+
+
 ## [49.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.0.0...v49.0.1) (2022-02-12)
 
 
