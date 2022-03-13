@@ -21,6 +21,7 @@
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
+    "./app": "./lib/app.js",
     "./package.json": "./package.json"
   },
   "sideEffects": false,
