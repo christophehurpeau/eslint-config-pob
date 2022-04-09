@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [49.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.2.0...v49.2.1) (2022-04-09)
+
+
+### Bug Fixes
+
+* update typescript-eslint in dependencies ([5922965](https://github.com/christophehurpeau/eslint-config-pob/commit/5922965a9144ec381403ebb78593dd9f2bf0c8f7))
+
+
+
+
+
 # [49.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.1.0...v49.2.0) (2022-03-13)
 
 
