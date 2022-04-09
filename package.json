@@ -48,7 +48,6 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.4.0",
     "eslint-plugin-unicorn": "41.0.1",
-    "prettier": "2.5.1",
     "semver": "7.3.6"
   }
 }
