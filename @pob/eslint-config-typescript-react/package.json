@@ -22,6 +22,8 @@
   "exports": {
     ".": "./lib/index.js",
     "./app": "./lib/app.js",
+    "./react-native": "./lib/react-native.js",
+    "./react-native-web": "./lib/react-native-web.js",
     "./package.json": "./package.json"
   },
   "sideEffects": false,
