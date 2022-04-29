@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [49.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.2.1...v49.3.0) (2022-04-29)
+
+
+### Features
+
+* **eeslint-config-typescript-react:** add react-native-web config ([6f48e95](https://github.com/christophehurpeau/eslint-config-pob/commit/6f48e95f0d7cfd98ec34f167bfc824c256d6756a))
+
+
+
+
+
 # [49.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.1.0...v49.2.0) (2022-03-13)
 
 
