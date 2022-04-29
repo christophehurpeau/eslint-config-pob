@@ -65,13 +65,6 @@ module.exports = {
       },
     ],
 
-    'import/no-unresolved': [
-      'error',
-      {
-        ignore: ['type-fest'],
-      },
-    ],
-
     /* issues */
 
     // http://eslint.org/docs/rules/spaced-comment
