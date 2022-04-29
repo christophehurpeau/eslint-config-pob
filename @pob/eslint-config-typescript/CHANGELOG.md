@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [49.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.2.1...v49.3.0) (2022-04-29)
+
+
+### Bug Fixes
+
+* **eslint-config-pob:** remove import/no-unresolved rule override ([e49cf30](https://github.com/christophehurpeau/eslint-config-pob/commit/e49cf300628fb3d0b764582d858d13dada5b9e06))
+
+
+
+
+
 ## [49.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.2.0...v49.2.1) (2022-04-09)
 
 
