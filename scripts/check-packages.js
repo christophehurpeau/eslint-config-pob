@@ -9,7 +9,11 @@ const rootPkg = require('../package.json');
 createCheckPackageWithWorkspaces()
   .checkRecommended({
     isLibrary: () => true,
-    directDuplicateDependenciesOnlyWarnsFor: ['semver'],
+    onlyWarnsForInRootDependencies: {
+      '*': {
+        duplicateDirectDependency: ['semver'],
+      },
+    },
   })
   .forRoot((checkRootPkg) => {
     return checkRootPkg
