@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [49.3.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.3.0...v49.3.1) (2022-04-29)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript-react:** move react-native and react-native-web main files ([7cf5551](https://github.com/christophehurpeau/eslint-config-pob/commit/7cf555171b95300da01291f52e3cb835c8f16e62))
+
+
+
+
+
 # [49.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.2.1...v49.3.0) (2022-04-29)
 
 
