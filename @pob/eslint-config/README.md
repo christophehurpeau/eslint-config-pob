@@ -8,6 +8,9 @@
 
 <p align="center">
   <a href="https://npmjs.org/package/@pob/eslint-config"><img src="https://img.shields.io/npm/v/@pob/eslint-config.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/@pob/eslint-config"><img src="https://img.shields.io/npm/dw/@pob/eslint-config.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/@pob/eslint-config"><img src="https://img.shields.io/node/v/@pob/eslint-config.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/@pob/eslint-config"><img src="https://img.shields.io/npm/types/@pob/eslint-config.svg?style=flat-square"></a>
 </p>
 
 ### base

@@ -8,6 +8,9 @@
 
 <p align="center">
   <a href="https://npmjs.org/package/@pob/use-eslint-plugin"><img src="https://img.shields.io/npm/v/@pob/use-eslint-plugin.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/@pob/use-eslint-plugin"><img src="https://img.shields.io/npm/dw/@pob/use-eslint-plugin.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/@pob/use-eslint-plugin"><img src="https://img.shields.io/node/v/@pob/use-eslint-plugin.svg?style=flat-square"></a>
+  <a href="https://npmjs.org/package/@pob/use-eslint-plugin"><img src="https://img.shields.io/npm/types/@pob/use-eslint-plugin.svg?style=flat-square"></a>
 </p>
 
 ## Install
