@@ -19,7 +19,8 @@
     "checks": "node scripts/check-packages.js",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet .",
-    "lint:prettier": "prettier --check .",
+    "lint:prettier": "pob-root-prettier --check .",
+    "lint:prettier:fix": "pob-root-prettier --write .",
     "postinstall": "pob-root-postinstall"
   },
   "prettier": {
@@ -35,7 +36,7 @@
   "devDependencies": {
     "@pob/commitlint-config": "4.2.0",
     "@pob/lerna-light": "5.1.0",
-    "@pob/root": "6.16.0",
+    "@pob/root": "6.18.0",
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
     "check-package-dependencies": "3.6.0",
