@@ -72,11 +72,6 @@ module.exports = {
     '@typescript-eslint/no-dupe-class-members':
       baseES6Rules['no-dupe-class-members'],
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-duplicate-imports.md
-    'no-duplicate-imports': 'off',
-    '@typescript-eslint/no-duplicate-imports':
-      baseES6Rules['no-duplicate-imports'],
-
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function':
