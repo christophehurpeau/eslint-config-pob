@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [49.3.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.3.2...v49.3.3) (2022-07-07)
+
+
+### Bug Fixes
+
+* disable @typescript-eslint/no-unsafe-return in tests ([9b01525](https://github.com/christophehurpeau/eslint-config-pob/commit/9b01525de5630a57b7dc429e6a28afa5825fdf02))
+
+
+
+
+
 ## [49.3.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.3.1...v49.3.2) (2022-07-07)
 
 **Note:** Version bump only for package @pob/eslint-config-monorepo
