@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-typescript-react",
-  "version": "49.3.1",
+  "version": "49.3.2",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -59,7 +59,7 @@
     }
   },
   "dependencies": {
-    "@pob/eslint-config": "49.1.0",
+    "@pob/eslint-config": "49.3.2",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
