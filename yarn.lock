@@ -1056,7 +1056,7 @@ __metadata:
     "@pob/root": 6.20.1
     "@typescript-eslint/eslint-plugin": 5.30.5
     "@typescript-eslint/parser": 5.30.5
-    check-package-dependencies: 3.7.1
+    check-package-dependencies: 3.9.1
     eslint: 8.19.0
     eslint-config-airbnb: 19.0.4
     eslint-config-airbnb-base: 15.0.0
@@ -1955,9 +1955,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"check-package-dependencies@npm:3.7.1":
-  version: 3.7.1
-  resolution: "check-package-dependencies@npm:3.7.1"
+"check-package-dependencies@npm:3.9.1":
+  version: 3.9.1
+  resolution: "check-package-dependencies@npm:3.9.1"
   dependencies:
     chalk: ^4.1.0
     glob: ^8.0.0
@@ -1965,7 +1965,7 @@ __metadata:
     type-fest: ^2.0.0
   bin:
     check-package-dependencies: bin/check-package-dependencies.js
-  checksum: 9d02086e3ac13beebc372c10a9882a1d433e8bfde9313b8ea496cc5e8f37a4cfa5a55cafc2f94b0148e6530cd2323797127414714ba1fa8cf6b63b313f4ccf56
+  checksum: eb368ae5774081113fe5f4efdddbd9c79b1d65c9a99f594774fba4910fa08ec409b29d629ae3700b31a9bb194e5af485210cbd009f893315f9b35e22c19c80d4
   languageName: node
   linkType: hard
 
