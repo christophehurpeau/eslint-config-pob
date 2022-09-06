@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [49.4.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.3.3...v49.4.0) (2022-09-06)
+
+
+### Features
+
+* add test for jsx-curly-brace-presence ([9432051](https://github.com/christophehurpeau/eslint-config-pob/commit/943205126441af2b9c68599f810996264177a894))
+
+
+
+
+
 ## [49.3.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.3.1...v49.3.2) (2022-07-07)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript-react
