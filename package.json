@@ -39,7 +39,7 @@
     "@pob/root": "6.22.0",
     "@typescript-eslint/eslint-plugin": "5.36.2",
     "@typescript-eslint/parser": "5.36.2",
-    "check-package-dependencies": "3.9.2",
+    "check-package-dependencies": "3.10.0",
     "eslint": "8.23.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
