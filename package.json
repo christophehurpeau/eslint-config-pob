@@ -23,11 +23,7 @@
     "lint:prettier:fix": "pob-root-prettier --write .",
     "postinstall": "pob-root-postinstall"
   },
-  "prettier": {
-    "trailingComma": "all",
-    "singleQuote": true,
-    "arrowParens": "always"
-  },
+  "prettier": "@pob/root/prettier-config",
   "commitlint": {
     "extends": [
       "@pob/commitlint-config"

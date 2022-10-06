@@ -32,11 +32,7 @@
     "lint": "yarn run lint:eslint",
     "lint:eslint": "cd ../.. && yarn run eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config-typescript"
   },
-  "prettier": {
-    "trailingComma": "all",
-    "singleQuote": true,
-    "arrowParens": "always"
-  },
+  "prettier": "@pob/root/prettier-config",
   "pob": {},
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.18.0",
