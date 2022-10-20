@@ -3,9 +3,9 @@ on:
   workflow_dispatch:
     inputs:
       dry-run:
-        description: 'Dry run? (y/N)'
+        description: "Dry run? (y/N)"
         required: true
-        default: 'N'
+        default: "N"
 
 jobs:
   publish:
@@ -44,6 +44,7 @@ jobs:
         run: |
           yarn lerna version --yes --push --exact --conventional-commits --conventional-graduate --create-release=github -m 'chore: release [skip ci]'
         env:
+          HUSKY: 0
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
 
@@ -53,7 +54,7 @@ jobs:
           && contains(github.event.inputs.dry-run, 'y') == false
         with:
           node-version: 14
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: "https://registry.npmjs.org"
 
       - run: lerna publish from-git --no-verify-access --yes
         if: |
