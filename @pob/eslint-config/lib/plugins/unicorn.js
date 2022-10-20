@@ -330,6 +330,12 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-target.md
     // TODO [engine:node@>=16]: change to error
     'unicorn/prefer-event-target': 'warn',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
+    'unicorn/no-unnecessary-await': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-braces.md
+    'unicorn/switch-case-braces': 'off',
   },
 
   overrides: [
