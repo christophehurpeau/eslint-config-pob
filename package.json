@@ -30,13 +30,13 @@
     ]
   },
   "devDependencies": {
-    "@pob/commitlint-config": "4.4.0",
-    "@pob/lerna-light": "5.6.0",
+    "@pob/commitlint-config": "5.0.0",
+    "@pob/lerna-light": "6.0.0",
     "@pob/root": "7.0.0",
     "@typescript-eslint/eslint-plugin": "5.41.0",
     "@typescript-eslint/parser": "5.41.0",
     "check-package-dependencies": "3.10.0",
-    "eslint": "8.26.0",
+    "eslint": "8.27.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.26.0",
