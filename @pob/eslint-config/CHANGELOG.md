@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [50.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.4.0...v50.0.0) (2022-11-20)
+
+
+### chore
+
+* drop node 14 ([9f17c1a](https://github.com/christophehurpeau/eslint-config-pob/commit/9f17c1a619c52bf46da49ce052670f48ab210b0c))
+
+
+### BREAKING CHANGES
+
+* drop node 14
+
+
+
+
+
 # [49.4.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v49.3.3...v49.4.0) (2022-09-06)
 
 **Note:** Version bump only for package @pob/eslint-config
