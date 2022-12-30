@@ -1,14 +1,15 @@
-'use strict';
+import fs from 'fs';
+import { createCheckPackageWithWorkspaces } from 'check-package-dependencies';
+import semver from 'semver';
 
-const {
-  createCheckPackageWithWorkspaces,
-} = require('check-package-dependencies');
-const semver = require('semver');
-const rootPkg = require('../package.json');
+const rootPkg = JSON.parse(
+  fs.readFileSync(new URL('../package.json', import.meta.url)),
+);
 
-createCheckPackageWithWorkspaces()
+await createCheckPackageWithWorkspaces({
+  isLibrary: () => true,
+})
   .checkRecommended({
-    isLibrary: () => true,
     onlyWarnsForInRootDependencies: {
       '*': {
         duplicateDirectDependency: ['semver'],
@@ -110,4 +111,5 @@ createCheckPackageWithWorkspaces()
         }
       });
     }
-  });
+  })
+  .run();

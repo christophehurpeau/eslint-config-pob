@@ -16,7 +16,7 @@
     "@pob/*"
   ],
   "scripts": {
-    "checks": "node scripts/check-packages.js",
+    "checks": "node scripts/check-packages.mjs",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
@@ -36,7 +36,7 @@
     "@pob/root": "7.3.0",
     "@typescript-eslint/eslint-plugin": "5.47.1",
     "@typescript-eslint/parser": "5.47.1",
-    "check-package-dependencies": "3.11.0",
+    "check-package-dependencies": "6.1.0",
     "eslint": "8.30.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
