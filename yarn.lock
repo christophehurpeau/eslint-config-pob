@@ -1032,7 +1032,7 @@ __metadata:
     "@pob/root": 7.3.0
     "@typescript-eslint/eslint-plugin": 5.43.0
     "@typescript-eslint/parser": 5.43.0
-    check-package-dependencies: 3.10.0
+    check-package-dependencies: 3.11.0
     eslint: 8.30.0
     eslint-config-airbnb: 19.0.4
     eslint-config-airbnb-base: 15.0.0
@@ -1950,17 +1950,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"check-package-dependencies@npm:3.10.0":
-  version: 3.10.0
-  resolution: "check-package-dependencies@npm:3.10.0"
+"check-package-dependencies@npm:3.11.0":
+  version: 3.11.0
+  resolution: "check-package-dependencies@npm:3.11.0"
   dependencies:
     chalk: ^4.1.0
     glob: ^8.0.0
     semver: ^7.3.4
-    type-fest: ^2.0.0
+    type-fest: ^3.0.0
   bin:
     check-package-dependencies: bin/check-package-dependencies.js
-  checksum: 1774a8852a4e89716325a59965c4babfeafb4ad3f28c2a4c56c7b57a1a5aeed83ef701c4b05dccfda86551d1f1244c673217016858d4838d984bfa116c981201
+  checksum: b6c64ab4b59e294e6d25c2fb3132fcd09154d10810972dd5ae42f9877cf1d2f7b8fade2cab8802c952fde7dccbbc86665976427d0ee797178e9b9690a553cb34
   languageName: node
   linkType: hard
 
@@ -6640,10 +6640,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^2.0.0":
-  version: 2.19.0
-  resolution: "type-fest@npm:2.19.0"
-  checksum: a4ef07ece297c9fba78fc1bd6d85dff4472fe043ede98bd4710d2615d15776902b595abf62bd78339ed6278f021235fb28a96361f8be86ed754f778973a0d278
+"type-fest@npm:^3.0.0":
+  version: 3.5.0
+  resolution: "type-fest@npm:3.5.0"
+  checksum: 9b82958ded0aedeb38fe6b172645a319522d11904b58e422dbab9ba40f85d48e749ff8fb7047cd72f4a2923c63927b741e2efc97ce7b0662b7e042923510132f
   languageName: node
   linkType: hard
 
