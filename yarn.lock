@@ -1032,7 +1032,7 @@ __metadata:
     "@pob/root": 7.3.0
     "@typescript-eslint/eslint-plugin": 5.47.1
     "@typescript-eslint/parser": 5.47.1
-    check-package-dependencies: 3.11.0
+    check-package-dependencies: 6.1.0
     eslint: 8.30.0
     eslint-config-airbnb: 19.0.4
     eslint-config-airbnb-base: 15.0.0
@@ -1053,13 +1053,13 @@ __metadata:
     "@pob/eslint-config": 50.0.0
     "@types/react": 18.0.26
     eslint-config-airbnb: ^19.0.4
-    eslint-plugin-import: ^2.25.3
+    eslint-plugin-import: ^2.26.0
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-react: ^7.28.0
     eslint-plugin-react-hooks: ^4.3.0
   peerDependencies:
     eslint: ^8.23.1
-    eslint-plugin-import: ^2.25.3
+    eslint-plugin-import: ^2.26.0
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-react: ^7.28.0
     eslint-plugin-react-hooks: ^4.3.0
@@ -1084,13 +1084,13 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.18.0
     "@typescript-eslint/parser": ^5.18.0
     eslint-config-airbnb-base: ^15.0.0
-    eslint-plugin-import: ^2.25.3
+    eslint-plugin-import: ^2.26.0
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.18.0
     "@typescript-eslint/parser": ^5.18.0
     eslint: ^8.23.1
-    eslint-plugin-import: ^2.25.3
+    eslint-plugin-import: ^2.26.0
     eslint-plugin-node: ^11.1.0
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
@@ -1109,16 +1109,17 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@pob/use-eslint-plugin": 50.0.0
-    eslint-config-airbnb-base: ^15.0.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-import: ^2.25.3
-    eslint-plugin-node: ^11.1.0
-    eslint-plugin-unicorn: ^44.0.0
+    eslint: 8.30.0
+    eslint-config-airbnb-base: 15.0.0
+    eslint-config-prettier: 8.5.0
+    eslint-plugin-import: 2.26.0
+    eslint-plugin-node: 11.1.0
+    eslint-plugin-unicorn: 44.0.2
   peerDependencies:
     eslint: ^8.23.1
-    eslint-plugin-import: ^2.25.3
+    eslint-plugin-import: ^2.26.0
     eslint-plugin-node: ^11.1.0
-    eslint-plugin-unicorn: ^44.0.0
+    eslint-plugin-unicorn: ^44.0.2
   peerDependenciesMeta:
     eslint-plugin-import:
       optional: true
@@ -1943,6 +1944,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "chalk@npm:5.2.0"
+  checksum: 03d8060277de6cf2fd567dc25fcf770593eb5bb85f460ce443e49255a30ff1242edd0c90a06a03803b0466ff0687a939b41db1757bec987113e83de89a003caa
+  languageName: node
+  linkType: hard
+
 "chardet@npm:^0.7.0":
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
@@ -1950,17 +1958,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"check-package-dependencies@npm:3.11.0":
-  version: 3.11.0
-  resolution: "check-package-dependencies@npm:3.11.0"
+"check-package-dependencies@npm:6.1.0":
+  version: 6.1.0
+  resolution: "check-package-dependencies@npm:6.1.0"
   dependencies:
-    chalk: ^4.1.0
+    chalk: ^5.2.0
     glob: ^8.0.0
-    semver: ^7.3.4
+    import-meta-resolve: ^2.1.0
+    semver: ^7.3.8
+    semver-utils: ^1.1.4
     type-fest: ^3.0.0
   bin:
     check-package-dependencies: bin/check-package-dependencies.js
-  checksum: b6c64ab4b59e294e6d25c2fb3132fcd09154d10810972dd5ae42f9877cf1d2f7b8fade2cab8802c952fde7dccbbc86665976427d0ee797178e9b9690a553cb34
+  checksum: a28921a784541d9a54ad61b7edcc2ae0c216a5f7f5f7a95f8c165f6f77d171143f5213b3f2dd9116d2bab4d0a74acca84698e4370fba6649d5d4e4e2b6d35c8f
   languageName: node
   linkType: hard
 
@@ -2732,7 +2742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:8.5.0":
   version: 8.5.0
   resolution: "eslint-config-prettier@npm:8.5.0"
   peerDependencies:
@@ -2777,7 +2787,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.26.0, eslint-plugin-import@npm:^2.25.3":
+"eslint-plugin-import@npm:2.26.0, eslint-plugin-import@npm:^2.26.0":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
@@ -2873,7 +2883,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:44.0.2, eslint-plugin-unicorn@npm:^44.0.0":
+"eslint-plugin-unicorn@npm:44.0.2":
   version: 44.0.2
   resolution: "eslint-plugin-unicorn@npm:44.0.2"
   dependencies:
@@ -3740,6 +3750,13 @@ __metadata:
     parent-module: ^1.0.0
     resolve-from: ^4.0.0
   checksum: 2cacfad06e652b1edc50be650f7ec3be08c5e5a6f6d12d035c440a42a8cc028e60a5b99ca08a77ab4d6b1346da7d971915828f33cdab730d3d42f08242d09baa
+  languageName: node
+  linkType: hard
+
+"import-meta-resolve@npm:^2.1.0":
+  version: 2.2.0
+  resolution: "import-meta-resolve@npm:2.2.0"
+  checksum: 35a012c07bdaaed907ad150021b47a4bd8b2c77c88f02a2c5a15a5cb5c146072a94b6633cc528eaccf187bca12196c0fb2ff44a54b3b2a03bcf200511b3f1e50
   languageName: node
   linkType: hard
 
@@ -5993,6 +6010,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver-utils@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "semver-utils@npm:1.1.4"
+  checksum: 93fd955a30f5bdf532163d94981aa03dfbaddf29dad6388415b264c95d7046a6b47d947c6e3e37c0d7867ed3f024aa6e50fc308c9487378354e9d300c9dd68b6
+  languageName: node
+  linkType: hard
+
 "semver@npm:2 || 3 || 4 || 5, semver@npm:^5.6.0":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
@@ -6013,7 +6037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.3.8, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7":
+"semver@npm:7.3.8, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.3.8":
   version: 7.3.8
   resolution: "semver@npm:7.3.8"
   dependencies:
