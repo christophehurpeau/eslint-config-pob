@@ -1032,7 +1032,7 @@ __metadata:
     "@pob/root": 7.3.0
     "@typescript-eslint/eslint-plugin": 5.47.1
     "@typescript-eslint/parser": 5.47.1
-    check-package-dependencies: 6.1.0
+    check-package-dependencies: 6.0.0
     eslint: 8.30.0
     eslint-config-airbnb: 19.0.4
     eslint-config-airbnb-base: 15.0.0
@@ -1958,19 +1958,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"check-package-dependencies@npm:6.1.0":
-  version: 6.1.0
-  resolution: "check-package-dependencies@npm:6.1.0"
+"check-package-dependencies@npm:6.0.0":
+  version: 6.0.0
+  resolution: "check-package-dependencies@npm:6.0.0"
   dependencies:
     chalk: ^5.2.0
     glob: ^8.0.0
     import-meta-resolve: ^2.1.0
-    semver: ^7.3.8
-    semver-utils: ^1.1.4
+    semver: ^7.3.4
     type-fest: ^3.0.0
   bin:
     check-package-dependencies: bin/check-package-dependencies.js
-  checksum: a28921a784541d9a54ad61b7edcc2ae0c216a5f7f5f7a95f8c165f6f77d171143f5213b3f2dd9116d2bab4d0a74acca84698e4370fba6649d5d4e4e2b6d35c8f
+  checksum: 9edc44c15c494dca5b21b4b3f88839d1b0fec1c5324c21d042bd7725c7b13925b9d71fe0db52322a9bfb62b1361b9f3ea934c035752c2c46f0ac31dfb99bf7a4
   languageName: node
   linkType: hard
 
@@ -6010,13 +6009,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver-utils@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "semver-utils@npm:1.1.4"
-  checksum: 93fd955a30f5bdf532163d94981aa03dfbaddf29dad6388415b264c95d7046a6b47d947c6e3e37c0d7867ed3f024aa6e50fc308c9487378354e9d300c9dd68b6
-  languageName: node
-  linkType: hard
-
 "semver@npm:2 || 3 || 4 || 5, semver@npm:^5.6.0":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
@@ -6037,7 +6029,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.3.8, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.3.8":
+"semver@npm:7.3.8, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7":
   version: 7.3.8
   resolution: "semver@npm:7.3.8"
   dependencies:
