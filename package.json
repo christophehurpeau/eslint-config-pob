@@ -21,7 +21,8 @@
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
-    "postinstall": "pob-root-postinstall"
+    "postinstall": "pob-root-postinstall",
+    "version": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
   },
   "prettier": "@pob/root/prettier-config",
   "commitlint": {
@@ -32,11 +33,11 @@
   "devDependencies": {
     "@pob/commitlint-config": "5.1.0",
     "@pob/lerna-light": "6.1.0",
-    "@pob/root": "7.2.0",
+    "@pob/root": "7.3.0",
     "@typescript-eslint/eslint-plugin": "5.43.0",
     "@typescript-eslint/parser": "5.43.0",
     "check-package-dependencies": "3.10.0",
-    "eslint": "8.28.0",
+    "eslint": "8.30.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.26.0",
