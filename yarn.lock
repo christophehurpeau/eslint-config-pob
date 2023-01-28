@@ -1053,13 +1053,13 @@ __metadata:
     "@pob/eslint-config": 50.0.0
     "@types/react": 18.0.26
     eslint-config-airbnb: ^19.0.4
-    eslint-plugin-import: ^2.26.0
+    eslint-plugin-import: ^2.27.5
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-react: ^7.28.0
     eslint-plugin-react-hooks: ^4.3.0
   peerDependencies:
     eslint: ^8.23.1
-    eslint-plugin-import: ^2.26.0
+    eslint-plugin-import: ^2.27.5
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-react: ^7.28.0
     eslint-plugin-react-hooks: ^4.3.0
@@ -1084,13 +1084,13 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.18.0
     "@typescript-eslint/parser": ^5.18.0
     eslint-config-airbnb-base: ^15.0.0
-    eslint-plugin-import: ^2.26.0
+    eslint-plugin-import: ^2.27.5
     eslint-plugin-node: ^11.1.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.18.0
     "@typescript-eslint/parser": ^5.18.0
     eslint: ^8.23.1
-    eslint-plugin-import: ^2.26.0
+    eslint-plugin-import: ^2.27.5
     eslint-plugin-node: ^11.1.0
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
@@ -1117,7 +1117,7 @@ __metadata:
     eslint-plugin-unicorn: 44.0.2
   peerDependencies:
     eslint: ^8.23.1
-    eslint-plugin-import: ^2.26.0
+    eslint-plugin-import: ^2.27.5
     eslint-plugin-node: ^11.1.0
     eslint-plugin-unicorn: ^44.0.2
   peerDependenciesMeta:
@@ -2779,7 +2779,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.27.5, eslint-plugin-import@npm:^2.26.0":
+"eslint-plugin-import@npm:2.27.5, eslint-plugin-import@npm:^2.27.5":
   version: 2.27.5
   resolution: "eslint-plugin-import@npm:2.27.5"
   dependencies:
