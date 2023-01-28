@@ -35,7 +35,7 @@
   "prettier": "@pob/root/prettier-config",
   "pob": {},
   "peerDependencies": {
-    "eslint": "^8.23.1",
+    "eslint": "^8.28.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
