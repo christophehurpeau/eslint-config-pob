@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [50.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.1...v50.0.2) (2023-03-19)
+
+
+### Bug Fixes
+
+* update typescript-eslint ([b791d28](https://github.com/christophehurpeau/eslint-config-pob/commit/b791d285da21da113d2f32c9a646b3fce491c621))
+
+
+
 ## [50.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.0...v50.0.1) (2023-03-19)
 
 **Note:** Version bump only for package @pob/eslint-config-monorepo
