@@ -1096,14 +1096,15 @@ __metadata:
   dependencies:
     "@pob/eslint-config": 50.0.1
     "@pob/use-eslint-plugin": 50.0.0
-    "@typescript-eslint/eslint-plugin": ^5.18.0
-    "@typescript-eslint/parser": ^5.18.0
-    eslint-config-airbnb-base: ^15.0.0
-    eslint-plugin-import: ^2.27.5
-    eslint-plugin-node: ^11.1.0
+    "@typescript-eslint/eslint-plugin": 5.55.0
+    "@typescript-eslint/parser": 5.55.0
+    eslint: 8.36.0
+    eslint-config-airbnb-base: 15.0.0
+    eslint-plugin-import: 2.27.5
+    eslint-plugin-node: 11.1.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^5.18.0
-    "@typescript-eslint/parser": ^5.18.0
+    "@typescript-eslint/eslint-plugin": ^5.55.0
+    "@typescript-eslint/parser": ^5.55.0
     eslint: ^8.28.0
     eslint-plugin-import: ^2.27.5
     eslint-plugin-node: ^11.1.0
@@ -1351,7 +1352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:5.55.0, @typescript-eslint/eslint-plugin@npm:^5.18.0":
+"@typescript-eslint/eslint-plugin@npm:5.55.0":
   version: 5.55.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.55.0"
   dependencies:
@@ -1375,7 +1376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:5.55.0, @typescript-eslint/parser@npm:^5.18.0":
+"@typescript-eslint/parser@npm:5.55.0":
   version: 5.55.0
   resolution: "@typescript-eslint/parser@npm:5.55.0"
   dependencies:
@@ -2922,7 +2923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-node@npm:11.1.0, eslint-plugin-node@npm:^11.1.0":
+"eslint-plugin-node@npm:11.1.0":
   version: 11.1.0
   resolution: "eslint-plugin-node@npm:11.1.0"
   dependencies:
