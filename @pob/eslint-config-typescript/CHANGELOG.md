@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [50.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.2...v50.0.3) (2023-03-19)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** disable lines-around-comment ([aa2bde1](https://github.com/christophehurpeau/eslint-config-pob/commit/aa2bde11a09756f8a807707a02a971d0a135dc70))
+
+
+
 ## [50.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.1...v50.0.2) (2023-03-19)
 
 
