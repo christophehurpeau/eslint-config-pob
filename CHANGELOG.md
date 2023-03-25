@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [50.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.3...v50.0.4) (2023-03-25)
+
+**Note:** Version bump only for package @pob/eslint-config-monorepo
+
+
+
+
+
 ## [50.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.2...v50.0.3) (2023-03-19)
 
 
