@@ -25,9 +25,6 @@ module.exports = {
     // most of the time it's sorted by the developer as it is easier to read
     '@typescript-eslint/sort-type-union-intersection-members': 'off',
 
-    // formatting rule
-    '@typescript-eslint/lines-around-comment': 'off',
-
     /* Not enabled */
 
     '@typescript-eslint/generic-type-naming': 'off',
