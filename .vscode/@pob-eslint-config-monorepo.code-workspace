@@ -43,10 +43,6 @@
     {
       "name": "@pob/eslint-config-typescript-react",
       "path": "../@pob/eslint-config-typescript-react"
-    },
-    {
-      "name": "@pob/use-eslint-plugin",
-      "path": "../@pob/use-eslint-plugin"
     }
   ]
 }

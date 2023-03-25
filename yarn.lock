@@ -1095,7 +1095,6 @@ __metadata:
   resolution: "@pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript"
   dependencies:
     "@pob/eslint-config": 50.0.1
-    "@pob/use-eslint-plugin": 50.0.0
     "@typescript-eslint/eslint-plugin": 5.55.0
     "@typescript-eslint/parser": 5.55.0
     eslint: 8.36.0
@@ -1124,7 +1123,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
-    "@pob/use-eslint-plugin": 50.0.0
     eslint: 8.36.0
     eslint-config-airbnb-base: 15.0.0
     eslint-config-prettier: 8.7.0
@@ -1236,12 +1234,6 @@ __metadata:
   checksum: 508ddc4d943dd6764d767cdd6237e4e6a3c2b4e4fcd6fc16a710fdf0ee45f7b95a8052c38f6cc4eeabde943cc90a3b00011d898604f4626e253aa42e51a8a5e4
   languageName: node
   linkType: hard
-
-"@pob/use-eslint-plugin@50.0.0, @pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin":
-  version: 0.0.0-use.local
-  resolution: "@pob/use-eslint-plugin@workspace:@pob/use-eslint-plugin"
-  languageName: unknown
-  linkType: soft
 
 "@tootallnate/once@npm:2":
   version: 2.0.0

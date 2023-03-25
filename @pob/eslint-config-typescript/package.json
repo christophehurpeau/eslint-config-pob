@@ -58,7 +58,6 @@
   },
   "dependencies": {
     "@pob/eslint-config": "50.0.1",
-    "@pob/use-eslint-plugin": "50.0.0",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint-config-airbnb-base": "^15.0.0",
