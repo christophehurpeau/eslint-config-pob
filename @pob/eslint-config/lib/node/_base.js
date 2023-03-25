@@ -1,9 +1,5 @@
 'use strict';
 
-const usePlugin = require('@pob/use-eslint-plugin');
-
-usePlugin(require('eslint-plugin-node/package.json'));
-
 exports.overrideRules = {
   // Disable rules already checked by import plugin
   'node/no-unpublished-require': 'off',

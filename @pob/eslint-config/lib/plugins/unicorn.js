@@ -2,10 +2,6 @@
 
 'use strict';
 
-const usePlugin = require('@pob/use-eslint-plugin');
-
-usePlugin(require('eslint-plugin-unicorn/package.json'));
-
 module.exports = {
   plugins: ['unicorn'],
   rules: {
