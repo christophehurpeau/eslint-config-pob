@@ -43,7 +43,7 @@
     "eslint": "^8.28.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^46.0.0"
+    "eslint-plugin-unicorn": "^46.0.1"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-import": {
@@ -61,7 +61,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^46.0.0"
+    "eslint-plugin-unicorn": "^46.0.1"
   },
   "devDependencies": {
     "eslint": "8.37.0",
@@ -69,6 +69,6 @@
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-unicorn": "46.0.0"
+    "eslint-plugin-unicorn": "46.0.1"
   }
 }
