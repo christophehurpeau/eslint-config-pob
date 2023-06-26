@@ -6,7 +6,7 @@ module.exports = {
   plugins: ['unicorn'],
   rules: {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md
-    'unicorn/catch-error-name': ['error', { name: 'err' }],
+    'unicorn/catch-error-name': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/explicit-length-check.md
     'unicorn/explicit-length-check': 'error',
@@ -228,7 +228,7 @@ module.exports = {
     'unicorn/prefer-switch': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md
-    'unicorn/prefer-node-protocol': 'off',
+    'unicorn/prefer-node-protocol': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md
     // unicorn/prefer-module is enabled in node configs.
@@ -259,8 +259,7 @@ module.exports = {
     'unicorn/prefer-top-level-await': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md
-    // use when node 14 support drop
-    'unicorn/prefer-at': 'off',
+    'unicorn/prefer-at': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md
     'unicorn/prefer-object-from-entries': 'error',
@@ -324,8 +323,7 @@ module.exports = {
     'unicorn/prefer-logical-operator-over-ternary': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-target.md
-    // TODO [engine:node@>=16]: change to error
-    'unicorn/prefer-event-target': 'warn',
+    'unicorn/prefer-event-target': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
     'unicorn/no-unnecessary-await': 'error',
