@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [51.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.5...v51.0.0) (2023-06-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop node 16
+
+### Features
+
+* update to node 18 ([ab295c6](https://github.com/christophehurpeau/eslint-config-pob/commit/ab295c6d2fd08e9fdb69e7566d6b0239861f646b))
+
+
+
 ## [50.0.5](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.4...v50.0.5) (2023-05-08)
 
 **Note:** Version bump only for package @pob/eslint-config-typescript
