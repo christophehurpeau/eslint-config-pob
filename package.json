@@ -9,7 +9,7 @@
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "commonjs",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.12.0"
   },
   "packageManager": "yarn@3.6.0",
   "workspaces": [
@@ -31,9 +31,9 @@
     ]
   },
   "devDependencies": {
-    "@pob/commitlint-config": "6.0.0",
-    "@pob/lerna-light": "7.0.0",
-    "@pob/root": "8.0.1",
+    "@pob/commitlint-config": "6.0.1",
+    "@pob/lerna-light": "7.0.1",
+    "@pob/root": "8.1.0",
     "@typescript-eslint/eslint-plugin": "5.60.1",
     "@typescript-eslint/parser": "5.60.1",
     "check-package-dependencies": "6.4.1",
