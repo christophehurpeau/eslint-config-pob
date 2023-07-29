@@ -1,9 +1,5 @@
 'use strict';
 
-const usePlugin = require('@pob/use-eslint-plugin');
-
-usePlugin(require('eslint-plugin-node/package.json'));
-
 module.exports = {
   plugins: ['node'],
   extends: ['plugin:node/recommended-module'],

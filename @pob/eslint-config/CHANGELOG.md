@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [51.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.5...v51.0.0) (2023-06-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* enabled unicorn rules
+* drop node 16
+
+### Features
+
+* enable some unicorn rules with node 18 ([f8da0b1](https://github.com/christophehurpeau/eslint-config-pob/commit/f8da0b1e7e26c3338500684c3527285b68aadb37))
+* update to node 18 ([ab295c6](https://github.com/christophehurpeau/eslint-config-pob/commit/ab295c6d2fd08e9fdb69e7566d6b0239861f646b))
+
+
+
+## [50.0.5](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.4...v50.0.5) (2023-05-08)
+
+**Note:** Version bump only for package @pob/eslint-config
+
+
+
+
+
+## [50.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.3...v50.0.4) (2023-03-25)
+
+**Note:** Version bump only for package @pob/eslint-config
+
+
+
+
+
 ## [50.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v50.0.0...v50.0.1) (2023-03-19)
 
 **Note:** Version bump only for package @pob/eslint-config

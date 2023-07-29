@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'node:fs';
 import { createCheckPackageWithWorkspaces } from 'check-package-dependencies';
 import semver from 'semver';
 
@@ -16,6 +16,7 @@ await createCheckPackageWithWorkspaces({
       },
     },
   })
+
   .forRoot((checkRootPkg) => {
     return checkRootPkg
       .checkSatisfiesVersionsFromDependency('./@pob/eslint-config', {
@@ -30,19 +31,6 @@ await createCheckPackageWithWorkspaces({
   })
   .forEach((checkPkg) => {
     const pkg = checkPkg.pkg;
-
-    if (pkg.peerDependencies) {
-      Object.keys(pkg.peerDependencies).forEach((peerDep) => {
-        if (pkg.dependencies && pkg.dependencies[peerDep]) {
-          const expectedVersion = pkg.dependencies[peerDep];
-          if (pkg.peerDependencies[peerDep] !== expectedVersion) {
-            throw new Error(
-              `Invalid ${peerDep} version in ${pkg.name}: should be ${expectedVersion}`,
-            );
-          }
-        }
-      });
-    }
 
     if (pkg.dependencies) {
       const configDependencies = [

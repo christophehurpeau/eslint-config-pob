@@ -1,9 +1,6 @@
 'use strict';
 
 const { enableIfVSCode } = require('@pob/eslint-config/utils');
-const usePlugin = require('@pob/use-eslint-plugin');
-
-usePlugin(require('@typescript-eslint/eslint-plugin/package.json'));
 
 module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],
@@ -27,9 +24,6 @@ module.exports = {
 
     // most of the time it's sorted by the developer as it is easier to read
     '@typescript-eslint/sort-type-union-intersection-members': 'off',
-
-    // formatting rule
-    '@typescript-eslint/lines-around-comment': 'off',
 
     /* Not enabled */
 
