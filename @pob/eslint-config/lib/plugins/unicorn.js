@@ -65,9 +65,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/error-message.md
     'unicorn/error-message': 'error',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unsafe-regex.md
-    'unicorn/no-unsafe-regex': 'error',
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-add-event-listener.md
     'unicorn/prefer-add-event-listener': 'error',
 
