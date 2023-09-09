@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "parserOptions": {
+    "project": true
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "../../eslint-config-typescript/lib/index.js",
+        "../lib/index.js"
+      ]
+    }
+  ]
+}

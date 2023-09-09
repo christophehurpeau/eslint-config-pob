@@ -113,5 +113,8 @@ module.exports = {
 
     // allow props spreading
     'react/jsx-props-no-spreading': 'off',
+
+    // entities does not need to be escaped as color syntaxing makes it clear when it's a body or it's a property.
+    'react/no-unescaped-entities': 'off',
   },
 };

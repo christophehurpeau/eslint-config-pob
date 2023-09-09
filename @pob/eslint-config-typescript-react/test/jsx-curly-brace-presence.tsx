@@ -1,4 +1,6 @@
-export function TestJsxCurlyBracePresence() {
+import type { ReactNode } from 'react';
+
+export function TestJsxCurlyBracePresence(): ReactNode {
   return (
     <>
       {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
@@ -8,6 +10,7 @@ export function TestJsxCurlyBracePresence() {
 
       <div>Hello 'world'</div>
       <div>Hello "world"</div>
+
       <div>{'>'}</div>
       <div>{'<'}</div>
       <div>{'}'}</div>
