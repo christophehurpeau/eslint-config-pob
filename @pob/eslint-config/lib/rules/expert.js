@@ -5,7 +5,6 @@ module.exports = {
     'class-methods-use-this': 'off', // http://eslint.org/docs/rules/class-methods-use-this
     'consistent-return': 'off', // http://eslint.org/docs/rules/consistent-return
     'default-case': 'off', // http://eslint.org/docs/rules/default-case
-    'func-names': 'off', // http://eslint.org/docs/rules/func-names
     'no-await-in-loop': 'off', // http://eslint.org/docs/rules/no-continue
     'no-continue': 'off', // http://eslint.org/docs/rules/no-continue
     'no-empty': 'off', // http://eslint.org/docs/rules/no-empty
