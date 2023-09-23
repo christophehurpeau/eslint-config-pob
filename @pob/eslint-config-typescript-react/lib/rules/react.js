@@ -6,6 +6,9 @@ module.exports = {
   rules: {
     /* added rules */
 
+    // https://github.com/airbnb/javascript/issues/2829
+    'func-names': 'error',
+
     // Enforce event handler naming conventions in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     // 'react/jsx-handler-names': [
@@ -44,8 +47,9 @@ module.exports = {
     'react/function-component-definition': [
       'error',
       {
-        namedComponents: ['function-declaration', 'arrow-function'],
-        unnamedComponents: 'arrow-function',
+        namedComponents: ['function-declaration'],
+        // https://github.com/airbnb/javascript/issues/2829
+        unnamedComponents: ['function-expression'],
       },
     ],
 
@@ -113,5 +117,8 @@ module.exports = {
 
     // allow props spreading
     'react/jsx-props-no-spreading': 'off',
+
+    // entities does not need to be escaped as color syntaxing makes it clear when it's a body or it's a property.
+    'react/no-unescaped-entities': 'off',
   },
 };
