@@ -2,35 +2,6 @@
 
 const { enableIfVSCode } = require('@pob/eslint-config/utils');
 
-const allowedBooleanPrefixes = [
-  'is',
-  'should',
-  'has',
-  'can',
-  'did',
-  'will',
-  'with',
-  'without',
-  'allow',
-  'disallow',
-  'no',
-];
-const allowedBooleanNames = [
-  // boolean html attributes
-  'autoFocus',
-  'checked',
-  'disabled',
-  'hidden',
-  'selected',
-  // other known boolean names
-  'visible',
-  'skip',
-];
-
-const regex = `^((${allowedBooleanNames.join(
-  '|',
-)})$|(${allowedBooleanPrefixes.join('|')})[A-Z])`;
-
 module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],
   extends: ['plugin:@typescript-eslint/all'],
@@ -92,25 +63,6 @@ module.exports = {
           regex: '^I[A-Z]',
           match: false,
         },
-      },
-      // Enforce that boolean are prefixed with an allowed verb
-      {
-        selector: 'variable',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        filter: { regex, match: false },
-      },
-      {
-        selector: 'property',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        filter: { regex, match: false },
-      },
-      {
-        selector: 'parameterProperty',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        filter: { regex, match: false },
       },
       // Enforce that type is in PascalCase
       {
