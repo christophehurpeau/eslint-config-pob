@@ -1,7 +1,18 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [51.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.0.2...v51.1.0) (2023-10-03)
+
+
+### Bug Fixes
+
+* disable react/no-unescaped-entities ([6cdc1d1](https://github.com/christophehurpeau/eslint-config-pob/commit/6cdc1d19ff864ef7589b24bbb64f2d50657a5375))
+* fix react/function-component-definition rule and enable func-names ([4cffe9e](https://github.com/christophehurpeau/eslint-config-pob/commit/4cffe9e6b3251195eeccc74fd702192f412737e3))
+
+Version bump for dependency: eslint-config
+
 
 ## [51.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.0.1...v51.0.2) (2023-09-01)
 
