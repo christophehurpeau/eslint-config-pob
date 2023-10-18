@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [51.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.1.0...v51.1.1) (2023-10-18)
+
+
+### Bug Fixes
+
+* fix no-restricted-exports rule ([e808aa7](https://github.com/christophehurpeau/eslint-config-pob/commit/e808aa7403019a8915b2b4b3741f4a5c9f1f7336))
+
+
+
+
 ## [51.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.0.2...v51.1.0) (2023-10-03)
 
 
