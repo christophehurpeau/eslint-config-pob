@@ -21,7 +21,8 @@
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
-    "postinstall": "pob-root-postinstall"
+    "postinstall": "pob-root-postinstall",
+    "version": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
   },
   "prettier": "@pob/root/prettier-config",
   "commitlint": {
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "@pob/commitlint-config": "6.0.2",
+    "@pob/lerna-light": "8.0.1",
     "@pob/root": "8.4.1",
     "@typescript-eslint/eslint-plugin": "6.7.4",
     "@typescript-eslint/parser": "6.7.4",
