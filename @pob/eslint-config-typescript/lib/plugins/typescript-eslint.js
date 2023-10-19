@@ -46,6 +46,7 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-condition': 'off',
     '@typescript-eslint/keyword-spacing': 'off',
     '@typescript-eslint/lines-between-class-members': 'off',
+    '@typescript-eslint/prefer-destructuring': 'off',
 
     // enable dot-notation, like https://github.com/airbnb/javascript/blob/5b462a04cdfebba712a3df18926edfcb4103d2a9/packages/eslint-config-airbnb-base/rules/best-practices.js#L40-L41
     'dot-notation': 'off',
