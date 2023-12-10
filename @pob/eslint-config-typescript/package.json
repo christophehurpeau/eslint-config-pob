@@ -25,7 +25,6 @@
     "./app": "./lib/app.js",
     "./allow-unsafe": "./lib/allow-unsafe.js",
     "./test": "./lib/test.js",
-    "./tsc-emit": "./lib/tsc-emit.js",
     "./package.json": "./package.json"
   },
   "sideEffects": false,
