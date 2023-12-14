@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [51.2.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.2.1...v51.2.2) (2023-12-14)
+
+Note: no notable changes
+
+Version bump for dependency: eslint-config
+
+
 ## [51.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.2.0...v51.2.1) (2023-12-10)
 
 
