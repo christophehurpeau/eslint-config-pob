@@ -43,10 +43,10 @@
   "prettier": "@pob/root/prettier-config",
   "pob": {},
   "peerDependencies": {
-    "eslint": "^8.28.0",
+    "eslint": "^8.55.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^48.0.1"
+    "eslint-plugin-unicorn": "^49.0.0"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-import": {
@@ -64,7 +64,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^48.0.1"
+    "eslint-plugin-unicorn": "^49.0.0"
   },
   "devDependencies": {
     "eslint": "8.55.0",
@@ -72,6 +72,6 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-unicorn": "48.0.1"
+    "eslint-plugin-unicorn": "49.0.0"
   }
 }
