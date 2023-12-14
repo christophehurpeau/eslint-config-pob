@@ -1,7 +1,7 @@
 {
   "name": "@pob/eslint-config-monorepo",
   "private": true,
-  "version": "51.1.2",
+  "version": "51.2.1",
   "description": "pob eslint configs",
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
@@ -11,7 +11,7 @@
   "engines": {
     "node": ">=18.12.0"
   },
-  "packageManager": "yarn@4.0.1",
+  "packageManager": "yarn@4.0.2",
   "workspaces": [
     "@pob/*"
   ],
@@ -30,21 +30,21 @@
     ]
   },
   "devDependencies": {
-    "@pob/commitlint-config": "6.2.0",
-    "@pob/root": "8.6.0",
-    "@typescript-eslint/eslint-plugin": "6.9.1",
-    "@typescript-eslint/parser": "6.9.1",
-    "check-package-dependencies": "6.8.0",
-    "eslint": "8.53.0",
+    "@pob/commitlint-config": "6.3.0",
+    "@pob/root": "8.9.1",
+    "@typescript-eslint/eslint-plugin": "6.14.0",
+    "@typescript-eslint/parser": "6.14.0",
+    "check-package-dependencies": "7.0.0",
+    "eslint": "8.55.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.28.1",
-    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-unicorn": "49.0.0",
     "semver": "7.5.4",
-    "typescript": "5.2.2"
+    "typescript": "5.3.3"
   }
 }

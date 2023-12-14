@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [51.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.2.0...v51.2.1) (2023-12-10)
+
+
+### Bug Fixes
+
+* remove tsc-emit ([7e327e2](https://github.com/christophehurpeau/eslint-config-pob/commit/7e327e265778b97b171bbca7a70241cd0fa748ea))
+
+
+
+
+## [51.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.1.2...v51.2.0) (2023-12-10)
+
+
+### Features
+
+* configure import/extensions for tsc emit ([4986f20](https://github.com/christophehurpeau/eslint-config-pob/commit/4986f207457e02102a84ac9ea7f0cb004b984a7b))
+* update [@typescript-eslint](https://github.com/typescript-eslint) ([4ac647a](https://github.com/christophehurpeau/eslint-config-pob/commit/4ac647adfde1b51f695da0b062495e668cbfb834))
+
+Version bump for dependency: eslint-config
+
+
 ## [51.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.1.1...v51.1.2) (2023-10-19)
 
 
