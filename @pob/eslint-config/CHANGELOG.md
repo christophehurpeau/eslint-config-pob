@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [52.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.2.2...v52.0.0) (2023-12-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* change import/extensions to ignorePackages
+
+### Features
+
+* change import/extensions to ignorePackages ([36f2d6d](https://github.com/christophehurpeau/eslint-config-pob/commit/36f2d6d8f1255659aee27f639bc8c5fab140209c))
+
+
+
+
 ## [51.2.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.2.1...v51.2.2) (2023-12-14)
 
 Note: no notable changes
