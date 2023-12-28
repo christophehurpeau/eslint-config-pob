@@ -1,7 +1,7 @@
 {
   "name": "@pob/eslint-config-monorepo",
   "private": true,
-  "version": "53.0.0",
+  "version": "53.1.0",
   "description": "pob eslint configs",
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
