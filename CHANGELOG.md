@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [53.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v53.0.0...v53.1.0) (2023-12-28)
+
+
+### Features
+
+* **eslint-config-typescript:** improve test override ([418ce66](https://github.com/christophehurpeau/eslint-config-pob/commit/418ce66140de35ad22d57aaf095172d0e8bc76cd))
+
+
 ## [53.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v52.0.1...v53.0.0) (2023-12-28)
 
 
