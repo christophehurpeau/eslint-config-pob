@@ -2,6 +2,17 @@
 
 module.exports = {
   rules: {
+    // reduce required quality
+    'max-lines': 'off',
+
+    // allow dev dependencies
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: true,
+      },
+    ],
+
     // enable (as any).something in test
     '@typescript-eslint/no-unsafe-member-access': 'off',
 
