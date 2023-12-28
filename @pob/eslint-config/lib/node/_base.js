@@ -25,15 +25,7 @@ exports.overrideRules = {
   'no-sync': 'off',
 
   // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
-  'import/extensions': [
-    'error',
-    'ignorePackages',
-    {
-      mjs: 'always',
-      cjs: 'always',
-      js: 'never',
-    },
-  ],
+  'import/extensions': ['error', 'ignorePackages'],
 };
 
 exports.env = {
