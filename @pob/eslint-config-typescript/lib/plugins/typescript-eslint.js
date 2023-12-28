@@ -1,6 +1,6 @@
 'use strict';
 
-const { enableIfVSCode } = require('@pob/eslint-config/utils');
+const { enableIfVSCode } = require('@pob/eslint-config/utils.js');
 
 module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],

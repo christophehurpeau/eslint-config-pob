@@ -22,9 +22,13 @@
   "exports": {
     ".": "./lib/index.js",
     "./node": "./lib/node.js",
+    "./node.js": "./lib/node.js",
     "./app": "./lib/app.js",
+    "./app.js": "./lib/app.js",
     "./allow-unsafe": "./lib/allow-unsafe.js",
+    "./allow-unsafe.js": "./lib/allow-unsafe.js",
     "./test": "./lib/test.js",
+    "./test.js": "./lib/test.js",
     "./package.json": "./package.json"
   },
   "sideEffects": false,

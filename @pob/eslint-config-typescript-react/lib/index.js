@@ -19,17 +19,6 @@ module.exports = {
   },
 
   rules: {
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'ignorePackages',
-        cjs: 'ignorePackages',
-        mjs: 'ignorePackages',
-        ts: 'never',
-        tsx: 'never',
-      },
-    ],
     'react/jsx-filename-extension': ['error', { extensions: ['tsx'] }],
   },
 };

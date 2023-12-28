@@ -1,6 +1,8 @@
 'use strict';
 
-const { rules: pobStyleRules } = require('@pob/eslint-config/lib/rules/style');
+const {
+  rules: pobStyleRules,
+} = require('@pob/eslint-config/lib/rules/style.js');
 const {
   rules: baseBestPracticesRules,
 } = require('eslint-config-airbnb-base/rules/best-practices');
