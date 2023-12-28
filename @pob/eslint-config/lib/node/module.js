@@ -1,6 +1,6 @@
 'use strict';
 
-const { env, overrideRules } = require('./_base.js');
+const { env, overrideRules } = require('./_base');
 
 module.exports = {
   plugins: ['node'],
@@ -18,6 +18,17 @@ module.exports = {
     ...overrideRules,
     'unicorn/prefer-module': 'error',
     'unicorn/import-index': 'off',
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        mjs: 'always',
+        cjs: 'always',
+        js: 'always',
+      },
+    ],
   },
 
   overrides: [
