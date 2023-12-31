@@ -15,9 +15,7 @@
   "engines": {
     "node": ">=18.12.0"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "sideEffects": false,
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
@@ -26,7 +24,9 @@
     "./react-native-web": "./lib/react-native-web.js",
     "./package.json": "./package.json"
   },
-  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
@@ -34,8 +34,8 @@
     "lint": "yarn run lint:eslint",
     "lint:eslint": "yarn ../.. run eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config-typescript-react"
   },
-  "prettier": "@pob/root/prettier-config",
   "pob": {},
+  "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
     "eslint": "^8.55.0",
     "eslint-plugin-import": "^2.29.1",

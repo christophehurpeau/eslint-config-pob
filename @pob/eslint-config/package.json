@@ -15,9 +15,7 @@
   "engines": {
     "node": ">=18.12.0"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "sideEffects": false,
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/base.js",
@@ -31,7 +29,9 @@
     "./utils": "./utils.js",
     "./package.json": "./package.json"
   },
-  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib",
     "utils.js"
@@ -40,8 +40,8 @@
     "lint": "yarn run lint:eslint",
     "lint:eslint": "yarn ../.. run eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config"
   },
-  "prettier": "@pob/root/prettier-config",
   "pob": {},
+  "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
     "eslint": "^8.55.0",
     "eslint-plugin-import": "^2.29.1",
