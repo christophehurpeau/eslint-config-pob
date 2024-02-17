@@ -45,14 +45,14 @@
   "peerDependencies": {
     "eslint": "^8.55.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-unicorn": "^49.0.0"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-import": {
       "optional": true
     },
-    "eslint-plugin-node": {
+    "eslint-plugin-n": {
       "optional": true
     },
     "eslint-plugin-unicorn": {
@@ -63,7 +63,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-unicorn": "^49.0.0"
   },
   "devDependencies": {
@@ -71,7 +71,7 @@
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-n": "16.6.2",
     "eslint-plugin-unicorn": "49.0.0"
   }
 }

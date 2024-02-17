@@ -20,5 +20,5 @@
 
 ### node
 
-1. `npm install --save-dev eslint @pob/eslint-config eslint-plugin-node eslint-plugin-import`
+1. `npm install --save-dev eslint @pob/eslint-config eslint-plugin-n eslint-plugin-import`
 2. add `"extends": ["@pob/eslint-config", "@pob/eslint-config/node"]` to your .eslintrc.json
