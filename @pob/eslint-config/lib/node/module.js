@@ -3,8 +3,8 @@
 const { env, overrideRules } = require('./_base');
 
 module.exports = {
-  plugins: ['node'],
-  extends: ['plugin:node/recommended-module'],
+  plugins: ['n'],
+  extends: ['plugin:n/recommended-module'],
   parserOptions: {
     sourceType: 'module',
     // https://node.green/#ES2020
@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       files: ['*.cjs'],
-      extends: ['plugin:node/recommended-script'],
+      extends: ['plugin:n/recommended-script'],
       parserOptions: {
         sourceType: 'script',
         ecmaVersion: 2022,
