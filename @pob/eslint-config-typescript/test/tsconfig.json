@@ -2,6 +2,9 @@
   "compilerOptions": {
     "noEmit": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "moduleDetection": "force",
+    "module": "es2022",
+    "target": "es2022"
   }
 }
