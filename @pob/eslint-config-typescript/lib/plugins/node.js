@@ -1,18 +1,18 @@
 'use strict';
 
 module.exports = {
-  plugins: ['node'],
-  extends: ['plugin:node/recommended-module'],
+  plugins: ['n'],
+  extends: ['plugin:n/recommended-module'],
 
   rules: {
     // already checked by import plugin
-    'node/no-unpublished-require': 'off',
-    'node/no-extraneous-require': 'off',
+    'n/no-unpublished-require': 'off',
+    'n/no-extraneous-require': 'off',
 
     // disable no-unsupported-features when using babel
-    'node/no-unsupported-features': 'off',
-    'node/no-unsupported-features/es-syntax': 'off',
-    'node/no-missing-import': 'off',
-    'node/no-unpublished-import': 'off',
+    'n/no-unsupported-features/es-builtins': 'off',
+    'n/no-unsupported-features/es-syntax': 'off',
+    'n/no-missing-import': 'off',
+    'n/no-unpublished-import': 'off',
   },
 };

@@ -3,8 +3,8 @@
 const { env, overrideRules } = require('./_base');
 
 module.exports = {
-  plugins: ['node'],
-  extends: ['plugin:node/recommended-script'],
+  plugins: ['n'],
+  extends: ['plugin:n/recommended-script'],
   env,
 
   parserOptions: {
@@ -23,7 +23,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.mjs'],
-      extends: ['plugin:node/recommended-module'],
+      extends: ['plugin:n/recommended-module'],
       parserOptions: {
         sourceType: 'module',
         ecmaVersion: 2022,
