@@ -432,8 +432,8 @@ __metadata:
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-n: "npm:16.6.2"
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^6.16.0
-    "@typescript-eslint/parser": ^6.16.0
+    "@typescript-eslint/eslint-plugin": ^6.21.0
+    "@typescript-eslint/parser": ^6.21.0
     eslint: ^8.56.0
     eslint-plugin-import: ^2.29.1
     eslint-plugin-n: ^16.6.2
