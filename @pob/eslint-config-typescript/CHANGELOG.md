@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [54.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v54.0.0...v54.0.1) (2024-02-24)
+
+
+### Bug Fixes
+
+* disable more rules from eslint-plugin-n ([10e311f](https://github.com/christophehurpeau/eslint-config-pob/commit/10e311f80052f0edcfc767bc4e976bc3b6d05767))
+
+Version bump for dependency: eslint-config
+
+
 ## [54.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v53.1.0...v54.0.0) (2024-02-17)
 
 
