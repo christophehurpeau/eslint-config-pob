@@ -5,14 +5,16 @@ module.exports = {
   extends: ['plugin:n/recommended-module'],
 
   rules: {
-    // already checked by import plugin
+    // Disable rules already checked by import plugin
     'n/no-unpublished-require': 'off',
     'n/no-extraneous-require': 'off',
+    'n/no-unpublished-import': 'off',
+    'n/no-extraneous-import': 'off',
+    'n/no-missing-require': 'off',
+    'n/no-missing-import': 'off',
 
     // disable no-unsupported-features when using babel
     'n/no-unsupported-features/es-builtins': 'off',
     'n/no-unsupported-features/es-syntax': 'off',
-    'n/no-missing-import': 'off',
-    'n/no-unpublished-import': 'off',
   },
 };
