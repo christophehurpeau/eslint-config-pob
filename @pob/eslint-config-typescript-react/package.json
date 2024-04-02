@@ -66,6 +66,6 @@
     "eslint-plugin-react-hooks": "^4.3.0"
   },
   "devDependencies": {
-    "@types/react": "18.2.73"
+    "@types/react": "18.2.74"
   }
 }
