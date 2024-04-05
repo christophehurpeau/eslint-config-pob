@@ -173,5 +173,10 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-infix-ops.md
     'space-infix-ops': 'off',
     '@typescript-eslint/space-infix-ops': baseStyleRules['space-infix-ops'],
+
+    // https://typescript-eslint.io/rules/consistent-return/
+    'consistent-return': 'off',
+    '@typescript-eslint/consistent-return':
+      baseBestPracticesRules['consistent-return'],
   },
 };
