@@ -45,6 +45,6 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-unicorn": "51.0.1",
     "semver": "7.6.0",
-    "typescript": "5.4.4"
+    "typescript": "5.4.5"
   }
 }
