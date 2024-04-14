@@ -7,10 +7,12 @@ interface FooProps {
 // eslint-disable-next-line react/prefer-stateless-function
 export class Foo extends React.Component<FooProps> {
   render(): React.ReactNode {
-    if (!this.props.foo) {
+    const { foo } = this.props;
+
+    if (!foo) {
       return null;
     }
 
-    return <div>{this.props.foo}</div>;
+    return <div>{foo}</div>;
   }
 }
