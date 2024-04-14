@@ -18,6 +18,8 @@ module.exports = {
   rules: {
     ...overrideRules,
     'unicorn/prefer-module': 'off',
+    'n/no-new-require': 'error',
+    'n/no-path-concat': 'error',
   },
 
   overrides: [
