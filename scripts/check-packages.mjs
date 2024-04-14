@@ -18,25 +18,18 @@ await createCheckPackageWithWorkspaces({
   })
 
   .forRoot((checkRootPkg) => {
-    return checkRootPkg
-      .checkSatisfiesVersionsFromDependency('./@pob/eslint-config', {
+    return checkRootPkg.checkSatisfiesVersionsFromDependency(
+      './@pob/eslint-config',
+      {
         devDependencies: ['eslint-config-airbnb-base'],
-      })
-      .checkSatisfiesVersionsFromDependency(
-        './@pob/eslint-config-typescript-react',
-        {
-          devDependencies: ['eslint-config-airbnb'],
-        },
-      );
+      },
+    );
   })
   .forEach((checkPkg) => {
     const pkg = checkPkg.pkg;
 
     if (pkg.dependencies) {
-      const configDependencies = [
-        'eslint-config-airbnb-base',
-        'eslint-config-airbnb',
-      ];
+      const configDependencies = ['eslint-config-airbnb-base'];
       configDependencies.forEach((configDep) => {
         if (pkg.dependencies[configDep]) {
           const expectedVersion = rootPkg.devDependencies[configDep];
