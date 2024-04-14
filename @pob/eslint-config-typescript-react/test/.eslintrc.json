@@ -9,7 +9,13 @@
       "extends": [
         "../../eslint-config-typescript/lib/index.js",
         "../lib/index.js"
-      ]
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          { "devDependencies": true }
+        ]
+      }
     }
   ]
 }

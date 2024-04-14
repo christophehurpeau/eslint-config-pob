@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import { forwardRef, memo, type ReactNode } from 'react';
 
 // eslint-disable-next-line react/function-component-definition
