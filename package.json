@@ -32,8 +32,8 @@
   "devDependencies": {
     "@pob/commitlint-config": "6.3.1",
     "@pob/root": "9.2.0",
-    "@typescript-eslint/eslint-plugin": "7.5.0",
-    "@typescript-eslint/parser": "7.5.0",
+    "@typescript-eslint/eslint-plugin": "7.7.0",
+    "@typescript-eslint/parser": "7.7.0",
     "check-package-dependencies": "7.1.1",
     "eslint": "8.57.0",
     "eslint-config-airbnb-base": "15.0.0",
