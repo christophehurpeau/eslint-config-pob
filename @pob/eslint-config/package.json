@@ -46,7 +46,7 @@
   "peerDependencies": {
     "eslint": "^8.56.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-n": "^17.2.1",
     "eslint-plugin-unicorn": "^51.0.1"
   },
   "peerDependenciesMeta": {
@@ -63,7 +63,7 @@
   "dependencies": {
     "confusing-browser-globals": "^1.0.11",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^17.0.0",
+    "eslint-plugin-n": "^17.2.1",
     "eslint-plugin-unicorn": "^51.0.1"
   },
   "devDependencies": {

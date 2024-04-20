@@ -431,7 +431,7 @@ __metadata:
     "@typescript-eslint/parser": ^7.7.0
     eslint: ^8.56.0
     eslint-plugin-import: ^2.29.1
-    eslint-plugin-n: ^16.6.2
+    eslint-plugin-n: ^17.2.1
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
@@ -456,7 +456,7 @@ __metadata:
   peerDependencies:
     eslint: ^8.56.0
     eslint-plugin-import: ^2.29.1
-    eslint-plugin-n: ^16.6.2
+    eslint-plugin-n: ^17.2.1
     eslint-plugin-unicorn: ^51.0.1
   peerDependenciesMeta:
     eslint-plugin-import:
