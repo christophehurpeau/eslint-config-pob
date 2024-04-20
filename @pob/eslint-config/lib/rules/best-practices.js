@@ -202,8 +202,8 @@ module.exports = {
     // https://eslint.org/docs/rules/no-new-wrappers
     'no-new-wrappers': 'error',
 
-    // https://eslint.org/docs/rules/no-new-symbol
-    'no-new-symbol': 'error',
+    // https://eslint.org/docs/rules/no-new-native-nonconstructor
+    'no-new-native-nonconstructor': 'error',
 
     // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
     'no-nonoctal-decimal-escape': 'error',
