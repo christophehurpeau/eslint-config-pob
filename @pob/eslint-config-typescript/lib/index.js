@@ -8,7 +8,6 @@ module.exports = {
     './plugins/typescript-eslint',
     './plugins/typescript-eslint-replace-eslint',
     './plugins/typescript-eslint-replace-unicorn',
-    '@pob/eslint-config/prettier',
   ].map(require.resolve),
 
   parserOptions: {

@@ -2,7 +2,10 @@
 
 module.exports = {
   rules: {
-    // TODO[eslint-config-airbnb-base@>=16.0.0]: Remove this rule ; see https://github.com/airbnb/javascript/pull/2721
+    // replaced by import/no-duplicates
+    'no-duplicate-imports': 'off',
+
+    // https://eslint.org/docs/rules/no-restricted-exports
     'no-restricted-exports': [
       'error',
       {

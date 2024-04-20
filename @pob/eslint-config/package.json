@@ -23,8 +23,9 @@
     "./node-module": "./lib/node-module.js",
     "./root-commonjs": "./lib/root-commonjs.js",
     "./root-module": "./lib/root-module.js",
-    "./prettier": "./lib/plugins/prettier.js",
-    "./rules/expert": "./lib/rules/expert.js",
+    "./lib/rules/best-practices": "./lib/rules/best-practices.js",
+    "./lib/rules/code-quality": "./lib/rules/code-quality.js",
+    "./lib/rules/errors": "./lib/rules/errors.js",
     "./lib/rules/style": "./lib/rules/style.js",
     "./utils": "./utils.js",
     "./package.json": "./package.json"
@@ -60,16 +61,13 @@
     }
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.1.0",
+    "confusing-browser-globals": "^1.0.11",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-unicorn": "^51.0.1"
   },
   "devDependencies": {
     "eslint": "8.57.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-unicorn": "51.0.1"

@@ -1,182 +1,138 @@
 'use strict';
 
+const {
+  rules: pobBestPracticesRules,
+} = require('@pob/eslint-config/lib/rules/best-practices');
+const {
+  rules: pobCodeQualityRules,
+} = require('@pob/eslint-config/lib/rules/code-quality');
+const {
+  rules: pobErrorsRules,
+} = require('@pob/eslint-config/lib/rules/errors');
 const { rules: pobStyleRules } = require('@pob/eslint-config/lib/rules/style');
-const {
-  rules: baseBestPracticesRules,
-} = require('eslint-config-airbnb-base/rules/best-practices');
-const {
-  rules: baseErrorsRules,
-} = require('eslint-config-airbnb-base/rules/errors');
-const { rules: baseES6Rules } = require('eslint-config-airbnb-base/rules/es6');
-const { rules: baseEs6Rules } = require('eslint-config-airbnb-base/rules/es6');
-const {
-  rules: baseStyleRules,
-} = require('eslint-config-airbnb-base/rules/style');
-const {
-  rules: baseVariablesRules,
-} = require('eslint-config-airbnb-base/rules/variables');
+
+const getRuleValue = (config, ruleName) => {
+  const value = config[ruleName];
+  if (value == null) {
+    throw new Error(`getRuleValue: missing value for rule "${ruleName}"`);
+  }
+
+  return value;
+};
+
+const replaceRules = (config, ruleNames) => {
+  return Object.fromEntries(
+    ruleNames.flatMap((ruleName) => [
+      [ruleName, 'off'],
+      [`@typescript-eslint/${ruleName}`, getRuleValue(config, ruleName)],
+    ]),
+  );
+};
+
+const disabledRules = (ruleNames) => {
+  return Object.fromEntries(
+    ruleNames.map((ruleName) => {
+      [
+        pobBestPracticesRules,
+        pobCodeQualityRules,
+        pobErrorsRules,
+        pobStyleRules,
+      ].forEach((config) => {
+        const value = config[ruleName];
+        if (value != null && value !== 'off') {
+          throw new Error(`disabledRules: value for rule "${ruleName}" exists`);
+        }
+      });
+      return [ruleName, 'off'];
+    }),
+  );
+};
+
+const disableRules = (ruleNames) => {
+  return Object.fromEntries(ruleNames.map((ruleName) => [ruleName, 'off']));
+};
 
 module.exports = {
   /* Replace enabled rules in Airbnb by typescript-eslint rules */
   rules: {
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/brace-style.md
-    'brace-style': 'off',
-    '@typescript-eslint/brace-style': baseStyleRules['brace-style'],
+    ...replaceRules(pobBestPracticesRules, [
+      // https://typescript-eslint.io/rules/default-param-last
+      'default-param-last',
+      // https://typescript-eslint.io/rules/dot-notation
+      'dot-notation',
+      // https://typescript-eslint.io/rules/no-array-constructor
+      'no-array-constructor',
+      // https://typescript-eslint.io/rules/no-dupe-class-members
+      'no-dupe-class-members',
+      // https://typescript-eslint.io/rules/no-empty-function
+      'no-empty-function',
+      // https://typescript-eslint.io/rules/no-implied-eval
+      'no-implied-eval',
+      // https://typescript-eslint.io/rules/no-loop-func
+      'no-loop-func',
+      // https://typescript-eslint.io/rules/no-throw-literal
+      'no-throw-literal',
+      // https://typescript-eslint.io/rules/no-unused-expressions
+      'no-unused-expressions',
+      // https://typescript-eslint.io/rules/no-unused-vars
+      'no-unused-vars',
+      // https://typescript-eslint.io/rules/no-use-before-define
+      'no-use-before-define',
+      // https://typescript-eslint.io/rules/no-useless-constructor
+      'no-useless-constructor',
+      // https://typescript-eslint.io/rules/require-await
+      'require-await',
+      // https://typescript-eslint.io/rules/consistent-return
+      'consistent-return',
+      // https://typescript-eslint.io/rules/class-methods-use-this
+      'class-methods-use-this',
+    ]),
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-dangle.md
-    'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': baseStyleRules['comma-dangle'],
+    ...replaceRules(pobErrorsRules, [
+      // https://typescript-eslint.io/rules/no-loss-of-precision
+      'no-loss-of-precision',
+    ]),
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/comma-spacing.md
-    'comma-spacing': 'off',
-    '@typescript-eslint/comma-spacing': baseStyleRules['comma-spacing'],
+    ...disabledRules([
+      // https://typescript-eslint.io/rules/brace-style
+      'brace-style',
+      // https://typescript-eslint.io/rules/comma-dangle
+      'comma-dangle',
+      // https://typescript-eslint.io/rules/comma-spacing
+      'comma-spacing',
+      // https://typescript-eslint.io/rules/func-call-spacing
+      'func-call-spacing',
+      // https://typescript-eslint.io/rules/indent
+      'indent',
+      // https://typescript-eslint.io/rules/init-declarations
+      'init-declarations',
+      // https://typescript-eslint.io/rules/keyword-spacing
+      'keyword-spacing',
+      // https://typescript-eslint.io/rules/lines-between-class-members
+      'lines-between-class-members',
+      // https://typescript-eslint.io/rules/no-magic-numbers
+      'no-magic-numbers',
+      // https://typescript-eslint.io/rules/no-restricted-imports
+      'no-restricted-imports',
+      // https://typescript-eslint.io/rules/no-shadow
+      'no-shadow',
+      // https://typescript-eslint.io/rules/object-curly-spacing
+      'object-curly-spacing',
+      // https://typescript-eslint.io/rules/padding-line-between-statements
+      'padding-line-between-statements',
+      // https://typescript-eslint.io/rules/semi
+      'semi',
+      // https://typescript-eslint.io/rules/prefer-destructuring
+      'prefer-destructuring',
+    ]),
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/default-param-last.md
-    'default-param-last': 'off',
-    '@typescript-eslint/default-param-last':
-      baseBestPracticesRules['default-param-last'],
+    /* covered by tsc */
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
-    'dot-notation': 'off',
-    '@typescript-eslint/dot-notation': baseBestPracticesRules['dot-notation'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/func-call-spacing.md
-    'func-call-spacing': 'off',
-    '@typescript-eslint/func-call-spacing': baseStyleRules['func-call-spacing'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/indent.md
-    indent: 'off',
-    '@typescript-eslint/indent': baseStyleRules.indent,
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/init-declarations.md
-    'init-declarations': 'off',
-    '@typescript-eslint/init-declarations':
-      baseVariablesRules['init-declarations'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/keyword-spacing.md
-    'keyword-spacing': 'off',
-    '@typescript-eslint/keyword-spacing': baseStyleRules['keyword-spacing'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/lines-between-class-members.md
-    'lines-between-class-members': 'off',
-    '@typescript-eslint/lines-between-class-members':
-      baseStyleRules['lines-between-class-members'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-array-constructor.md
-    'no-array-constructor': 'off',
-    '@typescript-eslint/no-array-constructor':
-      baseStyleRules['no-array-constructor'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-dupe-class-members.md
-    'no-dupe-class-members': 'off',
-    '@typescript-eslint/no-dupe-class-members':
-      baseES6Rules['no-dupe-class-members'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md
-    'no-empty-function': 'off',
-    '@typescript-eslint/no-empty-function':
-      baseBestPracticesRules['no-empty-function'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implied-eval.md
-    'no-implied-eval': 'off',
-    '@typescript-eslint/no-implied-eval':
-      baseBestPracticesRules['no-implied-eval'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-invalid-this.md
-    'no-invalid-this': 'off',
-    '@typescript-eslint/no-invalid-this':
-      baseBestPracticesRules['no-invalid-this'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loop-func.md
-    'no-loop-func': 'off',
-    '@typescript-eslint/no-loop-func': baseBestPracticesRules['no-loop-func'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loss-of-precision.md
-    'no-loss-of-precision': 'off',
-    '@typescript-eslint/no-loss-of-precision':
-      baseErrorsRules['no-loss-of-precision'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-magic-numbers.md
-    'no-magic-numbers': 'off',
-    '@typescript-eslint/no-magic-numbers':
-      baseBestPracticesRules['no-magic-numbers'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-redeclare.md
-    'no-redeclare': 'off',
-    '@typescript-eslint/no-redeclare': baseBestPracticesRules['no-redeclare'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-redeclare.md
-    'no-restricted-imports': 'off',
-    '@typescript-eslint/no-restricted-imports':
-      baseEs6Rules['no-restricted-imports'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
-    'no-shadow': 'off',
-    '@typescript-eslint/no-shadow': baseVariablesRules['no-shadow'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-throw-literal.md
-    'no-throw-literal': 'off',
-    '@typescript-eslint/no-throw-literal':
-      baseBestPracticesRules['no-throw-literal'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-expressions.md
-    'no-unused-expressions': 'off',
-    '@typescript-eslint/no-unused-expressions':
-      baseBestPracticesRules['no-unused-expressions'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': pobStyleRules['no-unused-vars'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
-    'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define':
-      baseVariablesRules['no-use-before-define'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-useless-constructor.md
-    'no-useless-constructor': 'off',
-    '@typescript-eslint/no-useless-constructor':
-      baseES6Rules['no-useless-constructor'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/object-curly-spacing.md
-    'object-curly-spacing': 'off',
-    '@typescript-eslint/object-curly-spacing':
-      baseStyleRules['object-curly-spacing'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/padding-line-between-statements.md
-    'padding-line-between-statements': 'off',
-    '@typescript-eslint/padding-line-between-statements':
-      baseStyleRules['padding-line-between-statements'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/quotes.md
-    quotes: 'off',
-    '@typescript-eslint/quotes': baseStyleRules.quotes,
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-await.md
-    'require-await': 'off',
-    '@typescript-eslint/require-await': baseBestPracticesRules['require-await'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/return-await.md
-    'no-return-await': 'off',
-    '@typescript-eslint/return-await':
-      baseBestPracticesRules['no-return-await'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/semi.md
-    semi: 'off',
-    '@typescript-eslint/semi': baseStyleRules.semi,
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-before-function-paren.md
-    'space-before-function-paren': 'off',
-    '@typescript-eslint/space-before-function-paren':
-      baseStyleRules['space-before-function-paren'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/space-infix-ops.md
-    'space-infix-ops': 'off',
-    '@typescript-eslint/space-infix-ops': baseStyleRules['space-infix-ops'],
-
-    // https://typescript-eslint.io/rules/consistent-return/
-    'consistent-return': 'off',
-    '@typescript-eslint/consistent-return':
-      baseBestPracticesRules['consistent-return'],
+    ...disableRules([
+      // https://typescript-eslint.io/rules/no-invalid-this
+      'no-invalid-this',
+      // https://typescript-eslint.io/rules/no-redeclare
+      'no-redeclare',
+    ]),
   },
 };
