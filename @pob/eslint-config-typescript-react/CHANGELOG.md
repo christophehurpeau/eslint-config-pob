@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v54.0.2...v55.0.0) (2024-04-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove config eslint-config-airbnb as dependency
+
+### Features
+
+* remove config eslint-config-airbnb as dependency ([5fc0e37](https://github.com/christophehurpeau/eslint-config-pob/commit/5fc0e378d61343d3a0f0ea8b994183d60353a3a0))
+
+Version bump for dependency: eslint-config
+
+
 ## [54.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v54.0.1...v54.0.2) (2024-04-07)
 
 Note: no notable changes
