@@ -5,3 +5,6 @@
 if (foo == NaN) {
   // ...
 }
+
+// eslint-disable-next-line no-restricted-globals
+isNaN(NaN);

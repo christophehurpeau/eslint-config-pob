@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-condition */
 // eslint-disable-next-line no-restricted-syntax, no-labels, no-unreachable-loop
 outer: while (true) {
   // eslint-disable-next-line no-unreachable-loop

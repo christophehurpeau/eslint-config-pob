@@ -1,5 +1,5 @@
+/* eslint-disable no-constant-condition */
 /* eslint-disable no-var */
-/* eslint-disable vars-on-top */
 
 'use strict';
 
