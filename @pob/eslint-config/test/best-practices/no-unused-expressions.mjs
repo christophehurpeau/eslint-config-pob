@@ -1,2 +1,2 @@
 // eslint-disable-next-line no-unused-expressions
-if (0) 0;
+if (process.env.NODE_ENV) 0;

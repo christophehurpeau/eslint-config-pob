@@ -17,4 +17,6 @@ C: switch (a) {
   case 0:
     // eslint-disable-next-line no-extra-label
     break C;
+  default:
+    break;
 }

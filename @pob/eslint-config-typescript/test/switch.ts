@@ -15,6 +15,7 @@ switch (day) {
   case 'Monday':
     result = 1;
     break;
+  // no default
 }
 
 export const getResult = (): number => result;

@@ -4,56 +4,70 @@ const { enableIfVSCode } = require('@pob/eslint-config/utils');
 
 module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],
-  extends: ['plugin:@typescript-eslint/all'],
+  extends: ['plugin:@typescript-eslint/strict-type-checked'],
 
   rules: {
-    // disabled by prettier : indent, member-delimiter-style, type-annotation-spacing
+    // https://typescript-eslint.io/rules/adjacent-overload-signatures/
+    '@typescript-eslint/adjacent-overload-signatures': 'error',
 
-    /* warnings: not required to be fixed, but should require attention */
-    '@typescript-eslint/no-explicit-any': 'warn',
-    '@typescript-eslint/no-non-null-assertion': 'warn',
-    '@typescript-eslint/no-redundant-type-constituents': 'warn',
+    // https://typescript-eslint.io/rules/array-type/
+    '@typescript-eslint/array-type': 'error',
 
-    /* disabled */
+    // https://typescript-eslint.io/rules/ban-tslint-comment/
+    '@typescript-eslint/ban-tslint-comment': 'error',
 
-    // too much errors on existing code
-    '@typescript-eslint/unbound-method': 'off',
+    // https://typescript-eslint.io/rules/class-literal-property-style/
+    '@typescript-eslint/class-literal-property-style': 'error',
 
-    // too verbose and eslint already makes sure we don't modify parameters
-    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
+    // https://typescript-eslint.io/rules/consistent-generic-constructors/
+    '@typescript-eslint/consistent-generic-constructors': 'error',
 
-    // most of the time it's sorted by the developer as it is easier to read
-    '@typescript-eslint/sort-type-union-intersection-members': 'off',
+    // https://typescript-eslint.io/rules/consistent-indexed-object-style/
+    '@typescript-eslint/consistent-indexed-object-style': 'error',
 
-    /* Not enabled */
+    // https://typescript-eslint.io/rules/consistent-type-assertions/
+    '@typescript-eslint/consistent-type-assertions': [
+      'error',
+      {
+        assertionStyle: 'as',
+        objectLiteralTypeAssertions: 'allow-as-parameter',
+      },
+    ],
 
-    '@typescript-eslint/generic-type-naming': 'off',
-    '@typescript-eslint/member-naming': 'off',
-    '@typescript-eslint/member-ordering': 'off',
-    '@typescript-eslint/no-extraneous-class': 'off',
-    '@typescript-eslint/no-magic-numbers': 'off',
-    '@typescript-eslint/no-require-imports': 'off',
-    '@typescript-eslint/no-unnecessary-qualifier': 'off',
-    '@typescript-eslint/no-unnecessary-type-arguments': 'off',
-    '@typescript-eslint/no-type-alias': 'off',
-    '@typescript-eslint/prefer-for-of': 'off',
-    '@typescript-eslint/promise-function-async': 'off',
-    '@typescript-eslint/require-array-sort-compare': 'off',
-    '@typescript-eslint/strict-boolean-expressions': 'off',
-    '@typescript-eslint/typedef': 'off',
-    '@typescript-eslint/unified-signatures': 'off',
-    '@typescript-eslint/prefer-nullish-coalescing': 'off',
-    '@typescript-eslint/no-unnecessary-condition': 'off',
-    '@typescript-eslint/keyword-spacing': 'off',
-    '@typescript-eslint/lines-between-class-members': 'off',
-    '@typescript-eslint/prefer-destructuring': 'off',
+    // https://typescript-eslint.io/rules/consistent-type-definitions/
+    '@typescript-eslint/consistent-type-definitions': 'error',
 
-    // enable dot-notation, like https://github.com/airbnb/javascript/blob/5b462a04cdfebba712a3df18926edfcb4103d2a9/packages/eslint-config-airbnb-base/rules/best-practices.js#L40-L41
-    'dot-notation': 'off',
-    '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
+    // https://typescript-eslint.io/rules/consistent-type-exports/
+    '@typescript-eslint/consistent-type-exports': 'error',
 
-    // Testing rules as warn
-    '@typescript-eslint/prefer-as-const': 'warn',
+    // https://typescript-eslint.io/rules/consistent-type-imports/
+    '@typescript-eslint/consistent-type-imports': 'error',
+
+    // https://typescript-eslint.io/rules/explicit-function-return-type/
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      {
+        allowExpressions: true,
+        allowTypedFunctionExpressions: true,
+        allowHigherOrderFunctions: true,
+        allowDirectConstAssertionInArrowFunctions: true,
+        allowConciseArrowFunctionExpressionsStartingWithVoid: false,
+        allowFunctionsWithoutTypeParameters: false,
+        allowedNames: [],
+        allowIIFEs: false,
+      },
+    ],
+
+    // https://typescript-eslint.io/rules/explicit-member-accessibility/
+    '@typescript-eslint/explicit-member-accessibility': 'off',
+
+    // https://typescript-eslint.io/rules/explicit-module-boundary-types/
+    '@typescript-eslint/explicit-module-boundary-types': 'error',
+
+    // https://typescript-eslint.io/rules/method-signature-style/
+    '@typescript-eslint/method-signature-style': 'error',
+
+    // https://typescript-eslint.io/rules/naming-convention/
     '@typescript-eslint/naming-convention': [
       enableIfVSCode('warn'),
       // Enforce that interface names do not begin with an I
@@ -71,37 +85,110 @@ module.exports = {
         format: ['PascalCase'],
       },
     ],
+
+    // https://typescript-eslint.io/rules/no-confusing-non-null-assertion/
+    '@typescript-eslint/no-confusing-non-null-assertion': 'error',
+
+    // https://typescript-eslint.io/rules/no-empty-interface/
+    '@typescript-eslint/no-empty-interface': 'error',
+
+    // https://typescript-eslint.io/rules/no-import-type-side-effects/
+    '@typescript-eslint/no-import-type-side-effects': 'error',
+
+    // https://typescript-eslint.io/rules/no-inferrable-types/
+    '@typescript-eslint/no-inferrable-types': 'error',
+
+    // https://typescript-eslint.io/rules/no-require-imports/
+    '@typescript-eslint/no-require-imports': 'off',
+
+    // https://typescript-eslint.io/rules/no-unnecessary-qualifier/
+    // TODO to enable
+    '@typescript-eslint/no-unnecessary-qualifier': 'off',
+
+    // https://typescript-eslint.io/rules/no-unsafe-unary-minus/
+    '@typescript-eslint/no-unsafe-unary-minus': 'error',
+
+    // https://typescript-eslint.io/rules/no-useless-empty-export/
+    '@typescript-eslint/no-useless-empty-export': 'error',
+
+    // https://typescript-eslint.io/rules/non-nullable-type-assertion-style/
+    '@typescript-eslint/non-nullable-type-assertion-style': 'error',
+
+    // https://typescript-eslint.io/rules/parameter-properties/
+    '@typescript-eslint/parameter-properties': 'error',
+
+    // https://typescript-eslint.io/rules/prefer-enum-initializers/
+    '@typescript-eslint/prefer-enum-initializers': 'error',
+
+    // https://typescript-eslint.io/rules/prefer-find/
+    '@typescript-eslint/prefer-find': 'error',
+
+    // https://typescript-eslint.io/rules/prefer-for-of/
+    '@typescript-eslint/prefer-for-of': 'off',
+
+    // https://typescript-eslint.io/rules/prefer-function-type/
+    '@typescript-eslint/prefer-function-type': 'error',
+
+    // https://typescript-eslint.io/rules/prefer-namespace-keyword/
+    '@typescript-eslint/prefer-namespace-keyword': 'error',
+
+    // https://typescript-eslint.io/rules/prefer-nullish-coalescing/
+    '@typescript-eslint/prefer-nullish-coalescing': 'off',
+
+    // https://typescript-eslint.io/rules/prefer-optional-chain/
+    '@typescript-eslint/prefer-optional-chain': 'error',
+
+    // https://typescript-eslint.io/rules/prefer-readonly/
+    '@typescript-eslint/prefer-readonly': 'off',
+
+    // https://typescript-eslint.io/rules/prefer-readonly-parameter-types/
+    // too verbose and eslint already makes sure we don't modify parameters
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
+
+    // https://typescript-eslint.io/rules/prefer-regexp-exec/
+    '@typescript-eslint/prefer-regexp-exec': 'error',
+
+    // https://typescript-eslint.io/rules/prefer-string-starts-ends-with/
+    '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+
+    // https://typescript-eslint.io/rules/promise-function-async/
+    '@typescript-eslint/promise-function-async': 'off',
+
+    // https://typescript-eslint.io/rules/require-array-sort-compare/
+    '@typescript-eslint/require-array-sort-compare': 'off',
+
+    // https://typescript-eslint.io/rules/sort-type-constituents/
+    '@typescript-eslint/sort-type-constituents': 'error',
+
+    // https://typescript-eslint.io/rules/strict-boolean-expressions/
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+
+    // https://typescript-eslint.io/rules/switch-exhaustiveness-check/
+    '@typescript-eslint/switch-exhaustiveness-check': 'error',
+
+    // https://typescript-eslint.io/rules/typedef/
+    '@typescript-eslint/typedef': 'off',
+
+    /* warnings: not required to be fixed, but should require attention */
+    '@typescript-eslint/no-explicit-any': 'warn',
+    '@typescript-eslint/no-non-null-assertion': 'warn',
+    '@typescript-eslint/no-redundant-type-constituents': 'warn',
+
+    /* Disabled */
+
+    // too much errors on existing code
+    '@typescript-eslint/unbound-method': 'off',
+
+    // most of the time it's sorted by the developer as it is easier to read
+    '@typescript-eslint/sort-type-union-intersection-members': 'off',
+
+    '@typescript-eslint/member-ordering': 'off',
+    '@typescript-eslint/no-extraneous-class': 'off',
+    '@typescript-eslint/no-unnecessary-type-arguments': 'off',
+
+    // Testing rules as warn
+    '@typescript-eslint/unified-signatures': 'warn',
+    '@typescript-eslint/no-unnecessary-condition': 'warn',
     '@typescript-eslint/no-confusing-void-expression': 'warn',
-
-    /* changed */
-
-    // prefer interface
-    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-
-    // allow expressions
-    '@typescript-eslint/explicit-function-return-type': [
-      'error',
-      {
-        allowExpressions: true,
-        allowTypedFunctionExpressions: true,
-        allowHigherOrderFunctions: true,
-      },
-    ],
-
-    // https://github.com/typescript-eslint/typescript-eslint/issues/201
-    // private is coming in js world and no-public will be the most common way to read a js file (and probably ts)
-    '@typescript-eslint/explicit-member-accessibility': [
-      'error',
-      { accessibility: 'no-public' },
-    ],
-
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'none',
-        ignoreRestSiblings: true,
-      },
-    ],
   },
 };

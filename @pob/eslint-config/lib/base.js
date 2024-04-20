@@ -2,15 +2,17 @@
 
 module.exports = {
   extends: [
-    'eslint-config-airbnb-base',
-    './plugins/prettier',
-    './plugins/unicorn',
-    './rules/airbnb-fixes',
-    './rules/best-practices',
-    './rules/code-quality',
-    './rules/style',
-    './rules/expert',
-  ].map(require.resolve),
+    'eslint:recommended',
+    ...[
+      './plugins/unicorn',
+      './rules/best-practices',
+      './rules/code-quality',
+      './rules/errors',
+      './rules/style',
+      './plugins/import/import-base',
+      './plugins/import/import-commonjs',
+    ].map(require.resolve),
+  ],
 
   parserOptions: {
     sourceType: 'script',
@@ -26,12 +28,14 @@ module.exports = {
       parserOptions: {
         sourceType: 'module',
       },
+      extends: [require.resolve('./plugins/import/import-module')],
     },
     {
       files: ['*.cjs'],
       parserOptions: {
         sourceType: 'script',
       },
+      extends: [require.resolve('./plugins/import/import-commonjs')],
     },
   ],
 };

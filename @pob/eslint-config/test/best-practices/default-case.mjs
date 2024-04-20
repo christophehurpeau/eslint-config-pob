@@ -25,6 +25,7 @@ switch (foo) {
   // no default
 }
 
+// eslint-disable-next-line default-case
 switch (foo) {
   case 1:
     doSomething();

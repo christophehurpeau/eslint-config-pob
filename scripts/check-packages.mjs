@@ -1,10 +1,10 @@
-import fs from 'node:fs';
+// import fs from 'node:fs';
 import { createCheckPackageWithWorkspaces } from 'check-package-dependencies';
 import semver from 'semver';
 
-const rootPkg = JSON.parse(
-  fs.readFileSync(new URL('../package.json', import.meta.url)),
-);
+// const rootPkg = JSON.parse(
+//   fs.readFileSync(new URL('../package.json', import.meta.url)),
+// );
 
 await createCheckPackageWithWorkspaces({
   isLibrary: () => true,
@@ -17,34 +17,26 @@ await createCheckPackageWithWorkspaces({
     },
   })
 
-  .forRoot((checkRootPkg) => {
-    return checkRootPkg.checkSatisfiesVersionsFromDependency(
-      './@pob/eslint-config',
-      {
-        devDependencies: ['eslint-config-airbnb-base'],
-      },
-    );
-  })
   .forEach((checkPkg) => {
     const pkg = checkPkg.pkg;
 
     if (pkg.dependencies) {
-      const configDependencies = ['eslint-config-airbnb-base'];
-      configDependencies.forEach((configDep) => {
-        if (pkg.dependencies[configDep]) {
-          const expectedVersion = rootPkg.devDependencies[configDep];
-          if (pkg.dependencies[configDep].slice(1) !== expectedVersion) {
-            throw new Error(
-              `Invalid ${configDep} version in ${pkg.name}: should be ${expectedVersion}`,
-            );
-          }
-        }
-      });
+      // const configDependencies = ['eslint-config-airbnb-base'];
+      // configDependencies.forEach((configDep) => {
+      //   if (pkg.dependencies[configDep]) {
+      //     const expectedVersion = rootPkg.devDependencies[configDep];
+      //     if (pkg.dependencies[configDep].slice(1) !== expectedVersion) {
+      //       throw new Error(
+      //         `Invalid ${configDep} version in ${pkg.name}: should be ${expectedVersion}`,
+      //       );
+      //     }
+      //   }
+      // });
 
       Object.keys(pkg.dependencies).forEach((configDep) => {
         if (
-          configDep.startsWith('@pob') ||
-          configDependencies.includes(configDep)
+          configDep.startsWith('@pob') //||
+          // configDependencies.includes(configDep)
         ) {
           const configDepPkg = checkPkg.getDependencyPackageJson(configDep);
 

@@ -7,4 +7,8 @@ switch (foo) {
   // eslint-disable-next-line no-fallthrough
   case 2:
     doSomethingElse();
+
+  // eslint-disable-next-line no-fallthrough
+  default:
+    doSomethingElse();
 }

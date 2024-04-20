@@ -2,42 +2,24 @@
 
 module.exports = {
   rules: {
-    /* changed rules */
-
     // changed properties: 'never' to properties: 'always' ; true to 'ignoreDestructuring': false
     // http://eslint.org/docs/rules/camelcase
     camelcase: ['error', { properties: 'always', ignoreDestructuring: false }],
 
-    // stricter rule
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    'import/order': [
-      'error',
-      {
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-        ],
-        alphabetize: { order: 'asc', caseInsensitive: false },
-        'newlines-between': 'never',
-      },
-    ],
-
-    // http://eslint.org/docs/rules/no-unused-vars
-    'no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'none', // changed after-used to none
-        ignoreRestSiblings: true,
-      },
-    ],
-
     // http://eslint.org/docs/rules/object-shorthand
     'object-shorthand': ['error', 'always'],
+
+    // https://github.com/prettier/eslint-config-prettier#curly
+    // prettier doesn't enforce {} with multiline
+    curly: ['error', 'multi-line'],
+
+    // https://github.com/prettier/eslint-config-prettier#quotes
+    // prettier doesn't change backtick to single
+    quotes: [
+      'error',
+      'single',
+      { avoidEscape: true, allowTemplateLiterals: false },
+    ],
 
     /* disabled rules */
 
