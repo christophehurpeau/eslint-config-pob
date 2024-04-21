@@ -30,24 +30,4 @@ module.exports = {
       },
     ],
   },
-
-  overrides: [
-    {
-      files: ['*.mjs'],
-      rules: {},
-    },
-    {
-      files: ['*.cjs'],
-      extends: ['plugin:n/recommended-script'],
-      parserOptions: {
-        sourceType: 'script',
-        ecmaVersion: 2022,
-      },
-      rules: {
-        strict: ['error', 'safe'],
-        ...overrideRules,
-        'unicorn/prefer-module': 'off',
-      },
-    },
-  ],
 };

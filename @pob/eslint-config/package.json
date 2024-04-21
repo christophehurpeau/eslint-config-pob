@@ -18,7 +18,7 @@
   "sideEffects": false,
   "main": "./lib/index.js",
   "exports": {
-    ".": "./lib/base.js",
+    ".": "./lib/index.js",
     "./node-commonjs": "./lib/node-commonjs.js",
     "./node-module": "./lib/node-module.js",
     "./root-commonjs": "./lib/root-commonjs.js",
