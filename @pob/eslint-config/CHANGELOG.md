@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.0...v55.2.1) (2024-04-21)
+
+
+### Bug Fixes
+
+* remove generator-star-spacing ([088775c](https://github.com/christophehurpeau/eslint-config-pob/commit/088775c7b5ead1f2043aa83e375e1810ebb216e7))
+
+
+
+
 ## [55.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.1.0...v55.2.0) (2024-04-21)
 
 
