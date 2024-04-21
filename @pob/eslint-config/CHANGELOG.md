@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.1.0...v55.2.0) (2024-04-21)
+
+
+### Features
+
+* enable max-params ([9fe2d3f](https://github.com/christophehurpeau/eslint-config-pob/commit/9fe2d3f27d9ef0122ae6c11da26011f4e83d5e15))
+
+
+
+
 ## [55.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.0.1...v55.1.0) (2024-04-21)
 
 

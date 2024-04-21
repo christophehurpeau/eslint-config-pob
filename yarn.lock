@@ -391,7 +391,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
-    "@pob/eslint-config": "npm:55.1.0"
+    "@pob/eslint-config": "npm:55.2.0"
     "@types/react": "npm:18.2.79"
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-jsx-a11y: "npm:6.8.0"
@@ -420,7 +420,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript"
   dependencies:
-    "@pob/eslint-config": "npm:55.1.0"
+    "@pob/eslint-config": "npm:55.2.0"
     "@typescript-eslint/eslint-plugin": "npm:7.7.0"
     "@typescript-eslint/parser": "npm:7.7.0"
     eslint: "npm:8.57.0"
@@ -444,7 +444,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config@npm:55.1.0, @pob/eslint-config@workspace:@pob/eslint-config":
+"@pob/eslint-config@npm:55.2.0, @pob/eslint-config@workspace:@pob/eslint-config":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
