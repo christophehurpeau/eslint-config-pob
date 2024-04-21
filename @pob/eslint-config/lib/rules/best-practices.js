@@ -37,9 +37,6 @@ module.exports = {
     // https://eslint.org/docs/rules/eqeqeq
     eqeqeq: ['error', 'always', { null: 'ignore' }],
 
-    // https://eslint.org/docs/rules/generator-star-spacing
-    'generator-star-spacing': ['error', { before: false, after: true }],
-
     // https://eslint.org/docs/rules/grouped-accessor-pairs
     'grouped-accessor-pairs': 'error',
 
