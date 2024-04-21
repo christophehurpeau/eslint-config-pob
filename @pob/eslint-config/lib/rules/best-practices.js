@@ -49,6 +49,9 @@ module.exports = {
     // https://eslint.org/docs/rules/max-classes-per-file
     'max-classes-per-file': 'off',
 
+    // https://eslint.org/docs/rules/max-params
+    'max-params': 'warn',
+
     // require a capital letter for constructors
     // https://eslint.org/docs/rules/new-cap
     'new-cap': [
