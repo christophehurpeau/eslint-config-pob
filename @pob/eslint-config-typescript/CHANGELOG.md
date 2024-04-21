@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.0.0...v55.0.1) (2024-04-21)
+
+Note: no notable changes
+
+
+
+
 ## [55.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v54.0.2...v55.0.0) (2024-04-20)
 
 

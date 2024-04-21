@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.0.0...v55.0.1) (2024-04-21)
+
+
+### Bug Fixes
+
+* properly configure module vs commonjs ([0094461](https://github.com/christophehurpeau/eslint-config-pob/commit/0094461a633be153a734a4f52cfaa548f92a6e1e))
+
+
 ## [55.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v54.0.2...v55.0.0) (2024-04-20)
 
 
