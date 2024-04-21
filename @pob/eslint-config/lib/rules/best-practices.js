@@ -1,4 +1,3 @@
-/* eslint-disable max-lines */
 'use strict';
 
 const confusingBrowserGlobals = require('confusing-browser-globals');

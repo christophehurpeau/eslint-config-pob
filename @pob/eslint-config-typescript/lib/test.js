@@ -2,9 +2,6 @@
 
 module.exports = {
   rules: {
-    // reduce required quality
-    'max-lines': 'off',
-
     // allow dev dependencies
     'import/no-extraneous-dependencies': [
       'error',
