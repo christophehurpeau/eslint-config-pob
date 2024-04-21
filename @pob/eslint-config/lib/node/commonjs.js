@@ -21,32 +21,4 @@ module.exports = {
     'n/no-new-require': 'error',
     'n/no-path-concat': 'error',
   },
-
-  overrides: [
-    {
-      files: ['*.mjs'],
-      extends: ['plugin:n/recommended-module'],
-      parserOptions: {
-        sourceType: 'module',
-        ecmaVersion: 2022,
-      },
-      rules: {
-        ...overrideRules,
-        'unicorn/prefer-module': 'error',
-        'import/extensions': [
-          'error',
-          'ignorePackages',
-          {
-            mjs: 'always',
-            cjs: 'always',
-            js: 'always',
-          },
-        ],
-      },
-    },
-    {
-      files: ['*.cjs'],
-      rules: {},
-    },
-  ],
 };
