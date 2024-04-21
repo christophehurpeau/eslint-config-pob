@@ -157,6 +157,19 @@ module.exports = {
     // https://typescript-eslint.io/rules/require-array-sort-compare/
     '@typescript-eslint/require-array-sort-compare': 'off',
 
+    // https://typescript-eslint.io/rules/restrict-template-expressions/
+    '@typescript-eslint/restrict-template-expressions': [
+      'error',
+      {
+        allowAny: false,
+        allowBoolean: true,
+        allowNullish: false,
+        allowNumber: true,
+        allowRegExp: false,
+        allowNever: false,
+      },
+    ],
+
     // https://typescript-eslint.io/rules/sort-type-constituents/
     '@typescript-eslint/sort-type-constituents': 'error',
 
