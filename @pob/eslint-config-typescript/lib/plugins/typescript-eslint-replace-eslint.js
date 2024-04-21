@@ -86,6 +86,8 @@ module.exports = {
       'consistent-return',
       // https://typescript-eslint.io/rules/class-methods-use-this
       'class-methods-use-this',
+      // https://typescript-eslint.io/rules/max-params
+      'max-params',
     ]),
 
     ...replaceRules(pobErrorsRules, [
