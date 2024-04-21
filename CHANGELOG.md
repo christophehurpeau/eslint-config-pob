@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.0.1...v55.1.0) (2024-04-21)
+
+
+### Features
+
+* configure restrict-template-expressions ([fbd6632](https://github.com/christophehurpeau/eslint-config-pob/commit/fbd6632101c33ebe4d0bdb072426ddef3e9d9c90))
+* remove max-lines ([6978860](https://github.com/christophehurpeau/eslint-config-pob/commit/6978860f007cf6e6cfc065519a7d0f07b07af7f5))
+
+
 ## [55.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.0.0...v55.0.1) (2024-04-21)
 
 
