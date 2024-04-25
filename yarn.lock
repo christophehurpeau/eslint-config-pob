@@ -400,19 +400,6 @@ __metadata:
     react: "npm:18.2.0"
   peerDependencies:
     eslint: ^8.56.0
-    eslint-plugin-import: ^2.29.1
-    eslint-plugin-jsx-a11y: ^6.8.0
-    eslint-plugin-react: ^7.34.1
-    eslint-plugin-react-hooks: ^4.6.0
-  peerDependenciesMeta:
-    eslint-plugin-import:
-      optional: true
-    eslint-plugin-jsx-a11y:
-      optional: true
-    eslint-plugin-react:
-      optional: true
-    eslint-plugin-react-hooks:
-      optional: true
   languageName: unknown
   linkType: soft
 
@@ -427,20 +414,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-n: "npm:17.3.1"
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^7.7.0
-    "@typescript-eslint/parser": ^7.7.0
     eslint: ^8.56.0
-    eslint-plugin-import: ^2.29.1
-    eslint-plugin-n: ^17.3.1
-  peerDependenciesMeta:
-    "@typescript-eslint/eslint-plugin":
-      optional: true
-    "@typescript-eslint/parser":
-      optional: true
-    eslint-plugin-import:
-      optional: true
-    eslint-plugin-n:
-      optional: true
   languageName: unknown
   linkType: soft
 
@@ -455,16 +429,6 @@ __metadata:
     eslint-plugin-unicorn: "npm:51.0.1"
   peerDependencies:
     eslint: ^8.56.0
-    eslint-plugin-import: ^2.29.1
-    eslint-plugin-n: ^17.3.1
-    eslint-plugin-unicorn: ^51.0.1
-  peerDependenciesMeta:
-    eslint-plugin-import:
-      optional: true
-    eslint-plugin-n:
-      optional: true
-    eslint-plugin-unicorn:
-      optional: true
   languageName: unknown
   linkType: soft
 
