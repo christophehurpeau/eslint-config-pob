@@ -56,13 +56,7 @@ module.exports = {
     ],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-newline.md
-    'react/jsx-curly-newline': [
-      'error',
-      {
-        multiline: 'consistent',
-        singleline: 'consistent',
-      },
-    ],
+    'react/jsx-curly-newline': 'off',
 
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
     'react/jsx-fragments': ['error', 'syntax'],
