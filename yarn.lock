@@ -380,7 +380,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:6.8.0"
     eslint-plugin-n: "npm:17.3.1"
     eslint-plugin-react: "npm:7.34.1"
-    eslint-plugin-react-hooks: "npm:4.6.1"
+    eslint-plugin-react-hooks: "npm:4.6.2"
     eslint-plugin-unicorn: "npm:51.0.1"
     semver: "npm:7.6.0"
     typescript: "npm:5.4.5"
@@ -392,12 +392,12 @@ __metadata:
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
     "@pob/eslint-config": "npm:55.2.1"
-    "@types/react": "npm:18.3.0"
+    "@types/react": "npm:18.3.1"
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-jsx-a11y: "npm:6.8.0"
     eslint-plugin-react: "npm:7.34.1"
-    eslint-plugin-react-hooks: "npm:4.6.1"
-    react: "npm:18.2.0"
+    eslint-plugin-react-hooks: "npm:4.6.2"
+    react: "npm:18.3.0"
   peerDependencies:
     eslint: ^8.56.0
   languageName: unknown
@@ -547,13 +547,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.3.0":
-  version: 18.3.0
-  resolution: "@types/react@npm:18.3.0"
+"@types/react@npm:18.3.1":
+  version: 18.3.1
+  resolution: "@types/react@npm:18.3.1"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/6405f805700daf096a507a191bc4f8814ebed49120f156926b0a5b7b6f41424214320cea3dbb6df85f476b220f0554ef7e587baa88f59375e64bdbab525f58aa
+  checksum: 10c0/18d856c12a4ec93f3cda2d58ef3d77a9480818afd3af895f812896fb82cfca1f35a692ab1add4ce826a4eb58a071624c7d1c8c6c4ccfb81c100d2916dc607614
   languageName: node
   linkType: hard
 
@@ -1799,12 +1799,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:4.6.1":
-  version: 4.6.1
-  resolution: "eslint-plugin-react-hooks@npm:4.6.1"
+"eslint-plugin-react-hooks@npm:4.6.2":
+  version: 4.6.2
+  resolution: "eslint-plugin-react-hooks@npm:4.6.2"
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-  checksum: 10c0/c7b6cf91dc92d4d69311cc9d83bc944abb131aa843284a2b5312323cee8c26425c31027b8d9626d4c909055b42f1a413eadb29cf0025adf689bcfde99dcd498a
+  checksum: 10c0/4844e58c929bc05157fb70ba1e462e34f1f4abcbc8dd5bbe5b04513d33e2699effb8bca668297976ceea8e7ebee4e8fc29b9af9d131bcef52886feaa2308b2cc
   languageName: node
   linkType: hard
 
@@ -3737,12 +3737,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
+"react@npm:18.3.0":
+  version: 18.3.0
+  resolution: "react@npm:18.3.0"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 10c0/b562d9b569b0cb315e44b48099f7712283d93df36b19a39a67c254c6686479d3980b7f013dc931f4a5a3ae7645eae6386b4aa5eea933baa54ecd0f9acb0902b8
+  checksum: 10c0/ad87bbfdb0c5466148c657da18b0d5458e835389fc591d59840f0e6ec797a004073a01c8cdbff1767a8774c7219054a56f74dacd67bdbb849f1314e427999268
   languageName: node
   linkType: hard
 
