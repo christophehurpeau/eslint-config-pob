@@ -50,12 +50,12 @@
     "confusing-browser-globals": "^1.0.11",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^17.4.0",
-    "eslint-plugin-unicorn": "^51.0.1"
+    "eslint-plugin-unicorn": "^52.0.0"
   },
   "devDependencies": {
     "eslint": "8.57.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "17.4.0",
-    "eslint-plugin-unicorn": "51.0.1"
+    "eslint-plugin-unicorn": "52.0.0"
   }
 }
