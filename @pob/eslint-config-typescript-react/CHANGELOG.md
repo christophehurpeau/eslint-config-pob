@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.1...v55.3.0) (2024-05-05)
+
+
+### Features
+
+* remove optional peer dependencies ([0fd390f](https://github.com/christophehurpeau/eslint-config-pob/commit/0fd390fe8ff412e1159393e45e5ef49a5f3908b5))
+
+
+### Bug Fixes
+
+* disable react/jsx-curly-newline ([db2873c](https://github.com/christophehurpeau/eslint-config-pob/commit/db2873c4ff0078e8191be49bf7aa00544aee276c))
+
+Version bump for dependency: eslint-config
+
+
 ## [55.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.0...v55.2.1) (2024-04-21)
 
 Note: no notable changes
