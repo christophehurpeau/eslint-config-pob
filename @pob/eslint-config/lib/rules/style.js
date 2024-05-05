@@ -11,7 +11,7 @@ module.exports = {
 
     // https://github.com/prettier/eslint-config-prettier#curly
     // prettier doesn't enforce {} with multiline
-    curly: ['error', 'multi-line'],
+    curly: ['warn', 'multi-line'],
 
     // https://github.com/prettier/eslint-config-prettier#quotes
     // prettier doesn't change backtick to single
