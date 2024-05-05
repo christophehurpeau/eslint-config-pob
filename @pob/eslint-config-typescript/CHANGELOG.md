@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.1...v55.3.0) (2024-05-05)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v7.8.0 ([#638](https://github.com/christophehurpeau/eslint-config-pob/issues/638)) ([5bf7090](https://github.com/christophehurpeau/eslint-config-pob/commit/5bf70901d99ccc5000731af4a4d9621d1f24b2a4))
+* remove optional peer dependencies ([0fd390f](https://github.com/christophehurpeau/eslint-config-pob/commit/0fd390fe8ff412e1159393e45e5ef49a5f3908b5))
+
+Version bump for dependency: eslint-config
+
+
 ## [55.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.0...v55.2.1) (2024-04-21)
 
 Note: no notable changes

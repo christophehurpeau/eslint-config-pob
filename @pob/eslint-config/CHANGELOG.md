@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [55.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.1...v55.3.0) (2024-05-05)
+
+
+### Features
+
+* change curly to warn and add test ([a7644d6](https://github.com/christophehurpeau/eslint-config-pob/commit/a7644d682c131988b54083409e22cdd7e66067d0))
+* change quote rule to warn and add test ([d7e8893](https://github.com/christophehurpeau/eslint-config-pob/commit/d7e88931c6830ebfc46adc0c28d6bbd505f56f37))
+* remove optional peer dependencies ([0fd390f](https://github.com/christophehurpeau/eslint-config-pob/commit/0fd390fe8ff412e1159393e45e5ef49a5f3908b5))
+
+
+
+
 ## [55.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.0...v55.2.1) (2024-04-21)
 
 
