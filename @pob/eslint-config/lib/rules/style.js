@@ -16,7 +16,7 @@ module.exports = {
     // https://github.com/prettier/eslint-config-prettier#quotes
     // prettier doesn't change backtick to single
     quotes: [
-      'error',
+      'warn',
       'single',
       { avoidEscape: true, allowTemplateLiterals: false },
     ],
