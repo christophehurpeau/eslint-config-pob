@@ -1,2 +1,2 @@
 // eslint-disable-next-line strict
-exports.value = 'value';
+exports.value = "value";

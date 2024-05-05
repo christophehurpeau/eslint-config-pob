@@ -5,7 +5,7 @@ if (x == 42) {
 }
 
 // eslint-disable-next-line yoda, eqeqeq
-if ('' == text) {
+if ("" == text) {
 }
 
 // eslint-disable-next-line eqeqeq

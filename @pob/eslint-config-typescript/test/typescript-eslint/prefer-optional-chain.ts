@@ -3,12 +3,12 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 const foo: any = {};
-const bar = 'bar';
+const bar = "bar";
 
 // eslint-disable-next-line @typescript-eslint/prefer-optional-chain
 export const a = foo && foo.a && foo.a.b && foo.a.b.c;
 // eslint-disable-next-line @typescript-eslint/prefer-optional-chain
-export const b = foo && foo['a'] && foo['a'].b && foo['a'].b.c;
+export const b = foo && foo["a"] && foo["a"].b && foo["a"].b.c;
 // eslint-disable-next-line @typescript-eslint/prefer-optional-chain
 export const c = foo && foo.a && foo.a.b && foo.a.b.method && foo.a.b.method();
 
@@ -16,7 +16,7 @@ export const c = foo && foo.a && foo.a.b && foo.a.b.method && foo.a.b.method();
 // eslint-disable-next-line @typescript-eslint/prefer-optional-chain
 export const d = (((foo || {}).a || {}).b || {}).c;
 // eslint-disable-next-line @typescript-eslint/prefer-optional-chain
-export const e = (((foo || {})['a'] || {}).b || {}).c;
+export const e = (((foo || {})["a"] || {}).b || {}).c;
 
 // With negated `or`s
 // eslint-disable-next-line @typescript-eslint/prefer-optional-chain

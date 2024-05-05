@@ -1,6 +1,6 @@
 // import fs from 'node:fs';
-import { createCheckPackageWithWorkspaces } from 'check-package-dependencies';
-import semver from 'semver';
+import { createCheckPackageWithWorkspaces } from "check-package-dependencies";
+import semver from "semver";
 
 // const rootPkg = JSON.parse(
 //   fs.readFileSync(new URL('../package.json', import.meta.url)),
@@ -11,8 +11,8 @@ await createCheckPackageWithWorkspaces({
 })
   .checkRecommended({
     onlyWarnsForInRootDependencies: {
-      '*': {
-        duplicateDirectDependency: ['semver'],
+      "*": {
+        duplicateDirectDependency: ["semver"],
       },
     },
   })
@@ -35,7 +35,7 @@ await createCheckPackageWithWorkspaces({
 
       Object.keys(pkg.dependencies).forEach((configDep) => {
         if (
-          configDep.startsWith('@pob') //||
+          configDep.startsWith("@pob") //||
           // configDependencies.includes(configDep)
         ) {
           const configDepPkg = checkPkg.getDependencyPackageJson(configDep);
@@ -57,14 +57,14 @@ await createCheckPackageWithWorkspaces({
 
             if (!actualVersion) {
               throw new Error(
-                `${pkg.name}: Missing peerDependency ${peerDep} ${expectedVersion} (${configDep})`,
+                `${pkg.name}: Missing peerDependency ${peerDep} ${expectedVersion} (${configDep})`
               );
             }
 
             if (
               !semver.satisfies(
                 semver.minVersion(actualVersion),
-                expectedVersion,
+                expectedVersion
               )
             ) {
               const message = `${pkg.name}: Invalid ${peerDep} version: ${actualVersion} doesn't satisfies ${expectedVersion} (${configDep})`;
@@ -72,7 +72,7 @@ await createCheckPackageWithWorkspaces({
               if (
                 semver.gt(
                   semver.minVersion(actualVersion),
-                  semver.minVersion(expectedVersion),
+                  semver.minVersion(expectedVersion)
                 )
               ) {
                 console.warn(`Warning: ${message}`);

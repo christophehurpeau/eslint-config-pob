@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import type { ReactNode } from "react";
 
 // eslint-disable-next-line camelcase
 function Test_component(): ReactNode {

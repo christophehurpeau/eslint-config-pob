@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  extends: ['.'].map(require.resolve),
+  extends: ["."].map(require.resolve),
 
   env: {
     browser: true,
@@ -12,9 +12,9 @@ module.exports = {
   },
 
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       node: {
-        extensions: ['.js', '.ios.js', '.android.js'],
+        extensions: [".js", ".ios.js", ".android.js"],
       },
     },
   },

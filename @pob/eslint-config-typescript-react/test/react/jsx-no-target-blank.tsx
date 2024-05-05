@@ -5,6 +5,6 @@ export const Invalid = (
   <a target="_blank" href="http://example.com/" />
 );
 
-const dynamicLink = 'http://example.com/';
+const dynamicLink = "http://example.com/";
 // eslint-disable-next-line react/jsx-no-target-blank
 export const Valid = <a target="_blank" href={dynamicLink} />;

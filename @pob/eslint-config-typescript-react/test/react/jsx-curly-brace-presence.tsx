@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import type { ReactNode } from "react";
 
 export function TestJsxCurlyBracePresence(): ReactNode {
   return (
@@ -11,10 +11,10 @@ export function TestJsxCurlyBracePresence(): ReactNode {
       <div>Hello 'world'</div>
       <div>Hello "world"</div>
 
-      <div>{'>'}</div>
-      <div>{'<'}</div>
-      <div>{'}'}</div>
-      <div>{'{'}</div>
+      <div>{">"}</div>
+      <div>{"<"}</div>
+      <div>{"}"}</div>
+      <div>{"{"}</div>
     </>
   );
 }

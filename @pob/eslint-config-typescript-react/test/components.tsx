@@ -1,4 +1,4 @@
-import { forwardRef, memo, type ReactNode } from 'react';
+import { forwardRef, memo, type ReactNode } from "react";
 
 // eslint-disable-next-line react/function-component-definition
 export const InvalidFunctionComponent = (): ReactNode => null;
@@ -28,21 +28,21 @@ interface ExampleProps {
 
 export function getComponentAsAnonymousArrowFunction() {
   // eslint-disable-next-line react/function-component-definition -- invalid anonymous arrow function
-  return ({ foo = 'Hello world' }: ExampleProps): ReactNode => {
+  return ({ foo = "Hello world" }: ExampleProps): ReactNode => {
     return <div>{foo}</div>;
   };
 }
 
 export function getComponentAsAnonymousFunctionExpression() {
   // eslint-disable-next-line func-names -- invalid anonymous function expression
-  return function ({ foo = 'Hello world' }: ExampleProps): ReactNode {
+  return function ({ foo = "Hello world" }: ExampleProps): ReactNode {
     return <div>{foo}</div>;
   };
 }
 
 export function getComponentAsArrowFunctionExpression() {
   // eslint-disable-next-line react/function-component-definition -- invalid anonymous expression function
-  return ({ foo = 'Hello world' }: ExampleProps): ReactNode => {
+  return ({ foo = "Hello world" }: ExampleProps): ReactNode => {
     return <div>{foo}</div>;
   };
 }

@@ -1,2 +1,2 @@
 // eslint-disable-next-line radix
-export const num = parseInt('071');
+export const num = parseInt("071");

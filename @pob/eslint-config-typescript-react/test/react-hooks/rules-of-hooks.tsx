@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 export function useHook(name: string): void {
-  if (name !== '') {
+  if (name !== "") {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(() => {
-      localStorage.setItem('formData', name);
+      localStorage.setItem("formData", name);
     });
   }
 }

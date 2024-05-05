@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  plugins: ['jsx-a11y'],
-  extends: ['plugin:jsx-a11y/strict'],
+  plugins: ["jsx-a11y"],
+  extends: ["plugin:jsx-a11y/strict"],
 };

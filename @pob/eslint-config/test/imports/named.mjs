@@ -1,4 +1,4 @@
 // eslint-disable-next-line import/named
-import { notFoo } from './foo.mjs';
+import { notFoo } from "./foo.mjs";
 
 console.log(notFoo);

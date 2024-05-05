@@ -7,7 +7,7 @@ export class Mx {
   }
 
   // eslint-disable-next-line @typescript-eslint/class-literal-property-style
-  private get ['myField2']() {
-    return 'hello world';
+  private get ["myField2"]() {
+    return "hello world";
   }
 }

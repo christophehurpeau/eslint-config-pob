@@ -5,7 +5,7 @@ switch (foo) {
   default:
     bar();
     break;
-  case 'a':
+  case "a":
     baz();
     break;
 }

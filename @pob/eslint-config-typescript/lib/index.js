@@ -1,47 +1,47 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
 
   extends: [
-    '@pob/eslint-config',
-    './plugins/typescript-eslint',
-    './plugins/typescript-eslint-replace-eslint',
-    './plugins/typescript-eslint-replace-unicorn',
+    "@pob/eslint-config",
+    "./plugins/typescript-eslint",
+    "./plugins/typescript-eslint-replace-eslint",
+    "./plugins/typescript-eslint-replace-unicorn",
   ].map(require.resolve),
 
   parserOptions: {
-    sourceType: 'module',
+    sourceType: "module",
   },
 
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       node: {
-        extensions: ['.mjs', '.js', '.json', '.ts'],
+        extensions: [".mjs", ".js", ".json", ".ts"],
       },
     },
-    'import/extensions': ['.js', '.mjs', '.ts', '.d.ts'],
+    "import/extensions": [".js", ".mjs", ".ts", ".d.ts"],
 
-    'import/core-modules': [
-      'pob-babel', // import typings
+    "import/core-modules": [
+      "pob-babel", // import typings
     ],
   },
 
   rules: {
-    strict: 'off',
+    strict: "off",
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
     // disallow require when using babel
-    'import/no-commonjs': 'error',
+    "import/no-commonjs": "error",
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-extraneous-dependencies.md
     // override default airbnb exceptions
-    'import/no-extraneous-dependencies': ['error', { devDependencies: false }],
+    "import/no-extraneous-dependencies": ["error", { devDependencies: false }],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-anonymous-default-export.md
     // Reports if a module's default export is unnamed
-    'import/no-anonymous-default-export': [
-      'error',
+    "import/no-anonymous-default-export": [
+      "error",
       {
         allowArray: true,
         allowArrowFunction: false,
@@ -54,14 +54,14 @@ module.exports = {
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
-    'import/extensions': [
-      'error',
-      'ignorePackages',
+    "import/extensions": [
+      "error",
+      "ignorePackages",
       {
-        js: 'ignorePackages',
-        cjs: 'ignorePackages',
-        mjs: 'ignorePackages',
-        ts: 'never',
+        js: "ignorePackages",
+        cjs: "ignorePackages",
+        mjs: "ignorePackages",
+        ts: "never",
       },
     ],
 
@@ -69,9 +69,9 @@ module.exports = {
 
     // http://eslint.org/docs/rules/spaced-comment
     // conflicts with typescript triple slash
-    'spaced-comment': 'off',
+    "spaced-comment": "off",
 
     /* some exported type doesnt work. tsc check that anyway */
-    'import/named': 'off',
+    "import/named": "off",
   },
 };

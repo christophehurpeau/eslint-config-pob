@@ -1,7 +1,7 @@
 /* eslint-disable no-constant-condition */
 /* eslint-disable no-var */
 
-'use strict';
+"use strict";
 
 exports.doIf = function doIf() {
   if (true) {

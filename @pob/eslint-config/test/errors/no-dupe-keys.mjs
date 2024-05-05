@@ -1,5 +1,5 @@
 export const foo = {
-  bar: 'baz',
+  bar: "baz",
   // eslint-disable-next-line no-dupe-keys
-  bar: 'qux',
+  bar: "qux",
 };

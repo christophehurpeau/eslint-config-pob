@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
-const { env, overrideRules } = require('./_base');
+const { env, overrideRules } = require("./_base");
 
 module.exports = {
-  plugins: ['n'],
-  extends: ['plugin:n/recommended-module'],
+  plugins: ["n"],
+  extends: ["plugin:n/recommended-module"],
   parserOptions: {
-    sourceType: 'module',
+    sourceType: "module",
     // https://node.green/#ES2020
     // most 2020 features are supported in node 14
     // top level await is introduced in 2022
@@ -16,17 +16,17 @@ module.exports = {
   env,
   rules: {
     ...overrideRules,
-    'unicorn/prefer-module': 'error',
-    'unicorn/import-index': 'off',
+    "unicorn/prefer-module": "error",
+    "unicorn/import-index": "off",
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
-    'import/extensions': [
-      'error',
-      'ignorePackages',
+    "import/extensions": [
+      "error",
+      "ignorePackages",
       {
-        mjs: 'always',
-        cjs: 'always',
-        js: 'always',
+        mjs: "always",
+        cjs: "always",
+        js: "always",
       },
     ],
   },

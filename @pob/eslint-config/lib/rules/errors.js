@@ -1,125 +1,125 @@
-'use strict';
+"use strict";
 
 module.exports = {
   rules: {
     // https://eslint.org/docs/rules/for-direction
-    'for-direction': 'error',
+    "for-direction": "error",
 
     // https://eslint.org/docs/rules/getter-return
-    'getter-return': ['error', { allowImplicit: true }],
+    "getter-return": ["error", { allowImplicit: true }],
 
     // https://eslint.org/docs/rules/no-async-promise-executor
-    'no-async-promise-executor': 'error',
+    "no-async-promise-executor": "error",
 
     // https://eslint.org/docs/rules/no-compare-neg-zero
-    'no-compare-neg-zero': 'error',
+    "no-compare-neg-zero": "error",
 
     // https://eslint.org/docs/rules/no-cond-assign
-    'no-cond-assign': ['error', 'always'],
+    "no-cond-assign": ["error", "always"],
 
     // https://eslint.org/docs/rules/no-console
-    'no-console': 'warn',
+    "no-console": "warn",
 
     // https://eslint.org/docs/rules/no-control-regex
-    'no-control-regex': 'error',
+    "no-control-regex": "error",
 
     // https://eslint.org/docs/rules/no-debugger
-    'no-debugger': 'error',
+    "no-debugger": "error",
 
     // https://eslint.org/docs/rules/no-dupe-args
-    'no-dupe-args': 'error',
+    "no-dupe-args": "error",
 
     // https://eslint.org/docs/rules/no-dupe-else-if
-    'no-dupe-else-if': 'error',
+    "no-dupe-else-if": "error",
 
     // https://eslint.org/docs/rules/no-dupe-keys
-    'no-dupe-keys': 'error',
+    "no-dupe-keys": "error",
 
     // https://eslint.org/docs/rules/no-duplicate-case
-    'no-duplicate-case': 'error',
+    "no-duplicate-case": "error",
 
     // https://eslint.org/docs/rules/no-empty
-    'no-empty': 'off',
+    "no-empty": "off",
 
     // https://eslint.org/docs/rules/no-empty-character-class
-    'no-empty-character-class': 'error',
+    "no-empty-character-class": "error",
 
     // https://eslint.org/docs/rules/no-ex-assign
-    'no-ex-assign': 'error',
+    "no-ex-assign": "error",
 
     // https://eslint.org/docs/rules/no-extra-boolean-cast
-    'no-extra-boolean-cast': 'error',
+    "no-extra-boolean-cast": "error",
 
     // https://eslint.org/docs/rules/no-func-assign
-    'no-func-assign': 'error',
+    "no-func-assign": "error",
 
     // https://eslint.org/docs/rules/no-import-assign
-    'no-import-assign': 'error',
+    "no-import-assign": "error",
 
     // https://eslint.org/docs/rules/no-inner-declarations
-    'no-inner-declarations': 'error',
+    "no-inner-declarations": "error",
 
     // https://eslint.org/docs/rules/no-invalid-regexp
-    'no-invalid-regexp': 'error',
+    "no-invalid-regexp": "error",
 
     // https://eslint.org/docs/rules/no-irregular-whitespace
-    'no-irregular-whitespace': 'error',
+    "no-irregular-whitespace": "error",
 
     // https://eslint.org/docs/rules/no-loss-of-precision
-    'no-loss-of-precision': 'error',
+    "no-loss-of-precision": "error",
 
     // https://eslint.org/docs/rules/no-misleading-character-class
-    'no-misleading-character-class': 'error',
+    "no-misleading-character-class": "error",
 
     // https://eslint.org/docs/rules/no-obj-calls
-    'no-obj-calls': 'error',
+    "no-obj-calls": "error",
 
     // https://eslint.org/docs/rules/no-new-native-nonconstructor
-    'no-new-native-nonconstructor': 'error',
+    "no-new-native-nonconstructor": "error",
 
     // https://eslint.org/docs/rules/no-promise-executor-return
-    'no-promise-executor-return': 'error',
+    "no-promise-executor-return": "error",
 
     // https://eslint.org/docs/rules/no-prototype-builtins
-    'no-prototype-builtins': 'error',
+    "no-prototype-builtins": "error",
 
     // https://eslint.org/docs/rules/no-regex-spaces
-    'no-regex-spaces': 'error',
+    "no-regex-spaces": "error",
 
     // https://eslint.org/docs/rules/no-setter-return
-    'no-setter-return': 'error',
+    "no-setter-return": "error",
 
     // https://eslint.org/docs/rules/no-sparse-arrays
-    'no-sparse-arrays': 'error',
+    "no-sparse-arrays": "error",
 
     // https://eslint.org/docs/rules/no-template-curly-in-string
-    'no-template-curly-in-string': 'error',
+    "no-template-curly-in-string": "error",
 
     // https://eslint.org/docs/rules/no-unreachable
-    'no-unreachable': 'error',
+    "no-unreachable": "error",
 
     // https://eslint.org/docs/rules/no-unreachable-loop
-    'no-unreachable-loop': 'error',
+    "no-unreachable-loop": "error",
 
     // https://eslint.org/docs/rules/no-unsafe-finally
-    'no-unsafe-finally': 'error',
+    "no-unsafe-finally": "error",
 
     // https://eslint.org/docs/rules/no-unsafe-negation
-    'no-unsafe-negation': 'error',
+    "no-unsafe-negation": "error",
 
     // https://eslint.org/docs/rules/no-unsafe-optional-chaining
-    'no-unsafe-optional-chaining': 'error',
+    "no-unsafe-optional-chaining": "error",
 
     // https://eslint.org/docs/rules/no-unused-private-class-members
-    'no-unused-private-class-members': 'error',
+    "no-unused-private-class-members": "error",
 
     // https://eslint.org/docs/rules/no-useless-backreference
-    'no-useless-backreference': 'error',
+    "no-useless-backreference": "error",
 
     // https://eslint.org/docs/rules/use-isnan
-    'use-isnan': 'error',
+    "use-isnan": "error",
 
     // https://eslint.org/docs/rules/valid-typeof
-    'valid-typeof': 'error',
+    "valid-typeof": "error",
   },
 };

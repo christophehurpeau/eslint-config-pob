@@ -4,8 +4,8 @@ Object.prototype.extra = 55;
 
 // loop through some userIds
 const users = {
-  123: 'Stan',
-  456: 'David',
+  123: "Stan",
+  456: "David",
 };
 
 // not what you'd expect

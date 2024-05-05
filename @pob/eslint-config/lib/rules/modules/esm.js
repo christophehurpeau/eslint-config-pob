@@ -1,13 +1,13 @@
-'use strict';
+"use strict";
 
 module.exports = {
   rules: {
     // replaced by import/no-duplicates
-    'no-duplicate-imports': 'off',
+    "no-duplicate-imports": "off",
 
     // https://eslint.org/docs/rules/no-restricted-exports
-    'no-restricted-exports': [
-      'error',
+    "no-restricted-exports": [
+      "error",
       {
         restrictDefaultExports: {
           direct: false, // permits `export default` declarations
@@ -17,7 +17,7 @@ module.exports = {
           namespaceFrom: true, // restricts `export * as default from 'foo';` declarations
         },
         restrictedNamedExports: [
-          'then', // this will cause tons of confusion when your module is dynamically `import()`ed, and will break in most node ESM versions
+          "then", // this will cause tons of confusion when your module is dynamically `import()`ed, and will break in most node ESM versions
         ],
       },
     ],

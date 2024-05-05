@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // https://github.com/prettier/prettier/issues/2996
 

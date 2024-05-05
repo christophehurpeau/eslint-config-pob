@@ -1,7 +1,7 @@
 /* Invalid cases */
 
 // eslint-disable-next-line @typescript-eslint/prefer-promise-reject-errors
-await Promise.reject('something bad happened');
+await Promise.reject("something bad happened");
 
 // eslint-disable-next-line @typescript-eslint/prefer-promise-reject-errors
 await Promise.reject(5);
@@ -11,7 +11,7 @@ await Promise.reject();
 
 await new Promise((resolve, reject) => {
   // eslint-disable-next-line @typescript-eslint/prefer-promise-reject-errors
-  reject('something bad happened');
+  reject("something bad happened");
 });
 
 await new Promise((resolve, reject) => {
@@ -21,4 +21,4 @@ await new Promise((resolve, reject) => {
 
 /* Valid cases */
 
-await Promise.reject(new Error('something bad happened'));
+await Promise.reject(new Error("something bad happened"));

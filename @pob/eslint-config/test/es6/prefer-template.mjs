@@ -1,4 +1,4 @@
-const name = 'World';
+const name = "World";
 
 // eslint-disable-next-line prefer-template
-export const str = 'Hello, ' + name + '!';
+export const str = "Hello, " + name + "!";

@@ -1,5 +1,5 @@
-'use strict';
+"use strict";
 
-const name = 'fs';
+const name = "fs";
 // eslint-disable-next-line import/no-dynamic-require
 require(name);

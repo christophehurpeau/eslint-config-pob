@@ -1,5 +1,5 @@
-import { Fragment as Fragment2 } from 'react';
-import { Fragment } from 'react/jsx-runtime';
+import { Fragment as Fragment2 } from "react";
+import { Fragment } from "react/jsx-runtime";
 
 export const fragment1 = (
   <Fragment>

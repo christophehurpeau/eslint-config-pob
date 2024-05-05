@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
 module.exports = {
   parserOptions: {
-    sourceType: 'script',
+    sourceType: "script",
   },
   rules: {
-    strict: ['error', 'safe'],
+    strict: ["error", "safe"],
   },
 };

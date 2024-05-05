@@ -1,4 +1,4 @@
-import type { ReactElement } from 'react';
+import type { ReactElement } from "react";
 
 function Hello({ personal }: { personal: boolean }): ReactElement {
   return personal ? <div>Hello, World!</div> : <div>Hello, World!</div>;

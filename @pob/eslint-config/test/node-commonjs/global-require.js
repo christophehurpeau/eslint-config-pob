@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 
-'use strict';
+"use strict";
 
 // eslint-disable-next-line import/no-dynamic-require
 exports.getModule = (name) => require(name);

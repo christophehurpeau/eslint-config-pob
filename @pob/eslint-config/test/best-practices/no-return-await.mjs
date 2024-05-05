@@ -1,6 +1,6 @@
 // eslint-disable-next-line require-await
 const bar = async () => {
-  return 'bar';
+  return "bar";
 };
 
 export async function foo() {

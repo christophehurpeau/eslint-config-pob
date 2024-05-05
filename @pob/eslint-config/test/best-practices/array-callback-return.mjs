@@ -7,7 +7,7 @@ const nodes = {};
 
 // eslint-disable-next-line array-callback-return
 export const foo = Array.from(nodes, (node) => {
-  if (node.tagName === 'DIV') {
+  if (node.tagName === "DIV") {
     return true;
   }
 });

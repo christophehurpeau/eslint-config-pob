@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const cart = {};
 const updateCart = () => {};
@@ -7,7 +7,7 @@ if (cart.items && cart.items[0] && cart.items[0].quantity === 0)
   // eslint-disable-next-line curly
   updateCart(cart);
 
-const interpolation = '';
+const interpolation = "";
 
 // eslint-disable-next-line no-unused-vars
 const strings = [

@@ -1,30 +1,30 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  extends: ['./rules/react', './rules/react-hooks', './rules/jsx-a11y'].map(
-    require.resolve,
+  extends: ["./rules/react", "./rules/react-hooks", "./rules/jsx-a11y"].map(
+    require.resolve
   ),
 
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       node: {
-        extensions: ['.mjs', '.js', '.json', '.ts', '.tsx', '.d.ts', '.d.tsx'],
+        extensions: [".mjs", ".js", ".json", ".ts", ".tsx", ".d.ts", ".d.tsx"],
       },
     },
   },
 
   rules: {
-    'import/extensions': [
-      'error',
-      'ignorePackages',
+    "import/extensions": [
+      "error",
+      "ignorePackages",
       {
-        js: 'ignorePackages',
-        cjs: 'ignorePackages',
-        mjs: 'ignorePackages',
-        ts: 'never',
-        tsx: 'never',
+        js: "ignorePackages",
+        cjs: "ignorePackages",
+        mjs: "ignorePackages",
+        ts: "never",
+        tsx: "never",
       },
     ],
-    'react/jsx-filename-extension': ['error', { extensions: ['tsx'] }],
+    "react/jsx-filename-extension": ["error", { extensions: ["tsx"] }],
   },
 };

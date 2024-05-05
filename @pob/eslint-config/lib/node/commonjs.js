@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
-const { env, overrideRules } = require('./_base');
+const { env, overrideRules } = require("./_base");
 
 module.exports = {
-  plugins: ['n'],
-  extends: ['plugin:n/recommended-script'],
+  plugins: ["n"],
+  extends: ["plugin:n/recommended-script"],
   env,
 
   parserOptions: {
@@ -17,8 +17,8 @@ module.exports = {
 
   rules: {
     ...overrideRules,
-    'unicorn/prefer-module': 'off',
-    'n/no-new-require': 'error',
-    'n/no-path-concat': 'error',
+    "unicorn/prefer-module": "off",
+    "n/no-new-require": "error",
+    "n/no-path-concat": "error",
   },
 };
