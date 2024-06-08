@@ -25,7 +25,7 @@ const replaceRules = (config, ruleNames) => {
     ruleNames.flatMap((ruleName) => [
       [ruleName, "off"],
       [`@typescript-eslint/${ruleName}`, getRuleValue(config, ruleName)],
-    ])
+    ]),
   );
 };
 
@@ -44,7 +44,7 @@ const disabledRules = (ruleNames) => {
         }
       });
       return [ruleName, "off"];
-    })
+    }),
   );
 };
 

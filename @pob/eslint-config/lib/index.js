@@ -7,13 +7,13 @@ module.exports = {
     {
       files: ["*.mjs"],
       extends: ["./base/module", "./plugins/import/import-module"].map(
-        require.resolve
+        require.resolve,
       ),
     },
     {
       files: ["*.cjs"],
       extends: ["./base/commonjs", "./plugins/import/import-commonjs"].map(
-        require.resolve
+        require.resolve,
       ),
     },
   ],

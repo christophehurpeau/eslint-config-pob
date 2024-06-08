@@ -57,14 +57,14 @@ await createCheckPackageWithWorkspaces({
 
             if (!actualVersion) {
               throw new Error(
-                `${pkg.name}: Missing peerDependency ${peerDep} ${expectedVersion} (${configDep})`
+                `${pkg.name}: Missing peerDependency ${peerDep} ${expectedVersion} (${configDep})`,
               );
             }
 
             if (
               !semver.satisfies(
                 semver.minVersion(actualVersion),
-                expectedVersion
+                expectedVersion,
               )
             ) {
               const message = `${pkg.name}: Invalid ${peerDep} version: ${actualVersion} doesn't satisfies ${expectedVersion} (${configDep})`;
@@ -72,7 +72,7 @@ await createCheckPackageWithWorkspaces({
               if (
                 semver.gt(
                   semver.minVersion(actualVersion),
-                  semver.minVersion(expectedVersion)
+                  semver.minVersion(expectedVersion),
                 )
               ) {
                 console.warn(`Warning: ${message}`);
