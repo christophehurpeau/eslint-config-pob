@@ -547,7 +547,7 @@ __metadata:
     eslint: "npm:8.57.0"
     eslint-plugin-import: "npm:2.29.1"
     eslint-plugin-jsx-a11y: "npm:6.8.0"
-    eslint-plugin-n: "npm:17.4.0"
+    eslint-plugin-n: "npm:17.9.0"
     eslint-plugin-react: "npm:7.34.1"
     eslint-plugin-react-hooks: "npm:4.6.2"
     eslint-plugin-unicorn: "npm:52.0.0"
@@ -581,7 +581,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:7.8.0"
     eslint: "npm:8.57.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-n: "npm:17.4.0"
+    eslint-plugin-n: "npm:17.9.0"
   peerDependencies:
     eslint: ^8.56.0
   languageName: unknown
@@ -594,7 +594,7 @@ __metadata:
     confusing-browser-globals: "npm:^1.0.11"
     eslint: "npm:8.57.0"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-n: "npm:17.4.0"
+    eslint-plugin-n: "npm:17.9.0"
     eslint-plugin-unicorn: "npm:52.0.0"
   peerDependencies:
     eslint: ^8.56.0
@@ -1749,13 +1749,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.15.0":
-  version: 5.16.0
-  resolution: "enhanced-resolve@npm:5.16.0"
+"enhanced-resolve@npm:^5.17.0":
+  version: 5.17.0
+  resolution: "enhanced-resolve@npm:5.17.0"
   dependencies:
     graceful-fs: "npm:^4.2.4"
     tapable: "npm:^2.2.0"
-  checksum: 10c0/dd69669cbb638ccacefd03e04d5e195ee6a99b7f5f8012f86d2df7781834de357923e06064ea621137c4ce0b37cc12b872b4e6d1ac6ab15fe98e7f1dfbbb08c4
+  checksum: 10c0/90065e58e4fd08e77ba47f827eaa17d60c335e01e4859f6e644bb3b8d0e32b203d33894aee92adfa5121fa262f912b48bdf0d0475e98b4a0a1132eea1169ad37
   languageName: node
   linkType: hard
 
@@ -2016,12 +2016,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:17.4.0":
-  version: 17.4.0
-  resolution: "eslint-plugin-n@npm:17.4.0"
+"eslint-plugin-n@npm:17.9.0":
+  version: 17.9.0
+  resolution: "eslint-plugin-n@npm:17.9.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
-    enhanced-resolve: "npm:^5.15.0"
+    enhanced-resolve: "npm:^5.17.0"
     eslint-plugin-es-x: "npm:^7.5.0"
     get-tsconfig: "npm:^4.7.0"
     globals: "npm:^15.0.0"
@@ -2030,7 +2030,7 @@ __metadata:
     semver: "npm:^7.5.3"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 10c0/3ec2c14fb0b97eae0911fc7e07b4bb29d0095d21fabcff490c01a1195a6d1ae511eefac37f8796c9858b0a09bc85a0ebfa2ac5c567593adbc22a454cb1496b39
+  checksum: 10c0/8c9dc278eaf7ce7e0621127f82e56a7a117cecbd4dfa880145d930a62fc93ef47057f18805bf1bba944cbafa0ae9115c9bd52628193e1206810bb7bc3e1d2f25
   languageName: node
   linkType: hard
 
