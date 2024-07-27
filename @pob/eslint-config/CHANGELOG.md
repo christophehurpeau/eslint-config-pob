@@ -3,6 +3,107 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [51.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-09-01)
+## [51.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-10-03)
+
+### Bug Fixes
+
+* fix react/function-component-definition rule and enable func-names ([e656eba](https://github.com/christophehurpeau/eslint-config-pob/commit/e656ebaba4639a0eb547ef11dc9d3fbf32aec60e))
+## [51.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-10-18)
+
+### Bug Fixes
+
+* fix no-restricted-exports rule ([a1dd956](https://github.com/christophehurpeau/eslint-config-pob/commit/a1dd956448099f77f3adadca1ce031044a3a4492))
+## [51.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-10-19)
+## [51.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-12-10)
+## [51.2.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-12-14)
+## [52.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-12-28)
+
+### ⚠ BREAKING CHANGES
+
+* change import/extensions to ignorePackages
+
+### Features
+
+* change import/extensions to ignorePackages ([1833642](https://github.com/christophehurpeau/eslint-config-pob/commit/183364280552d484acd37bbf3b9816d88c1f6bfe))
+## [52.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-12-28)
+
+### Reverts
+
+* Revert "feat!: change import/extensions to ignorePackages" ([22d14bc](https://github.com/christophehurpeau/eslint-config-pob/commit/22d14bc6d6f94cae03a547cf53d939f6c1c756a7))
+## [53.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2023-12-28)
+
+### ⚠ BREAKING CHANGES
+
+* feat: change import/extensions to ignorePackages
+
+### Reverts
+
+* feat: change import/extensions to ignorePackages ([0a15b9e](https://github.com/christophehurpeau/eslint-config-pob/commit/0a15b9e80b990a8f6277a1bd19481a9fe72f3f22))
+## [54.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-02-17)
+
+### ⚠ BREAKING CHANGES
+
+* replace eslint-plugin-node by eslint-plugin-n
+
+### Features
+
+* replace eslint-plugin-node by eslint-plugin-n ([7d9764c](https://github.com/christophehurpeau/eslint-config-pob/commit/7d9764cf80fffcd4381056624eb06887a3d86e3f))
+## [54.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-02-24)
+## [55.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-04-20)
+
+### ⚠ BREAKING CHANGES
+
+* remove eslint-config-airbnb-base
+
+### Features
+
+* remove eslint-config-airbnb-base ([295a348](https://github.com/christophehurpeau/eslint-config-pob/commit/295a34808018f395e22d935772ac9e614bc6bd47))
+## [55.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-04-21)
+
+### Bug Fixes
+
+* properly configure module vs commonjs ([8ae7ffd](https://github.com/christophehurpeau/eslint-config-pob/commit/8ae7ffdb3b37f1ec898b4ce8694420253ff3260d))
+## [55.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-04-21)
+
+### Features
+
+* remove max-lines ([38d7fda](https://github.com/christophehurpeau/eslint-config-pob/commit/38d7fdaa36f40a6f7434fea242bf6a72bef4bcca))
+## [55.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-04-21)
+
+### Features
+
+* enable max-params ([93f60a1](https://github.com/christophehurpeau/eslint-config-pob/commit/93f60a12ffa4a94a8adf0f74866c8f2c81c37c2e))
+## [55.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-04-21)
+
+### Bug Fixes
+
+* remove generator-star-spacing ([a9bf679](https://github.com/christophehurpeau/eslint-config-pob/commit/a9bf679717e27b3e3cb86c25af17d89cae205f59))
+## [55.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-05-05)
+
+### Features
+
+* change curly to warn and add test ([83e0e27](https://github.com/christophehurpeau/eslint-config-pob/commit/83e0e27dbb8f6403cc18862fff606ae517fe2dbb))
+* change quote rule to warn and add test ([a4a5ba2](https://github.com/christophehurpeau/eslint-config-pob/commit/a4a5ba20269fc0c78c3672867c56a87de1f791dd))
+* remove optional peer dependencies ([ddddeb2](https://github.com/christophehurpeau/eslint-config-pob/commit/ddddeb27d606f16dbf6c38b2f61c3a7bfe20510d))
+## [56.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-05-05)
+
+### ⚠ BREAKING CHANGES
+
+* use standard quotes
+
+### Features
+
+* use standard quotes ([0083d81](https://github.com/christophehurpeau/eslint-config-pob/commit/0083d816bbe4e320eabe3c23a8d4edaa561df8a3))
+## [56.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-07-27)
+
+### Features
+
+* pob plugin ([fd99ec8](https://github.com/christophehurpeau/eslint-config-pob/commit/fd99ec8711409b3bc9b960f7eb2e0b2e67984381))
+
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [56.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.3.0...v56.0.0) (2024-05-05)
 
 

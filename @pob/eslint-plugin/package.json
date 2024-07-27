@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-plugin",
-  "version": "1.0.0-pre",
+  "version": "56.1.0",
   "description": "eslint plugin for react",
   "license": "ISC",
   "engines": {
