@@ -11,9 +11,9 @@ exports.meta = {
 
   messages: {
     namespace:
-      'import * as React from "{{value}}" is forbidden. Use named imports instead.',
+      'import * as React from "react" is forbidden. Use named imports instead.',
     default:
-      'import React from "{{value}}" is forbidden. Use named imports instead.',
+      'import React from "react" is forbidden. Use named imports instead.',
   },
 };
 
