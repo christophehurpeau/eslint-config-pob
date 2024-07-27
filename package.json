@@ -21,7 +21,8 @@
     "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
-    "postinstall": "pob-root-postinstall"
+    "postinstall": "pob-root-postinstall",
+    "test": "node --test"
   },
   "commitlint": {
     "extends": [

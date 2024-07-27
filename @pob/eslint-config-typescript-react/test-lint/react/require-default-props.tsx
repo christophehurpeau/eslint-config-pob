@@ -1,4 +1,4 @@
-import type { ReactElement } from "react";
+import type { ReactNode } from "react";
 
 interface Props {
   foo: string;
@@ -8,7 +8,7 @@ interface Props {
 export function MyStatelessComponent({
   foo = "default",
   bar,
-}: Props): ReactElement {
+}: Props): ReactNode {
   return (
     <div>
       Hello {foo} {bar}

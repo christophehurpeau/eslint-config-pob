@@ -1,9 +1,12 @@
 "use strict";
 
 module.exports = {
-  extends: ["./rules/react", "./rules/react-hooks", "./rules/jsx-a11y"].map(
-    require.resolve,
-  ),
+  extends: [
+    "plugin:@pob/react",
+    ...["./rules/react", "./rules/react-hooks", "./rules/jsx-a11y"].map(
+      require.resolve,
+    ),
+  ],
 
   settings: {
     "import/resolver": {

@@ -1,0 +1,36 @@
+{
+  "name": "@pob/eslint-plugin",
+  "version": "1.0.0-pre",
+  "description": "eslint plugin for react",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "main": "index.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": "^8.39.0",
+    "typescript": ">=5.2.2"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "6.21.0",
+    "eslint-plugin-react": "^7.33.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "2.1.4",
+    "@typescript-eslint/rule-tester": "6.21.0",
+    "eslint": "8.57.0",
+    "typescript": "5.4.5"
+  }
+}

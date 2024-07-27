@@ -3,6 +3,7 @@
 module.exports = {
   extends: [
     "eslint:recommended",
+    "plugin:@pob/base",
     ...[
       "./plugins/unicorn",
       "./rules/best-practices",
@@ -13,4 +14,5 @@ module.exports = {
       "./plugins/import/import-commonjs",
     ].map(require.resolve),
   ],
+  plugins: ["@pob/eslint-plugin"],
 };

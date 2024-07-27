@@ -1,3 +1,4 @@
+// eslint-disable-next-line @pob/react-named-import
 import * as React from "react";
 
 interface FooProps {

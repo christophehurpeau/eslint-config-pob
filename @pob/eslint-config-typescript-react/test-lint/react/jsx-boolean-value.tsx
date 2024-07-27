@@ -1,6 +1,6 @@
-import type { ReactElement } from "react";
+import type { ReactNode } from "react";
 
-function Hello({ personal }: { personal: boolean }): ReactElement {
+function Hello({ personal }: { personal: boolean }): ReactNode {
   return personal ? <div>Hello, World!</div> : <div>Hello, World!</div>;
 }
 
