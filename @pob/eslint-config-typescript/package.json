@@ -11,7 +11,7 @@
     "directory": "@pob/eslint-config-typescript"
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
-  "type": "commonjs",
+  "type": "module",
   "engines": {
     "node": ">=18.12.0"
   },
@@ -19,10 +19,6 @@
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
-    "./node": "./lib/node.js",
-    "./app": "./lib/app.js",
-    "./allow-unsafe": "./lib/allow-unsafe.js",
-    "./test": "./lib/test.js",
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -33,7 +29,7 @@
   ],
   "scripts": {
     "lint": "yarn run lint:eslint",
-    "lint:eslint": "yarn ../.. run eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config-typescript"
+    "lint:eslint": "yarn ../.. run eslint --quiet @pob/eslint-config-typescript"
   },
   "pob": {},
   "prettier": "@pob/root/prettier-config",
@@ -45,13 +41,14 @@
     "@typescript-eslint/eslint-plugin": "^7.8.0",
     "@typescript-eslint/parser": "^7.8.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^17.4.0"
+    "typescript-eslint": "^7.8.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "7.8.0",
     "@typescript-eslint/parser": "7.8.0",
     "eslint": "8.57.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-n": "17.4.0"
+    "typescript": "5.5.4",
+    "typescript-eslint": "7.8.0"
   }
 }

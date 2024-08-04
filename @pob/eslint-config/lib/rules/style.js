@@ -1,6 +1,4 @@
-"use strict";
-
-module.exports = {
+export default {
   rules: {
     // changed properties: 'never' to properties: 'always' ; true to 'ignoreDestructuring': false
     // http://eslint.org/docs/rules/camelcase

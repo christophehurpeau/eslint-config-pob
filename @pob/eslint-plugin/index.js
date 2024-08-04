@@ -1,12 +1,10 @@
-"use strict";
+import baseConfig from "./configs/base.js";
+import reactConfig from "./configs/react.js";
+import { loadRules } from "./loadRules.js";
 
-const baseConfig = require("./configs/base");
-const reactConfig = require("./configs/react");
-const loadRules = require("./loadRules");
-
-module.exports = {
+export default {
   rules: {
-    ...loadRules(),
+    ...(await loadRules()),
   },
   configs: {
     base: baseConfig,

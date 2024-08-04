@@ -2,6 +2,8 @@
   "search.exclude": {
     "**/.yarn": true
   },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
 
   // set yarn as package manager to run scripts and tasks
   "npm.packageManager": "yarn",
@@ -16,10 +18,7 @@
 
   // eslint config
   "eslint.workingDirectories": ["."],
-  "eslint.options": {
-    "resolvePluginsRelativeTo": ".",
-    "reportUnusedDisableDirectives": "error"
-  },
+  "eslint.useFlatConfig": true,
   "eslint.lintTask.enable": true,
 
   // eslint & prettier formatter

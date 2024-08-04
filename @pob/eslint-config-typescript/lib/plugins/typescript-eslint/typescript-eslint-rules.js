@@ -1,11 +1,6 @@
-"use strict";
+import { enableIfVSCode } from "@pob/eslint-config/utils";
 
-const { enableIfVSCode } = require("@pob/eslint-config/utils");
-
-module.exports = {
-  plugins: ["@typescript-eslint/eslint-plugin"],
-  extends: ["plugin:@typescript-eslint/strict-type-checked"],
-
+export default {
   rules: {
     // https://typescript-eslint.io/rules/adjacent-overload-signatures/
     "@typescript-eslint/adjacent-overload-signatures": "error",

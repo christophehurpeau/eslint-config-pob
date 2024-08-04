@@ -1,6 +1,4 @@
-"use strict";
-
-exports.overrideRules = {
+export const overrideRules = {
   // Disable rules already checked by import plugin
   "n/no-unpublished-require": "off",
   "n/no-extraneous-require": "off",
@@ -25,19 +23,13 @@ exports.overrideRules = {
   "no-sync": "off",
 
   // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
-  "import/extensions": [
-    "error",
-    "ignorePackages",
-    {
-      mjs: "always",
-      cjs: "always",
-      js: "never",
-    },
-  ],
-};
-
-exports.env = {
-  browser: false,
-  node: true,
-  es6: true,
+  // "import/extensions": [
+  //   "error",
+  //   "ignorePackages",
+  //   {
+  //     mjs: "always",
+  //     cjs: "always",
+  //     js: "never",
+  //   },
+  // ],
 };

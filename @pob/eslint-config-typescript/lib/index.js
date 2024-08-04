@@ -1,77 +1,60 @@
-"use strict";
+import pobConfig from "@pob/eslint-config";
+// eslint-disable-next-line import/no-unresolved -- missing exports support see https://gist.github.com/danielweck/cd63af8e9a8b3492abacc312af9f28fd for potential fix
+import tseslint from "typescript-eslint";
+import nodePluginOverrideConfig from "./plugins/node.js";
+import replaceEslintConfig from "./plugins/typescript-eslint/typescript-eslint-replace-eslint.js";
+import replaceUnicornConfig from "./plugins/typescript-eslint/typescript-eslint-replace-unicorn.js";
+import rules from "./plugins/typescript-eslint/typescript-eslint-rules.js";
+import allowUnsafeConfig from "./rules/allow-unsafe.js";
+import appConfig from "./rules/app.js";
+import baseConfig from "./rules/base.js";
+import nodeConfig from "./rules/node.js";
+import testConfig from "./rules/test.js";
 
-module.exports = {
-  parser: "@typescript-eslint/parser",
+export const extensions = "{ts,cts,mts,tsx}";
 
-  extends: [
-    "@pob/eslint-config",
-    "./plugins/typescript-eslint",
-    "./plugins/typescript-eslint-replace-eslint",
-    "./plugins/typescript-eslint-replace-unicorn",
-  ].map(require.resolve),
+export default (url) => {
+  const { configs, compat } = pobConfig(url);
+  return {
+    compat,
+    configs: {
+      node: [
+        ...configs.nodeModule,
+        ...[
+          ...tseslint.configs.strictTypeChecked,
+          replaceUnicornConfig,
+          replaceEslintConfig,
+          rules,
+          baseConfig,
+          nodeConfig,
+          nodePluginOverrideConfig,
+        ].map((config) => ({
+          ...config,
+          files: [`**/*.${extensions}`],
+        })),
+        {
+          ...testConfig,
+          files: [
+            `**/*.test${extensions}`,
+            `**/__tests__/**/*.${extensions}`,
+            `**/__mocks__/**/*.${extensions}`,
+          ],
+        },
+      ],
 
-  parserOptions: {
-    sourceType: "module",
-  },
+      allowUnsafe: [
+        {
+          files: [`**/*.${extensions}`],
+          ...allowUnsafeConfig,
+        },
+      ],
 
-  settings: {
-    "import/resolver": {
-      node: {
-        extensions: [".mjs", ".js", ".json", ".ts"],
-      },
+      app: [
+        {
+          files: [`**/*.${extensions}`],
+          ...appConfig,
+        },
+      ],
     },
-    "import/extensions": [".js", ".mjs", ".ts", ".d.ts"],
-
-    "import/core-modules": [
-      "pob-babel", // import typings
-    ],
-  },
-
-  rules: {
-    strict: "off",
-
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
-    // disallow require when using babel
-    "import/no-commonjs": "error",
-
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-extraneous-dependencies.md
-    // override default airbnb exceptions
-    "import/no-extraneous-dependencies": ["error", { devDependencies: false }],
-
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-anonymous-default-export.md
-    // Reports if a module's default export is unnamed
-    "import/no-anonymous-default-export": [
-      "error",
-      {
-        allowArray: true,
-        allowArrowFunction: false,
-        allowAnonymousClass: false,
-        allowAnonymousFunction: false,
-        allowCallExpression: true,
-        allowLiteral: true,
-        allowObject: true,
-      },
-    ],
-
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        js: "ignorePackages",
-        cjs: "ignorePackages",
-        mjs: "ignorePackages",
-        ts: "never",
-      },
-    ],
-
-    /* issues */
-
-    // http://eslint.org/docs/rules/spaced-comment
-    // conflicts with typescript triple slash
-    "spaced-comment": "off",
-
-    /* some exported type doesnt work. tsc check that anyway */
-    "import/named": "off",
-  },
+  };
 };

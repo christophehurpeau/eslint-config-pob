@@ -1,8 +1,6 @@
-"use strict";
+import confusingBrowserGlobals from "confusing-browser-globals";
 
-const confusingBrowserGlobals = require("confusing-browser-globals");
-
-module.exports = {
+export default {
   rules: {
     // https://eslint.org/docs/rules/accessor-pairs
     "accessor-pairs": "off",
@@ -198,6 +196,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-new-object
     "no-new-object": "error",
 
+    // disallow use of new operator with the require function
+    "no-new-require": "error",
+
     // https://eslint.org/docs/rules/no-new-wrappers
     "no-new-wrappers": "error",
 
@@ -343,7 +344,12 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unused-vars
     "no-unused-vars": [
       "error",
-      { vars: "all", args: "none", ignoreRestSiblings: true },
+      {
+        vars: "all",
+        args: "none",
+        caughtErrors: "none",
+        ignoreRestSiblings: true,
+      },
     ],
 
     // https://eslint.org/docs/rules/no-use-before-define

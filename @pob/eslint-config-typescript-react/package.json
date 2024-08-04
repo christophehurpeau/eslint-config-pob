@@ -11,7 +11,7 @@
     "directory": "@pob/eslint-config-typescript-react"
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
-  "type": "commonjs",
+  "type": "module",
   "engines": {
     "node": ">=18.12.0"
   },
@@ -19,9 +19,6 @@
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
-    "./app": "./lib/app.js",
-    "./react-native": "./lib/react-native.js",
-    "./react-native-web": "./lib/react-native-web.js",
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -32,7 +29,7 @@
   ],
   "scripts": {
     "lint": "yarn run lint:eslint",
-    "lint:eslint": "yarn ../.. run eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config-typescript-react"
+    "lint:eslint": "yarn ../.. run eslint --quiet @pob/eslint-config-typescript-react"
   },
   "pob": {},
   "prettier": "@pob/root/prettier-config",
@@ -41,6 +38,8 @@
   },
   "dependencies": {
     "@pob/eslint-config": "56.1.0",
+    "@pob/eslint-config-typescript": "56.1.0",
+    "@pob/eslint-plugin": "56.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "7.34.1",
@@ -48,6 +47,7 @@
   },
   "devDependencies": {
     "@types/react": "18.3.3",
-    "react": "18.3.1"
+    "react": "18.3.1",
+    "typescript": "5.5.4"
   }
 }

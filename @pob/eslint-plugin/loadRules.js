@@ -1,8 +1,13 @@
-"use strict";
+import fs from "node:fs";
+import path from "node:path";
+import forbidNonNativeFetchImportRule from "./rules/forbid-non-native-fetch-import.js";
+import reactFunctionComponentReturnReactNodeRule from "./rules/react-function-component-return-react-node.js";
+import reactNamedImportRule from "./rules/react-named-import.js";
 
-const fs = require("node:fs");
-const path = require("node:path");
-const pkg = require("./package.json");
+const pkg = JSON.parse(
+  // eslint-disable-next-line unicorn/prefer-json-parse-buffer
+  fs.readFileSync(new URL("./package.json", import.meta.url), "utf8"),
+);
 
 const repoUrl = "https://github.com/christophehurpeau/eslint-config-pob";
 const packagePath = "@pob/eslint-plugin";
@@ -12,31 +17,30 @@ const getDocumentationUrl = (filename) => {
   return `${repoUrl}/blob/v${pkg.version}/${packagePath}/docs/rules/${ruleName}.md`;
 };
 
-function loadRule(ruleId) {
-  // eslint-disable-next-line import/no-dynamic-require
-  const rule = require(path.resolve(__dirname, `./rules/${ruleId}`));
-
+function loadRule(ruleName, rule) {
   return {
     meta: {
       schema: [],
       ...rule.meta,
       docs: {
         ...rule.meta.docs,
-        url: getDocumentationUrl(ruleId),
+        url: getDocumentationUrl(ruleName),
       },
     },
     create: rule.create,
   };
 }
 
-module.exports = function loadRules() {
-  return Object.fromEntries(
-    fs
-      .readdirSync(path.resolve(__dirname, "./rules"), { withFileTypes: true })
-      .filter((file) => file.isFile() && !file.name.endsWith(".test.js"))
-      .map((file) => {
-        const ruleId = path.basename(file.name, ".js");
-        return [ruleId, loadRule(ruleId)];
-      }),
-  );
-};
+export function loadRules() {
+  return {
+    "forbid-non-native-fetch-import": loadRule(
+      "forbid-non-native-fetch-import",
+      forbidNonNativeFetchImportRule,
+    ),
+    "react-function-component-return-react-node": loadRule(
+      "react-function-component-return-react-node",
+      reactFunctionComponentReturnReactNodeRule,
+    ),
+    "react-named-import": loadRule("react-named-import", reactNamedImportRule),
+  };
+}

@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "@pob/eslint-config/tsconfig.json" }]
+}

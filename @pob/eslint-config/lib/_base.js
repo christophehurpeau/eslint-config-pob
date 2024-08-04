@@ -1,18 +1,40 @@
-"use strict";
+import js from "@eslint/js";
+import pobPlugin from "@pob/eslint-plugin";
+import unicornPluginConfigs from "./plugins/unicorn.js";
+import bestPracticesConfig from "./rules/best-practices.js";
+import codeQualityConfig from "./rules/code-quality.js";
+import devOnlyConfig from "./rules/dev-only.js";
+import errorsConfig from "./rules/errors.js";
+import styleConfig from "./rules/style.js";
 
-module.exports = {
-  extends: [
-    "eslint:recommended",
-    "plugin:@pob/base",
-    ...[
-      "./plugins/unicorn",
-      "./rules/best-practices",
-      "./rules/code-quality",
-      "./rules/errors",
-      "./rules/style",
-      "./plugins/import/import-base",
-      "./plugins/import/import-commonjs",
-    ].map(require.resolve),
-  ],
-  plugins: ["@pob/eslint-plugin"],
-};
+export default [
+  {
+    linterOptions: {
+      // todo noInlineConfig: true,
+      reportUnusedDisableDirectives: "error",
+    },
+    plugins: {
+      "@pob": pobPlugin,
+    },
+  },
+  {
+    ignores: [".yarn", "**/dist/", "**/build/", "**/coverage/"],
+  },
+  js.configs.recommended,
+  pobPlugin.configs.base,
+  ...unicornPluginConfigs,
+  bestPracticesConfig,
+  codeQualityConfig,
+  errorsConfig,
+  styleConfig,
+  devOnlyConfig,
+
+  // TODO
+  // {
+  //   files: ["*.json"],
+  //   languageOptions: {
+  //     parser: jsoncParser,
+  //   },
+  //   rules: {},
+  // },
+];

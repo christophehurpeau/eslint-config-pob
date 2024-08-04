@@ -11,7 +11,7 @@
     "directory": "@pob/eslint-config"
   },
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
-  "type": "commonjs",
+  "type": "module",
   "engines": {
     "node": ">=18.12.0"
   },
@@ -19,10 +19,6 @@
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
-    "./node-commonjs": "./lib/node-commonjs.js",
-    "./node-module": "./lib/node-module.js",
-    "./root-commonjs": "./lib/root-commonjs.js",
-    "./root-module": "./lib/root-module.js",
     "./lib/rules/best-practices": "./lib/rules/best-practices.js",
     "./lib/rules/code-quality": "./lib/rules/code-quality.js",
     "./lib/rules/errors": "./lib/rules/errors.js",
@@ -39,7 +35,7 @@
   ],
   "scripts": {
     "lint": "yarn run lint:eslint",
-    "lint:eslint": "yarn ../.. run eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet @pob/eslint-config"
+    "lint:eslint": "yarn ../.. run eslint --quiet @pob/eslint-config"
   },
   "pob": {},
   "prettier": "@pob/root/prettier-config",
@@ -47,6 +43,9 @@
     "eslint": "^8.56.0"
   },
   "dependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/eslintrc": "2.1.4",
+    "@eslint/js": "^8.56.0",
     "@pob/eslint-plugin": "56.1.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-plugin-import": "^2.29.1",
@@ -57,6 +56,7 @@
     "eslint": "8.57.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "17.4.0",
-    "eslint-plugin-unicorn": "52.0.0"
+    "eslint-plugin-unicorn": "52.0.0",
+    "typescript": "5.5.4"
   }
 }

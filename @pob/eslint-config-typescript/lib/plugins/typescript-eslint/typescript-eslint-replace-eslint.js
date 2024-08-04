@@ -1,15 +1,7 @@
-"use strict";
-
-const {
-  rules: pobBestPracticesRules,
-} = require("@pob/eslint-config/lib/rules/best-practices");
-const {
-  rules: pobCodeQualityRules,
-} = require("@pob/eslint-config/lib/rules/code-quality");
-const {
-  rules: pobErrorsRules,
-} = require("@pob/eslint-config/lib/rules/errors");
-const { rules: pobStyleRules } = require("@pob/eslint-config/lib/rules/style");
+import pobBestPracticesConfig from "@pob/eslint-config/lib/rules/best-practices";
+import pobCodeQualityConfig from "@pob/eslint-config/lib/rules/code-quality";
+import pobErrorsConfig from "@pob/eslint-config/lib/rules/errors";
+import pobStyleConfig from "@pob/eslint-config/lib/rules/style";
 
 const getRuleValue = (config, ruleName) => {
   const value = config[ruleName];
@@ -33,10 +25,10 @@ const disabledRules = (ruleNames) => {
   return Object.fromEntries(
     ruleNames.map((ruleName) => {
       [
-        pobBestPracticesRules,
-        pobCodeQualityRules,
-        pobErrorsRules,
-        pobStyleRules,
+        pobBestPracticesConfig.rules,
+        pobCodeQualityConfig.rules,
+        pobErrorsConfig.rules,
+        pobStyleConfig.rules,
       ].forEach((config) => {
         const value = config[ruleName];
         if (value != null && value !== "off") {
@@ -52,10 +44,10 @@ const disableRules = (ruleNames) => {
   return Object.fromEntries(ruleNames.map((ruleName) => [ruleName, "off"]));
 };
 
-module.exports = {
+export default {
   /* Replace enabled rules in Airbnb by typescript-eslint rules */
   rules: {
-    ...replaceRules(pobBestPracticesRules, [
+    ...replaceRules(pobBestPracticesConfig.rules, [
       // https://typescript-eslint.io/rules/default-param-last
       "default-param-last",
       // https://typescript-eslint.io/rules/dot-notation
@@ -90,7 +82,7 @@ module.exports = {
       "max-params",
     ]),
 
-    ...replaceRules(pobErrorsRules, [
+    ...replaceRules(pobErrorsConfig.rules, [
       // https://typescript-eslint.io/rules/no-loss-of-precision
       "no-loss-of-precision",
     ]),

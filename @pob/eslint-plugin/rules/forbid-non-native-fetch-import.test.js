@@ -1,7 +1,5 @@
-"use strict";
-
-const { RuleTester } = require("eslint");
-const rule = require("./forbid-non-native-fetch-import");
+import { RuleTester } from "eslint";
+import rule from "./forbid-non-native-fetch-import.js";
 
 const parserOptions = {
   ecmaVersion: 2018,

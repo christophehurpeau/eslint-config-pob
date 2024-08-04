@@ -1,25 +1,4 @@
-"use strict";
-
-const Components = require("eslint-plugin-react/lib/util/Components");
-
-exports.meta = {
-  type: "problem",
-
-  docs: {
-    description:
-      "Forbid returning ReactElement or ReactElement | null in function components",
-    category: "Best Practices",
-    recommended: true,
-  },
-
-  messages: {
-    invalidReturnType:
-      'Returning "{{value}}" is forbidden. Return "ReactNode" instead.',
-    replaceReturnType: 'Replace "{{value}}" by "ReactNode"',
-  },
-
-  hasSuggestions: true,
-};
+import Components from "eslint-plugin-react/lib/util/Components.js";
 
 function getSuggestionFixer(node, range, context) {
   return (fixer) => {
@@ -42,25 +21,46 @@ function checkFunctionReturnType(node, onError) {
   }
 }
 
-exports.create = Components.detect((context, components) => {
-  return {
-    FunctionDeclaration(node) {
-      if (!components.get(node)) return;
+export default {
+  meta: {
+    type: "problem",
 
-      checkFunctionReturnType(node, (typeName, currentName, range) =>
-        context.report({
-          node: typeName,
-          messageId: "invalidReturnType",
-          data: { value: currentName },
-          suggest: [
-            {
-              messageId: "replaceReturnType",
-              data: { value: currentName },
-              fix: getSuggestionFixer(node, range, context),
-            },
-          ],
-        }),
-      );
+    docs: {
+      description:
+        "Forbid returning ReactElement or ReactElement | null in function components",
+      category: "Best Practices",
+      recommended: true,
     },
-  };
-});
+
+    messages: {
+      invalidReturnType:
+        'Returning "{{value}}" is forbidden. Return "ReactNode" instead.',
+      replaceReturnType: 'Replace "{{value}}" by "ReactNode"',
+    },
+
+    hasSuggestions: true,
+  },
+
+  create: Components.detect((context, components) => {
+    return {
+      FunctionDeclaration(node) {
+        if (!components.get(node)) return;
+
+        checkFunctionReturnType(node, (typeName, currentName, range) =>
+          context.report({
+            node: typeName,
+            messageId: "invalidReturnType",
+            data: { value: currentName },
+            suggest: [
+              {
+                messageId: "replaceReturnType",
+                data: { value: currentName },
+                fix: getSuggestionFixer(node, range, context),
+              },
+            ],
+          }),
+        );
+      },
+    };
+  }),
+};

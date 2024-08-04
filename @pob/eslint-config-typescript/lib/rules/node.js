@@ -1,13 +1,4 @@
-"use strict";
-
-module.exports = {
-  extends: ["./plugins/node"].map(require.resolve),
-
-  env: {
-    browser: false,
-    node: true,
-  },
-
+export default {
   rules: {
     // ensure deprecated eslint rules are disabled
     "callback-return": "off",

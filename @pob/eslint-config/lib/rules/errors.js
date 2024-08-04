@@ -1,6 +1,4 @@
-"use strict";
-
-module.exports = {
+export default {
   rules: {
     // https://eslint.org/docs/rules/for-direction
     "for-direction": "error",

@@ -1,6 +1,6 @@
-"use strict";
-
-module.exports = {
+export default {
+  files: ["**/*.{js,cjs,mjs}"],
+  ignores: ["**/{src,lib}/*.{js,cjs,mjs}"],
   rules: {
     "no-console": "off",
 

@@ -7,7 +7,7 @@
   "license": "ISC",
   "repository": "https://github.com/christophehurpeau/eslint-config-pob.git",
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
-  "type": "commonjs",
+  "type": "module",
   "packageManager": "yarn@4.3.1",
   "engines": {
     "node": ">=18.12.0"
@@ -16,13 +16,14 @@
     "@pob/*"
   ],
   "scripts": {
-    "checks": "node scripts/check-packages.mjs",
+    "checks": "node scripts/check-packages.js",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
-    "lint:eslint": "eslint --report-unused-disable-directives --resolve-plugins-relative-to . --quiet .",
+    "lint:eslint": "eslint --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
     "postinstall": "pob-root-postinstall",
-    "test": "node --test"
+    "test": "node --test",
+    "tsc": "tsc -b"
   },
   "commitlint": {
     "extends": [
@@ -32,7 +33,11 @@
   "prettier": "@pob/root/prettier-config",
   "devDependencies": {
     "@pob/commitlint-config": "6.4.0",
-    "@pob/root": "12.2.0",
+    "@pob/eslint-config": "workspace:*",
+    "@pob/eslint-config-typescript": "workspace:*",
+    "@pob/eslint-config-typescript-react": "workspace:*",
+    "@pob/root": "12.3.1",
+    "@types/eslint__js": "8.42.3",
     "@typescript-eslint/eslint-plugin": "7.8.0",
     "@typescript-eslint/parser": "7.8.0",
     "check-package-dependencies": "7.2.0",
@@ -44,6 +49,6 @@
     "eslint-plugin-react-hooks": "4.6.2",
     "eslint-plugin-unicorn": "52.0.0",
     "semver": "7.6.3",
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   }
 }

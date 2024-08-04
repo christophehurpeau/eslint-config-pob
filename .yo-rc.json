@@ -10,7 +10,7 @@
         "@pob/eslint-config-typescript",
         "@pob/eslint-config-typescript-react"
       ],
-      "typescript": false,
+      "typescript": "check-only",
       "eslint": true
     },
     "renovate": {

@@ -1,9 +1,4 @@
-"use strict";
-
-module.exports = {
-  plugins: ["n"],
-  extends: ["plugin:n/recommended-module"],
-
+export default {
   rules: {
     // Disable rules already checked by import plugin
     "n/no-unpublished-require": "off",

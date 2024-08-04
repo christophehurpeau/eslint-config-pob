@@ -1,6 +1,4 @@
-"use strict";
-
-module.exports = {
+export default {
   /* Replace unicorn rules by better type-aware typescript-eslint rules */
   rules: {
     "unicorn/prefer-string-starts-ends-with": "off",
