@@ -19,7 +19,7 @@ export const extensions = "{ts,cts,mts,tsx}";
 export default (url) => {
   const { configs, compat } = pobConfig(url);
   const testFiles = [
-    `**/*.test${extensions}`,
+    `**/*.test.${extensions}`,
     `**/__tests__/**/*.${extensions}`,
     `**/__mocks__/**/*.${extensions}`,
   ];
