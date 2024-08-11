@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [57.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.1.0...v57.0.0) (2024-08-11)
+
+### ⚠ BREAKING CHANGES
+
+* use flat config
+
+### Features
+
+* add baseModule ([c1e7cef](https://github.com/christophehurpeau/eslint-config-pob/commit/c1e7cef19d835b3ab0333b4588d1810e09874d53))
+* use flat config ([b0bda47](https://github.com/christophehurpeau/eslint-config-pob/commit/b0bda47976ec40a30679988c603d425f9b75346f))
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [56.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.0.0...v56.1.0) (2024-07-27)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config",
-  "version": "56.1.0",
+  "version": "57.0.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -46,7 +46,7 @@
     "@eslint/compat": "^1.1.1",
     "@eslint/eslintrc": "2.1.4",
     "@eslint/js": "^8.56.0",
-    "@pob/eslint-plugin": "56.1.0",
+    "@pob/eslint-plugin": "57.0.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^17.4.0",
