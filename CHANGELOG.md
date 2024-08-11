@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [57.3.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v57.3.0...v57.3.1) (2024-08-11)
+
+### Bug Fixes
+
+* fix test glob file ([7b0bad1](https://github.com/christophehurpeau/eslint-config-pob/commit/7b0bad15e8471b740a1c5efa9e24c4561f4ddbd0))
+
 ## [57.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v57.2.0...v57.3.0) (2024-08-11)
 
 ### Features
