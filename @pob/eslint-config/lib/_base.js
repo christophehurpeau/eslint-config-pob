@@ -18,7 +18,14 @@ export default [
     },
   },
   {
-    ignores: [".yarn", "**/dist/", "**/build/", "**/coverage/", "**/.next/"],
+    ignores: [
+      ".yarn",
+      "**/dist/",
+      "**/build/",
+      "**/coverage/",
+      "**/.next/",
+      "**/*.d.ts",
+    ],
   },
   js.configs.recommended,
   pobPlugin.configs.base,
