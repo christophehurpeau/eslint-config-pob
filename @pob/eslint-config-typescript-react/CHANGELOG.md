@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [57.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v57.2.0...v57.3.0) (2024-08-11)
+
+### Features
+
+* config improvements ([8d35116](https://github.com/christophehurpeau/eslint-config-pob/commit/8d35116760d86390738430c8d5bc1ac7fcb53668))
+
+Version bump for dependency: @pob/eslint-config
+Version bump for dependency: @pob/eslint-config-typescript
+
+
 ## [57.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v57.1.0...v57.2.0) (2024-08-11)
 
 Version bump for dependency: @pob/eslint-config
