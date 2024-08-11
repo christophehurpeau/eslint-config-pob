@@ -1,4 +1,6 @@
 export default {
+  name: "@pob/eslint-config-typescript/plugins/node",
+
   rules: {
     // Disable rules already checked by import plugin
     "n/no-unpublished-require": "off",

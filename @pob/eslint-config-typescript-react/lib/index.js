@@ -2,6 +2,7 @@ import baseTypescriptPobConfig, {
   extensions,
 } from "@pob/eslint-config-typescript";
 import pobPlugin from "@pob/eslint-plugin";
+import importPluginOverrideConfig from "./plugins/import.js";
 import jsxA11yConfigs from "./plugins/jsx-a11y.js";
 import reactHooksConfigs from "./plugins/react-hooks.js";
 import reactConfigs from "./plugins/react.js";
@@ -9,8 +10,10 @@ import reactConfigs from "./plugins/react.js";
 export default (url) => {
   const { compat, configs } = baseTypescriptPobConfig(url);
 
-  const recommended = [
-    ...configs.node,
+  const createConfig = (base) => [
+    ...base,
+    importPluginOverrideConfig,
+
     ...[
       pobPlugin.configs.react,
       ...compat.config({
@@ -57,13 +60,13 @@ export default (url) => {
   return {
     compat,
     configs: {
-      recommended,
+      base: createConfig(configs.base),
+      node: createConfig(configs.node),
 
       allowUnsafe: configs.allowUnsafe,
       app: configs.app,
 
       "react-native": [
-        ...recommended,
         ...compat.config({
           settings: {
             "import/resolver": {
@@ -76,7 +79,6 @@ export default (url) => {
       ],
 
       "react-native-web": [
-        ...recommended,
         ...compat.config({
           settings: {
             "import/resolver": {
