@@ -1,4 +1,9 @@
 {
   "files": [],
-  "references": [{ "path": "@pob/eslint-config/tsconfig.json" }]
+  "references": [
+    { "path": "@pob/eslint-plugin/tsconfig.json" },
+    { "path": "@pob/eslint-config/tsconfig.json" },
+    { "path": "@pob/eslint-config-typescript/tsconfig.json" },
+    { "path": "@pob/eslint-config-typescript-react/tsconfig.json" }
+  ]
 }

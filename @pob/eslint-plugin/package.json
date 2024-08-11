@@ -2,19 +2,37 @@
   "name": "@pob/eslint-plugin",
   "version": "56.1.0",
   "description": "eslint plugin for react",
+  "keywords": [],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophehurpeau/eslint-config-pob.git",
+    "directory": "@pob/eslint-plugin"
+  },
+  "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "module",
   "engines": {
     "node": ">=20.10.0"
   },
-  "main": "index.js",
+  "sideEffects": false,
+  "main": "./lib/index.js",
   "exports": {
     "./package.json": "./package.json",
-    ".": "./index.js"
+    ".": "./lib/index.js"
   },
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "yarn run lint:eslint",
+    "lint:eslint": "yarn ../.. run eslint --quiet @pob/eslint-plugin"
+  },
+  "pob": {},
+  "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
     "eslint": "^8.39.0",
     "typescript": ">=5.2.2"

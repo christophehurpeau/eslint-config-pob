@@ -36,7 +36,7 @@
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
-    "@pob/root": "12.3.1",
+    "@pob/root": "12.4.0",
     "@types/eslint__js": "8.42.3",
     "@typescript-eslint/eslint-plugin": "7.8.0",
     "@typescript-eslint/parser": "7.8.0",
