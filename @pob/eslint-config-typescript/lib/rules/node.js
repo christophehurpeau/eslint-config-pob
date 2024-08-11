@@ -1,4 +1,5 @@
 export default {
+  name: "@pob/eslint-config-typescript/node",
   rules: {
     // ensure deprecated eslint rules are disabled
     "callback-return": "off",

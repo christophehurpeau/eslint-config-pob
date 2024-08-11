@@ -1,4 +1,5 @@
 export default {
+  name: "@pob/eslint-config-typescript/base",
   languageOptions: {
     parserOptions: {
       project: true,

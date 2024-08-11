@@ -1,4 +1,5 @@
 export default {
+  name: "@pob/eslint-config-typescript/test",
   rules: {
     // allow dev dependencies
     "import/no-extraneous-dependencies": ["error", { devDependencies: true }],

@@ -1,4 +1,6 @@
 export default {
+  name: "@pob/eslint-config-typescript/typescript-eslint/replace-unicorn",
+
   /* Replace unicorn rules by better type-aware typescript-eslint rules */
   rules: {
     "unicorn/prefer-string-starts-ends-with": "off",

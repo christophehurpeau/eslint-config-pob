@@ -1,4 +1,5 @@
 export default {
+  name: "@pob/eslint-config/dev-only",
   files: ["**/*.{js,cjs,mjs}"],
   ignores: ["**/{src,lib}/*.{js,cjs,mjs}"],
   rules: {

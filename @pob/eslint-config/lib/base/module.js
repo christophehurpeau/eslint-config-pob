@@ -1,4 +1,5 @@
 export default {
+  name: "@pob/eslint-config/base/module",
   languageOptions: {
     sourceType: "module",
   },

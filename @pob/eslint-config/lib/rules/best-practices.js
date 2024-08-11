@@ -1,6 +1,7 @@
 import confusingBrowserGlobals from "confusing-browser-globals";
 
 export default {
+  name: "@pob/eslint-config/best-practices",
   rules: {
     // https://eslint.org/docs/rules/accessor-pairs
     "accessor-pairs": "off",

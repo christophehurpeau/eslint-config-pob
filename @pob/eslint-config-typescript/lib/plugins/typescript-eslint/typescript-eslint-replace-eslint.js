@@ -45,6 +45,7 @@ const disableRules = (ruleNames) => {
 };
 
 export default {
+  name: "@pob/eslint-config-typescript/typescript-eslint/replace-eslint",
   /* Replace enabled rules in Airbnb by typescript-eslint rules */
   rules: {
     ...replaceRules(pobBestPracticesConfig.rules, [

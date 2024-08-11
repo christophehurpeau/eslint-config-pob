@@ -1,6 +1,8 @@
 import { enableIfVSCode } from "@pob/eslint-config/utils";
 
 export default {
+  name: "@pob/eslint-config-typescript/typescript-eslint/rules",
+
   rules: {
     // https://typescript-eslint.io/rules/adjacent-overload-signatures/
     "@typescript-eslint/adjacent-overload-signatures": "error",

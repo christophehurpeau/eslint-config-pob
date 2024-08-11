@@ -4,6 +4,7 @@ import { overrideRules } from "./_base.js";
 export default [
   nodePlugin.configs["flat/recommended-module"],
   {
+    name: "@pob/eslint-config/node/module",
     rules: {
       ...overrideRules,
       "unicorn/prefer-module": "error",

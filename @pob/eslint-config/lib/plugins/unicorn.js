@@ -2,6 +2,7 @@ import eslintPluginUnicorn from "eslint-plugin-unicorn";
 
 export default [
   {
+    name: "@pob/eslint-config/unicorn",
     plugins: { unicorn: eslintPluginUnicorn },
     rules: {
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md

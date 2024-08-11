@@ -1,4 +1,5 @@
 export default {
+  name: "@pob/eslint-config/errors",
   rules: {
     // https://eslint.org/docs/rules/for-direction
     "for-direction": "error",
