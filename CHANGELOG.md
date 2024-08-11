@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [57.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v57.1.0...v57.2.0) (2024-08-11)
+
+### Features
+
+* allow no-relative-packages for rollup config ([2415596](https://github.com/christophehurpeau/eslint-config-pob/commit/2415596ec873e00cf3b3e9d762b311a9cb4a24d7))
+* ignore .next directory ([ce818b8](https://github.com/christophehurpeau/eslint-config-pob/commit/ce818b8f50c65231fe07c070804d494d7af6c3c5))
+
+### Bug Fixes
+
+* configure import settings ([fbb6e21](https://github.com/christophehurpeau/eslint-config-pob/commit/fbb6e21d1c61a7a1d53a3aa59191a59a598b94c1))
+
 ## [57.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v57.0.0...v57.1.0) (2024-08-11)
 
 ### Features
