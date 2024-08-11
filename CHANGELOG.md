@@ -8,137 +8,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * pob plugin ([fd99ec8](https://github.com/christophehurpeau/eslint-config-pob/commit/fd99ec8711409b3bc9b960f7eb2e0b2e67984381))
-## [56.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.3.0...v56.0.0) (2024-05-05)
-
-### ⚠ BREAKING CHANGES
-
-* use standard quotes
-
-### Features
-
-* use standard quotes ([0083d81](https://github.com/christophehurpeau/eslint-config-pob/commit/0083d816bbe4e320eabe3c23a8d4edaa561df8a3))
-## [55.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.1...v55.3.0) (2024-05-05)
-
-### Features
-
-* change curly to warn and add test ([83e0e27](https://github.com/christophehurpeau/eslint-config-pob/commit/83e0e27dbb8f6403cc18862fff606ae517fe2dbb))
-* change quote rule to warn and add test ([a4a5ba2](https://github.com/christophehurpeau/eslint-config-pob/commit/a4a5ba20269fc0c78c3672867c56a87de1f791dd))
-* **deps:** update typescript-eslint monorepo to v7.8.0 ([#638](https://github.com/christophehurpeau/eslint-config-pob/issues/638)) ([ea6a1fc](https://github.com/christophehurpeau/eslint-config-pob/commit/ea6a1fcef6627bb6e58c622302c562e2ff951335))
-* remove optional peer dependencies ([ddddeb2](https://github.com/christophehurpeau/eslint-config-pob/commit/ddddeb27d606f16dbf6c38b2f61c3a7bfe20510d))
-
-### Bug Fixes
-
-* disable react/jsx-curly-newline ([d57c2b8](https://github.com/christophehurpeau/eslint-config-pob/commit/d57c2b8cc93d4ec7a6b5837ef1c23770139aa053))
-## [55.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.2.0...v55.2.1) (2024-04-21)
-
-### Bug Fixes
-
-* remove generator-star-spacing ([a9bf679](https://github.com/christophehurpeau/eslint-config-pob/commit/a9bf679717e27b3e3cb86c25af17d89cae205f59))
-## [55.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.1.0...v55.2.0) (2024-04-21)
-
-### Features
-
-* enable max-params ([93f60a1](https://github.com/christophehurpeau/eslint-config-pob/commit/93f60a12ffa4a94a8adf0f74866c8f2c81c37c2e))
-## [55.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.0.1...v55.1.0) (2024-04-21)
-
-### Features
-
-* configure restrict-template-expressions ([85fdd7f](https://github.com/christophehurpeau/eslint-config-pob/commit/85fdd7f0aaa6117fdc502df9bfcfba1472528417))
-* remove max-lines ([38d7fda](https://github.com/christophehurpeau/eslint-config-pob/commit/38d7fdaa36f40a6f7434fea242bf6a72bef4bcca))
-## [55.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.0.0...v55.0.1) (2024-04-21)
-
-### Bug Fixes
-
-* properly configure module vs commonjs ([8ae7ffd](https://github.com/christophehurpeau/eslint-config-pob/commit/8ae7ffdb3b37f1ec898b4ce8694420253ff3260d))
-## [55.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v54.0.2...v55.0.0) (2024-04-20)
-
-### ⚠ BREAKING CHANGES
-
-* remove eslint-config-airbnb-base
-* remove config eslint-config-airbnb as dependency
-
-### Features
-
-* remove config eslint-config-airbnb as dependency ([05cd865](https://github.com/christophehurpeau/eslint-config-pob/commit/05cd86511db14e0ec7c4df1ede633eaf65b9b37b))
-* remove eslint-config-airbnb-base ([295a348](https://github.com/christophehurpeau/eslint-config-pob/commit/295a34808018f395e22d935772ac9e614bc6bd47))
-## [54.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v54.0.1...v54.0.2) (2024-04-07)
-## [54.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v54.0.0...v54.0.1) (2024-02-24)
-
-### Bug Fixes
-
-* disable more rules from eslint-plugin-n ([5d557e7](https://github.com/christophehurpeau/eslint-config-pob/commit/5d557e7e73eacf5a6af563773ce4107fe695ae4a))
-## [54.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v53.1.0...v54.0.0) (2024-02-17)
-
-### ⚠ BREAKING CHANGES
-
-* replace eslint-plugin-node by eslint-plugin-n
-
-### Features
-
-* replace eslint-plugin-node by eslint-plugin-n ([7d9764c](https://github.com/christophehurpeau/eslint-config-pob/commit/7d9764cf80fffcd4381056624eb06887a3d86e3f))
-## [53.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v53.0.0...v53.1.0) (2023-12-28)
-
-### Features
-
-* **eslint-config-typescript:** improve test override ([836cbbf](https://github.com/christophehurpeau/eslint-config-pob/commit/836cbbff972679e3e2999d995255c5c5ece14b79))
-## [53.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v52.0.1...v53.0.0) (2023-12-28)
-
-### ⚠ BREAKING CHANGES
-
-* feat: change import/extensions to ignorePackages
-
-### Reverts
-
-* feat: change import/extensions to ignorePackages ([0a15b9e](https://github.com/christophehurpeau/eslint-config-pob/commit/0a15b9e80b990a8f6277a1bd19481a9fe72f3f22))
-## [52.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v52.0.0...v52.0.1) (2023-12-28)
-
-### Reverts
-
-* Revert "feat!: change import/extensions to ignorePackages" ([22d14bc](https://github.com/christophehurpeau/eslint-config-pob/commit/22d14bc6d6f94cae03a547cf53d939f6c1c756a7))
-## [52.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.2.2...v52.0.0) (2023-12-28)
-
-### ⚠ BREAKING CHANGES
-
-* change import/extensions to ignorePackages
-
-### Features
-
-* change import/extensions to ignorePackages ([1833642](https://github.com/christophehurpeau/eslint-config-pob/commit/183364280552d484acd37bbf3b9816d88c1f6bfe))
-## [51.2.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.2.1...v51.2.2) (2023-12-14)
-## [51.2.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.2.0...v51.2.1) (2023-12-10)
-
-### Bug Fixes
-
-* remove tsc-emit ([ee3fdc7](https://github.com/christophehurpeau/eslint-config-pob/commit/ee3fdc70f072fbfaaae035c56dc7055700560cc6))
-## [51.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.1.2...v51.2.0) (2023-12-10)
-
-### Features
-
-* configure import/extensions for tsc emit ([f010a49](https://github.com/christophehurpeau/eslint-config-pob/commit/f010a49c334b0590afcc9aa7408f05df4bd19bb3))
-* update [@typescript-eslint](https://github.com/typescript-eslint) ([f1e0625](https://github.com/christophehurpeau/eslint-config-pob/commit/f1e0625e7550a02e1e9240432831a768ecd7024c))
-## [51.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.1.1...v51.1.2) (2023-10-19)
-
-### Bug Fixes
-
-* disable @typescript-eslint/prefer-destructuring ([220f5e2](https://github.com/christophehurpeau/eslint-config-pob/commit/220f5e252141ed615422e603f2fb6683dc294a64))
-## [51.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.1.0...v51.1.1) (2023-10-18)
-
-### Bug Fixes
-
-* fix no-restricted-exports rule ([a1dd956](https://github.com/christophehurpeau/eslint-config-pob/commit/a1dd956448099f77f3adadca1ce031044a3a4492))
-## [51.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v51.0.2...v51.1.0) (2023-10-03)
-
-### Features
-
-* improve boolean rule ([7c85251](https://github.com/christophehurpeau/eslint-config-pob/commit/7c8525112b79ce6e064c31f95dfe26891eda1afc))
-
-### Bug Fixes
-
-* disable react/no-unescaped-entities ([5a41c9f](https://github.com/christophehurpeau/eslint-config-pob/commit/5a41c9fdf8e22adc10ad22961deeb4f1e51d3832))
-* fix react/function-component-definition rule and enable func-names ([e656eba](https://github.com/christophehurpeau/eslint-config-pob/commit/e656ebaba4639a0eb547ef11dc9d3fbf32aec60e))
-* remove boolean rule ([71f7df5](https://github.com/christophehurpeau/eslint-config-pob/commit/71f7df55811e3a13b2b74351133a36b2d6a42375))
-* update conventional-version plugin ([4ea524e](https://github.com/christophehurpeau/eslint-config-pob/commit/4ea524e5ce1f5f3156a010c52b86913c456cbb5f))
-## 51.0.2 (2023-09-01)
 
 ## [56.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v55.3.0...v56.0.0) (2024-05-05)
 
@@ -835,7 +704,7 @@ Note: no notable changes
 
 ### BREAKING CHANGES
 
-* **deps:** requires eslint-plugin-unicorn 34 and enable new rules 
+* **deps:** requires eslint-plugin-unicorn 34 and enable new rules
 * requires new min supported node versions
 
 
