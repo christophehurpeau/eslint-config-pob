@@ -1,2 +1,2 @@
-// eslint-disable-next-line unicorn/new-for-builtins, no-new-native-nonconstructor, no-new-symbol
+// eslint-disable-next-line unicorn/new-for-builtins, no-new-native-nonconstructor
 export const foo = new Symbol("foo");

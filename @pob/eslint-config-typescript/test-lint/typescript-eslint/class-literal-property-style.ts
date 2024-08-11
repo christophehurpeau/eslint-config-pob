@@ -6,7 +6,7 @@ export class Mx {
     return 1;
   }
 
-  // eslint-disable-next-line @typescript-eslint/class-literal-property-style
+  // eslint-disable-next-line @typescript-eslint/class-literal-property-style, no-useless-computed-key
   private get ["myField2"]() {
     return "hello world";
   }

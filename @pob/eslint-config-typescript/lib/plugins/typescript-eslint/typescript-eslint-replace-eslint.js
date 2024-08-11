@@ -63,8 +63,6 @@ export default {
       "no-implied-eval",
       // https://typescript-eslint.io/rules/no-loop-func
       "no-loop-func",
-      // https://typescript-eslint.io/rules/no-throw-literal
-      "no-throw-literal",
       // https://typescript-eslint.io/rules/no-unused-expressions
       "no-unused-expressions",
       // https://typescript-eslint.io/rules/no-unused-vars
@@ -81,11 +79,6 @@ export default {
       "class-methods-use-this",
       // https://typescript-eslint.io/rules/max-params
       "max-params",
-    ]),
-
-    ...replaceRules(pobErrorsConfig.rules, [
-      // https://typescript-eslint.io/rules/no-loss-of-precision
-      "no-loss-of-precision",
     ]),
 
     ...disabledRules([

@@ -1,5 +1,6 @@
 export default {
   name: "@pob/eslint-config/errors",
+
   rules: {
     // https://eslint.org/docs/rules/for-direction
     "for-direction": "error",
@@ -18,6 +19,9 @@ export default {
 
     // https://eslint.org/docs/rules/no-console
     "no-console": "warn",
+
+    // https://eslint.org/docs/rules/no-constant-condition
+    "no-constant-condition": "error",
 
     // https://eslint.org/docs/rules/no-control-regex
     "no-control-regex": "error",
@@ -54,9 +58,6 @@ export default {
 
     // https://eslint.org/docs/rules/no-import-assign
     "no-import-assign": "error",
-
-    // https://eslint.org/docs/rules/no-inner-declarations
-    "no-inner-declarations": "error",
 
     // https://eslint.org/docs/rules/no-invalid-regexp
     "no-invalid-regexp": "error",

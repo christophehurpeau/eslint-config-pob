@@ -13,6 +13,24 @@ await createCheckPackageWithWorkspaces({
     onlyWarnsForInRootDependencies: {
       "*": {
         duplicateDirectDependency: ["semver"],
+        invalidPeerDependencyVersion: ["eslint"],
+      },
+    },
+    onlyWarnsForInMonorepoPackagesDependencies: {
+      "@pob/eslint-config": {
+        "*": {
+          invalidPeerDependencyVersion: ["eslint"],
+        },
+      },
+      "@pob/eslint-config-typescript": {
+        "*": {
+          invalidPeerDependencyVersion: ["eslint"],
+        },
+      },
+      "@pob/eslint-config-typescript-react": {
+        "*": {
+          invalidPeerDependencyVersion: ["eslint"],
+        },
       },
     },
   })

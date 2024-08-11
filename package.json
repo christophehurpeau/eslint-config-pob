@@ -10,7 +10,7 @@
   "type": "module",
   "packageManager": "yarn@4.4.0",
   "engines": {
-    "node": ">=18.12.0"
+    "node": ">=18.18.0"
   },
   "workspaces": [
     "@pob/*"
@@ -38,16 +38,16 @@
     "@pob/eslint-config-typescript-react": "workspace:*",
     "@pob/root": "13.0.0",
     "@types/eslint__js": "8.42.3",
-    "@typescript-eslint/eslint-plugin": "7.8.0",
-    "@typescript-eslint/parser": "7.8.0",
+    "@typescript-eslint/eslint-plugin": "8.0.1",
+    "@typescript-eslint/parser": "8.0.1",
     "check-package-dependencies": "7.2.0",
-    "eslint": "8.57.0",
+    "eslint": "9.9.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-n": "17.4.0",
-    "eslint-plugin-react": "7.34.1",
+    "eslint-plugin-react": "7.35.0",
     "eslint-plugin-react-hooks": "4.6.2",
-    "eslint-plugin-unicorn": "52.0.0",
+    "eslint-plugin-unicorn": "55.0.0",
     "semver": "7.6.3",
     "typescript": "5.5.4"
   }

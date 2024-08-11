@@ -12,7 +12,7 @@ switch (foo) {
     const y = 2;
     break;
   case 3:
-    // eslint-disable-next-line no-case-declarations, no-inner-declarations
+    // eslint-disable-next-line no-case-declarations
     function f() {}
     break;
   default:

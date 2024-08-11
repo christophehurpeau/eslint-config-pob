@@ -13,7 +13,7 @@
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "module",
   "engines": {
-    "node": ">=18.12.0"
+    "node": ">=18.18.0"
   },
   "sideEffects": false,
   "main": "./lib/index.js",
@@ -34,21 +34,21 @@
   "pob": {},
   "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^9.9.0"
   },
   "dependencies": {
     "@pob/eslint-config": "57.3.0",
-    "@typescript-eslint/eslint-plugin": "^7.8.0",
-    "@typescript-eslint/parser": "^7.8.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
     "eslint-plugin-import": "^2.29.1",
-    "typescript-eslint": "^7.8.0"
+    "typescript-eslint": "^8.0.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "7.8.0",
-    "@typescript-eslint/parser": "7.8.0",
-    "eslint": "8.57.0",
+    "@typescript-eslint/eslint-plugin": "8.0.1",
+    "@typescript-eslint/parser": "8.0.1",
+    "eslint": "9.9.0",
     "eslint-plugin-import": "2.29.1",
     "typescript": "5.5.4",
-    "typescript-eslint": "7.8.0"
+    "typescript-eslint": "8.0.1"
   }
 }

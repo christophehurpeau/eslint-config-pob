@@ -86,9 +86,6 @@ export default {
     // https://typescript-eslint.io/rules/no-confusing-non-null-assertion/
     "@typescript-eslint/no-confusing-non-null-assertion": "error",
 
-    // https://typescript-eslint.io/rules/no-empty-interface/
-    "@typescript-eslint/no-empty-interface": "error",
-
     // https://typescript-eslint.io/rules/no-import-type-side-effects/
     "@typescript-eslint/no-import-type-side-effects": "error",
 
