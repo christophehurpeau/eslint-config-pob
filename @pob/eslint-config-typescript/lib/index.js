@@ -15,9 +15,32 @@ export const extensions = "{ts,cts,mts,tsx}";
 
 export default (url) => {
   const { configs, compat } = pobConfig(url);
+  const testFiles = [
+    `**/*.test${extensions}`,
+    `**/__tests__/**/*.${extensions}`,
+    `**/__mocks__/**/*.${extensions}`,
+  ];
+
   return {
     compat,
     configs: {
+      base: [
+        ...configs.baseModule,
+        ...[
+          ...tseslint.configs.strictTypeChecked,
+          replaceUnicornConfig,
+          replaceEslintConfig,
+          rules,
+          baseConfig,
+        ].map((config) => ({
+          ...config,
+          files: [`**/*.${extensions}`],
+        })),
+        {
+          ...testConfig,
+          files: testFiles,
+        },
+      ],
       node: [
         ...configs.nodeModule,
         ...[
@@ -34,11 +57,7 @@ export default (url) => {
         })),
         {
           ...testConfig,
-          files: [
-            `**/*.test${extensions}`,
-            `**/__tests__/**/*.${extensions}`,
-            `**/__mocks__/**/*.${extensions}`,
-          ],
+          files: testFiles,
         },
       ],
 

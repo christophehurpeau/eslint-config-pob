@@ -39,12 +39,11 @@ export default (url) => {
     })),
   ];
 
-  const nodeModule = [
+  const baseModule = [
     ...baseConfigs,
     baseModuleConfig,
     ...importPluginBaseConfigs(compat),
     importPluginModuleConfig,
-    ...nodePluginModuleConfigs,
     {
       files: ["**/*.cjs"],
       ...baseCommonjsConfig,
@@ -53,6 +52,11 @@ export default (url) => {
       files: ["**/*.cjs"],
       ...importPluginCommonjsConfig,
     },
+  ];
+
+  const nodeModule = [
+    ...baseModule,
+    ...nodePluginModuleConfigs,
     ...nodePluginCommonjsConfigs.map((config) => ({
       ...config,
       files: ["**/*.cjs"],
@@ -62,6 +66,7 @@ export default (url) => {
   return {
     compat,
     configs: {
+      baseModule,
       nodeModule,
       nodeCommonjs,
     },
