@@ -5,14 +5,14 @@ export default {
       project: true,
     },
   },
-  // settings: {
-  //   "import/resolver": {
-  //     node: {
-  //       extensions: [".mjs", ".js", ".json", ".ts"],
-  //     },
-  //   },
-  //   "import/extensions": [".js", ".mjs", ".ts", ".d.ts"],
-  // },
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".mjs", ".js", ".json", ".ts"],
+      },
+    },
+    "import/extensions": [".js", ".mjs", ".ts", ".d.ts"],
+  },
   rules: {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-anonymous-default-export.md
     // Reports if a module's default export is unnamed
