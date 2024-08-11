@@ -129,4 +129,10 @@ export default (compat) => [
       ],
     },
   }),
+  {
+    files: ["rollup.config.mjs", "rollup.config.mjs"],
+    rules: {
+      "import/no-relative-packages": "off",
+    },
+  },
 ];
