@@ -32,11 +32,11 @@
   },
   "prettier": "@pob/root/prettier-config",
   "devDependencies": {
-    "@pob/commitlint-config": "6.4.0",
+    "@pob/commitlint-config": "7.0.0",
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
-    "@pob/root": "12.4.0",
+    "@pob/root": "13.0.0",
     "@types/eslint__js": "8.42.3",
     "@typescript-eslint/eslint-plugin": "7.8.0",
     "@typescript-eslint/parser": "7.8.0",
