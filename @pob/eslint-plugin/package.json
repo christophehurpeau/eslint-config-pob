@@ -43,12 +43,12 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/utils": "8.0.1",
+    "@typescript-eslint/utils": "8.1.0",
     "eslint-plugin-react": "^7.35.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.1.0",
-    "@typescript-eslint/rule-tester": "8.0.1",
+    "@typescript-eslint/rule-tester": "8.1.0",
     "eslint": "9.9.0",
     "typescript": "5.5.4"
   }
