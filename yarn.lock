@@ -639,6 +639,7 @@ __metadata:
     eslint: "npm:9.9.0"
     eslint-plugin-react: "npm:^7.35.0"
     typescript: "npm:5.5.4"
+    typescript-eslint: "npm:8.0.1"
   peerDependencies:
     eslint: ^9.9.0
     typescript: ">=5.2.2"

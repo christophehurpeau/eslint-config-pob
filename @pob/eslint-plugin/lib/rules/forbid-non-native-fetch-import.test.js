@@ -1,12 +1,12 @@
 import { RuleTester } from "eslint";
 import rule from "./forbid-non-native-fetch-import.js";
 
-const parserOptions = {
+const languageOptions = {
   ecmaVersion: 2018,
   sourceType: "module",
 };
 
-const ruleTester = new RuleTester({ parserOptions });
+const ruleTester = new RuleTester({ languageOptions });
 
 ruleTester.run("forbid-non-native-fetch-import", rule, {
   valid: [
