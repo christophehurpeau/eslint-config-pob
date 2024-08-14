@@ -1,5 +1,3 @@
-export default (compat) =>
-  compat.config({
-    plugins: ["jsx-a11y"],
-    extends: ["plugin:jsx-a11y/strict"],
-  });
+import jsxA11y from "eslint-plugin-jsx-a11y";
+
+export default [jsxA11y.flatConfigs.strict];

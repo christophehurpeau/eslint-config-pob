@@ -51,7 +51,7 @@ export default (url) => {
       }),
       ...reactConfigs(compat),
       ...reactHooksConfigs(compat),
-      ...jsxA11yConfigs(compat),
+      ...jsxA11yConfigs,
     ].map((config) => ({
       ...config,
       files: [`**/*.${extensions}`],
