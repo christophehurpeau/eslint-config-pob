@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [58.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v57.3.1...v58.0.0) (2024-08-14)
+
+### ⚠ BREAKING CHANGES
+
+* update eslint v9
+
+### Features
+
+* update eslint v9 ([6f8647f](https://github.com/christophehurpeau/eslint-config-pob/commit/6f8647f45589e9a9387bd38b9881fd2035ab32ad))
+
 ## [57.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v56.1.0...v57.0.0) (2024-08-11)
 
 ### ⚠ BREAKING CHANGES
