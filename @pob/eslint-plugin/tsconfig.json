@@ -5,7 +5,7 @@
   ],
   "compilerOptions": {
     "allowJs": true,
-    "checkJs": false,
+    "checkJs": true,
     "noEmit": true
   },
   "include": ["lib/**/*.js"]
