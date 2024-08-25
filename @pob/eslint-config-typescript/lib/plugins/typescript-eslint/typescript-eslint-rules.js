@@ -197,5 +197,6 @@ export default {
     "@typescript-eslint/unified-signatures": "warn",
     "@typescript-eslint/no-unnecessary-condition": "warn",
     "@typescript-eslint/no-confusing-void-expression": "warn",
+    "@typescript-eslint/no-unnecessary-type-parameters": "warn",
   },
 };
