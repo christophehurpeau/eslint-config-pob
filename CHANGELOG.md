@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [58.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.0.1...v58.0.2) (2024-09-07)
+
+### Bug Fixes
+
+* disable explicit-function-return-type for app config ([a44c861](https://github.com/christophehurpeau/eslint-config-pob/commit/a44c86134ac64cd0ecad1b7af52028f9057a69cd))
+
 ## [58.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.0.0...v58.0.1) (2024-08-25)
 
 ### Bug Fixes

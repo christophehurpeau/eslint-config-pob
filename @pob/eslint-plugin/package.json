@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-plugin",
-  "version": "58.0.1",
+  "version": "58.0.2",
   "description": "eslint plugin for react",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
