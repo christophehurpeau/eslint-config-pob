@@ -10,7 +10,7 @@
   "type": "module",
   "packageManager": "yarn@4.4.1",
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=18.12.0"
   },
   "workspaces": [
     "@pob/*"
@@ -36,7 +36,7 @@
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
-    "@pob/root": "13.0.0",
+    "@pob/root": "13.2.0",
     "@types/eslint__js": "8.42.3",
     "@typescript-eslint/eslint-plugin": "8.1.0",
     "@typescript-eslint/parser": "8.1.0",
