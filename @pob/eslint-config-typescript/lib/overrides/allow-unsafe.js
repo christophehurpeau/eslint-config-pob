@@ -1,5 +1,5 @@
 export default {
-  name: "@pob/eslint-config-typescript/allows-unsafe",
+  name: "@pob/eslint-config-typescript/allow-unsafe",
   rules: {
     "@typescript-eslint/no-unsafe-argument": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",

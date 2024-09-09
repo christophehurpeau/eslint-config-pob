@@ -7,6 +7,8 @@ import jsxA11yConfigs from "./plugins/jsx-a11y.js";
 import reactHooksConfigs from "./plugins/react-hooks.js";
 import reactConfigs from "./plugins/react.js";
 
+export { apply, applyTs } from "@pob/eslint-config-typescript";
+
 export default (url) => {
   const { compat, configs } = baseTypescriptPobConfig(url);
 
@@ -64,6 +66,7 @@ export default (url) => {
       node: createConfig(configs.node),
 
       allowUnsafe: configs.allowUnsafe,
+      allowImplicitReturnType: configs.allowImplicitReturnType,
       app: configs.app,
 
       "react-native": [

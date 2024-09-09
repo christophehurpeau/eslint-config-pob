@@ -14,9 +14,9 @@ import importPluginCommonjsConfig from "./plugins/import/import-commonjs.js";
 import importPluginModuleConfig from "./plugins/import/import-module.js";
 
 export const apply = ({
-  files,
   filesOverridesIf = [],
   extensions = "{js,cjs,mjs}",
+  files = [`**/*.${extensions}`],
   configs,
   mode = "throw-if-files-exists",
 }) => {

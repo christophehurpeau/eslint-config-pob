@@ -1,6 +1,7 @@
 import pobConfig, { apply } from "@pob/eslint-config";
 // eslint-disable-next-line import/no-unresolved -- missing exports support see https://gist.github.com/danielweck/cd63af8e9a8b3492abacc312af9f28fd for potential fix
 import tseslint from "typescript-eslint";
+import allowImplicitReturnTypeConfig from "./overrides/allow-implicit-return-type.js";
 import allowUnsafeConfig from "./overrides/allow-unsafe.js";
 import appConfig from "./overrides/app.js";
 import testConfig from "./overrides/test.js";
@@ -16,6 +17,12 @@ export { apply } from "@pob/eslint-config";
 
 export const extensions = "{ts,cts,mts,tsx}";
 
+export const applyTs = (options) =>
+  apply({
+    extensions,
+    ...options,
+  });
+
 export default (url) => {
   const { configs, compat } = pobConfig(url);
   const testFiles = [
@@ -30,8 +37,7 @@ export default (url) => {
       base: [
         ...configs.baseModule,
         importPluginOverrideConfig,
-        ...apply({
-          files: [`**/*.${extensions}`],
+        ...applyTs({
           filesOverridesIf: [tseslint.configs.strictTypeChecked[1].files],
           configs: [
             ...tseslint.configs.strictTypeChecked,
@@ -49,8 +55,7 @@ export default (url) => {
       node: [
         ...configs.nodeModule,
         importPluginOverrideConfig,
-        ...apply({
-          files: [`**/*.${extensions}`],
+        ...applyTs({
           filesOverridesIf: [tseslint.configs.strictTypeChecked[1].files],
           configs: [
             ...tseslint.configs.strictTypeChecked,
@@ -68,13 +73,15 @@ export default (url) => {
         }),
       ],
 
-      allowUnsafe: apply({
-        files: [`**/*.${extensions}`],
+      allowImplicitReturnType: applyTs({
+        configs: [allowImplicitReturnTypeConfig],
+      }),
+
+      allowUnsafe: applyTs({
         configs: [allowUnsafeConfig],
       }),
 
-      app: apply({
-        files: [`**/*.${extensions}`],
+      app: applyTs({
         configs: [appConfig],
       }),
     },
