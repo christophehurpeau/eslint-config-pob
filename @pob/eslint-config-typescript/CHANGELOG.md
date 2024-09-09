@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [58.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.0.2...v58.1.0) (2024-09-09)
+
+### Features
+
+* add allowImplicitReturnType, export applyTs ([db24775](https://github.com/christophehurpeau/eslint-config-pob/commit/db2477515d0156ed01c1c1c14ae209c4e66e63cb))
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [58.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.0.1...v58.0.2) (2024-09-07)
 
 ### Bug Fixes
