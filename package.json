@@ -8,7 +8,7 @@
   "repository": "https://github.com/christophehurpeau/eslint-config-pob.git",
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "module",
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@4.5.1",
   "engines": {
     "node": ">=18.18.0"
   },
