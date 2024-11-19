@@ -1,5 +1,6 @@
 import js from "@eslint/js";
 import pobPlugin from "@pob/eslint-plugin";
+import regexpPluginConfigs from "./plugins/regexp.js";
 import unicornPluginConfigs from "./plugins/unicorn.js";
 import bestPracticesConfig from "./rules/best-practices.js";
 import codeQualityConfig from "./rules/code-quality.js";
@@ -30,6 +31,7 @@ export default [
   js.configs.recommended,
   pobPlugin.configs.base,
   ...unicornPluginConfigs,
+  ...regexpPluginConfigs,
   bestPracticesConfig,
   codeQualityConfig,
   errorsConfig,
