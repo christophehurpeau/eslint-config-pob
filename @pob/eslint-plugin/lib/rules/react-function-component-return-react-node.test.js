@@ -17,6 +17,7 @@ const ruleTester = new RuleTester({
   },
 });
 
+// @ts-ignore
 ruleTester.run("react-function-component-return-react-node", rule, {
   valid: [
     {

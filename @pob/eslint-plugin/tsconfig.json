@@ -1,11 +1,13 @@
 {
   "extends": [
     "@pob/root/tsconfigs/base.json",
-    "@pob/root/tsconfigs/targets/node-18.json"
+    "@pob/root/tsconfigs/targets/node-20.json"
   ],
   "compilerOptions": {
     "allowJs": true,
-    "checkJs": false,
+    "checkJs": true,
+    "composite": true,
+    "tsBuildInfoFile": "node_modules/.cache/tsc/tsbuildinfo",
     "noEmit": true
   },
   "include": ["lib/**/*.js"]

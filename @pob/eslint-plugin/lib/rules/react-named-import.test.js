@@ -16,6 +16,8 @@ const ruleTester = new RuleTester({
     },
   },
 });
+
+// @ts-ignore
 ruleTester.run("react-named-import", rule, {
   valid: [
     {

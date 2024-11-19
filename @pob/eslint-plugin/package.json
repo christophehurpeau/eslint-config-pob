@@ -13,7 +13,7 @@
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "module",
   "engines": {
-    "node": ">=20.10.0"
+    "node": ">=20.9.0"
   },
   "sideEffects": false,
   "main": "./lib/index.js",
@@ -49,8 +49,8 @@
   "devDependencies": {
     "@eslint/eslintrc": "3.1.0",
     "@typescript-eslint/rule-tester": "8.1.0",
-    "eslint": "9.10.0",
-    "typescript": "5.5.4",
+    "eslint": "9.14.0",
+    "typescript": "5.6.3",
     "typescript-eslint": "8.1.0"
   }
 }

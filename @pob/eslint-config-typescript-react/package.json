@@ -13,7 +13,7 @@
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "module",
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=20.9.0"
   },
   "sideEffects": false,
   "main": "./lib/index.js",
@@ -49,6 +49,6 @@
   "devDependencies": {
     "@types/react": "18.3.12",
     "react": "18.3.1",
-    "typescript": "5.5.4"
+    "typescript": "5.6.3"
   }
 }
