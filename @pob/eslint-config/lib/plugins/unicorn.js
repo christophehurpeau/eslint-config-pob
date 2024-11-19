@@ -56,9 +56,6 @@ export default [
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/new-for-builtins.md
       "unicorn/new-for-builtins": "error",
 
-      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/better-regex.md
-      "unicorn/better-regex": "error",
-
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md
       "unicorn/prefer-spread": "error",
 
@@ -339,6 +336,15 @@ export default [
 
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-blob-reading-methods.md
       "unicorn/prefer-blob-reading-methods": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-global-this.md
+      "unicorn/prefer-global-this": "warn",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-math-min-max.md
+      "unicorn/prefer-math-min-max": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-existence-index-check.md
+      "unicorn/consistent-existence-index-check": "error",
     },
   },
   {
