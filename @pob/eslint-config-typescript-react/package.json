@@ -43,7 +43,7 @@
     "@pob/eslint-plugin": "58.0.2",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.10.2",
-    "eslint-plugin-react": "7.35.2",
+    "eslint-plugin-react": "7.37.2",
     "eslint-plugin-react-hooks": "5.0.0"
   },
   "devDependencies": {
