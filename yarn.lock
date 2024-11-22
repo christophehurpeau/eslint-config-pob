@@ -293,9 +293,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:3.1.0, @eslint/eslintrc@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@eslint/eslintrc@npm:3.1.0"
+"@eslint/eslintrc@npm:3.2.0, @eslint/eslintrc@npm:^3.1.0":
+  version: 3.2.0
+  resolution: "@eslint/eslintrc@npm:3.2.0"
   dependencies:
     ajv: "npm:^6.12.4"
     debug: "npm:^4.3.2"
@@ -306,7 +306,7 @@ __metadata:
     js-yaml: "npm:^4.1.0"
     minimatch: "npm:^3.1.2"
     strip-json-comments: "npm:^3.1.1"
-  checksum: 10c0/5b7332ed781edcfc98caa8dedbbb843abfb9bda2e86538529c843473f580e40c69eb894410eddc6702f487e9ee8f8cfa8df83213d43a8fdb549f23ce06699167
+  checksum: 10c0/43867a07ff9884d895d9855edba41acf325ef7664a8df41d957135a81a477ff4df4196f5f74dc3382627e5cc8b7ad6b815c2cea1b58f04a75aced7c43414ab8b
   languageName: node
   linkType: hard
 
@@ -683,7 +683,7 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@eslint/compat": "npm:^1.1.1"
-    "@eslint/eslintrc": "npm:3.1.0"
+    "@eslint/eslintrc": "npm:3.2.0"
     "@eslint/js": "npm:^9.9.0"
     "@pob/eslint-plugin": "npm:58.0.2"
     confusing-browser-globals: "npm:^1.0.11"
@@ -702,7 +702,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-plugin@workspace:@pob/eslint-plugin"
   dependencies:
-    "@eslint/eslintrc": "npm:3.1.0"
+    "@eslint/eslintrc": "npm:3.2.0"
     "@typescript-eslint/rule-tester": "npm:8.1.0"
     "@typescript-eslint/utils": "npm:8.1.0"
     eslint: "npm:9.14.0"
