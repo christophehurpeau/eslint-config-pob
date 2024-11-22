@@ -8,7 +8,6 @@ interface FooProps {
 // eslint-disable-next-line react/prefer-stateless-function
 export class Foo extends React.Component<FooProps> {
   render(): React.ReactNode {
-    // eslint-disable-next-line react/prop-types
     const { foo } = this.props;
 
     if (!foo) {
