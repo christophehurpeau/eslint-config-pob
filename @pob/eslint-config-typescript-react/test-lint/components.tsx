@@ -51,7 +51,7 @@ memo(() => <div>foo</div>);
 
 forwardRef<HTMLDivElement, ExampleProps>(() => <div>foo</div>);
 
-// TODO invalid props placement
+// eslint-disable-next-line react/prop-types
 forwardRef<HTMLDivElement>(({ foo }: ExampleProps, ref) => (
   <div ref={ref}>{foo}</div>
 ));
@@ -63,5 +63,4 @@ forwardRef(({ foo }: ExampleProps, ref) => (
 ));
 
 // TODO missing ref usage
-// eslint-disable-next-line react/prop-types
 forwardRef<HTMLDivElement, ExampleProps>(({ foo }) => <div>{foo}</div>);
