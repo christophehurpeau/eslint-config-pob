@@ -4,7 +4,7 @@ import { loadRules } from "./loadRules.js";
 
 export default {
   rules: {
-    ...(await loadRules()),
+    ...loadRules(),
   },
   configs: {
     base: baseConfig,

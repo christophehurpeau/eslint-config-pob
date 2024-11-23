@@ -1,28 +1,17 @@
-import { fixupPluginRules } from "@eslint/compat";
+import importPlugin from "eslint-plugin-import";
 
-function legacyPlugin(compat, name, alias = name) {
-  const plugin = compat.plugins(name)[0]?.plugins?.[alias];
-
-  if (!plugin) {
-    throw new Error(`Unable to resolve plugin ${name} and/or alias ${alias}`);
-  }
-
-  return fixupPluginRules(plugin);
-}
-
-export default (compat) => [
+export default [
+  importPlugin.flatConfigs.recommended,
   {
-    //
+    name: "@pob/eslint-config/import/base",
+    // override recommended language options
     languageOptions: {
-      parserOptions: {
-        ecmaVersion: 2022,
-        sourceType: "module",
-      },
-    },
-    plugins: {
-      import: legacyPlugin(compat, "eslint-plugin-import", "import"),
+      ecmaVersion: "latest",
+      sourceType: "module",
     },
     settings: {
+      "import/extensions": [".js", ".mjs"],
+      "import/ignore": ["node_modules"],
       "import/parsers": {
         // https://github.com/import-js/eslint-plugin-import/issues/2556#issuecomment-1419518561
         espree: [".js", ".cjs", ".mjs"],
@@ -31,14 +20,10 @@ export default (compat) => [
         node: true,
       },
     },
-  },
-  ...compat.config({
-    settings: {
-      "import/extensions": [".js", ".mjs"],
-      "import/ignore": ["node_modules"],
-    },
-
     rules: {
+      // disable in recommended
+      "import/default": "off",
+
       // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
       "import/no-unresolved": [
         "error",
@@ -128,7 +113,7 @@ export default (compat) => [
         },
       ],
     },
-  }),
+  },
   {
     name: "@pob/eslint-config/import/rollup-config",
     files: ["rollup.config.mjs", "rollup.config.mjs"],

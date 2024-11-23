@@ -48,14 +48,14 @@
     "@eslint/js": "^9.9.0",
     "@pob/eslint-plugin": "58.0.2",
     "confusing-browser-globals": "^1.0.11",
-    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-n": "^17.4.0",
     "eslint-plugin-regexp": "^2.7.0",
     "eslint-plugin-unicorn": "^56.0.1"
   },
   "devDependencies": {
     "eslint": "9.14.0",
-    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-import": "2.31.0",
     "eslint-plugin-n": "17.4.0",
     "eslint-plugin-regexp": "2.7.0",
     "eslint-plugin-unicorn": "56.0.1",

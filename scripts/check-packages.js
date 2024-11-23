@@ -1,10 +1,5 @@
-// import fs from 'node:fs';
 import { createCheckPackageWithWorkspaces } from "check-package-dependencies";
 import semver from "semver";
-
-// const rootPkg = JSON.parse(
-//   fs.readFileSync(new URL('../package.json', import.meta.url)),
-// );
 
 await createCheckPackageWithWorkspaces({
   isLibrary: () => true,
@@ -13,24 +8,6 @@ await createCheckPackageWithWorkspaces({
     onlyWarnsForInRootDependencies: {
       "*": {
         duplicateDirectDependency: ["semver"],
-        invalidPeerDependencyVersion: ["eslint"],
-      },
-    },
-    onlyWarnsForInMonorepoPackagesDependencies: {
-      "@pob/eslint-config": {
-        "*": {
-          invalidPeerDependencyVersion: ["eslint"],
-        },
-      },
-      "@pob/eslint-config-typescript": {
-        "*": {
-          invalidPeerDependencyVersion: ["eslint"],
-        },
-      },
-      "@pob/eslint-config-typescript-react": {
-        "*": {
-          invalidPeerDependencyVersion: ["eslint"],
-        },
       },
     },
   })
