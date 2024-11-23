@@ -101,7 +101,7 @@ export default (url) => {
   const nodeCommonjs = [
     ...baseConfigs,
     baseCommonjsConfig,
-    ...importPluginBaseConfigs(compat),
+    ...importPluginBaseConfigs,
     importPluginCommonjsConfig,
     ...nodePluginCommonjsConfigs,
 
@@ -123,7 +123,7 @@ export default (url) => {
   const baseModule = [
     ...baseConfigs,
     baseModuleConfig,
-    ...importPluginBaseConfigs(compat),
+    ...importPluginBaseConfigs,
     importPluginModuleConfig,
 
     ...apply({
