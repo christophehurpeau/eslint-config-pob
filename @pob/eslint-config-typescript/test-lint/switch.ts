@@ -33,6 +33,8 @@ switch (fruit) {
     console.log("an apple");
     break;
 
+  case Fruit.Banana:
+  case Fruit.Cherry:
   default:
     console.log("a fruit");
     break;
