@@ -1,8 +1,5 @@
 /* eslint-disable complexity */
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { isDeepStrictEqual } from "node:util";
-import { FlatCompat } from "@eslint/eslintrc";
 import baseConfigs from "./_base.js";
 import baseCommonjsConfig from "./base/commonjs.js";
 import baseModuleConfig from "./base/module.js";
@@ -83,9 +80,7 @@ export const apply = ({
   });
 };
 
-export default (url) => {
-  const __filename = fileURLToPath(url);
-  const __dirname = path.dirname(__filename);
+export default () => {
   const extensions = "{js,cjs,mjs}";
 
   const testFiles = [
@@ -93,10 +88,6 @@ export default (url) => {
     `**/__tests__/**/*.${extensions}`,
     `**/__mocks__/**/*.${extensions}`,
   ];
-
-  const compat = new FlatCompat({
-    baseDirectory: __dirname,
-  });
 
   const nodeCommonjs = [
     ...baseConfigs,
@@ -148,7 +139,6 @@ export default (url) => {
   ];
 
   return {
-    compat,
     configs: {
       baseModule,
       nodeModule,

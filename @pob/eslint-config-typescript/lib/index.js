@@ -23,8 +23,8 @@ export const applyTs = (options) =>
     ...options,
   });
 
-export default (url) => {
-  const { configs, compat } = pobConfig(url);
+export default () => {
+  const { configs } = pobConfig();
   const testFiles = [
     `**/*.test.${extensions}`,
     `**/__tests__/**/*.${extensions}`,
@@ -32,7 +32,6 @@ export default (url) => {
   ];
 
   return {
-    compat,
     configs: {
       base: [
         ...configs.baseModule,

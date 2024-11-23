@@ -37,7 +37,6 @@
     "eslint": "^9.9.0"
   },
   "dependencies": {
-    "@eslint/compat": "^1.1.1",
     "@pob/eslint-config": "58.1.0",
     "@pob/eslint-config-typescript": "58.1.0",
     "@pob/eslint-plugin": "58.0.2",

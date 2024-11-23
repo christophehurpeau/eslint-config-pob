@@ -9,8 +9,8 @@ import reactConfigs from "./plugins/react.js";
 
 export { apply, applyTs } from "@pob/eslint-config-typescript";
 
-export default (url) => {
-  const { compat, configs } = baseTypescriptPobConfig(url);
+export default () => {
+  const { configs } = baseTypescriptPobConfig();
 
   const createConfig = (base) => [
     ...base,
@@ -18,7 +18,7 @@ export default (url) => {
 
     ...[
       pobPlugin.configs.react,
-      ...compat.config({
+      {
         settings: {
           "import/resolver": {
             node: {
@@ -50,9 +50,9 @@ export default (url) => {
           ],
           "react/jsx-filename-extension": ["error", { extensions: ["tsx"] }],
         },
-      }),
-      ...reactConfigs(compat),
-      ...reactHooksConfigs(compat),
+      },
+      ...reactConfigs,
+      ...reactHooksConfigs,
       ...jsxA11yConfigs,
     ].map((config) => ({
       ...config,
@@ -60,7 +60,6 @@ export default (url) => {
     })),
   ];
   return {
-    compat,
     configs: {
       base: createConfig(configs.base),
       node: createConfig(configs.node),
@@ -70,7 +69,7 @@ export default (url) => {
       app: configs.app,
 
       "react-native": [
-        ...compat.config({
+        {
           settings: {
             "import/resolver": {
               node: {
@@ -78,11 +77,11 @@ export default (url) => {
               },
             },
           },
-        }),
+        },
       ],
 
       "react-native-web": [
-        ...compat.config({
+        {
           settings: {
             "import/resolver": {
               node: {
@@ -101,7 +100,7 @@ export default (url) => {
               },
             ],
           },
-        }),
+        },
       ],
     },
   };

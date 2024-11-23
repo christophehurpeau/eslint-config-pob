@@ -1,7 +1,9 @@
-export default (compat) =>
-  compat.config({
-    extends: ["plugin:react/recommended", "plugin:react/jsx-runtime"],
+import reactPlugin from "eslint-plugin-react";
 
+export default [
+  reactPlugin.configs.flat.recommended,
+  reactPlugin.configs.flat["jsx-runtime"],
+  {
     rules: {
       // https://github.com/airbnb/javascript/issues/2829
       "func-names": "error",
@@ -181,4 +183,5 @@ export default (compat) =>
         },
       ],
     },
-  });
+  },
+];

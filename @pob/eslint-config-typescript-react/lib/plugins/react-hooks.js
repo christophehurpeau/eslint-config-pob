@@ -1,23 +1,9 @@
-import { fixupPluginRules } from "@eslint/compat";
+import pluginReactHooks from "eslint-plugin-react-hooks";
 
-function legacyPlugin(compat, name, alias = name) {
-  const plugin = compat.plugins(name)[0]?.plugins?.[alias];
-
-  if (!plugin) {
-    throw new Error(`Unable to resolve plugin ${name} and/or alias ${alias}`);
-  }
-
-  return fixupPluginRules(plugin);
-}
-
-export default (compat) => [
+export default [
   {
     plugins: {
-      "react-hooks": legacyPlugin(
-        compat,
-        "eslint-plugin-react-hooks",
-        "react-hooks",
-      ),
+      "react-hooks": pluginReactHooks,
     },
 
     rules: {
