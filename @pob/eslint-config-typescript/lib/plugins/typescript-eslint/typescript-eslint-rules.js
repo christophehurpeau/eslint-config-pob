@@ -173,6 +173,18 @@ export default {
     // https://typescript-eslint.io/rules/switch-exhaustiveness-check/
     "@typescript-eslint/switch-exhaustiveness-check": "error",
 
+    // https://typescript-eslint.io/rules/ban-ts-comment/
+    "@typescript-eslint/ban-ts-comment": [
+      "error",
+      {
+        minimumDescriptionLength: 3,
+        "ts-check": true, // default is false. We don't want to use ts-check like ts-nocheck and prefer instead ts-expect-error
+        "ts-expect-error": "allow-with-description",
+        "ts-ignore": true,
+        "ts-nocheck": true,
+      },
+    ],
+
     // https://typescript-eslint.io/rules/typedef/
     "@typescript-eslint/typedef": "off",
 
