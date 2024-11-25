@@ -303,10 +303,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.15.0, @eslint/js@npm:^9.9.0":
+"@eslint/js@npm:9.15.0, @eslint/js@npm:^9.15.0":
   version: 9.15.0
   resolution: "@eslint/js@npm:9.15.0"
   checksum: 10c0/56552966ab1aa95332f70d0e006db5746b511c5f8b5e0c6a9b2d6764ff6d964e0b2622731877cbc4e3f0e74c5b39191290d5f48147be19175292575130d499ab
+  languageName: node
+  linkType: hard
+
+"@eslint/json@npm:0.8.0":
+  version: 0.8.0
+  resolution: "@eslint/json@npm:0.8.0"
+  dependencies:
+    "@eslint/plugin-kit": "npm:^0.2.3"
+    "@humanwhocodes/momoa": "npm:^3.3.3"
+  checksum: 10c0/ca9a53a45139bd831221f019c11b8175af59097726d47d801b065a159c94e45cd747138d3b0b01d04578961226b7756b2f55fa3cfaf6fbecff3a5a9d6e4aa42f
   languageName: node
   linkType: hard
 
@@ -347,6 +357,13 @@ __metadata:
   version: 1.0.1
   resolution: "@humanwhocodes/module-importer@npm:1.0.1"
   checksum: 10c0/909b69c3b86d482c26b3359db16e46a32e0fb30bd306a3c176b8313b9e7313dba0f37f519de6aa8b0a1921349e505f259d19475e123182416a506d7f87e7f529
+  languageName: node
+  linkType: hard
+
+"@humanwhocodes/momoa@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "@humanwhocodes/momoa@npm:3.3.3"
+  checksum: 10c0/8fbb682abdde1b867ca21e954ca5639c1a27a7b3d341ea50a7ff4ddccbe1487bc23b9693db0206e9ca2ba88e5d12fd5a2c41e33a6f301823e670de00ab5058f3
   languageName: node
   linkType: hard
 
@@ -674,7 +691,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
-    "@eslint/js": "npm:^9.9.0"
+    "@eslint/js": "npm:^9.15.0"
+    "@eslint/json": "npm:0.8.0"
     "@pob/eslint-plugin": "npm:58.0.2"
     confusing-browser-globals: "npm:^1.0.11"
     eslint: "npm:9.15.0"

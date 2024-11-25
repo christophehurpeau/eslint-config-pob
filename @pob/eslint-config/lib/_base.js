@@ -1,5 +1,6 @@
 import js from "@eslint/js";
 import pobPlugin from "@pob/eslint-plugin";
+import jsonConfigs from "./languages/json.js";
 import regexpPluginConfigs from "./plugins/regexp.js";
 import unicornPluginConfigs from "./plugins/unicorn.js";
 import bestPracticesConfig from "./rules/best-practices.js";
@@ -28,7 +29,11 @@ export default [
       "**/*.d.ts",
     ],
   },
-  js.configs.recommended,
+  ...jsonConfigs,
+  {
+    files: ["**/*.js", "**/*.mjs", "**/*.cjs", "**/*.ts", "**/*.tsx"],
+    ...js.configs.recommended,
+  },
   pobPlugin.configs.base,
   ...unicornPluginConfigs,
   ...regexpPluginConfigs,
