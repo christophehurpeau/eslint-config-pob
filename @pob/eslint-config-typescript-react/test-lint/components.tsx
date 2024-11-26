@@ -1,4 +1,5 @@
-import { type ReactNode, forwardRef, memo } from "react";
+import { forwardRef, memo } from "react";
+import type { ReactNode } from "react";
 
 // eslint-disable-next-line react/function-component-definition
 export const InvalidFunctionComponent = (): ReactNode => null;
