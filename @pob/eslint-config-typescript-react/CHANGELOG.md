@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.1.0...v59.0.0) (2024-11-26)
+
+### ⚠ BREAKING CHANGES
+
+* drop node 18
+* drop compat now that all used eslint plugins supports eslint 9
+
+### Features
+
+* drop compat now that all used eslint plugins supports eslint 9 ([1f6031c](https://github.com/christophehurpeau/eslint-config-pob/commit/1f6031c7c22335044866b2fce15cd72c7c9af721))
+* enable import/consistent-type-specifier-style ([b71e558](https://github.com/christophehurpeau/eslint-config-pob/commit/b71e55848f11e7d4c75ef98d61a4729ece732279))
+* enable sort-imports ([d61be03](https://github.com/christophehurpeau/eslint-config-pob/commit/d61be03ceaedde94d6d95c518c8cdbbb13f7ef61))
+
+### Miscellaneous Chores
+
+* update dev deps and require node 20 ([cbe9fb1](https://github.com/christophehurpeau/eslint-config-pob/commit/cbe9fb15f719edb50251f925ff19b987a159b530))
+
+Version bump for dependency: @pob/eslint-config
+Version bump for dependency: @pob/eslint-config-typescript
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [58.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.0.2...v58.1.0) (2024-09-09)
 
 ### Features

@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.1.0...v59.0.0) (2024-11-26)
+
+### ⚠ BREAKING CHANGES
+
+* drop node 18
+
+### Miscellaneous Chores
+
+* update dev deps and require node 20 ([cbe9fb1](https://github.com/christophehurpeau/eslint-config-pob/commit/cbe9fb15f719edb50251f925ff19b987a159b530))
+
 ## [58.0.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.0.1...v58.0.2) (2024-09-07)
 
 Note: no notable changes
