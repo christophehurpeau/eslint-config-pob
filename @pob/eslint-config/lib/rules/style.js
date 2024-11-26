@@ -20,6 +20,9 @@ export default {
       { avoidEscape: true, allowTemplateLiterals: false },
     ],
 
+    // https://eslint.org/docs/latest/rules/sort-imports ; declaration is sorted using import/order
+    "sort-imports": ["error", { ignoreDeclarationSort: true }],
+
     /* disabled rules */
 
     // http://eslint.org/docs/rules/no-else-return
