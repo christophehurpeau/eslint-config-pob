@@ -13,5 +13,19 @@ export default {
 
     // don't force return type in test
     "@typescript-eslint/explicit-function-return-type": "off",
+
+    // https://github.com/nodejs/node/issues/51292
+    "@typescript-eslint/no-floating-promises": [
+      "error",
+      {
+        allowForKnownSafeCalls: [
+          {
+            from: "package",
+            name: ["it", "describe"],
+            package: "node:test",
+          },
+        ],
+      },
+    ],
   },
 };
