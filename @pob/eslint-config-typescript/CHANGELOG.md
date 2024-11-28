@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.0.0...v59.1.0) (2024-11-28)
+
+### Features
+
+* change import/extensions for typescript now that 5.7 allows it ([42ff685](https://github.com/christophehurpeau/eslint-config-pob/commit/42ff685a8af2f24f1ed58a807a075320cc2366c1))
+
 ## [59.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v58.1.0...v59.0.0) (2024-11-26)
 
 ### ⚠ BREAKING CHANGES
