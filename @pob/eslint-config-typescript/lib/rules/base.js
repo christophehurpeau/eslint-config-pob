@@ -39,7 +39,7 @@ export default {
         mjs: "ignorePackages",
         cts: "ignorePackages",
         mts: "ignorePackages",
-        ts: "never",
+        ts: "ignorePackages",
       },
     ],
 
