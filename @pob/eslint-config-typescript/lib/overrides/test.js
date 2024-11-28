@@ -21,7 +21,7 @@ export default {
         allowForKnownSafeCalls: [
           {
             from: "package",
-            name: ["it", "describe"],
+            name: ["it", "describe", "test"],
             package: "node:test",
           },
         ],
