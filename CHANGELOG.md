@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.1.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.1.0...v59.1.1) (2024-11-28)
+
+### Bug Fixes
+
+* ignore node test for floating promises ([7ad5e39](https://github.com/christophehurpeau/eslint-config-pob/commit/7ad5e39758d93679859c227577751705edd924e0))
+
 ## [59.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.0.0...v59.1.0) (2024-11-28)
 
 ### Features

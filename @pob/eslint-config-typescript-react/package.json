@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-typescript-react",
-  "version": "59.1.0",
+  "version": "59.1.1",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@pob/eslint-config": "59.0.0",
-    "@pob/eslint-config-typescript": "59.1.0",
+    "@pob/eslint-config-typescript": "59.1.1",
     "@pob/eslint-plugin": "59.0.0",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
