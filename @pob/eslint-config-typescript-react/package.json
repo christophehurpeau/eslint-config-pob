@@ -34,7 +34,8 @@
   "pob": {},
   "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
-    "eslint": "^9.9.0"
+    "eslint": "^9.9.0",
+    "typescript": ">=5.0.0 <5.8.0"
   },
   "dependencies": {
     "@pob/eslint-config": "59.0.0",
