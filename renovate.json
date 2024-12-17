@@ -2,7 +2,11 @@
   "extends": ["config:js-lib", "github>christophehurpeau/renovate-presets"],
   "packageRules": [
     {
-      "packagePatterns": ["^@typescript-eslint/", "^eslint-"],
+      "packagePatterns": [
+        "^@typescript-eslint/",
+        "^eslint-",
+        "typescript-eslint"
+      ],
       "packageNames": ["eslint", "typescript"],
       "masterIssueApproval": false,
       "reviewers": ["christophehurpeau"]
