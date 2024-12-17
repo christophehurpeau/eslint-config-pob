@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.1.2...v59.2.0) (2024-12-17)
+
+### Features
+
+* **deps:** update dependency eslint-plugin-react-hooks to v5.1.0 ([#708](https://github.com/christophehurpeau/eslint-config-pob/issues/708)) ([3c7f93f](https://github.com/christophehurpeau/eslint-config-pob/commit/3c7f93f990117592aa4ad33d51b7656d5d1fa310))
+* **deps:** update typescript-eslint monorepo ([#706](https://github.com/christophehurpeau/eslint-config-pob/issues/706)) ([5c50d85](https://github.com/christophehurpeau/eslint-config-pob/commit/5c50d857bd2d4f93160cb70e594445a57f4d7fe9))
+
+Version bump for dependency: @pob/eslint-config
+Version bump for dependency: @pob/eslint-config-typescript
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [59.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.1.1...v59.1.2) (2024-11-28)
 
 Version bump for dependency: @pob/eslint-config-typescript

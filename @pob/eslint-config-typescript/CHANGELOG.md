@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.1.2...v59.2.0) (2024-12-17)
+
+### Features
+
+* add allowUnsafeAsWarn ([66ee0e8](https://github.com/christophehurpeau/eslint-config-pob/commit/66ee0e8e55972f6aae6b4760db4df40b15dd9d07))
+* add moduleDirectory in app config ([4b056c6](https://github.com/christophehurpeau/eslint-config-pob/commit/4b056c6911447fe9029d5d7cfba1264508bb6f0b))
+* **deps:** update typescript-eslint monorepo ([#706](https://github.com/christophehurpeau/eslint-config-pob/issues/706)) ([5c50d85](https://github.com/christophehurpeau/eslint-config-pob/commit/5c50d857bd2d4f93160cb70e594445a57f4d7fe9))
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v8.18.1 ([#714](https://github.com/christophehurpeau/eslint-config-pob/issues/714)) ([c78c411](https://github.com/christophehurpeau/eslint-config-pob/commit/c78c4114186e79e049d54a10e629ffa796dfa64a))
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [59.1.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.1.1...v59.1.2) (2024-11-28)
 
 ### Bug Fixes
