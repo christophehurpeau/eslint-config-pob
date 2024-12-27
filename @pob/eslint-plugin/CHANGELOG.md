@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.2.0...v59.3.0) (2024-12-27)
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v8.18.2 ([#717](https://github.com/christophehurpeau/eslint-config-pob/issues/717)) ([e5f787d](https://github.com/christophehurpeau/eslint-config-pob/commit/e5f787d320b3424c37e0641c4574c3259dad0d25))
+
 ## [59.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.1.2...v59.2.0) (2024-12-17)
 
 ### Features
