@@ -65,6 +65,7 @@ export default () => {
       node: createConfig(configs.node),
 
       allowUnsafe: configs.allowUnsafe,
+      allowUnsafeAsWarn: configs.allowUnsafeAsWarn,
       allowImplicitReturnType: configs.allowImplicitReturnType,
       app: configs.app,
 
