@@ -347,10 +347,4 @@ export default [
       "unicorn/consistent-existence-index-check": "error",
     },
   },
-  {
-    files: ["scripts/**"],
-    rules: {
-      "unicorn/no-process-exit": "off",
-    },
-  },
 ];

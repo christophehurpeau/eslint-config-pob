@@ -5,7 +5,8 @@ import baseCommonjsConfig from "./base/commonjs.js";
 import baseModuleConfig from "./base/module.js";
 import nodePluginCommonjsConfigs from "./node/commonjs.js";
 import nodePluginModuleConfigs from "./node/module.js";
-import testConfig from "./overrides/test.js";
+import scriptsOverrideConfig from "./overrides/scripts.js";
+import testOverrideConfig from "./overrides/test.js";
 import importPluginBaseConfigs from "./plugins/import/import-base.js";
 import importPluginCommonjsConfig from "./plugins/import/import-commonjs.js";
 import importPluginModuleConfig from "./plugins/import/import-module.js";
@@ -95,6 +96,7 @@ export default () => {
     ...importPluginBaseConfigs,
     importPluginCommonjsConfig,
     ...nodePluginCommonjsConfigs,
+    scriptsOverrideConfig,
 
     ...apply({
       files: ["**/*.mjs"],
@@ -107,7 +109,7 @@ export default () => {
 
     ...apply({
       files: testFiles,
-      configs: [testConfig],
+      configs: [testOverrideConfig],
     }),
   ];
 
@@ -124,13 +126,14 @@ export default () => {
 
     ...apply({
       files: testFiles,
-      configs: [testConfig],
+      configs: [testOverrideConfig],
     }),
   ];
 
   const nodeModule = [
     ...baseModule,
     ...nodePluginModuleConfigs,
+    scriptsOverrideConfig,
 
     ...apply({
       files: ["**/*.cjs"],

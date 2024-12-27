@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createCheckPackageWithWorkspaces } from "check-package-dependencies";
 import semver from "semver";
 
