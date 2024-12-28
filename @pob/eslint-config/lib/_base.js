@@ -25,6 +25,7 @@ export default [
       "**/build/",
       "**/coverage/",
       "**/.next/",
+      "**/.tamagui/",
       "**/*.d.ts",
     ],
   },
