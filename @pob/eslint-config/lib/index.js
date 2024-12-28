@@ -96,7 +96,13 @@ export default () => {
     ...importPluginBaseConfigs,
     importPluginCommonjsConfig,
     ...nodePluginCommonjsConfigs,
-    scriptsOverrideConfig,
+
+    ...apply({
+      extensions,
+      mode: "directory",
+      files: ["scripts/"],
+      configs: [scriptsOverrideConfig],
+    }),
 
     ...apply({
       files: ["**/*.mjs"],
@@ -133,7 +139,13 @@ export default () => {
   const nodeModule = [
     ...baseModule,
     ...nodePluginModuleConfigs,
-    scriptsOverrideConfig,
+
+    ...apply({
+      extensions,
+      mode: "directory",
+      files: ["scripts/"],
+      configs: [scriptsOverrideConfig],
+    }),
 
     ...apply({
       files: ["**/*.cjs"],
