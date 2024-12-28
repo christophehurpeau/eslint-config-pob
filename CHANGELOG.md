@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.3.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.3.1...v59.3.2) (2024-12-28)
+
+### Bug Fixes
+
+* properly apply scripts override ([40c0217](https://github.com/christophehurpeau/eslint-config-pob/commit/40c021797caf45b2a3ce15b590f27db00f0a4b5d))
+
 ## [59.3.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.3.0...v59.3.1) (2024-12-28)
 
 ### Bug Fixes
