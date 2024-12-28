@@ -639,8 +639,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
-    "@pob/eslint-config": "npm:59.3.0"
-    "@pob/eslint-config-typescript": "npm:59.3.0"
+    "@pob/eslint-config": "npm:59.3.1"
+    "@pob/eslint-config-typescript": "npm:59.3.1"
     "@pob/eslint-plugin": "npm:59.3.0"
     "@types/react": "npm:19.0.2"
     eslint-plugin-import: "npm:2.31.0"
@@ -655,11 +655,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config-typescript@npm:59.3.0, @pob/eslint-config-typescript@workspace:*, @pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript":
+"@pob/eslint-config-typescript@npm:59.3.1, @pob/eslint-config-typescript@workspace:*, @pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript"
   dependencies:
-    "@pob/eslint-config": "npm:59.3.0"
+    "@pob/eslint-config": "npm:59.3.1"
     "@typescript-eslint/eslint-plugin": "npm:8.18.2"
     "@typescript-eslint/parser": "npm:8.18.2"
     eslint: "npm:9.17.0"
@@ -672,7 +672,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config@npm:59.3.0, @pob/eslint-config@workspace:*, @pob/eslint-config@workspace:@pob/eslint-config":
+"@pob/eslint-config@npm:59.3.1, @pob/eslint-config@workspace:*, @pob/eslint-config@workspace:@pob/eslint-config":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:

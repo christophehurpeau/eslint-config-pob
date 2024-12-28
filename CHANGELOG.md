@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.3.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.3.0...v59.3.1) (2024-12-28)
+
+### Bug Fixes
+
+* add .tamagui in ignores ([606af84](https://github.com/christophehurpeau/eslint-config-pob/commit/606af84710c4709ede978ed8b83736764e3c4ffa))
+* add missing reexport allowUnsafeAsWarn ([4a0323c](https://github.com/christophehurpeau/eslint-config-pob/commit/4a0323cf79814e17dd6b0f3d5380908cd2f330ce))
+
 ## [59.3.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.2.0...v59.3.0) (2024-12-27)
 
 ### Features
