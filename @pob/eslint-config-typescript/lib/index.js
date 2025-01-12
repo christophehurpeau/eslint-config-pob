@@ -36,10 +36,10 @@ export default () => {
     configs: {
       base: [
         ...configs.baseModule,
-        importPluginOverrideConfig,
         ...applyTs({
           filesOverridesIf: [tseslint.configs.strictTypeChecked[1].files],
           configs: [
+            importPluginOverrideConfig,
             ...tseslint.configs.strictTypeChecked,
             replaceUnicornConfig,
             replaceEslintConfig,
@@ -54,10 +54,10 @@ export default () => {
       ],
       node: [
         ...configs.nodeModule,
-        importPluginOverrideConfig,
         ...applyTs({
           filesOverridesIf: [tseslint.configs.strictTypeChecked[1].files],
           configs: [
+            importPluginOverrideConfig,
             ...tseslint.configs.strictTypeChecked,
             replaceUnicornConfig,
             replaceEslintConfig,

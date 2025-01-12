@@ -1,5 +1,3 @@
-/* eslint-disable complexity */
-import { isDeepStrictEqual } from "node:util";
 import baseConfigs from "./_base.js";
 import baseCommonjsConfig from "./base/commonjs.js";
 import baseModuleConfig from "./base/module.js";
@@ -10,76 +8,9 @@ import testOverrideConfig from "./overrides/test.js";
 import importPluginBaseConfigs from "./plugins/import/import-base.js";
 import importPluginCommonjsConfig from "./plugins/import/import-commonjs.js";
 import importPluginModuleConfig from "./plugins/import/import-module.js";
+import { apply } from "./utils/apply.js";
 
-export const apply = ({
-  filesOverridesIf = [],
-  extensions = "{js,cjs,mjs}",
-  files = [`**/*.${extensions}`],
-  configs,
-  mode = "throw-if-files-exists",
-}) => {
-  return configs.map((config) => {
-    switch (mode) {
-      case "throw-if-files-exists": {
-        if (config.files) {
-          if (
-            !filesOverridesIf.some((filesOverrides) =>
-              isDeepStrictEqual(filesOverrides, config.files),
-            )
-          ) {
-            console.log({ filesOverridesIf });
-            throw new Error(
-              `"files" already exists: ${JSON.stringify(config.files)} for ${config.name ? `"${config.name}"` : JSON.stringify(config)}`,
-            );
-          }
-        }
-
-        return {
-          ...config,
-          files,
-        };
-      }
-      case "keep-extension": {
-        if (files.length !== 1) {
-          throw new Error(
-            `apply: "files" should have only one element: ${files}`,
-          );
-        }
-        if (!files[0].startsWith("**/")) {
-          throw new Error(`apply: "files" should start with "**/": ${files}`);
-        }
-
-        return {
-          ...config,
-          files: config.files.map((filesGlob) => {
-            if (!filesGlob.startsWith("**/")) {
-              throw new Error(
-                `"files" should start with "**/": ${config.files} for ${config.name ? `"${config.name}"` : JSON.stringify(config)}`,
-              );
-            }
-            return files[0] + filesGlob.slice(3);
-          }),
-        };
-      }
-      case "directory": {
-        if (files.length !== 1) {
-          throw new Error(
-            `apply: "files" should have only one element: ${files}`,
-          );
-        }
-        return {
-          ...config,
-          files: config.files
-            ? config.files.map((fileGlob) => files[0] + fileGlob)
-            : [`${files[0]}**/*.${extensions}`],
-        };
-      }
-
-      default:
-        throw new Error('apply: "mode" is invalid');
-    }
-  });
-};
+export { apply } from "./utils/apply.js";
 
 export default () => {
   const extensions = "{js,cjs,mjs}";
@@ -92,10 +23,16 @@ export default () => {
 
   const nodeCommonjs = [
     ...baseConfigs,
-    baseCommonjsConfig,
-    ...importPluginBaseConfigs,
-    importPluginCommonjsConfig,
-    ...nodePluginCommonjsConfigs,
+    ...apply({
+      mode: "keep-files-if-exists",
+      files: ["**/*.{js,cjs,mjs,mts,ts,tsx,cts}"],
+      configs: [
+        baseCommonjsConfig,
+        ...importPluginBaseConfigs,
+        importPluginCommonjsConfig,
+        ...nodePluginCommonjsConfigs,
+      ],
+    }),
 
     ...apply({
       extensions,
@@ -105,7 +42,8 @@ export default () => {
     }),
 
     ...apply({
-      files: ["**/*.mjs"],
+      files: ["**/*.{mjs,mts}"],
+      mode: "keep-files-if-exists",
       configs: [
         baseModuleConfig,
         importPluginModuleConfig,
@@ -121,12 +59,19 @@ export default () => {
 
   const baseModule = [
     ...baseConfigs,
-    baseModuleConfig,
-    ...importPluginBaseConfigs,
-    importPluginModuleConfig,
+    ...apply({
+      mode: "keep-files-if-exists",
+      files: ["**/*.{js,mjs,cjs,mts,ts,tsx,cts}"],
+      configs: [
+        baseModuleConfig,
+        ...importPluginBaseConfigs,
+        importPluginModuleConfig,
+      ],
+    }),
 
     ...apply({
-      files: ["**/*.cjs"],
+      mode: "keep-files-if-exists",
+      files: ["**/*.{cjs,cts}"],
       configs: [baseCommonjsConfig, importPluginCommonjsConfig],
     }),
 
@@ -138,7 +83,11 @@ export default () => {
 
   const nodeModule = [
     ...baseModule,
-    ...nodePluginModuleConfigs,
+    ...apply({
+      mode: "keep-files-if-exists",
+      files: ["**/*.{js,mjs,mts,ts,tsx}"],
+      configs: [...nodePluginModuleConfigs],
+    }),
 
     ...apply({
       extensions,
@@ -148,7 +97,8 @@ export default () => {
     }),
 
     ...apply({
-      files: ["**/*.cjs"],
+      mode: "keep-files-if-exists",
+      files: ["**/*.{cjs,cts}"],
       configs: [...nodePluginCommonjsConfigs],
     }),
   ];
