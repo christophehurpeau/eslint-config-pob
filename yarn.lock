@@ -659,7 +659,7 @@ __metadata:
     "@pob/eslint-config": "npm:59.3.2"
     "@pob/eslint-config-typescript": "npm:59.3.2"
     "@pob/eslint-plugin": "npm:59.3.0"
-    "@types/react": "npm:19.0.6"
+    "@types/react": "npm:19.0.7"
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-react: "npm:7.37.3"
@@ -863,12 +863,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.0.6":
-  version: 19.0.6
-  resolution: "@types/react@npm:19.0.6"
+"@types/react@npm:19.0.7":
+  version: 19.0.7
+  resolution: "@types/react@npm:19.0.7"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/4ddb0ad2a92940c0323996c2efbae9712e562e1d60d1015ba5088ca8e8db32f1804516a2971e6fa7a95bda9aa9c1896c86c32739213ef12527924c021b0145bf
+  checksum: 10c0/818e546fa03a2a65ac2652fc472891ac96684211e8967bc25e1da6a8a09e2301ad972b1b038d128f8b4cbbd7691f6f57fee274db568169e9b6b01556abbb5bee
   languageName: node
   linkType: hard
 
