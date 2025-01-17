@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config",
-  "version": "59.3.2",
+  "version": "59.4.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -45,7 +45,7 @@
   "dependencies": {
     "@eslint/js": "^9.16.0",
     "@eslint/json": "^0.9.0",
-    "@pob/eslint-plugin": "59.3.0",
+    "@pob/eslint-plugin": "59.4.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-n": "^17.15.1",

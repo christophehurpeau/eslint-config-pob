@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.4.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.3.2...v59.4.0) (2025-01-17)
+
+### Features
+
+* json ([bae42fa](https://github.com/christophehurpeau/eslint-config-pob/commit/bae42fa92ed5ee37a0f98aeaea0e6a74f2f0c608))
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [59.3.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.3.1...v59.3.2) (2024-12-28)
 
 Version bump for dependency: @pob/eslint-config
