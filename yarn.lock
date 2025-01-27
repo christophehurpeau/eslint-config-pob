@@ -312,13 +312,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/json@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "@eslint/json@npm:0.9.0"
+"@eslint/json@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "@eslint/json@npm:0.10.0"
   dependencies:
-    "@eslint/plugin-kit": "npm:^0.2.3"
+    "@eslint/core": "npm:^0.10.0"
+    "@eslint/plugin-kit": "npm:^0.2.5"
     "@humanwhocodes/momoa": "npm:^3.3.4"
-  checksum: 10c0/c7f81a19260075cec0b86883c340f06411efa40e4c09123b1d107bdb76178c16c563249b956d4197e71e7e52f2131fc7fc618a2ae90bd6814c34b204b07d5b23
+    natural-compare: "npm:^1.4.0"
+  checksum: 10c0/d38bba116bc8550c3c9419b879bbe3c7814ca61a60c710472146c319636848680e76b7b436df08bf38d5f99eeeb36206fe8244a145a43fc32bbb47c5e97711bb
   languageName: node
   linkType: hard
 
@@ -329,7 +331,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/plugin-kit@npm:^0.2.3, @eslint/plugin-kit@npm:^0.2.5":
+"@eslint/plugin-kit@npm:^0.2.5":
   version: 0.2.5
   resolution: "@eslint/plugin-kit@npm:0.2.5"
   dependencies:
@@ -697,7 +699,7 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@eslint/js": "npm:^9.16.0"
-    "@eslint/json": "npm:^0.9.0"
+    "@eslint/json": "npm:^0.10.0"
     "@pob/eslint-plugin": "npm:59.4.0"
     confusing-browser-globals: "npm:^1.0.11"
     eslint: "npm:9.18.0"
