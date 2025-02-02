@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.5.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.5.0...v59.5.1) (2025-02-02)
+
+### Bug Fixes
+
+* allow any scripts directory ([1378363](https://github.com/christophehurpeau/eslint-config-pob/commit/1378363ff8be7043e52c0730cd0c06950fc83c25))
+* set import/no-unresolved as warn as long as exports not supported ([3034263](https://github.com/christophehurpeau/eslint-config-pob/commit/30342632f1d9d08c7c4c9624b713f0c63e073d9c))
+
 ## [59.5.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.4.0...v59.5.0) (2025-02-02)
 
 ### Features
