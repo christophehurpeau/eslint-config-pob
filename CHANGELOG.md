@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.5.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.4.0...v59.5.0) (2025-02-02)
+
+### Features
+
+* **deps:** update dependency @eslint/json to ^0.10.0 ([#734](https://github.com/christophehurpeau/eslint-config-pob/issues/734)) ([e8ace83](https://github.com/christophehurpeau/eslint-config-pob/commit/e8ace837b271162ae7bcc88725ce998781393bfb))
+
+### Bug Fixes
+
+* allow any scripts directory ([072ce01](https://github.com/christophehurpeau/eslint-config-pob/commit/072ce0178c815436ea1a77bb94dbe109758b18e0))
+
 ## [59.4.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.3.2...v59.4.0) (2025-01-17)
 
 ### Features
