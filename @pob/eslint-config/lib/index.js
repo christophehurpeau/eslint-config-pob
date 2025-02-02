@@ -37,7 +37,7 @@ export default () => {
     ...apply({
       extensions,
       mode: "directory",
-      files: ["scripts/"],
+      files: ["**/scripts/"],
       configs: [scriptsOverrideConfig],
     }),
 
