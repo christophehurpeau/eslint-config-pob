@@ -25,10 +25,8 @@ export default [
       "import/default": "off",
 
       // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-      "import/no-unresolved": [
-        "error",
-        { commonjs: true, caseSensitive: true },
-      ],
+      // warn as long as exports are not supported
+      "import/no-unresolved": ["warn", { commonjs: true, caseSensitive: true }],
 
       // https://github.com/import-js/eslint-plugin-import/blob/master/docs/rules/named.md
       "import/named": "error",
