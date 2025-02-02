@@ -642,7 +642,7 @@ __metadata:
     "@pob/eslint-config": "workspace:*"
     "@pob/eslint-config-typescript": "workspace:*"
     "@pob/eslint-config-typescript-react": "workspace:*"
-    "@pob/root": "npm:16.1.1"
+    "@pob/root": "npm:16.2.0"
     "@typescript-eslint/eslint-plugin": "npm:8.18.2"
     "@typescript-eslint/parser": "npm:8.18.2"
     check-package-dependencies: "npm:9.1.0"
@@ -759,9 +759,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/root@npm:16.1.1":
-  version: 16.1.1
-  resolution: "@pob/root@npm:16.1.1"
+"@pob/root@npm:16.2.0":
+  version: 16.2.0
+  resolution: "@pob/root@npm:16.2.0"
   dependencies:
     "@commitlint/cli": "npm:19.6.1"
     "@pob/pretty-eslint-config": "npm:9.0.0"
@@ -771,12 +771,12 @@ __metadata:
     husky: "npm:~9.1.7"
     json5: "npm:^2.2.3"
     lint-staged: "npm:15.4.3"
-    pob-dependencies: "npm:17.1.0"
+    pob-dependencies: "npm:17.2.0"
     prettier: "npm:3.4.2"
     repository-check-dirty: "npm:10.0.0"
     semver: "npm:^7.3.7"
     which-pm-runs: "npm:1.1.0"
-    yarn-version: "npm:6.1.0"
+    yarn-version: "npm:6.2.0"
   bin:
     commitlint: ./bin/commitlint.js
     pob-root-lint-staged: ./bin/pob-root-lint-staged.js
@@ -787,7 +787,7 @@ __metadata:
     pretty-pkg: ./bin/pretty-pkg.js
     repository-check-dirty: ./bin/repository-check-dirty.js
     yarn-version: ./bin/yarn-version.js
-  checksum: 10c0/0f4e2db700c09fbe3a76c168f2350cbc5b0640a2b83690e2b7b47394ffe2265b143db6d443d804a82ae36433082d616c98d289715c66f3be72a976f2309c059e
+  checksum: 10c0/fb93bc0d1997df7e117187ac7f90ca260bc22bdac050f40a048a46edbd0867aea0defbd649d82eee6392c3ba4a2abcb99bcbce9b3bd2d26c331adb070524e1ab
   languageName: node
   linkType: hard
 
@@ -4284,10 +4284,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pob-dependencies@npm:17.1.0":
-  version: 17.1.0
-  resolution: "pob-dependencies@npm:17.1.0"
-  checksum: 10c0/d01fd8f8f0209752a0371996e73553623d08b17e475cb997e0bd54c0a6aa262167048819b0d26755a61b0884b4eb06b36fb2c47e1971ed026e0537e4bbdd66aa
+"pob-dependencies@npm:17.2.0":
+  version: 17.2.0
+  resolution: "pob-dependencies@npm:17.2.0"
+  checksum: 10c0/b467e2315ec3d5d01ea911537e39058dd6b0f870563c8852695d0821b6b4ebead1d458d0ea2bfc5c79e95ce0725ea1e47608953217fd3db98c0078c7d3bfff38
   languageName: node
   linkType: hard
 
@@ -5485,9 +5485,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yarn-version@npm:6.1.0":
-  version: 6.1.0
-  resolution: "yarn-version@npm:6.1.0"
+"yarn-version@npm:6.2.0":
+  version: 6.2.0
+  resolution: "yarn-version@npm:6.2.0"
   dependencies:
     "@conventional-changelog/git-client": "npm:1.0.1"
     "@npmcli/map-workspaces": "npm:4.0.2"
@@ -5505,7 +5505,7 @@ __metadata:
     semver: "npm:7.7.0"
   bin:
     yarn-version: ./dist/index-node.mjs
-  checksum: 10c0/f24a5088ee2f9b2a950dcd394d5b2f03106704665d6c70d0e9df48b4e9df5327e2efc329dd2847da3abd02260b3446401639df30ee0b7571f7ede63b274c68d4
+  checksum: 10c0/fa32a1f0f73d3084dd5b205713fbe1e928fb221db1c0c063d0336b74de9d4f67b18878ac9fbec9f5e54ab6f346c1d504ca52220ef4012f94569fd9e6aff17904
   languageName: node
   linkType: hard
 
