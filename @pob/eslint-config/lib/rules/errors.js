@@ -86,6 +86,9 @@ export default {
     // https://eslint.org/docs/rules/no-regex-spaces
     "no-regex-spaces": "error",
 
+    // https://eslint.org/docs/rules/no-self-compare
+    "no-self-compare": "error",
+
     // https://eslint.org/docs/rules/no-setter-return
     "no-setter-return": "error",
 
