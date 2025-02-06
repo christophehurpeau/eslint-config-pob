@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.6.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.5.1...v59.6.0) (2025-02-06)
+
+### Features
+
+* **deps:** update typescript-eslint monorepo ([#719](https://github.com/christophehurpeau/eslint-config-pob/issues/719)) ([46cd7fc](https://github.com/christophehurpeau/eslint-config-pob/commit/46cd7fc1e995952d49f3a00f701590158dfb50a4))
+* enable no-self-compare ([7b6d2dc](https://github.com/christophehurpeau/eslint-config-pob/commit/7b6d2dc3c0ddd38fa13174e4107460d1d264173e))
+
 ## [59.5.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.5.0...v59.5.1) (2025-02-02)
 
 ### Bug Fixes
