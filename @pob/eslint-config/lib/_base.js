@@ -16,6 +16,7 @@ export default [
     linterOptions: {
       // todo noInlineConfig: true,
       reportUnusedDisableDirectives: "error",
+      reportUnusedInlineConfigs: "error",
     },
   },
   {
