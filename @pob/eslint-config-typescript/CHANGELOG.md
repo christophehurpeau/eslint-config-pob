@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.7.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.6.0...v59.7.0) (2025-02-17)
+
+### Features
+
+* update eslint-plugin-unicorn ([c8c18f2](https://github.com/christophehurpeau/eslint-config-pob/commit/c8c18f25dde42b9b69d0178d876c4eebe4cce017))
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [59.6.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.5.1...v59.6.0) (2025-02-06)
 
 ### Features

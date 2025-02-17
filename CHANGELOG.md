@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.7.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.6.0...v59.7.0) (2025-02-17)
+
+### Features
+
+* add rule forbid-non-native-node-imports ([0fde6ee](https://github.com/christophehurpeau/eslint-config-pob/commit/0fde6ee308683df6f3804616a216bb7d70969700))
+* enable reportUnusedInlineConfigs ([4b2db24](https://github.com/christophehurpeau/eslint-config-pob/commit/4b2db24350cd5a3ce31a65dc37fd5d01bf3f666e))
+* update eslint-plugin-unicorn ([c8c18f2](https://github.com/christophehurpeau/eslint-config-pob/commit/c8c18f25dde42b9b69d0178d876c4eebe4cce017))
+
 ## [59.6.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.5.1...v59.6.0) (2025-02-06)
 
 ### Features
