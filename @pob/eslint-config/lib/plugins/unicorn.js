@@ -29,9 +29,6 @@ export default [
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/escape-case.md
       "unicorn/escape-case": "error",
 
-      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-array.md
-      "unicorn/no-instanceof-array": "error",
-
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-new-buffer.md
       "unicorn/no-new-buffer": "error",
 
@@ -49,9 +46,6 @@ export default [
 
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md
       "unicorn/no-array-callback-reference": "off",
-
-      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-index.md
-      "unicorn/import-index": "error",
 
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/new-for-builtins.md
       "unicorn/new-for-builtins": "error",
@@ -240,9 +234,6 @@ export default [
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-prototype-methods.md
       "unicorn/prefer-prototype-methods": "error",
 
-      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-has-own.md
-      "unicorn/prefer-object-has-own": "error",
-
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md
       "unicorn/no-array-method-this-argument": "error",
 
@@ -345,6 +336,18 @@ export default [
 
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-existence-index-check.md
       "unicorn/consistent-existence-index-check": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-date-clone.md
+      "unicorn/consistent-date-clone": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-assert.md
+      "unicorn/consistent-assert": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-instanceof-builtins.md
+      "unicorn/no-instanceof-builtins": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-accessor-recursion.md
+      "unicorn/no-accessor-recursion": "error",
     },
   },
 ];
