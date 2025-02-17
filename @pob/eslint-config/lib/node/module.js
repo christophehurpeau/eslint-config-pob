@@ -1,8 +1,10 @@
+import pobPlugin from "@pob/eslint-plugin";
 import nodePlugin from "eslint-plugin-n";
 import { overrideRules } from "./_base.js";
 
 export default [
   nodePlugin.configs["flat/recommended-module"],
+  pobPlugin.configs.node,
   {
     name: "@pob/eslint-config/node/module",
     rules: {
