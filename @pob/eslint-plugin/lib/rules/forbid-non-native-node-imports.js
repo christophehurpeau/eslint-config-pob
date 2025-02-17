@@ -1,6 +1,6 @@
 const libsToNativeNode = [
   {
-    libs: ["chalk"],
+    libs: ["chalk", "colorette"],
     replaceWith: "styleText from node:util",
   },
 ];
