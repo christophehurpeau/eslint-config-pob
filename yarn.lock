@@ -58,13 +58,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^19.6.0":
-  version: 19.6.0
-  resolution: "@commitlint/config-conventional@npm:19.6.0"
+"@commitlint/config-conventional@npm:^19.7.1":
+  version: 19.7.1
+  resolution: "@commitlint/config-conventional@npm:19.7.1"
   dependencies:
     "@commitlint/types": "npm:^19.5.0"
     conventional-changelog-conventionalcommits: "npm:^7.0.2"
-  checksum: 10c0/984870138f5d4b947bc2ea8d12fcb8103ef9e6141d0fb50a6e387665495b80b35890d9dc025443a243a53d2a69d7c0bab1d77c5658a6e5a15a3dd7773557fad2
+  checksum: 10c0/9de7e5f1e4ac1d995293da12a646936d477c4fc50562de015df26e0b307ebf3fd2632dc8c874ba9d9a81c9540c3189e275fb6fe0b707ae6c9159c013b7dfdb56
   languageName: node
   linkType: hard
 
@@ -634,12 +634,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/commitlint-config@npm:9.1.0":
-  version: 9.1.0
-  resolution: "@pob/commitlint-config@npm:9.1.0"
+"@pob/commitlint-config@npm:9.1.1":
+  version: 9.1.1
+  resolution: "@pob/commitlint-config@npm:9.1.1"
   dependencies:
-    "@commitlint/config-conventional": "npm:^19.6.0"
-  checksum: 10c0/8b7b23f74f2a5752a3a0f7a2021956db90f3a3b20a4ea9df61be5d252a0e11ef0b5e04fb22d3b1bc1ffb444505baae0c6b54bad4cda96cf76b67b1639f78ee4e
+    "@commitlint/config-conventional": "npm:^19.7.1"
+  checksum: 10c0/51b0bac9a414e009477ad9f0cb7e58d43af72b57a71ca63644616d0bf967d676dd68e32f91d5920c8a27badfab9aa0a482fbc01410570a8879873b53b282e604
   languageName: node
   linkType: hard
 
@@ -647,7 +647,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-monorepo@workspace:."
   dependencies:
-    "@pob/commitlint-config": "npm:9.1.0"
+    "@pob/commitlint-config": "npm:9.1.1"
     "@pob/eslint-config": "workspace:*"
     "@pob/eslint-config-typescript": "workspace:*"
     "@pob/eslint-config-typescript-react": "workspace:*"
