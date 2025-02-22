@@ -654,7 +654,7 @@ __metadata:
     "@pob/root": "npm:16.3.1"
     "@typescript-eslint/eslint-plugin": "npm:8.23.0"
     "@typescript-eslint/parser": "npm:8.23.0"
-    check-package-dependencies: "npm:9.2.0"
+    check-package-dependencies: "npm:10.0.0"
     eslint: "npm:9.20.1"
     eslint-plugin-import: "npm:2.31.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
@@ -1422,21 +1422,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"check-package-dependencies@npm:9.2.0":
-  version: 9.2.0
-  resolution: "check-package-dependencies@npm:9.2.0"
+"check-package-dependencies@npm:10.0.0":
+  version: 10.0.0
+  resolution: "check-package-dependencies@npm:10.0.0"
   dependencies:
     "@eslint/plugin-kit": "npm:^0.2.5"
-    chalk: "npm:^5.4.1"
-    import-meta-resolve: "npm:^4.1.0"
     jsonc-parser: "npm:^3.3.1"
     semver: "npm:^7.7.1"
     semver-utils: "npm:^1.1.4"
     tslib: "npm:^2.8.1"
-    type-fest: "npm:^4.34.0"
+    type-fest: "npm:^4.35.0"
   bin:
     check-package-dependencies: ./bin/check-package-dependencies.mjs
-  checksum: 10c0/c5f7f45bb920224a96bb43fd5ef3a39b13105dca8486fa38bc236b56e69e5d9399ea0db86ed772575a088a010e7428171c4927182af5136236a46940287f991f
+  checksum: 10c0/b9acdff03d4545e65158c022f1e358973e3f9b840b776c70f551fd521da6a46d6ae844398cd222d90b362b4f11bd785a7ae369332a8b818ce712609dcf6bc073
   languageName: node
   linkType: hard
 
@@ -2912,7 +2910,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-meta-resolve@npm:^4.0.0, import-meta-resolve@npm:^4.1.0":
+"import-meta-resolve@npm:^4.0.0":
   version: 4.1.0
   resolution: "import-meta-resolve@npm:4.1.0"
   checksum: 10c0/42f3284b0460635ddf105c4ad99c6716099c3ce76702602290ad5cbbcd295700cbc04e4bdf47bacf9e3f1a4cec2e1ff887dabc20458bef398f9de22ddff45ef5
@@ -5041,10 +5039,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^4.34.0, type-fest@npm:^4.6.0, type-fest@npm:^4.7.1":
-  version: 4.34.1
-  resolution: "type-fest@npm:4.34.1"
-  checksum: 10c0/4aa016be91f4225b772d77da91415cd25961a937f84e68d763b2dfeb936ef1671b039bbb0f75019affb8f591c26d65966024343aae75b17ab49db6f9c50c38a8
+"type-fest@npm:^4.35.0, type-fest@npm:^4.6.0, type-fest@npm:^4.7.1":
+  version: 4.35.0
+  resolution: "type-fest@npm:4.35.0"
+  checksum: 10c0/7032a8a940c33d45947a4ff0f74e3aa43b6fd8bb4745b32bba8e61ee47c0dd088cacd102f8377e9e889362e1ae8e0292b64a4c0698c1e42fd297bf6f8899d220
   languageName: node
   linkType: hard
 
