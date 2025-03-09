@@ -37,8 +37,8 @@
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
     "@pob/root": "16.3.1",
-    "@typescript-eslint/eslint-plugin": "8.23.0",
-    "@typescript-eslint/parser": "8.23.0",
+    "@typescript-eslint/eslint-plugin": "8.26.0",
+    "@typescript-eslint/parser": "8.26.0",
     "check-package-dependencies": "9.2.0",
     "eslint": "9.20.1",
     "eslint-plugin-import": "2.31.0",
@@ -48,6 +48,6 @@
     "eslint-plugin-react-hooks": "5.1.0",
     "eslint-plugin-unicorn": "57.0.0",
     "semver": "7.7.1",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   }
 }
