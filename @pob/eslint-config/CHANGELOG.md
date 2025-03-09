@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [59.8.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.7.0...v59.8.0) (2025-03-09)
+
+### Features
+
+* update typescript ([090972e](https://github.com/christophehurpeau/eslint-config-pob/commit/090972ef3c80511454a8608890d33133dbc3570a))
+
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [59.7.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.6.0...v59.7.0) (2025-02-17)
 
 ### Features
