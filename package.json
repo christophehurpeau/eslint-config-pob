@@ -39,7 +39,7 @@
     "@pob/root": "16.3.1",
     "@typescript-eslint/eslint-plugin": "8.26.0",
     "@typescript-eslint/parser": "8.26.0",
-    "check-package-dependencies": "9.2.0",
+    "check-package-dependencies": "10.1.0",
     "eslint": "9.20.1",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
