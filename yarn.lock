@@ -286,15 +286,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "@eslint/core@npm:0.10.0"
-  dependencies:
-    "@types/json-schema": "npm:^7.0.15"
-  checksum: 10c0/074018075079b3ed1f14fab9d116f11a8824cdfae3e822badf7ad546962fafe717a31e61459bad8cc59cf7070dc413ea9064ddb75c114f05b05921029cde0a64
-  languageName: node
-  linkType: hard
-
 "@eslint/core@npm:^0.12.0":
   version: 0.12.0
   resolution: "@eslint/core@npm:0.12.0"
@@ -328,15 +319,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/json@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "@eslint/json@npm:0.10.0"
+"@eslint/json@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "@eslint/json@npm:0.11.0"
   dependencies:
-    "@eslint/core": "npm:^0.10.0"
-    "@eslint/plugin-kit": "npm:^0.2.5"
+    "@eslint/core": "npm:^0.12.0"
+    "@eslint/plugin-kit": "npm:^0.2.7"
     "@humanwhocodes/momoa": "npm:^3.3.4"
     natural-compare: "npm:^1.4.0"
-  checksum: 10c0/d38bba116bc8550c3c9419b879bbe3c7814ca61a60c710472146c319636848680e76b7b436df08bf38d5f99eeeb36206fe8244a145a43fc32bbb47c5e97711bb
+  checksum: 10c0/9161cb6f540e032f13141905dec8cd744b996856018e7668387489d675e3a5ad2bf71d3d77210373de3e88198631e37a3a7b7287031b01e7cf6dab700c39ae13
   languageName: node
   linkType: hard
 
@@ -716,7 +707,7 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@eslint/js": "npm:^9.16.0"
-    "@eslint/json": "npm:^0.10.0"
+    "@eslint/json": "npm:^0.11.0"
     "@pob/eslint-plugin": "npm:59.8.1"
     confusing-browser-globals: "npm:^1.0.11"
     eslint: "npm:9.23.0"
