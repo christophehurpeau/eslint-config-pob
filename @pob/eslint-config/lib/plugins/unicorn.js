@@ -348,6 +348,9 @@ export default [
 
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-accessor-recursion.md
       "unicorn/no-accessor-recursion": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-polyfills.md
+      "unicorn/no-unnecessary-polyfills": "error",
     },
   },
 ];
