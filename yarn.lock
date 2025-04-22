@@ -319,15 +319,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/json@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@eslint/json@npm:0.11.0"
+"@eslint/json@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "@eslint/json@npm:0.12.0"
   dependencies:
     "@eslint/core": "npm:^0.12.0"
     "@eslint/plugin-kit": "npm:^0.2.7"
     "@humanwhocodes/momoa": "npm:^3.3.4"
     natural-compare: "npm:^1.4.0"
-  checksum: 10c0/9161cb6f540e032f13141905dec8cd744b996856018e7668387489d675e3a5ad2bf71d3d77210373de3e88198631e37a3a7b7287031b01e7cf6dab700c39ae13
+  checksum: 10c0/68fb045a8fde1fd96c6fa05b7102000328fa1786f935aea007b32a0e178445aebdddb6efeb4518b16bcaa9d819e426ef29eb8fc69d0f1fec720c550be22f631a
   languageName: node
   linkType: hard
 
@@ -707,7 +707,7 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@eslint/js": "npm:^9.16.0"
-    "@eslint/json": "npm:^0.11.0"
+    "@eslint/json": "npm:^0.12.0"
     "@pob/eslint-plugin": "npm:59.8.1"
     confusing-browser-globals: "npm:^1.0.11"
     eslint: "npm:9.23.0"
