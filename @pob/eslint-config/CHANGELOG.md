@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [60.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.8.1...v60.0.0) (2025-04-27)
+
+### Features
+
+* **deps:** update dependency @eslint/json to ^0.11.0 ([#755](https://github.com/christophehurpeau/eslint-config-pob/issues/755)) ([98c7e79](https://github.com/christophehurpeau/eslint-config-pob/commit/98c7e7989291bd5c148fbcf7ae36c26ce40f572d))
+* **deps:** update dependency @eslint/json to ^0.12.0 ([#764](https://github.com/christophehurpeau/eslint-config-pob/issues/764)) ([cf08d29](https://github.com/christophehurpeau/eslint-config-pob/commit/cf08d29ffd3be5913372c5383cfa25ce8896dbdb))
+* **deps:** update dependency eslint-plugin-unicorn to v58 ([#760](https://github.com/christophehurpeau/eslint-config-pob/issues/760)) ([6f7752b](https://github.com/christophehurpeau/eslint-config-pob/commit/6f7752b13e8f9bbe829afd169a054c8cc6784bf9))
+
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [59.8.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.8.0...v59.8.1) (2025-03-16)
 
 Version bump for dependency: @pob/eslint-plugin

@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [60.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.8.1...v60.0.0) (2025-04-27)
+
+### ⚠ BREAKING CHANGES
+
+* change import/extensions
+
+### Features
+
+* change import/extensions ([dc4459a](https://github.com/christophehurpeau/eslint-config-pob/commit/dc4459a389c38c36b3faa4c530e4fce8155599d3))
+
+### Bug Fixes
+
+* fix import/resolver settings ([28ef8be](https://github.com/christophehurpeau/eslint-config-pob/commit/28ef8be0e1c88f593170fa9b235fb3cf76d1d2aa))
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [59.8.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.8.0...v59.8.1) (2025-03-16)
 
 ### Bug Fixes

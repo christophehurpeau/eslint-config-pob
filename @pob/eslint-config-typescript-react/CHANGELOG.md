@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [60.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.8.1...v60.0.0) (2025-04-27)
+
+### ⚠ BREAKING CHANGES
+
+* change import/extensions
+
+### Features
+
+* change import/extensions ([dc4459a](https://github.com/christophehurpeau/eslint-config-pob/commit/dc4459a389c38c36b3faa4c530e4fce8155599d3))
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.37.5 ([#759](https://github.com/christophehurpeau/eslint-config-pob/issues/759)) ([8559ada](https://github.com/christophehurpeau/eslint-config-pob/commit/8559ada8b427ea7ab1e27f87423bdf2891e2731d))
+
+Version bump for dependency: @pob/eslint-config
+Version bump for dependency: @pob/eslint-config-typescript
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [59.8.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.8.0...v59.8.1) (2025-03-16)
 
 Version bump for dependency: @pob/eslint-config
