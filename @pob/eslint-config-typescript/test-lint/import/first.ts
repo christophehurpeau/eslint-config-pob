@@ -1,5 +1,5 @@
-import "./foo";
-import "./folder-with-index";
+import "./foo.ts";
+import "./folder-with-index/index.ts";
 
 const initWith = function (): void {
   console.log("init");
@@ -8,4 +8,4 @@ const initWith = function (): void {
 initWith();
 
 // eslint-disable-next-line import/first
-import "./export";
+import "./export.ts";

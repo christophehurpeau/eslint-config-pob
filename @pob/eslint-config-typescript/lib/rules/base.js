@@ -32,14 +32,17 @@ export default {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
     "import/extensions": [
       "error",
-      "ignorePackages",
+      "always",
       {
-        js: "ignorePackages",
-        cjs: "ignorePackages",
-        mjs: "ignorePackages",
-        cts: "ignorePackages",
-        mts: "ignorePackages",
-        ts: "ignorePackages",
+        ignorePackages: true,
+        pattern: {
+          js: "always",
+          cjs: "always",
+          mjs: "always",
+          cts: "always",
+          mts: "always",
+          ts: "always",
+        },
       },
     ],
 

@@ -3,6 +3,7 @@
     "jsx": "react-jsx",
     "noEmit": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "allowImportingTsExtensions": true
   }
 }

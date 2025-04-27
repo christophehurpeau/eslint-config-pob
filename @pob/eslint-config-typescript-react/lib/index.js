@@ -37,15 +37,18 @@ export default () => {
         rules: {
           "import/extensions": [
             "error",
-            "ignorePackages",
+            "always",
             {
-              js: "ignorePackages",
-              cjs: "ignorePackages",
-              mjs: "ignorePackages",
-              cts: "ignorePackages",
-              mts: "ignorePackages",
-              ts: "never",
-              tsx: "never",
+              ignorePackages: true,
+              pattern: {
+                js: "always",
+                cjs: "always",
+                mjs: "always",
+                cts: "always",
+                mts: "always",
+                ts: "always",
+                tsx: "always",
+              },
             },
           ],
           "react/jsx-filename-extension": ["error", { extensions: ["tsx"] }],
