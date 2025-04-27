@@ -8,6 +8,7 @@ const ruleTester = new RuleTester({
   languageOptions: {
     parser,
     parserOptions: {
+      // eslint-disable-next-line n/no-unsupported-features/node-builtins
       tsconfigRootDir: join(import.meta.dirname, "../fixtures"),
       project: "./tsconfig.json",
       ecmaFeatures: {
