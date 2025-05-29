@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [60.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v60.0.0...v60.1.0) (2025-05-29)
+
+### Features
+
+* add support for test-e2e files ([c492382](https://github.com/christophehurpeau/eslint-config-pob/commit/c492382a469098a44f08b9ddfa0afd37e30cff4d))
+
 ## [60.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v59.8.1...v60.0.0) (2025-04-27)
 
 ### ⚠ BREAKING CHANGES
