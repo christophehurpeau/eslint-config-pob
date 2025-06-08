@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [61.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v60.1.0...v61.0.0) (2025-06-08)
+
+### ⚠ BREAKING CHANGES
+
+* allow skipping ts/tsx extensions for react to allow importing web/native/ios/android extensions
+
+### Bug Fixes
+
+* allow skipping ts/tsx extensions for react to allow importing web/native/ios/android extensions ([7b740c1](https://github.com/christophehurpeau/eslint-config-pob/commit/7b740c13e0cadd01428301de38c61cea2884d0e6))
+
 ## [60.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v60.0.0...v60.1.0) (2025-05-29)
 
 ### Features
