@@ -1,4 +1,4 @@
-import { Hello } from "../Hello.tsx";
+import { Hello } from "../Hello";
 
 const things = ["1", "2", "3"];
 
