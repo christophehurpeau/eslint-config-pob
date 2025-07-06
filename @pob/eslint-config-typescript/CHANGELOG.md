@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [61.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v61.0.0...v61.1.0) (2025-07-06)
+
+### Features
+
+* **deps:** update dependency eslint-plugin-import to v2.32.0 ([#779](https://github.com/christophehurpeau/eslint-config-pob/issues/779)) ([d62f84d](https://github.com/christophehurpeau/eslint-config-pob/commit/d62f84d3399f914c65cada9ff038ec2624b1f4c8))
+* **deps:** update typescript-eslint monorepo to v8.35.1 ([#756](https://github.com/christophehurpeau/eslint-config-pob/issues/756)) ([5d164d6](https://github.com/christophehurpeau/eslint-config-pob/commit/5d164d6975ab90bf96924b6d6ae04a07e45fe821))
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [60.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v60.0.0...v60.1.0) (2025-05-29)
 
 Version bump for dependency: @pob/eslint-config

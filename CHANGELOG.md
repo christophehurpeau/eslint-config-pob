@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [61.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v61.0.0...v61.1.0) (2025-07-06)
+
+### Features
+
+* **deps:** update dependency eslint-plugin-import to v2.32.0 ([#779](https://github.com/christophehurpeau/eslint-config-pob/issues/779)) ([d62f84d](https://github.com/christophehurpeau/eslint-config-pob/commit/d62f84d3399f914c65cada9ff038ec2624b1f4c8))
+* **deps:** update dependency eslint-plugin-unicorn to v59 ([#769](https://github.com/christophehurpeau/eslint-config-pob/issues/769)) ([dc316d5](https://github.com/christophehurpeau/eslint-config-pob/commit/dc316d5903a5c30aacdb0475341576ebf2457e98))
+* **deps:** update react monorepo ([#750](https://github.com/christophehurpeau/eslint-config-pob/issues/750)) ([cbe3965](https://github.com/christophehurpeau/eslint-config-pob/commit/cbe396593dbbe9a9c24e5e8c197516f1b7fe7579))
+* **deps:** update typescript-eslint monorepo to v8.35.1 ([#756](https://github.com/christophehurpeau/eslint-config-pob/issues/756)) ([5d164d6](https://github.com/christophehurpeau/eslint-config-pob/commit/5d164d6975ab90bf96924b6d6ae04a07e45fe821))
+* increase max complexity ([7c4334d](https://github.com/christophehurpeau/eslint-config-pob/commit/7c4334daf3b5fe19ed058e4d0861c0d6a088f340))
+
 ## [61.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v60.1.0...v61.0.0) (2025-06-08)
 
 ### ⚠ BREAKING CHANGES

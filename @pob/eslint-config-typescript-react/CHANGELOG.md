@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [61.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v61.0.0...v61.1.0) (2025-07-06)
+
+### Features
+
+* **deps:** update dependency eslint-plugin-import to v2.32.0 ([#779](https://github.com/christophehurpeau/eslint-config-pob/issues/779)) ([d62f84d](https://github.com/christophehurpeau/eslint-config-pob/commit/d62f84d3399f914c65cada9ff038ec2624b1f4c8))
+* **deps:** update react monorepo ([#750](https://github.com/christophehurpeau/eslint-config-pob/issues/750)) ([cbe3965](https://github.com/christophehurpeau/eslint-config-pob/commit/cbe396593dbbe9a9c24e5e8c197516f1b7fe7579))
+
+Version bump for dependency: @pob/eslint-config
+Version bump for dependency: @pob/eslint-config-typescript
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [61.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v60.1.0...v61.0.0) (2025-06-08)
 
 ### ⚠ BREAKING CHANGES

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [61.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v61.0.0...v61.1.0) (2025-07-06)
+
+### Features
+
+* **deps:** update dependency eslint-plugin-import to v2.32.0 ([#779](https://github.com/christophehurpeau/eslint-config-pob/issues/779)) ([d62f84d](https://github.com/christophehurpeau/eslint-config-pob/commit/d62f84d3399f914c65cada9ff038ec2624b1f4c8))
+* **deps:** update dependency eslint-plugin-unicorn to v59 ([#769](https://github.com/christophehurpeau/eslint-config-pob/issues/769)) ([dc316d5](https://github.com/christophehurpeau/eslint-config-pob/commit/dc316d5903a5c30aacdb0475341576ebf2457e98))
+* increase max complexity ([7c4334d](https://github.com/christophehurpeau/eslint-config-pob/commit/7c4334daf3b5fe19ed058e4d0861c0d6a088f340))
+
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [60.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v60.0.0...v60.1.0) (2025-05-29)
 
 ### Features
