@@ -47,7 +47,7 @@
     "@eslint/json": "^0.12.0",
     "@pob/eslint-plugin": "60.1.0",
     "confusing-browser-globals": "^1.0.11",
-    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-n": "^17.18.0",
     "eslint-plugin-regexp": "^2.7.0",
     "eslint-plugin-unicorn": "^58.0.0"
