@@ -32,22 +32,22 @@
   },
   "prettier": "@pob/root/prettier-config",
   "devDependencies": {
-    "@pob/commitlint-config": "9.2.0",
+    "@pob/commitlint-config": "10.0.0",
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
-    "@pob/root": "18.2.0",
-    "@typescript-eslint/eslint-plugin": "8.35.1",
-    "@typescript-eslint/parser": "8.35.1",
+    "@pob/root": "19.1.0",
+    "@typescript-eslint/eslint-plugin": "8.43.0",
+    "@typescript-eslint/parser": "8.43.0",
     "check-package-dependencies": "10.4.1",
-    "eslint": "9.30.1",
+    "eslint": "9.35.0",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
-    "eslint-plugin-n": "17.21.0",
+    "eslint-plugin-n": "17.21.3",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.2.0",
-    "eslint-plugin-unicorn": "59.0.1",
+    "eslint-plugin-unicorn": "61.0.2",
     "semver": "7.7.2",
-    "typescript": "5.8.3"
+    "typescript": "5.9.2"
   }
 }

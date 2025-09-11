@@ -1,8 +1,8 @@
-// eslint-disable-next-line no-undef, unicorn/prefer-module, import/no-commonjs
+// eslint-disable-next-line no-undef, import/no-commonjs
 exports.some = true;
 
 function getDirname() {
-  // eslint-disable-next-line no-undef, unicorn/prefer-module
+  // eslint-disable-next-line no-undef
   return __dirname;
 }
 

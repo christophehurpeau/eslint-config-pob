@@ -354,6 +354,15 @@ export default [
 
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-slice-end.md
       "unicorn/no-unnecessary-slice-end": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-class-fields.md
+      "unicorn/prefer-class-fields": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reverse.md
+      "unicorn/no-array-reverse": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-sort.md
+      "unicorn/no-array-sort": "error",
     },
   },
 ];

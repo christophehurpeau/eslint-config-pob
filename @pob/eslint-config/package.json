@@ -13,7 +13,7 @@
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "module",
   "engines": {
-    "node": ">=20.11.0"
+    "node": ">=22.18.0"
   },
   "sideEffects": false,
   "main": "./lib/index.js",
@@ -40,24 +40,24 @@
   "pob": {},
   "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
-    "eslint": "^9.22.0"
+    "eslint": "^9.29.0"
   },
   "dependencies": {
-    "@eslint/js": "^9.30.1",
-    "@eslint/json": "^0.12.0",
+    "@eslint/js": "^9.35.0",
+    "@eslint/json": "^0.13.2",
     "@pob/eslint-plugin": "61.1.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-n": "^17.21.0",
-    "eslint-plugin-regexp": "^2.9.0",
-    "eslint-plugin-unicorn": "^59.0.1"
+    "eslint-plugin-n": "^17.21.3",
+    "eslint-plugin-regexp": "^2.10.0",
+    "eslint-plugin-unicorn": "^61.0.2"
   },
   "devDependencies": {
-    "eslint": "9.30.1",
+    "eslint": "9.35.0",
     "eslint-plugin-import": "2.32.0",
-    "eslint-plugin-n": "17.21.0",
-    "eslint-plugin-regexp": "2.9.0",
-    "eslint-plugin-unicorn": "59.0.1",
-    "typescript": "5.8.3"
+    "eslint-plugin-n": "17.21.3",
+    "eslint-plugin-regexp": "2.10.0",
+    "eslint-plugin-unicorn": "61.0.2",
+    "typescript": "5.9.2"
   }
 }

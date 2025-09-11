@@ -1,7 +1,5 @@
 class Thing {
-  constructor() {
-    this.foo = "foo";
-  }
+  foo = "foo";
 }
 
 // eslint-disable-next-line no-new
