@@ -19,7 +19,8 @@
     "project": {
       "type": "lib",
       "yarnNodeLinker": "node-modules",
-      "packageManager": "yarn"
+      "packageManager": "yarn",
+      "ci": true
     }
   }
 }
