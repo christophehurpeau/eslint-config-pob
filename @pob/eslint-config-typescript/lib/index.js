@@ -18,6 +18,14 @@ export { apply } from "@pob/eslint-config";
 
 export const extensions = "{ts,cts,mts,tsx}";
 
+// @ts-expect-error not defined
+const tsFiles = tseslint.configs.strictTypeChecked[1].files;
+if (!tsFiles) {
+  throw new Error(
+    'Unexpected "tseslint.configs.strictTypeChecked[1].files" value',
+  );
+}
+
 export const applyTs = (options) =>
   apply({
     extensions,
@@ -37,7 +45,7 @@ export default () => {
       base: [
         ...configs.baseModule,
         ...applyTs({
-          filesOverridesIf: [tseslint.configs.strictTypeChecked[1].files],
+          filesOverridesIf: [tsFiles],
           configs: [
             importPluginOverrideConfig,
             ...tseslint.configs.strictTypeChecked,
@@ -55,7 +63,7 @@ export default () => {
       node: [
         ...configs.nodeModule,
         ...applyTs({
-          filesOverridesIf: [tseslint.configs.strictTypeChecked[1].files],
+          filesOverridesIf: [tsFiles],
           configs: [
             importPluginOverrideConfig,
             ...tseslint.configs.strictTypeChecked,
