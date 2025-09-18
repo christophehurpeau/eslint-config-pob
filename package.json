@@ -27,12 +27,11 @@
   },
   "commitlint": {
     "extends": [
-      "@pob/commitlint-config"
+      "@pob/root/commitlint-config"
     ]
   },
   "prettier": "@pob/root/prettier-config",
   "devDependencies": {
-    "@pob/commitlint-config": "10.0.0",
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
