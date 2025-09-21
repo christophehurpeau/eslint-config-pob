@@ -4,6 +4,6 @@ export default {
     "unicorn/no-process-exit": "off",
     "n/hashbang": "off",
     // allow dev dependencies
-    "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
+    "import-x/no-extraneous-dependencies": ["error", { devDependencies: true }],
   },
 };

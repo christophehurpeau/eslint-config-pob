@@ -22,8 +22,8 @@ export const overrideRules = {
   "no-restricted-modules": "off",
   "no-sync": "off",
 
-  // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
-  // "import/extensions": [
+  // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/import/extensions.md
+  // "import-x/extensions": [
   //   "error",
   //   "ignorePackages",
   //   {

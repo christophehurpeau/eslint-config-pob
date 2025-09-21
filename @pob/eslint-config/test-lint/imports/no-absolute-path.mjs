@@ -1,4 +1,4 @@
-// eslint-disable-next-line import/extensions, import/no-unresolved, import/no-absolute-path
+// eslint-disable-next-line import-x/extensions, import-x/no-unresolved, import-x/no-absolute-path
 import f from "/foo";
 
 console.log(f);

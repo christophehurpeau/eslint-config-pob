@@ -3,6 +3,6 @@ export default {
 
   rules: {
     // allow dev dependencies
-    "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
+    "import-x/no-extraneous-dependencies": ["error", { devDependencies: true }],
   },
 };

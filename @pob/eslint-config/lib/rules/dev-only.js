@@ -5,7 +5,7 @@ export default {
   rules: {
     "no-console": "off",
 
-    "import/no-extraneous-dependencies": [
+    "import-x/no-extraneous-dependencies": [
       "error",
       {
         devDependencies: true,

@@ -1,4 +1,5 @@
 import pobPlugin from "@pob/eslint-plugin";
+import { createNodeResolver } from "eslint-plugin-import-x";
 import nodePlugin from "eslint-plugin-n";
 import { overrideRules } from "./_base.js";
 
@@ -7,6 +8,13 @@ export default [
   pobPlugin.configs.node,
   {
     name: "@pob/eslint-config/node/commonjs",
+    settings: {
+      "import-x/resolver-next": [
+        createNodeResolver({
+          conditionNames: ["node"],
+        }),
+      ],
+    },
     rules: {
       ...overrideRules,
       // "unicorn/prefer-module": "off",

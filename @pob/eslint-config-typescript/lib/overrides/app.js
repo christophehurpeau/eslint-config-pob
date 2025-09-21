@@ -1,9 +1,14 @@
+import { createNodeResolver } from "eslint-plugin-import-x";
+
 export default {
   name: "@pob/eslint-config-typescript/app",
   settings: {
-    "import/resolver": {
-      node: { moduleDirectory: ["node_modules", "src"] },
-    },
+    "import-x/resolver-next": [
+      createNodeResolver({
+        // @ts-expect-error missing types
+        moduleDirectory: ["node_modules", "src"],
+      }),
+    ],
   },
   rules: {
     /* No need for this rule in an app */

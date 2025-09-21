@@ -2,6 +2,7 @@ import baseTypescriptPobConfig, {
   extensions,
 } from "@pob/eslint-config-typescript";
 import pobPlugin from "@pob/eslint-plugin";
+import { createNodeResolver } from "eslint-plugin-import-x";
 import importPluginOverrideConfig from "./plugins/import.js";
 import jsxA11yConfigs from "./plugins/jsx-a11y.js";
 import reactHooksConfigs from "./plugins/react-hooks.js";
@@ -20,8 +21,8 @@ export default () => {
       pobPlugin.configs.react,
       {
         settings: {
-          "import/resolver": {
-            node: {
+          "import-x/resolver-next": [
+            createNodeResolver({
               extensions: [
                 ".mjs",
                 ".js",
@@ -31,11 +32,11 @@ export default () => {
                 ".d.ts",
                 ".d.tsx",
               ],
-            },
-          },
+            }),
+          ],
         },
         rules: {
-          "import/extensions": [
+          "import-x/extensions": [
             "error",
             "always",
             {
@@ -75,11 +76,12 @@ export default () => {
       "react-native": [
         {
           settings: {
-            "import/resolver": {
-              node: {
+            "import-x/resolver-next": [
+              createNodeResolver({
                 extensions: [".js", ".ios.js", ".android.js"],
-              },
-            },
+                conditionNames: ["import", "react-native"],
+              }),
+            ],
           },
         },
       ],
@@ -87,14 +89,15 @@ export default () => {
       "react-native-web": [
         {
           settings: {
-            "import/resolver": {
-              node: {
+            "import-x/resolver-next": [
+              createNodeResolver({
                 extensions: [".js", ".web.js"],
-              },
-            },
+                conditionNames: ["import", "browser"],
+              }),
+            ],
           },
           rules: {
-            "import/no-unresolved": [
+            "import-x/no-unresolved": [
               "error",
               {
                 ignore: [

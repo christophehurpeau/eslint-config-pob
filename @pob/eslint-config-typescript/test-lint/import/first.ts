@@ -7,5 +7,5 @@ const initWith = function (): void {
 
 initWith();
 
-// eslint-disable-next-line import/first
+// eslint-disable-next-line import-x/first
 import "./export.ts";

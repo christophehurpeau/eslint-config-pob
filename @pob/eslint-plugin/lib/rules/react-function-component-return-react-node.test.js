@@ -1,5 +1,4 @@
 import { join } from "node:path";
-// eslint-disable-next-line import/no-unresolved
 import { parser } from "typescript-eslint";
 import rule from "./react-function-component-return-react-node.js";
 import { RuleTester } from "./test-utils/RuleTester.js";

@@ -1,5 +1,4 @@
 import { after, describe, it } from "node:test";
-// eslint-disable-next-line import/no-unresolved -- missing main field
 import { RuleTester } from "@typescript-eslint/rule-tester";
 
 RuleTester.afterAll = after;

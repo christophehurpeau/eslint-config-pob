@@ -1,3 +1,5 @@
+import { createNodeResolver } from "eslint-plugin-import-x";
+
 export default {
   name: "@pob/eslint-config-typescript/base",
   languageOptions: {
@@ -6,17 +8,18 @@ export default {
     },
   },
   settings: {
-    "import/resolver": {
-      node: {
+    "import-x/resolver-next": [
+      createNodeResolver({
         extensions: [".mjs", ".js", ".json", ".ts"],
-      },
-    },
-    "import/extensions": [".js", ".mjs", ".ts", ".d.ts"],
+        conditionNames: ["import"],
+      }),
+    ],
+    "import-x/extensions": [".js", ".mjs", ".ts", ".d.ts"],
   },
   rules: {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/no-anonymous-default-export.md
     // Reports if a module's default export is unnamed
-    "import/no-anonymous-default-export": [
+    "import-x/no-anonymous-default-export": [
       "error",
       {
         allowArray: true,
@@ -30,7 +33,7 @@ export default {
     ],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/import/extensions.md
-    "import/extensions": [
+    "import-x/extensions": [
       "error",
       "always",
       {
@@ -53,6 +56,6 @@ export default {
     "spaced-comment": "off",
 
     /* some exported type doesnt work. tsc check that anyway */
-    "import/named": "off",
+    "import-x/named": "off",
   },
 };

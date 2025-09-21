@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-undef, import/no-commonjs
+// eslint-disable-next-line no-undef, import-x/no-commonjs
 exports.some = true;
 
 function getDirname() {

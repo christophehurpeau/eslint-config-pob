@@ -25,7 +25,7 @@ export default [
   {
     files: ["**/test-lint/**/*.{js,cjs,mjs}"],
     rules: {
-      "import/no-extraneous-dependencies": "off",
+      "import-x/no-extraneous-dependencies": "off",
     },
   },
 ];

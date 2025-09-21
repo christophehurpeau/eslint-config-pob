@@ -1,5 +1,4 @@
 import pobConfig, { apply } from "@pob/eslint-config";
-// eslint-disable-next-line import/no-unresolved -- missing exports support see https://gist.github.com/danielweck/cd63af8e9a8b3492abacc312af9f28fd for potential fix
 import tseslint from "typescript-eslint";
 import allowImplicitReturnTypeConfig from "./overrides/allow-implicit-return-type.js";
 import allowUnsafeAsWarnConfig from "./overrides/allow-unsafe-as-warn.js";
