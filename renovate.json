@@ -5,9 +5,9 @@
       "matchPackageNames": [
         "eslint",
         "typescript",
-        "/^@typescript-eslint//",
-        "/^eslint-/",
-        "/typescript-eslint/"
+        "@typescript-eslint/*",
+        "eslint-*",
+        "typescript-eslint"
       ],
       "dependencyDashboardApproval": false,
       "reviewers": ["christophehurpeau"]
