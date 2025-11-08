@@ -595,7 +595,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:5.2.0"
     eslint-plugin-unicorn: "npm:61.0.2"
-    semver: "npm:7.7.2"
+    semver: "npm:7.7.3"
     typescript: "npm:5.9.3"
   languageName: unknown
   linkType: soft
@@ -4132,15 +4132,6 @@ __metadata:
   version: 1.1.4
   resolution: "semver-utils@npm:1.1.4"
   checksum: 10c0/8ad42a93b8640f0e3fdec67187b84ec396c180d37caaa40291a413f5cc82ebd7ffdf055c38824f1749506027f9fed78e230a262e7cc8bcb84ddbcd6f16c918c0
-  languageName: node
-  linkType: hard
-
-"semver@npm:7.7.2":
-  version: 7.7.2
-  resolution: "semver@npm:7.7.2"
-  bin:
-    semver: bin/semver.js
-  checksum: 10c0/aca305edfbf2383c22571cb7714f48cadc7ac95371b4b52362fb8eeffdfbc0de0669368b82b2b15978f8848f01d7114da65697e56cd8c37b0dab8c58e543f9ea
   languageName: node
   linkType: hard
 
