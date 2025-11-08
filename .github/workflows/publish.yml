@@ -23,7 +23,10 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
 
-      - uses: actions/setup-node@v4
+      - name: Enable Corepack
+        run: corepack enable
+
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           check-latest: true
@@ -37,15 +40,13 @@ jobs:
             exit 1
           fi
 
-      - name: Enable Corepack
-        run: corepack enable
-
       - name: Install Dependencies
         run: yarn install --immutable
 
       - name: New version (dry run)
         if: github.ref == 'refs/heads/main' && inputs.dry-run
         run: yarn yarn-version version --dry-run
+
       - name: Configure Git user
         if: github.ref == 'refs/heads/main' && !inputs.dry-run
         run: |

@@ -27,19 +27,18 @@
   },
   "commitlint": {
     "extends": [
-      "@pob/commitlint-config"
+      "@pob/root/commitlint-config"
     ]
   },
   "prettier": "@pob/root/prettier-config",
   "devDependencies": {
-    "@pob/commitlint-config": "11.0.0",
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
-    "@pob/root": "19.1.0",
+    "@pob/root": "19.7.1",
     "@typescript-eslint/eslint-plugin": "8.43.0",
     "@typescript-eslint/parser": "8.43.0",
-    "check-package-dependencies": "10.4.1",
+    "check-package-dependencies": "10.5.0",
     "eslint": "9.39.1",
     "eslint-plugin-import-x": "4.16.1",
     "eslint-plugin-jsx-a11y": "6.10.2",
