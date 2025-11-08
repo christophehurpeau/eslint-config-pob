@@ -7,7 +7,8 @@
         "typescript",
         "@typescript-eslint/*",
         "eslint-*",
-        "typescript-eslint"
+        "typescript-eslint",
+        "@eslint/*"
       ],
       "dependencyDashboardApproval": false,
       "reviewers": ["christophehurpeau"]
