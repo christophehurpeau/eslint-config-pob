@@ -64,9 +64,8 @@ export default {
       },
     ],
 
-    // TODO: enable
     // https://eslint.org/docs/rules/no-alert
-    "no-alert": "warn",
+    "no-alert": "error",
 
     // https://eslint.org/docs/rules/no-array-constructor
     "no-array-constructor": "error",
