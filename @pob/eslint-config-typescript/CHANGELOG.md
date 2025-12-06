@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [63.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v62.0.0...v63.0.0) (2025-12-06)
+
+### ⚠ BREAKING CHANGES
+
+* use eslint-plugin-import-x
+
+### Features
+
+* **deps:** update eslint monorepo to ^9.39.1 ([#782](https://github.com/christophehurpeau/eslint-config-pob/issues/782))
+* use eslint-plugin-import-x
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [62.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v61.1.0...v62.0.0) (2025-09-11)
 
 ### ⚠ BREAKING CHANGES
