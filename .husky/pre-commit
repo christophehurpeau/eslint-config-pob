@@ -1,1 +1,1 @@
-yarn pob-root-lint-staged
+bun run pob-root-lint-staged

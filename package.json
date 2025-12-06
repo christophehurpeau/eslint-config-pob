@@ -8,7 +8,6 @@
   "repository": "https://github.com/christophehurpeau/eslint-config-pob.git",
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "module",
-  "packageManager": "yarn@4.11.0",
   "engines": {
     "node": ">=22.18.0"
   },
@@ -17,11 +16,12 @@
   ],
   "scripts": {
     "checks": "node scripts/check-packages.js",
-    "lint": "yarn run lint:prettier && yarn run lint:eslint",
+    "lint": "bun run lint:prettier && bun run lint:eslint",
     "lint:eslint": "eslint --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
     "postinstall": "pob-root-postinstall",
+    "prepare": "pob-root-postinstall",
     "test": "node --test",
     "tsc": "tsc -b"
   },
@@ -35,7 +35,8 @@
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
-    "@pob/root": "19.8.0",
+    "@pob/root": "20.0.2",
+    "@types/node": "24.10.1",
     "@typescript-eslint/eslint-plugin": "8.43.0",
     "@typescript-eslint/parser": "8.43.0",
     "check-package-dependencies": "10.5.0",

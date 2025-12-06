@@ -7,7 +7,7 @@ do
   # Skip if branch deletion
   if [ "$local_sha" != "$z40" ]; then
     if [ "$local_ref" = "$branch_ref" ]; then
-      yarn run checks && yarn run lint && yarn test
+      bun run checks && bun run lint && bun run test
     fi
   fi
 done

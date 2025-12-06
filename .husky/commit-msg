@@ -1,1 +1,1 @@
-yarn pob-check-commit-msg $1
+bun run pob-check-commit-msg $1

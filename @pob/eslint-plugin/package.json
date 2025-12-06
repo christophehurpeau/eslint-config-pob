@@ -29,7 +29,7 @@
   ],
   "scripts": {
     "lint": "yarn run lint:eslint",
-    "lint:eslint": "yarn ../.. run eslint --quiet @pob/eslint-plugin"
+    "lint:eslint": "yarn ../.. run eslint --quiet '@pob/eslint-plugin'"
   },
   "pob": {},
   "prettier": "@pob/root/prettier-config",
@@ -47,6 +47,7 @@
     "eslint-plugin-react": "^7.37.5"
   },
   "devDependencies": {
+    "@types/node": "24.10.1",
     "@typescript-eslint/rule-tester": "8.43.0",
     "eslint": "9.39.1",
     "typescript": "5.9.3",

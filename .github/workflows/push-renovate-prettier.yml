@@ -6,16 +6,19 @@ on:
       - "renovate/prettier-**"
       - "renovate/major-prettier"
 
+permissions:
+  contents: write
+
 jobs:
   run-prettier:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          ssh-key: ${{ secrets.PUSH_DEPLOY_KEY }}
 
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
 
       - uses: actions/setup-node@v6
         with:
@@ -23,10 +26,10 @@ jobs:
           check-latest: true
 
       - name: Install Dependencies
-        run: yarn install --immutable
+        run: bun i --frozen-lockfile
 
       - name: Run Prettier
-        run: yarn prettier --write .
+        run: bun run prettier --write .
 
       - name: Check for added or modified files
         id: git-check-modified

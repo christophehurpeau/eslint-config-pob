@@ -1,5 +1,6 @@
 name: Push CI
-
+permissions:
+  contents: read
 on: [push]
 
 jobs:
@@ -13,8 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v6
@@ -24,14 +27,14 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Install Dependencies
-        run: yarn install --immutable
+        run: bun install --frozen-lockfile
 
       - name: Checks
-        run: yarn run checks
+        run: bun run checks
         if: startsWith(matrix.node-version, '22.')
 
       - name: Prettier
-        run: yarn run lint:prettier
+        run: bun run lint:prettier
         if: startsWith(matrix.node-version, '22.')
 
       - name: Typescript
@@ -39,7 +42,7 @@ jobs:
         if: startsWith(matrix.node-version, '22.')
 
       - name: Eslint
-        run: yarn run lint:eslint
+        run: bun run lint:eslint
         if: startsWith(matrix.node-version, '22.')
 
       - name: Check nothing was forgotten before commit
