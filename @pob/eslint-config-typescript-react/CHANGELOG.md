@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [64.1.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v64.0.0...v64.1.0) (2025-12-06)
+
+Version bump for dependency: @pob/eslint-config-typescript
+
+
 ## [64.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v63.0.0...v64.0.0) (2025-12-06)
 
 Version bump for dependency: @pob/eslint-config
