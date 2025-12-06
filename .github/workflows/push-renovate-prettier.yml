@@ -13,12 +13,12 @@ jobs:
   run-prettier:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           ssh-key: ${{ secrets.PUSH_DEPLOY_KEY }}
 
       - name: Install bun
-        uses: oven-sh/setup-bun@v1
+        uses: oven-sh/setup-bun@v2
 
       - uses: actions/setup-node@v6
         with:

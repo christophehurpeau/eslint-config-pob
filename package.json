@@ -20,7 +20,6 @@
     "lint:eslint": "eslint --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
-    "postinstall": "pob-root-postinstall",
     "prepare": "pob-root-postinstall",
     "test": "node --test",
     "tsc": "tsc -b"
@@ -35,7 +34,7 @@
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
-    "@pob/root": "20.0.2",
+    "@pob/root": "20.1.0",
     "@types/node": "24.10.1",
     "@typescript-eslint/eslint-plugin": "8.43.0",
     "@typescript-eslint/parser": "8.43.0",
