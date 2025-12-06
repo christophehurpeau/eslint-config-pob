@@ -96,8 +96,7 @@ export default {
     "@typescript-eslint/no-require-imports": "off",
 
     // https://typescript-eslint.io/rules/no-unnecessary-qualifier/
-    // TODO to enable
-    "@typescript-eslint/no-unnecessary-qualifier": "off",
+    "@typescript-eslint/no-unnecessary-qualifier": "error",
 
     // https://typescript-eslint.io/rules/no-unsafe-unary-minus/
     "@typescript-eslint/no-unsafe-unary-minus": "error",
