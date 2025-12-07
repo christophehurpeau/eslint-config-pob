@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [64.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v64.1.4...v64.2.0) (2025-12-07)
+
+### Features
+
+* update eslint-plugin-unicorn
+
+Version bump for dependency: @pob/eslint-config
+Version bump for dependency: @pob/eslint-config-typescript
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [64.1.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v64.1.3...v64.1.4) (2025-12-07)
 
 Version bump for dependency: @pob/eslint-config

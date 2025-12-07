@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [64.2.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v64.1.4...v64.2.0) (2025-12-07)
+
+### Features
+
+* add @whatwg-node/fetch
+* update eslint-plugin-unicorn
+
 ## [64.1.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v64.1.3...v64.1.4) (2025-12-07)
 
 Note: no notable changes
