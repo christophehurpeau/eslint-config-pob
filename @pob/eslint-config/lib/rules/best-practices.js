@@ -226,6 +226,7 @@ export default {
     // https://eslint.org/docs/rules/no-redeclare
     "no-redeclare": "error",
 
+    // https://eslint.org/docs/rules/no-restricted-globals
     "no-restricted-globals": [
       "error",
       {
