@@ -61,6 +61,7 @@ jobs:
       - name: New version
         if: github.ref == 'refs/heads/main' && !inputs.dry-run
         run: |
+          npm install -g npm@latest
           bun run pob-version --publish --publish-provenance --create-release=github  -m 'chore: release %v [skip ci]'
         env:
           HUSKY: 0
