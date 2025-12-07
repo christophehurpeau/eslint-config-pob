@@ -116,7 +116,10 @@ export default [
     name: "@pob/eslint-config/import/rollup-config",
     files: ["rollup.config.js", "rollup.config.mjs"],
     rules: {
+      // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-relative-packages.md
       "import-x/no-relative-packages": "off",
+
+      // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/order.md
       "import-x/order": "off",
     },
   },
