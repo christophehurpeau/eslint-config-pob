@@ -1,4 +1,9 @@
-const fetchLibs = ["node-fetch", "cross-fetch", "isomorphic-fetch"];
+const fetchLibs = [
+  "node-fetch",
+  "cross-fetch",
+  "isomorphic-fetch",
+  "@whatwg-node/fetch",
+];
 
 export default {
   meta: {
