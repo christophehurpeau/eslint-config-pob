@@ -363,6 +363,15 @@ export default [
 
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-sort.md
       "unicorn/no-array-sort": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-immediate-mutation.md
+      "unicorn/no-immediate-mutation": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-collection-argument.md
+      "unicorn/no-useless-collection-argument": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-response-static-json.md
+      "unicorn/prefer-response-static-json": "error",
     },
   },
 ];
