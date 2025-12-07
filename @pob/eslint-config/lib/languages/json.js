@@ -1,6 +1,7 @@
 import json from "@eslint/json";
 
 export default [
+  // json plugin
   {
     name: "@pob/eslint-config/base/languages/json/plugins",
     plugins: { json },
