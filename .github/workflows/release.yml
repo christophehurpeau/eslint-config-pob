@@ -36,6 +36,7 @@ jobs:
         with:
           node-version: 22
           check-latest: true
+          registry-url: "https://registry.npmjs.org"
 
       - name: Check git tags
         if: github.ref == 'refs/heads/main' && !inputs.allow-no-tags
