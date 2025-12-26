@@ -40,23 +40,36 @@
   "pob": {},
   "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
-    "eslint": "^9.39.1"
+    "eslint": "^9.39.1",
+    "typescript": ">=5.0.0 <6.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
   },
   "dependencies": {
     "@eslint/js": "^9.39.1",
     "@eslint/json": "^0.14.0",
     "@pob/eslint-plugin": "64.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
+    "@typescript-eslint/parser": "^8.43.0",
     "confusing-browser-globals": "^1.0.11",
     "eslint-plugin-import-x": "^4.16.1",
     "eslint-plugin-n": "^17.23.1",
     "eslint-plugin-regexp": "^2.10.0",
-    "eslint-plugin-unicorn": "^62.0.0"
+    "eslint-plugin-unicorn": "^62.0.0",
+    "typescript-eslint": "^8.43.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "8.43.0",
+    "@typescript-eslint/parser": "8.43.0",
     "eslint": "9.39.1",
     "eslint-plugin-import-x": "4.16.1",
     "eslint-plugin-n": "17.23.1",
     "eslint-plugin-regexp": "2.10.0",
-    "eslint-plugin-unicorn": "62.0.0"
+    "eslint-plugin-unicorn": "62.0.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.43.0"
   }
 }

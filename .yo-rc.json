@@ -7,7 +7,6 @@
       "packageNames": [
         "@pob/eslint-plugin",
         "@pob/eslint-config",
-        "@pob/eslint-config-typescript",
         "@pob/eslint-config-typescript-react"
       ],
       "typescript": "check-only",

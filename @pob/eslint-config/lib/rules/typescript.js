@@ -1,7 +1,7 @@
 import { createNodeResolver } from "eslint-plugin-import-x";
 
 export default {
-  name: "@pob/eslint-config-typescript/base",
+  name: "@pob/eslint-config/typescript",
   languageOptions: {
     parserOptions: {
       project: true,

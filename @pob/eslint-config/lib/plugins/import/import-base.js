@@ -15,6 +15,7 @@ export default [
       "import-x/parsers": {
         // https://github.com/un-ts/eslint-plugin-import-x/issues/2556#issuecomment-1419518561
         espree: [".js", ".cjs", ".mjs"],
+        "@typescript-eslint/parser": [".ts"],
       },
       "import-x/resolver-next": [createNodeResolver()],
     },
@@ -121,6 +122,15 @@ export default [
 
       // https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/order.md
       "import-x/order": "off",
+    },
+  },
+
+  {
+    name: "@pob/eslint-config/import/typescript",
+    files: ["*.ts"],
+    rules: {
+      // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/consistent-type-specifier-style.md
+      "import-x/consistent-type-specifier-style": "error",
     },
   },
 ];

@@ -6,7 +6,6 @@
       "name": "@pob/eslint-config-monorepo",
       "devDependencies": {
         "@pob/eslint-config": "workspace:*",
-        "@pob/eslint-config-typescript": "workspace:*",
         "@pob/eslint-config-typescript-react": "workspace:*",
         "@pob/root": "20.4.2",
         "@types/node": "24.10.1",
@@ -26,36 +25,18 @@
     },
     "@pob/eslint-config": {
       "name": "@pob/eslint-config",
-      "version": "64.1.4",
+      "version": "64.2.0",
       "dependencies": {
         "@eslint/js": "^9.39.1",
         "@eslint/json": "^0.14.0",
-        "@pob/eslint-plugin": "63.0.0",
+        "@pob/eslint-plugin": "64.2.0",
+        "@typescript-eslint/eslint-plugin": "^8.43.0",
+        "@typescript-eslint/parser": "^8.43.0",
         "confusing-browser-globals": "^1.0.11",
         "eslint-plugin-import-x": "^4.16.1",
         "eslint-plugin-n": "^17.23.1",
         "eslint-plugin-regexp": "^2.10.0",
         "eslint-plugin-unicorn": "^62.0.0",
-      },
-      "devDependencies": {
-        "eslint": "9.39.1",
-        "eslint-plugin-import-x": "4.16.1",
-        "eslint-plugin-n": "17.23.1",
-        "eslint-plugin-regexp": "2.10.0",
-        "eslint-plugin-unicorn": "62.0.0",
-      },
-      "peerDependencies": {
-        "eslint": "^9.39.1",
-      },
-    },
-    "@pob/eslint-config-typescript": {
-      "name": "@pob/eslint-config-typescript",
-      "version": "64.1.4",
-      "dependencies": {
-        "@pob/eslint-config": "62.0.0",
-        "@typescript-eslint/eslint-plugin": "^8.43.0",
-        "@typescript-eslint/parser": "^8.43.0",
-        "eslint-plugin-import-x": "^4.16.1",
         "typescript-eslint": "^8.43.0",
       },
       "devDependencies": {
@@ -63,6 +44,9 @@
         "@typescript-eslint/parser": "8.43.0",
         "eslint": "9.39.1",
         "eslint-plugin-import-x": "4.16.1",
+        "eslint-plugin-n": "17.23.1",
+        "eslint-plugin-regexp": "2.10.0",
+        "eslint-plugin-unicorn": "62.0.0",
         "typescript": "5.9.3",
         "typescript-eslint": "8.43.0",
       },
@@ -70,14 +54,16 @@
         "eslint": "^9.39.1",
         "typescript": ">=5.0.0 <6.0.0",
       },
+      "optionalPeers": [
+        "typescript",
+      ],
     },
     "@pob/eslint-config-typescript-react": {
       "name": "@pob/eslint-config-typescript-react",
-      "version": "64.1.4",
+      "version": "64.2.0",
       "dependencies": {
-        "@pob/eslint-config": "62.0.0",
-        "@pob/eslint-config-typescript": "62.0.0",
-        "@pob/eslint-plugin": "62.0.0",
+        "@pob/eslint-config": "64.2.0",
+        "@pob/eslint-plugin": "64.2.0",
         "eslint-plugin-import-x": "4.16.1",
         "eslint-plugin-jsx-a11y": "6.10.2",
         "eslint-plugin-react": "7.37.5",
@@ -95,7 +81,7 @@
     },
     "@pob/eslint-plugin": {
       "name": "@pob/eslint-plugin",
-      "version": "63.0.0",
+      "version": "64.2.0",
       "dependencies": {
         "@typescript-eslint/utils": "8.43.0",
         "eslint-plugin-react": "^7.37.5",
@@ -186,8 +172,6 @@
     "@nodelib/fs.walk": ["@nodelib/fs.walk@1.2.8", "", { "dependencies": { "@nodelib/fs.scandir": "2.1.5", "fastq": "^1.6.0" } }, "sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg=="],
 
     "@pob/eslint-config": ["@pob/eslint-config@workspace:@pob/eslint-config"],
-
-    "@pob/eslint-config-typescript": ["@pob/eslint-config-typescript@workspace:@pob/eslint-config-typescript"],
 
     "@pob/eslint-config-typescript-react": ["@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"],
 

@@ -1,5 +1,5 @@
 export default {
-  name: "@pob/eslint-config-typescript/allow-unsafe-as-warn",
+  name: "@pob/eslint-config/overrides/allow-unsafe-as-warn",
   rules: {
     "@typescript-eslint/no-unsafe-argument": "warn",
     "@typescript-eslint/no-unsafe-assignment": "warn",

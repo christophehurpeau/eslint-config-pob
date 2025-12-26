@@ -1,5 +1,5 @@
 export default {
-  name: "@pob/eslint-config-typescript/typescript-eslint/replace-unicorn",
+  name: "@pob/eslint-config/typescript-eslint/replace-unicorn",
 
   /* Replace unicorn rules by better type-aware typescript-eslint rules */
   rules: {

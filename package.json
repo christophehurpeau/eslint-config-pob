@@ -32,7 +32,6 @@
   "prettier": "@pob/root/prettier-config",
   "devDependencies": {
     "@pob/eslint-config": "workspace:*",
-    "@pob/eslint-config-typescript": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
     "@pob/root": "20.4.2",
     "@types/node": "24.10.1",

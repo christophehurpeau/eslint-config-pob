@@ -1,5 +1,5 @@
 export default {
-  name: "@pob/eslint-config-typescript/plugins/node",
+  name: "@pob/eslint-config/plugins/node",
 
   rules: {
     // Disable rules already checked by import plugin

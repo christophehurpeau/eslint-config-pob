@@ -1,16 +1,40 @@
+import tseslint from "typescript-eslint";
 import baseConfigs from "./_base.js";
 import baseCommonjsConfig from "./base/commonjs.js";
 import baseModuleConfig from "./base/module.js";
 import nodePluginCommonjsConfigs from "./node/commonjs.js";
 import nodePluginModuleConfigs from "./node/module.js";
+import allowImplicitReturnTypeConfig from "./overrides/allow-implicit-return-type.js";
+import allowUnsafeAsWarnConfig from "./overrides/allow-unsafe-as-warn.js";
+import allowUnsafeConfig from "./overrides/allow-unsafe.js";
+import appConfig from "./overrides/app.js";
 import scriptsOverrideConfig from "./overrides/scripts.js";
 import testOverrideConfig from "./overrides/test.js";
 import importPluginBaseConfigs from "./plugins/import/import-base.js";
 import importPluginCommonjsConfig from "./plugins/import/import-commonjs.js";
 import importPluginModuleConfig from "./plugins/import/import-module.js";
+import typescriptReplaceEslintConfig from "./plugins/typescript-eslint/typescript-eslint-replace-eslint.js";
+import typescriptReplaceUnicornConfig from "./plugins/typescript-eslint/typescript-eslint-replace-unicorn.js";
+import typescriptPluginRulesConfig from "./plugins/typescript-eslint/typescript-eslint-rules.js";
+import typescriptRulesConfig from "./rules/typescript.js";
 import { apply } from "./utils/apply.js";
 
 export { apply } from "./utils/apply.js";
+
+export const tsExtensions = "{ts,cts,mts,tsx}";
+
+export const applyTs = (options) =>
+  apply({
+    extensions: tsExtensions,
+    ...options,
+  });
+
+const tsFiles = tseslint.configs.strictTypeChecked[1].files;
+if (!tsFiles) {
+  throw new Error(
+    'Unexpected "tseslint.configs.strictTypeChecked[1].files" value',
+  );
+}
 
 export default () => {
   const extensions = "{js,cjs,mjs}";
@@ -21,6 +45,30 @@ export default () => {
     `**/__mocks__/**/*.${extensions}`,
   ];
 
+  const tsTestFiles = [
+    `**/*.test(-e2e)?${tsExtensions}`,
+    `**/__tests__/**/*.${tsExtensions}`,
+    `**/__mocks__/**/*.${tsExtensions}`,
+  ];
+
+  const typescriptConfigs = [
+    ...applyTs({
+      filesOverridesIf: [tsFiles],
+      configs: [
+        ...tseslint.configs.strictTypeChecked,
+        typescriptReplaceUnicornConfig,
+        typescriptReplaceEslintConfig,
+        typescriptPluginRulesConfig,
+        typescriptRulesConfig,
+      ],
+    }),
+    ...apply({
+      files: testFiles,
+      configs: [testOverrideConfig],
+    }),
+  ];
+
+  /** @deprecated */
   const nodeCommonjs = [
     ...baseConfigs,
     ...apply({
@@ -79,6 +127,8 @@ export default () => {
       files: testFiles,
       configs: [testOverrideConfig],
     }),
+
+    ...typescriptConfigs,
   ];
 
   const nodeModule = [
@@ -101,13 +151,39 @@ export default () => {
       files: ["**/*.{cjs,cts}"],
       configs: [...nodePluginCommonjsConfigs],
     }),
+
+    ...typescriptConfigs,
+
+    ...apply({
+      files: tsTestFiles,
+      configs: [testOverrideConfig],
+    }),
   ];
 
   return {
     configs: {
       baseModule,
+      /** @deprecated */
       nodeModule,
+      /** @deprecated */
       nodeCommonjs,
+      node: nodeModule,
+
+      allowImplicitReturnType: applyTs({
+        configs: [allowImplicitReturnTypeConfig],
+      }),
+
+      allowUnsafe: applyTs({
+        configs: [allowUnsafeConfig],
+      }),
+
+      allowUnsafeAsWarn: applyTs({
+        configs: [allowUnsafeAsWarnConfig],
+      }),
+
+      app: applyTs({
+        configs: [appConfig],
+      }),
     },
   };
 };

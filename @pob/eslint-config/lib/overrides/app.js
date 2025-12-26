@@ -1,5 +1,5 @@
 export default {
-  name: "@pob/eslint-config-typescript/app",
+  name: "@pob/eslint-config/overrides/app",
   rules: {
     /* No need for this rule in an app */
     "@typescript-eslint/explicit-module-boundary-types": "off",

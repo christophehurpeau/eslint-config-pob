@@ -1,6 +1,4 @@
-import baseTypescriptPobConfig, {
-  extensions,
-} from "@pob/eslint-config-typescript";
+import basePobConfig, { tsExtensions } from "@pob/eslint-config";
 import pobPlugin from "@pob/eslint-plugin";
 import { createNodeResolver } from "eslint-plugin-import-x";
 import importPluginOverrideConfig from "./plugins/import.js";
@@ -8,10 +6,10 @@ import jsxA11yConfigs from "./plugins/jsx-a11y.js";
 import reactHooksConfigs from "./plugins/react-hooks.js";
 import reactConfigs from "./plugins/react.js";
 
-export { apply, applyTs } from "@pob/eslint-config-typescript";
+export { apply, applyTs } from "@pob/eslint-config";
 
 export default () => {
-  const { configs } = baseTypescriptPobConfig();
+  const { configs } = basePobConfig();
 
   const createConfig = (base) => [
     ...base,
@@ -60,12 +58,12 @@ export default () => {
       ...jsxA11yConfigs,
     ].map((config) => ({
       ...config,
-      files: [`**/*.${extensions}`],
+      files: [`**/*.${tsExtensions}`],
     })),
   ];
   return {
     configs: {
-      base: createConfig(configs.base),
+      base: createConfig(configs.baseModule),
       node: createConfig(configs.node),
 
       allowUnsafe: configs.allowUnsafe,

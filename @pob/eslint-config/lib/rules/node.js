@@ -1,7 +1,7 @@
 import { createNodeResolver } from "eslint-plugin-import-x";
 
 export default {
-  name: "@pob/eslint-config-typescript/node",
+  name: "@pob/eslint-config/node",
   settings: {
     "import-x/resolver-next": [
       createNodeResolver({
