@@ -29,6 +29,7 @@ export const applyTs = (options) =>
     ...options,
   });
 
+// @ts-expect-error -- missing files declaration
 const tsFiles = tseslint.configs.strictTypeChecked[1].files;
 if (!tsFiles) {
   throw new Error(
