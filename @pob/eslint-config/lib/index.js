@@ -65,7 +65,7 @@ export default () => {
       ],
     }),
     ...apply({
-      files: testFiles,
+      files: tsTestFiles,
       configs: [testOverrideConfig],
     }),
   ];
