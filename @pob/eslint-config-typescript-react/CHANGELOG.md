@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [65.0.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.0.0...v65.0.1) (2025-12-28)
+
+Version bump for dependency: @pob/eslint-config
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [65.0.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v64.2.0...v65.0.0) (2025-12-28)
 
 ### ⚠ BREAKING CHANGES
