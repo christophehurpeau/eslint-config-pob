@@ -4,6 +4,7 @@ import baseCommonjsConfig from "./base/commonjs.js";
 import baseModuleConfig from "./base/module.js";
 import nodePluginCommonjsConfigs from "./node/commonjs.js";
 import nodePluginModuleConfigs from "./node/module.js";
+import nodeTypescriptConfigs from "./node/typescript.js";
 import allowImplicitReturnTypeConfig from "./overrides/allow-implicit-return-type.js";
 import allowUnsafeAsWarnConfig from "./overrides/allow-unsafe-as-warn.js";
 import allowUnsafeConfig from "./overrides/allow-unsafe.js";
@@ -154,6 +155,7 @@ export default () => {
     }),
 
     ...typescriptConfigs,
+    ...nodeTypescriptConfigs,
 
     ...apply({
       files: tsTestFiles,
