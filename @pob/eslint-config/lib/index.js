@@ -154,7 +154,6 @@ export default () => {
       configs: [...nodePluginCommonjsConfigs],
     }),
 
-    ...typescriptConfigs,
     ...nodeTypescriptConfigs,
 
     ...apply({
