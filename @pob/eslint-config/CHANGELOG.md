@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [65.0.4](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.0.3...v65.0.4) (2026-01-10)
+
+### Bug Fixes
+
+* correct regex for test file patterns
+* separate test override configurations for TypeScript and non-TypeScript
+
 ## [65.0.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.0.2...v65.0.3) (2026-01-10)
 
 ### Bug Fixes
