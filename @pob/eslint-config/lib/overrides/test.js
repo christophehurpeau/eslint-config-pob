@@ -1,4 +1,4 @@
-export default [
+export const testOverrideConfigsWithoutTypescript = [
   {
     name: "@pob/eslint-config/test",
 
@@ -10,6 +10,10 @@ export default [
       ],
     },
   },
+];
+
+export const testOverrideConfigsWithTypescript = [
+  ...testOverrideConfigsWithoutTypescript,
   {
     name: "@pob/eslint-config/test-typescript",
 

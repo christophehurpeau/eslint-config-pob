@@ -10,7 +10,10 @@ import allowUnsafeAsWarnConfig from "./overrides/allow-unsafe-as-warn.js";
 import allowUnsafeConfig from "./overrides/allow-unsafe.js";
 import appConfig from "./overrides/app.js";
 import scriptsOverrideConfig from "./overrides/scripts.js";
-import testOverrideConfigs from "./overrides/test.js";
+import {
+  testOverrideConfigsWithTypescript,
+  testOverrideConfigsWithoutTypescript,
+} from "./overrides/test.js";
 import importPluginBaseConfigs from "./plugins/import/import-base.js";
 import importPluginCommonjsConfig from "./plugins/import/import-commonjs.js";
 import importPluginModuleConfig from "./plugins/import/import-module.js";
@@ -66,7 +69,7 @@ export default () => {
     }),
     ...apply({
       files: tsTestFiles,
-      configs: testOverrideConfigs,
+      configs: testOverrideConfigsWithTypescript,
     }),
   ];
 
@@ -103,7 +106,7 @@ export default () => {
 
     ...apply({
       files: testFiles,
-      configs: testOverrideConfigs,
+      configs: testOverrideConfigsWithoutTypescript,
     }),
   ];
 
@@ -123,11 +126,6 @@ export default () => {
       mode: "keep-files-if-exists",
       files: ["**/*.{cjs,cts}"],
       configs: [baseCommonjsConfig, importPluginCommonjsConfig],
-    }),
-
-    ...apply({
-      files: testFiles,
-      configs: testOverrideConfigs,
     }),
 
     ...typescriptConfigs,
@@ -155,11 +153,6 @@ export default () => {
     }),
 
     ...nodeTypescriptConfigs,
-
-    ...apply({
-      files: tsTestFiles,
-      configs: testOverrideConfigs,
-    }),
   ];
 
   return {
