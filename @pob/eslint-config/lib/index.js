@@ -10,7 +10,7 @@ import allowUnsafeAsWarnConfig from "./overrides/allow-unsafe-as-warn.js";
 import allowUnsafeConfig from "./overrides/allow-unsafe.js";
 import appConfig from "./overrides/app.js";
 import scriptsOverrideConfig from "./overrides/scripts.js";
-import testOverrideConfig from "./overrides/test.js";
+import testOverrideConfigs from "./overrides/test.js";
 import importPluginBaseConfigs from "./plugins/import/import-base.js";
 import importPluginCommonjsConfig from "./plugins/import/import-commonjs.js";
 import importPluginModuleConfig from "./plugins/import/import-module.js";
@@ -66,7 +66,7 @@ export default () => {
     }),
     ...apply({
       files: tsTestFiles,
-      configs: [testOverrideConfig],
+      configs: testOverrideConfigs,
     }),
   ];
 
@@ -103,7 +103,7 @@ export default () => {
 
     ...apply({
       files: testFiles,
-      configs: [testOverrideConfig],
+      configs: testOverrideConfigs,
     }),
   ];
 
@@ -127,7 +127,7 @@ export default () => {
 
     ...apply({
       files: testFiles,
-      configs: [testOverrideConfig],
+      configs: testOverrideConfigs,
     }),
 
     ...typescriptConfigs,
@@ -159,7 +159,7 @@ export default () => {
 
     ...apply({
       files: tsTestFiles,
-      configs: [testOverrideConfig],
+      configs: testOverrideConfigs,
     }),
   ];
 
