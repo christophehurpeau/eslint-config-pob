@@ -32,7 +32,7 @@ export const i =
   foo &&
   foo.a != null &&
   foo.a.b !== null &&
-  // eslint-disable-next-line eqeqeq
+  // eslint-disable-next-line eqeqeq, @typescript-eslint/prefer-optional-chain
   foo.a.b.c != undefined &&
   foo.a.b.c.d !== undefined &&
   foo.a.b.c.d.e;
