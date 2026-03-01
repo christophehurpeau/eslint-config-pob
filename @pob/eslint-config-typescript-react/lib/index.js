@@ -50,7 +50,7 @@ export default () => {
               },
             },
           ],
-          "react/jsx-filename-extension": ["error", { extensions: ["tsx"] }],
+          // "react/jsx-filename-extension": ["error", { extensions: ["tsx"] }],
         },
       },
       ...reactConfigs,

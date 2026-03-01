@@ -1,3 +1,4 @@
+// import checkPackage from "check-package-dependencies/eslint-plugin";
 import pobConfig, { apply, tsExtensions } from "@pob/eslint-config";
 import pobTypescriptConfigReact from "@pob/eslint-config-typescript-react";
 
@@ -25,4 +26,5 @@ export default [
       "import-x/no-extraneous-dependencies": "off",
     },
   },
+  // checkPackage.configs["recommended-library"],
 ];

@@ -10,6 +10,17 @@ await createCheckPackageWithWorkspaces({
     onlyWarnsForInRootDependencies: {
       "*": {
         duplicateDirectDependency: ["semver"],
+
+        // most packages have not yet updated to eslint 10 but there are no errors.
+        invalidPeerDependencyVersion: ["eslint"],
+      },
+    },
+    onlyWarnsForInMonorepoPackagesDependencies: {
+      "@pob/eslint-config": {
+        "*": {
+          // most packages have not yet updated to eslint 10 but there are no errors.
+          invalidPeerDependencyVersion: ["eslint"],
+        },
       },
     },
   })
