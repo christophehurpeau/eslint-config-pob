@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config",
-  "version": "65.1.0",
+  "version": "65.2.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
@@ -51,7 +51,7 @@
   "dependencies": {
     "@eslint/js": "^10.0.1",
     "@eslint/json": "^1.0.1",
-    "@pob/eslint-plugin": "65.1.0",
+    "@pob/eslint-plugin": "65.2.0",
     "@typescript-eslint/eslint-plugin": "^8.56.1",
     "@typescript-eslint/parser": "^8.56.1",
     "confusing-browser-globals": "^1.0.11",
