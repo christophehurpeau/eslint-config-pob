@@ -7,7 +7,7 @@
       "devDependencies": {
         "@pob/eslint-config": "workspace:*",
         "@pob/eslint-config-typescript-react": "workspace:*",
-        "@pob/root": "20.4.2",
+        "@pob/root": "22.1.0",
         "@types/node": "24.10.1",
         "@typescript-eslint/eslint-plugin": "8.56.1",
         "@typescript-eslint/parser": "8.56.1",
@@ -25,7 +25,7 @@
     },
     "@pob/eslint-config": {
       "name": "@pob/eslint-config",
-      "version": "65.1.0",
+      "version": "65.2.0",
       "dependencies": {
         "@eslint/js": "^10.0.1",
         "@eslint/json": "^1.0.1",
@@ -60,7 +60,7 @@
     },
     "@pob/eslint-config-typescript-react": {
       "name": "@pob/eslint-config-typescript-react",
-      "version": "65.1.0",
+      "version": "65.2.0",
       "dependencies": {
         "@pob/eslint-config": "65.1.0",
         "@pob/eslint-plugin": "65.1.0",
@@ -81,7 +81,7 @@
     },
     "@pob/eslint-plugin": {
       "name": "@pob/eslint-plugin",
-      "version": "65.1.0",
+      "version": "65.2.0",
       "dependencies": {
         "@typescript-eslint/utils": "8.56.1",
         "eslint-plugin-react": "^7.37.5",
@@ -107,11 +107,11 @@
 
     "@commitlint/ensure": ["@commitlint/ensure@20.4.1", "", { "dependencies": { "@commitlint/types": "^20.4.0", "lodash.camelcase": "^4.3.0", "lodash.kebabcase": "^4.1.1", "lodash.snakecase": "^4.1.1", "lodash.startcase": "^4.4.0", "lodash.upperfirst": "^4.3.1" } }, "sha512-WLQqaFx1pBooiVvBrA1YfJNFqZF8wS/YGOtr5RzApDbV9tQ52qT5VkTsY65hFTnXhW8PcDfZLaknfJTmPejmlw=="],
 
-    "@commitlint/format": ["@commitlint/format@20.0.0", "", { "dependencies": { "@commitlint/types": "^20.0.0", "chalk": "^5.3.0" } }, "sha512-zrZQXUcSDmQ4eGGrd+gFESiX0Rw+WFJk7nW4VFOmxub4mAATNKBQ4vNw5FgMCVehLUKG2OT2LjOqD0Hk8HvcRg=="],
+    "@commitlint/format": ["@commitlint/format@20.4.0", "", { "dependencies": { "@commitlint/types": "^20.4.0", "picocolors": "^1.1.1" } }, "sha512-i3ki3WR0rgolFVX6r64poBHXM1t8qlFel1G1eCBvVgntE3fCJitmzSvH5JD/KVJN/snz6TfaX2CLdON7+s4WVQ=="],
 
     "@commitlint/is-ignored": ["@commitlint/is-ignored@20.4.1", "", { "dependencies": { "@commitlint/types": "^20.4.0", "semver": "^7.6.0" } }, "sha512-In5EO4JR1lNsAv1oOBBO24V9ND1IqdAJDKZiEpdfjDl2HMasAcT7oA+5BKONv1pRoLG380DGPE2W2RIcUwdgLA=="],
 
-    "@commitlint/lint": ["@commitlint/lint@20.0.0", "", { "dependencies": { "@commitlint/is-ignored": "^20.0.0", "@commitlint/parse": "^20.0.0", "@commitlint/rules": "^20.0.0", "@commitlint/types": "^20.0.0" } }, "sha512-kWrX8SfWk4+4nCexfLaQT3f3EcNjJwJBsSZ5rMBw6JCd6OzXufFHgel2Curos4LKIxwec9WSvs2YUD87rXlxNQ=="],
+    "@commitlint/lint": ["@commitlint/lint@20.4.2", "", { "dependencies": { "@commitlint/is-ignored": "^20.4.1", "@commitlint/parse": "^20.4.1", "@commitlint/rules": "^20.4.2", "@commitlint/types": "^20.4.0" } }, "sha512-buquzNRtFng6xjXvBU1abY/WPEEjCgUipNQrNmIWe8QuJ6LWLtei/LDBAzEe5ASm45+Q9L2Xi3/GVvlj50GAug=="],
 
     "@commitlint/message": ["@commitlint/message@20.4.0", "", {}, "sha512-B5lGtvHgiLAIsK5nLINzVW0bN5hXv+EW35sKhYHE8F7V9Uz1fR4tx3wt7mobA5UNhZKUNgB/+ldVMQE6IHZRyA=="],
 
@@ -121,7 +121,7 @@
 
     "@commitlint/to-lines": ["@commitlint/to-lines@20.0.0", "", {}, "sha512-2l9gmwiCRqZNWgV+pX1X7z4yP0b3ex/86UmUFgoRt672Ez6cAM2lOQeHFRUTuE6sPpi8XBCGnd8Kh3bMoyHwJw=="],
 
-    "@commitlint/types": ["@commitlint/types@20.0.0", "", { "dependencies": { "@types/conventional-commits-parser": "^5.0.0", "chalk": "^5.3.0" } }, "sha512-bVUNBqG6aznYcYjTjnc3+Cat/iBgbgpflxbIBTnsHTX0YVpnmINPEkSRWymT2Q8aSH3Y7aKnEbunilkYe8TybA=="],
+    "@commitlint/types": ["@commitlint/types@20.4.0", "", { "dependencies": { "conventional-commits-parser": "^6.2.1", "picocolors": "^1.1.1" } }, "sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw=="],
 
     "@emnapi/core": ["@emnapi/core@1.8.1", "", { "dependencies": { "@emnapi/wasi-threads": "1.1.0", "tslib": "^2.4.0" } }, "sha512-AvT9QFpxK0Zd8J0jopedNm+w/2fIzvtPKPjqyw9jwvBaReTTqPBk9Hixaz7KbjimP+QNz605/XnjFcDAL2pqBg=="],
 
@@ -165,19 +165,17 @@
 
     "@pob/eslint-plugin": ["@pob/eslint-plugin@workspace:@pob/eslint-plugin"],
 
-    "@pob/pretty-pkg": ["@pob/pretty-pkg@13.2.1", "", { "dependencies": { "@pob/sort-pkg": "12.1.1" }, "bin": "./bin/pretty-pkg.js" }, "sha512-RlLRFpPryhINnUIvN2B4Len7Hp/o1QwZPR3xjLH5wvWzCI9/eHiM1l7Scr4dZer++NPuXtS+IBLnVzvWfdDOoQ=="],
+    "@pob/pretty-pkg": ["@pob/pretty-pkg@13.2.2", "", { "dependencies": { "@pob/sort-pkg": "12.1.1" }, "bin": "./bin/pretty-pkg.js" }, "sha512-6hCo/eSu5OGmjeP545ejcBrMxlGKqgCbuRfY+sPU2kuaqcg4icB4zlZWMCXInOxpWrwkdzSvGxruLYkrKTaRPw=="],
 
-    "@pob/root": ["@pob/root@20.4.2", "", { "dependencies": { "@commitlint/format": "20.0.0", "@commitlint/lint": "20.0.0", "@commitlint/types": "20.0.0", "@pob/pretty-pkg": "13.2.1", "@pob/version": "1.4.2", "conventional-changelog-conventionalcommits": "^9.1.0", "conventional-changelog-writer": "^8.2.0", "conventional-commits-parser": "^6.2.1", "husky": "~9.1.7", "json5": "^2.2.3", "lint-staged": "16.2.7", "pob-dependencies": "21.0.2", "prettier": "3.6.2", "semver": "^7.7.3" }, "bin": { "pob-check-commit-msg": "./bin/pob-check-commit-msg.js", "pob-root-lint-staged": "./bin/pob-root-lint-staged.js", "pob-root-postinstall": "./bin/pob-root-postinstall.js", "pob-root-prettier": "./bin/prettier.cjs", "pob-version": "./bin/pob-version.js", "prettier": "./bin/prettier.cjs", "pretty-pkg": "./bin/pretty-pkg.js", "repository-check-dirty": "./bin/repository-check-dirty.js", "yarn-version": "./bin/pob-version.js" } }, "sha512-F19ENsOLKlmrwM/jYAyj64J68lfeFJMdKY9AnlitECQYNKsam0FJXFm7WPSoUZk4cWuUM3f4yBgXQhwWlxsyeQ=="],
+    "@pob/root": ["@pob/root@22.1.0", "", { "dependencies": { "@commitlint/format": "20.4.0", "@commitlint/lint": "20.4.2", "@commitlint/types": "20.4.0", "@pob/pretty-pkg": "13.2.2", "@pob/version": "2.1.0", "conventional-changelog-conventionalcommits": "^9.1.0", "conventional-changelog-writer": "^8.2.0", "conventional-commits-parser": "^6.2.1", "json5": "^2.2.3", "lint-staged": "16.2.7", "pob-dependencies": "22.1.0", "prettier": "3.8.1", "semver": "^7.7.3" }, "bin": { "pob-check-commit-msg": "./bin/pob-check-commit-msg.js", "pob-root-lint-staged": "./bin/pob-root-lint-staged.js", "pob-root-postinstall": "./bin/pob-root-postinstall.js", "pob-root-prettier": "./bin/prettier.cjs", "pob-version": "./bin/pob-version.js", "prettier": "./bin/prettier.cjs", "pretty-pkg": "./bin/pretty-pkg.js", "repository-check-dirty": "./bin/repository-check-dirty.js", "yarn-version": "./bin/pob-version.js" } }, "sha512-f3BpVF700uc3LbEZdsMiEWDUfNVr8VuERiW9wCKhCp9yUIb94wEtsSG9/bhERtkaA0H0Gxhofy3MHCsffRYiYg=="],
 
     "@pob/sort-object": ["@pob/sort-object@10.1.1", "", {}, "sha512-krisJYtlt35OrlZlNfCZ03KI8pQxdeygod7hlyESnBOKFuNKSQOXGsxEISA/Xt3TPz7P4vwvzz4E075BCOB/9g=="],
 
     "@pob/sort-pkg": ["@pob/sort-pkg@12.1.1", "", { "dependencies": { "@pob/sort-object": "10.1.1" } }, "sha512-Qi1vwFQUaS9OtOj1qV/8N0e5x7hrOKz36SdaMPCldQw8MOnk2m/Lt9bOoDhhc1b8Jxlu1vNLBD9M8fBHDkeEHA=="],
 
-    "@pob/version": ["@pob/version@1.4.2", "", { "dependencies": { "commander": "14.0.2", "conventional-changelog-conventionalcommits": "9.1.0", "conventional-changelog-preset-loader": "5.0.0", "conventional-changelog-writer": "8.2.0", "conventional-commits-parser": "6.2.1", "nightingale": "18.1.0", "semver": "7.7.3" }, "bin": { "pob-version": "./dist/index-node.mjs" } }, "sha512-ckaI3jCLCDLambX5JqN71ApZxQXmyhjMw1RKYWDrWK2hsC2jYrip7Kq4GmsghhGWWnshylg9Zwjzt9vNILlsRg=="],
+    "@pob/version": ["@pob/version@2.1.0", "", { "dependencies": { "commander": "14.0.2", "conventional-changelog-conventionalcommits": "9.1.0", "conventional-changelog-preset-loader": "5.0.0", "conventional-changelog-writer": "8.2.0", "conventional-commits-parser": "6.2.1", "nightingale": "18.1.0", "semver": "7.7.4" }, "bin": { "pob-version": "./dist/index-node.mjs" } }, "sha512-WHnfUB/4vESFHYlvRuLDihon1S3Rd4vtGX2Z0/hVdqGphC8QN0LCYqYbysMJxT71+IoQ4ywCc5ZzUlVmIQxk+g=="],
 
     "@tybys/wasm-util": ["@tybys/wasm-util@0.10.1", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg=="],
-
-    "@types/conventional-commits-parser": ["@types/conventional-commits-parser@5.0.2", "", { "dependencies": { "@types/node": "*" } }, "sha512-BgT2szDXnVypgpNxOK8aL5SGjUdaQbC++WZNjF1Qge3Og2+zhHj+RWhmehLhYyvQwqAmvezruVfOf8+3m74W+g=="],
 
     "@types/esrecurse": ["@types/esrecurse@4.3.1", "", {}, "sha512-xJBAbDifo5hpffDBuHl0Y8ywswbiAp/Wi7Y/GtAgSlZyIABppyurxVueOPE8LUQOxdlgi6Zqce7uoEpqNTeiUw=="],
 
@@ -308,8 +306,6 @@
     "call-bound": ["call-bound@1.0.4", "", { "dependencies": { "call-bind-apply-helpers": "^1.0.2", "get-intrinsic": "^1.3.0" } }, "sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg=="],
 
     "caniuse-lite": ["caniuse-lite@1.0.30001772", "", {}, "sha512-mIwLZICj+ntVTw4BT2zfp+yu/AqV6GMKfJVJMx3MwPxs+uk/uj2GLl2dH8LQbjiLDX66amCga5nKFyDgRR43kg=="],
-
-    "chalk": ["chalk@5.6.2", "", {}, "sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA=="],
 
     "change-case": ["change-case@5.4.4", "", {}, "sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w=="],
 
@@ -507,8 +503,6 @@
 
     "hasown": ["hasown@2.0.2", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ=="],
 
-    "husky": ["husky@9.1.7", "", { "bin": { "husky": "bin.js" } }, "sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA=="],
-
     "ignore": ["ignore@7.0.5", "", {}, "sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg=="],
 
     "imurmurhash": ["imurmurhash@0.1.4", "", {}, "sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA=="],
@@ -699,13 +693,13 @@
 
     "pluralize": ["pluralize@8.0.0", "", {}, "sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA=="],
 
-    "pob-dependencies": ["pob-dependencies@21.0.2", "", {}, "sha512-HHhibSyPEVJjHjytTpb9cOoINa971MTqx+gDNejRh2gjZaVfCwWuEPiYayxP6mgcLZgKg/B8QyDakgVBYxLyCQ=="],
+    "pob-dependencies": ["pob-dependencies@22.1.0", "", {}, "sha512-uG4YBipfychDIWG/xrsHag/KQ13ksEfj1Rtd7AIdnw5w0651Qos9zy2h/YhOqIKyRv6TukZyfDCBfj19J3MFyA=="],
 
     "possible-typed-array-names": ["possible-typed-array-names@1.1.0", "", {}, "sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg=="],
 
     "prelude-ls": ["prelude-ls@1.2.1", "", {}, "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="],
 
-    "prettier": ["prettier@3.6.2", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ=="],
+    "prettier": ["prettier@3.8.1", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg=="],
 
     "prop-types": ["prop-types@15.8.1", "", { "dependencies": { "loose-envify": "^1.4.0", "object-assign": "^4.1.1", "react-is": "^16.13.1" } }, "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="],
 
@@ -859,21 +853,11 @@
 
     "yocto-queue": ["yocto-queue@0.1.0", "", {}, "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="],
 
-    "@commitlint/ensure/@commitlint/types": ["@commitlint/types@20.4.0", "", { "dependencies": { "conventional-commits-parser": "^6.2.1", "picocolors": "^1.1.1" } }, "sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw=="],
-
-    "@commitlint/is-ignored/@commitlint/types": ["@commitlint/types@20.4.0", "", { "dependencies": { "conventional-commits-parser": "^6.2.1", "picocolors": "^1.1.1" } }, "sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw=="],
-
-    "@commitlint/parse/@commitlint/types": ["@commitlint/types@20.4.0", "", { "dependencies": { "conventional-commits-parser": "^6.2.1", "picocolors": "^1.1.1" } }, "sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw=="],
-
-    "@commitlint/rules/@commitlint/types": ["@commitlint/types@20.4.0", "", { "dependencies": { "conventional-commits-parser": "^6.2.1", "picocolors": "^1.1.1" } }, "sha512-aO5l99BQJ0X34ft8b0h7QFkQlqxC6e7ZPVmBKz13xM9O8obDaM1Cld4sQlJDXXU/VFuUzQ30mVtHjVz74TuStw=="],
-
     "@eslint-community/eslint-utils/eslint-visitor-keys": ["eslint-visitor-keys@3.4.3", "", {}, "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag=="],
 
     "@eslint/json/@eslint/plugin-kit": ["@eslint/plugin-kit@0.6.0", "", { "dependencies": { "@eslint/core": "^1.1.0", "levn": "^0.4.1" } }, "sha512-bIZEUzOI1jkhviX2cp5vNyXQc6olzb2ohewQubuYlMXZ2Q/XjBO0x0XhGPvc9fjSIiUN0vw+0hq53BJ4eQSJKQ=="],
 
     "@eslint/plugin-kit/@eslint/core": ["@eslint/core@0.17.0", "", { "dependencies": { "@types/json-schema": "^7.0.15" } }, "sha512-yL/sLrpmtDaFEiUj1osRP4TI2MDz1AddJL+jZ7KSqvBuliN4xqYY54IfdN8qD8Toa6g1iloph1fxQNkjOxrrpQ=="],
-
-    "@pob/version/semver": ["semver@7.7.3", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q=="],
 
     "clean-regexp/escape-string-regexp": ["escape-string-regexp@1.0.5", "", {}, "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg=="],
 
