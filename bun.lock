@@ -25,11 +25,11 @@
     },
     "@pob/eslint-config": {
       "name": "@pob/eslint-config",
-      "version": "65.1.0",
+      "version": "65.2.0",
       "dependencies": {
         "@eslint/js": "^10.0.1",
         "@eslint/json": "^1.0.1",
-        "@pob/eslint-plugin": "65.1.0",
+        "@pob/eslint-plugin": "65.2.0",
         "@typescript-eslint/eslint-plugin": "^8.56.1",
         "@typescript-eslint/parser": "^8.56.1",
         "confusing-browser-globals": "^1.0.11",
@@ -60,10 +60,10 @@
     },
     "@pob/eslint-config-typescript-react": {
       "name": "@pob/eslint-config-typescript-react",
-      "version": "65.1.0",
+      "version": "65.2.0",
       "dependencies": {
-        "@pob/eslint-config": "65.1.0",
-        "@pob/eslint-plugin": "65.1.0",
+        "@pob/eslint-config": "65.2.0",
+        "@pob/eslint-plugin": "65.2.0",
         "eslint-plugin-import-x": "4.16.1",
         "eslint-plugin-jsx-a11y": "6.10.2",
         "eslint-plugin-react": "7.37.5",
@@ -81,7 +81,7 @@
     },
     "@pob/eslint-plugin": {
       "name": "@pob/eslint-plugin",
-      "version": "65.1.0",
+      "version": "65.2.0",
       "dependencies": {
         "@typescript-eslint/utils": "8.56.1",
         "eslint-plugin-react": "^7.37.5",
@@ -880,8 +880,6 @@
     "eslint/@eslint/plugin-kit": ["@eslint/plugin-kit@0.6.0", "", { "dependencies": { "@eslint/core": "^1.1.0", "levn": "^0.4.1" } }, "sha512-bIZEUzOI1jkhviX2cp5vNyXQc6olzb2ohewQubuYlMXZ2Q/XjBO0x0XhGPvc9fjSIiUN0vw+0hq53BJ4eQSJKQ=="],
 
     "eslint/ignore": ["ignore@5.3.2", "", {}, "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g=="],
-
-    "eslint-plugin-import-x/@typescript-eslint/types": ["@typescript-eslint/types@8.56.0", "", {}, "sha512-DBsLPs3GsWhX5HylbP9HNG15U0bnwut55Lx12bHB9MpXxQ+R5GC8MwQe+N1UFXxAeQDvEsEDY6ZYwX03K7Z6HQ=="],
 
     "eslint-plugin-jsx-a11y/minimatch": ["minimatch@3.1.3", "", { "dependencies": { "brace-expansion": "^1.1.7" } }, "sha512-M2GCs7Vk83NxkUyQV1bkABc4yxgz9kILhHImZiBPAZ9ybuvCb0/H7lEl5XvIg3g+9d4eNotkZA5IWwYl0tibaA=="],
 
