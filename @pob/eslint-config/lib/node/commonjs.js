@@ -11,7 +11,7 @@ export default [
     settings: {
       "import-x/resolver-next": [
         createNodeResolver({
-          conditionNames: ["node"],
+          conditionNames: ["require", "default", "node"],
         }),
       ],
     },
