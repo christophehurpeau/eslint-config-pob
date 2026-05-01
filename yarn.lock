@@ -342,7 +342,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
-    "@pob/eslint-config": "npm:65.4.2"
+    "@pob/eslint-config": "npm:65.4.3"
     "@pob/eslint-plugin": "npm:65.4.1"
     "@types/node": "npm:24.10.1"
     "@types/react": "npm:19.2.14"
@@ -358,7 +358,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config@npm:65.4.2, @pob/eslint-config@workspace:*, @pob/eslint-config@workspace:@pob/eslint-config":
+"@pob/eslint-config@npm:65.4.3, @pob/eslint-config@workspace:*, @pob/eslint-config@workspace:@pob/eslint-config":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:

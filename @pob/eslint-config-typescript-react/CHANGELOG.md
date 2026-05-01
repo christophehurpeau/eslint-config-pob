@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [65.4.3](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.4.2...v65.4.3) (2026-05-01)
+
+### Bug Fixes
+
+* update import resolver extensions for TypeScript support
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [65.4.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.4.1...v65.4.2) (2026-05-01)
 
 Version bump for dependency: @pob/eslint-config
