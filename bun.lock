@@ -7,7 +7,7 @@
       "devDependencies": {
         "@pob/eslint-config": "workspace:*",
         "@pob/eslint-config-typescript-react": "workspace:*",
-        "@pob/root": "23.0.0",
+        "@pob/root": "23.1.0",
         "@typescript-eslint/eslint-plugin": "8.59.1",
         "@typescript-eslint/parser": "8.59.1",
         "check-package-dependencies": "10.5.0",
@@ -170,13 +170,13 @@
 
     "@pob/pretty-pkg": ["@pob/pretty-pkg@13.2.3", "", { "dependencies": { "@pob/sort-pkg": "12.1.2" }, "bin": "./bin/pretty-pkg.js" }, "sha512-7+ZAlrhwlynVVmE96MKosEI6gvtXMO99/yqBepLZTnEjOaFfXQIE/ujjFiY7sfi//eP4Dceu45ZJenulZOqrFA=="],
 
-    "@pob/root": ["@pob/root@23.0.0", "", { "dependencies": { "@commitlint/format": "20.5.0", "@commitlint/lint": "20.5.0", "@commitlint/types": "20.5.0", "@pob/pretty-pkg": "13.2.3", "@pob/version": "3.0.0", "conventional-changelog-conventionalcommits": "^9.1.0", "conventional-changelog-writer": "^8.2.0", "conventional-commits-parser": "^6.2.1", "json5": "^2.2.3", "lint-staged": "16.4.0", "pob-dependencies": "23.0.0", "prettier": "3.8.1", "semver": "^7.7.3" }, "bin": { "prettier": "./bin/prettier.cjs", "pretty-pkg": "./bin/pretty-pkg.js", "pob-version": "./bin/pob-version.js", "yarn-version": "./bin/pob-version.js", "pob-root-prettier": "./bin/prettier.cjs", "pob-check-commit-msg": "./bin/pob-check-commit-msg.js", "pob-root-lint-staged": "./bin/pob-root-lint-staged.js", "pob-root-postinstall": "./bin/pob-root-postinstall.js", "repository-check-dirty": "./bin/repository-check-dirty.js" } }, "sha512-kcGKLOPLqTgEQhVqysSRvKXv9S9Q78FQzd1ZgchooYsHgmVLKxOFWcWbsjo2UUA1Gnf0OUUalE3WfbbSf9FWGw=="],
+    "@pob/root": ["@pob/root@23.1.0", "", { "dependencies": { "@commitlint/format": "20.5.0", "@commitlint/lint": "20.5.0", "@commitlint/types": "20.5.0", "@pob/pretty-pkg": "13.2.3", "@pob/version": "3.1.0", "conventional-changelog-conventionalcommits": "^9.1.0", "conventional-changelog-writer": "^8.2.0", "conventional-commits-parser": "^6.2.1", "json5": "^2.2.3", "lint-staged": "16.4.0", "pob-dependencies": "23.1.0", "prettier": "3.8.3", "semver": "^7.7.3" }, "bin": { "pob-check-commit-msg": "./bin/pob-check-commit-msg.js", "pob-root-lint-staged": "./bin/pob-root-lint-staged.js", "pob-root-postinstall": "./bin/pob-root-postinstall.js", "pob-root-prettier": "./bin/prettier.cjs", "pob-version": "./bin/pob-version.js", "prettier": "./bin/prettier.cjs", "pretty-pkg": "./bin/pretty-pkg.js", "repository-check-dirty": "./bin/repository-check-dirty.js", "yarn-version": "./bin/pob-version.js" } }, "sha512-znf6ON5H/nWJewugzRVmI/8CLOoBSuZ0bQzpvkAoGjN5ErN2hRtZu35AuPsKnmUMf4i0bEFmEHjGo9neUtXJgA=="],
 
     "@pob/sort-object": ["@pob/sort-object@10.1.2", "", {}, "sha512-ivZTPp2z53Va4qK8uzrcai6rYEDdpmE11s+dAecTb8HggjFAaRqKyNI8gSoArWJ50AZwXihqbnJr/3lRw+8EXg=="],
 
     "@pob/sort-pkg": ["@pob/sort-pkg@12.1.2", "", { "dependencies": { "@pob/sort-object": "10.1.2" } }, "sha512-a2fBonJZJaLnBGMsXd2nl1fozkY+n1QQxsWdS5Uvmml0Umc0eB32PU+mr/Q+z0wzfc+eO2cAC+N2J56RQQVweA=="],
 
-    "@pob/version": ["@pob/version@3.0.0", "", { "dependencies": { "commander": "14.0.3", "conventional-changelog-conventionalcommits": "9.3.1", "conventional-changelog-preset-loader": "5.0.0", "conventional-changelog-writer": "8.4.0", "conventional-commits-parser": "6.4.0", "nightingale": "18.1.0", "semver": "7.7.4" }, "bin": { "pob-version": "./dist/index-node.mjs" } }, "sha512-vPRN+0HcJav8+7emlj6Eyo9e3qYZPK5Z27qceLID9cgmPPKPlyvjF9GglV4LxXsadDhJ8Eo8pM2fKz/gKPH0Gw=="],
+    "@pob/version": ["@pob/version@3.1.0", "", { "dependencies": { "commander": "14.0.3", "conventional-changelog-conventionalcommits": "9.3.1", "conventional-changelog-preset-loader": "5.0.0", "conventional-changelog-writer": "8.4.0", "conventional-commits-parser": "6.4.0", "nightingale": "18.1.0", "semver": "7.7.4" }, "bin": { "pob-version": "./dist/index-node.mjs" } }, "sha512-wnIAdL/KG3+5J/XUfgQI6vD+1M7RdyoK15YNCUSJgMfZXPkYAqy9z9+yWdXusrCAvUWUzL9gdFojjbzqywy8aQ=="],
 
     "@simple-libs/stream-utils": ["@simple-libs/stream-utils@1.2.0", "", {}, "sha512-KxXvfapcixpz6rVEB6HPjOUZT22yN6v0vI0urQSk1L8MlEWPDFCZkhw2xmkyoTGYeFw7tWTZd7e3lVzRZRN/EA=="],
 
@@ -336,15 +336,15 @@
 
     "conventional-changelog-angular": ["conventional-changelog-angular@8.3.1", "", { "dependencies": { "compare-func": "^2.0.0" } }, "sha512-6gfI3otXK5Ph5DfCOI1dblr+kN3FAm5a97hYoQkqNZxOaYa5WKfXH+AnpsmS+iUH2mgVC2Cg2Qw9m5OKcmNrIg=="],
 
-    "conventional-changelog-conventionalcommits": ["conventional-changelog-conventionalcommits@9.1.0", "", { "dependencies": { "compare-func": "^2.0.0" } }, "sha512-MnbEysR8wWa8dAEvbj5xcBgJKQlX/m0lhS8DsyAAWDHdfs2faDJxTgzRYlRYpXSe7UiKrIIlB4TrBKU9q9DgkA=="],
+    "conventional-changelog-conventionalcommits": ["conventional-changelog-conventionalcommits@9.3.1", "", { "dependencies": { "compare-func": "^2.0.0" } }, "sha512-dTYtpIacRpcZgrvBYvBfArMmK2xvIpv2TaxM0/ZI5CBtNUzvF2x0t15HsbRABWprS6UPmvj+PzHVjSx4qAVKyw=="],
 
     "conventional-changelog-preset-loader": ["conventional-changelog-preset-loader@5.0.0", "", {}, "sha512-SetDSntXLk8Jh1NOAl1Gu5uLiCNSYenB5tm0YVeZKePRIgDW9lQImromTwLa3c/Gae298tsgOM+/CYT9XAl0NA=="],
 
-    "conventional-changelog-writer": ["conventional-changelog-writer@8.2.0", "", { "dependencies": { "conventional-commits-filter": "^5.0.0", "handlebars": "^4.7.7", "meow": "^13.0.0", "semver": "^7.5.2" }, "bin": { "conventional-changelog-writer": "dist/cli/index.js" } }, "sha512-Y2aW4596l9AEvFJRwFGJGiQjt2sBYTjPD18DdvxX9Vpz0Z7HQ+g1Z+6iYDAm1vR3QOJrDBkRHixHK/+FhkR6Pw=="],
+    "conventional-changelog-writer": ["conventional-changelog-writer@8.4.0", "", { "dependencies": { "@simple-libs/stream-utils": "^1.2.0", "conventional-commits-filter": "^5.0.0", "handlebars": "^4.7.7", "meow": "^13.0.0", "semver": "^7.5.2" }, "bin": { "conventional-changelog-writer": "dist/cli/index.js" } }, "sha512-HHBFkk1EECxxmCi4CTu091iuDpQv5/OavuCUAuZmrkWpmYfyD816nom1CvtfXJ/uYfAAjavgHvXHX291tSLK8g=="],
 
     "conventional-commits-filter": ["conventional-commits-filter@5.0.0", "", {}, "sha512-tQMagCOC59EVgNZcC5zl7XqO30Wki9i9J3acbUvkaosCT6JX3EeFwJD7Qqp4MCikRnzS18WXV3BLIQ66ytu6+Q=="],
 
-    "conventional-commits-parser": ["conventional-commits-parser@6.2.1", "", { "dependencies": { "meow": "^13.0.0" }, "bin": { "conventional-commits-parser": "dist/cli/index.js" } }, "sha512-20pyHgnO40rvfI0NGF/xiEoFMkXDtkF8FwHvk5BokoFoCuTQRI8vrNCNFWUOfuolKJMm1tPCHc8GgYEtr1XRNA=="],
+    "conventional-commits-parser": ["conventional-commits-parser@6.4.0", "", { "dependencies": { "@simple-libs/stream-utils": "^1.2.0", "meow": "^13.0.0" }, "bin": { "conventional-commits-parser": "dist/cli/index.js" } }, "sha512-tvRg7FIBNlyPzjdG8wWRlPHQJJHI7DylhtRGeU9Lq+JuoPh5BKpPRX83ZdLrvXuOSu5Eo/e7SzOQhU4Hd2Miuw=="],
 
     "core-js-compat": ["core-js-compat@3.49.0", "", { "dependencies": { "browserslist": "^4.28.1" } }, "sha512-VQXt1jr9cBz03b331DFDCCP90b3fanciLkgiOoy8SBHy06gNf+vQ1A3WFLqG7I8TipYIKeYK9wxd0tUrvHcOZA=="],
 
@@ -686,13 +686,13 @@
 
     "pluralize": ["pluralize@8.0.0", "", {}, "sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA=="],
 
-    "pob-dependencies": ["pob-dependencies@23.0.0", "", {}, "sha512-2PWmPZfIBin09eaCXEbtAMVmEhhy1oV8o72u4fLWJnGGMBm0yfzYVpq7E5MsAZhYTQKfz2en/Y6aalzDeyWhhA=="],
+    "pob-dependencies": ["pob-dependencies@23.1.0", "", {}, "sha512-ut6d5FAHs8/oavxfg5B4hjBmhVPlRPD+B1LGJSSqn4bWuh0Lj+hQyX4MtKg5gp+QWtkVTEIzzrd4C2aSbMN4Fw=="],
 
     "possible-typed-array-names": ["possible-typed-array-names@1.1.0", "", {}, "sha512-/+5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg=="],
 
     "prelude-ls": ["prelude-ls@1.2.1", "", {}, "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g=="],
 
-    "prettier": ["prettier@3.8.1", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg=="],
+    "prettier": ["prettier@3.8.3", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw=="],
 
     "prop-types": ["prop-types@15.8.1", "", { "dependencies": { "loose-envify": "^1.4.0", "object-assign": "^4.1.1", "react-is": "^16.13.1" } }, "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="],
 
@@ -846,10 +846,6 @@
 
     "yocto-queue": ["yocto-queue@0.1.0", "", {}, "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="],
 
-    "@commitlint/parse/conventional-commits-parser": ["conventional-commits-parser@6.4.0", "", { "dependencies": { "@simple-libs/stream-utils": "^1.2.0", "meow": "^13.0.0" }, "bin": { "conventional-commits-parser": "dist/cli/index.js" } }, "sha512-tvRg7FIBNlyPzjdG8wWRlPHQJJHI7DylhtRGeU9Lq+JuoPh5BKpPRX83ZdLrvXuOSu5Eo/e7SzOQhU4Hd2Miuw=="],
-
-    "@commitlint/types/conventional-commits-parser": ["conventional-commits-parser@6.4.0", "", { "dependencies": { "@simple-libs/stream-utils": "^1.2.0", "meow": "^13.0.0" }, "bin": { "conventional-commits-parser": "dist/cli/index.js" } }, "sha512-tvRg7FIBNlyPzjdG8wWRlPHQJJHI7DylhtRGeU9Lq+JuoPh5BKpPRX83ZdLrvXuOSu5Eo/e7SzOQhU4Hd2Miuw=="],
-
     "@eslint-community/eslint-utils/eslint-visitor-keys": ["eslint-visitor-keys@3.4.3", "", {}, "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag=="],
 
     "@eslint/json/@eslint/core": ["@eslint/core@1.1.0", "", { "dependencies": { "@types/json-schema": "^7.0.15" } }, "sha512-/nr9K9wkr3P1EzFTdFdMoLuo1PmIxjmwvPozwoSodjNBdefGujXQUF93u1DDZpEaTuDvMsIQddsd35BwtrW9Xw=="],
@@ -857,12 +853,6 @@
     "@eslint/json/@eslint/plugin-kit": ["@eslint/plugin-kit@0.6.0", "", { "dependencies": { "@eslint/core": "^1.1.0", "levn": "^0.4.1" } }, "sha512-bIZEUzOI1jkhviX2cp5vNyXQc6olzb2ohewQubuYlMXZ2Q/XjBO0x0XhGPvc9fjSIiUN0vw+0hq53BJ4eQSJKQ=="],
 
     "@eslint/plugin-kit/@eslint/core": ["@eslint/core@0.17.0", "", { "dependencies": { "@types/json-schema": "^7.0.15" } }, "sha512-yL/sLrpmtDaFEiUj1osRP4TI2MDz1AddJL+jZ7KSqvBuliN4xqYY54IfdN8qD8Toa6g1iloph1fxQNkjOxrrpQ=="],
-
-    "@pob/version/conventional-changelog-conventionalcommits": ["conventional-changelog-conventionalcommits@9.3.1", "", { "dependencies": { "compare-func": "^2.0.0" } }, "sha512-dTYtpIacRpcZgrvBYvBfArMmK2xvIpv2TaxM0/ZI5CBtNUzvF2x0t15HsbRABWprS6UPmvj+PzHVjSx4qAVKyw=="],
-
-    "@pob/version/conventional-changelog-writer": ["conventional-changelog-writer@8.4.0", "", { "dependencies": { "@simple-libs/stream-utils": "^1.2.0", "conventional-commits-filter": "^5.0.0", "handlebars": "^4.7.7", "meow": "^13.0.0", "semver": "^7.5.2" }, "bin": { "conventional-changelog-writer": "dist/cli/index.js" } }, "sha512-HHBFkk1EECxxmCi4CTu091iuDpQv5/OavuCUAuZmrkWpmYfyD816nom1CvtfXJ/uYfAAjavgHvXHX291tSLK8g=="],
-
-    "@pob/version/conventional-commits-parser": ["conventional-commits-parser@6.4.0", "", { "dependencies": { "@simple-libs/stream-utils": "^1.2.0", "meow": "^13.0.0" }, "bin": { "conventional-commits-parser": "dist/cli/index.js" } }, "sha512-tvRg7FIBNlyPzjdG8wWRlPHQJJHI7DylhtRGeU9Lq+JuoPh5BKpPRX83ZdLrvXuOSu5Eo/e7SzOQhU4Hd2Miuw=="],
 
     "@typescript-eslint/typescript-estree/minimatch": ["minimatch@10.2.2", "", { "dependencies": { "brace-expansion": "^5.0.2" } }, "sha512-+G4CpNBxa5MprY+04MbgOw1v7So6n5JY166pFi9KfYwT78fxScCeSNQSNzp6dpPSW2rONOps6Ocam1wFhCgoVw=="],
 

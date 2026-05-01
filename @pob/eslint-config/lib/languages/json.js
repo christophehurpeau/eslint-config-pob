@@ -9,7 +9,7 @@ export default [
 
   // lint JSON files
   {
-    name: "@pob/eslint-config/base/languages/json/json",
+    // name: "@pob/eslint-config/base/languages/json/json",
     files: ["**/*.json"],
     language: "json/json",
     // @ts-ignore
@@ -18,7 +18,7 @@ export default [
 
   // lint JSONC files
   {
-    name: "@pob/eslint-config/base/languages/json/jsonc",
+    // name: "@pob/eslint-config/base/languages/json/jsonc",
     files: ["**/*.jsonc", "**/tsconfig.json", ".vscode/*.json"],
     language: "json/jsonc",
     languageOptions: {
@@ -30,7 +30,7 @@ export default [
 
   // lint JSON5 files
   {
-    name: "@pob/eslint-config/base/languages/json/json5",
+    // name: "@pob/eslint-config/base/languages/json/json5",
     files: ["**/*.json5"],
     language: "json/json5",
     // @ts-ignore

@@ -8,7 +8,8 @@
     "checkJs": true,
     "noImplicitAny": false,
     "tsBuildInfoFile": "node_modules/.cache/tsc/tsbuildinfo",
-    "noEmit": true
+    "noEmit": true,
+    "types": ["node"]
   },
   "include": ["lib/**/*.js", "lib/**/*.mjs", "lib/**/*.cjs", "lib/**/*.d.ts"]
 }
