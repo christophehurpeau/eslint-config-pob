@@ -34,7 +34,7 @@
   "devDependencies": {
     "@pob/eslint-config": "workspace:*",
     "@pob/eslint-config-typescript-react": "workspace:*",
-    "@pob/root": "23.1.0",
+    "@pob/root": "23.2.0",
     "@typescript-eslint/eslint-plugin": "8.59.1",
     "@typescript-eslint/parser": "8.59.1",
     "check-package-dependencies": "10.5.0",
