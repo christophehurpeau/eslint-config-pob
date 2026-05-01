@@ -35,7 +35,7 @@
   "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
     "eslint": "^9.39.1 || ^10.0.2",
-    "typescript": ">=5.0.0 <6.0.0"
+    "typescript": ">=5.0.0 <7.0.0"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -50,7 +50,7 @@
     "@types/node": "24.10.1",
     "@typescript-eslint/rule-tester": "8.59.1",
     "eslint": "10.2.1",
-    "typescript": "5.9.3",
+    "typescript": "6.0.3",
     "typescript-eslint": "8.59.1"
   }
 }
