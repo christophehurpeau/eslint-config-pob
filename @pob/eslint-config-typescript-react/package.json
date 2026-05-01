@@ -28,8 +28,8 @@
     "lib"
   ],
   "scripts": {
-    "lint": "bun run lint:eslint",
-    "lint:eslint": "bun run --cwd '../..' eslint --quiet '@pob/eslint-config-typescript-react'"
+    "lint": "yarn run lint:eslint",
+    "lint:eslint": "yarn '../..' run eslint --quiet '@pob/eslint-config-typescript-react'"
   },
   "pob": {},
   "prettier": "@pob/root/prettier-config",

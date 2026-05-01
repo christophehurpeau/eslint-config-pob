@@ -14,10 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
+      - name: Enable Corepack
+        run: corepack enable
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v6
@@ -26,24 +24,24 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Install Dependencies
-        run: bun install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Checks
-        run: bun run checks
+        run: yarn run checks
         if: startsWith(matrix.node-version, '24.')
 
       - name: Prettier
-        run: bun run lint:prettier
+        run: yarn run lint:prettier
         if: startsWith(matrix.node-version, '24.')
 
       - name: Typescript
-        run: bun run tsc
+        run: yarn run tsc
         if: startsWith(matrix.node-version, '24.')
 
       - name: Eslint
-        run: bun run lint:eslint
+        run: yarn run lint:eslint
         if: startsWith(matrix.node-version, '24.')
 
       - name: Check nothing was forgotten before commit
         if: startsWith(matrix.node-version, '24.')
-        run: bun run repository-check-dirty
+        run: yarn run repository-check-dirty

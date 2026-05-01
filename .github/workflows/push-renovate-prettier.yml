@@ -17,18 +17,18 @@ jobs:
         with:
           ssh-key: ${{ secrets.PUSH_DEPLOY_KEY }}
 
-      - name: Install bun
-        uses: oven-sh/setup-bun@v2
+      - name: Enable Corepack
+        run: corepack enable
 
       - uses: actions/setup-node@v6
         with:
           node-version: 24
 
       - name: Install Dependencies
-        run: bun i --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Run Prettier
-        run: bun run prettier --write .
+        run: yarn prettier --write .
 
       - name: Check for added or modified files
         id: git-check-modified

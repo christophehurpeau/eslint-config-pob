@@ -34,8 +34,8 @@
     "utils.js"
   ],
   "scripts": {
-    "lint": "bun run lint:eslint",
-    "lint:eslint": "bun run --cwd '../..' eslint --quiet '@pob/eslint-config'"
+    "lint": "yarn run lint:eslint",
+    "lint:eslint": "yarn '../..' run eslint --quiet '@pob/eslint-config'"
   },
   "pob": {},
   "prettier": "@pob/root/prettier-config",

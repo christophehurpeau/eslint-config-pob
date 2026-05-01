@@ -18,8 +18,8 @@ jobs:
         with:
           ssh-key: ${{ secrets.PUSH_DEPLOY_KEY }}
 
-      - name: Install bun
-        uses: oven-sh/setup-bun@v2
+      - name: Enable Corepack
+        run: corepack enable
 
       - uses: actions/setup-node@v6
         with:
@@ -27,12 +27,12 @@ jobs:
 
       - name: Install Dependencies
         # no immutable here
-        run: bun i
+        run: yarn install
         env:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
 
       - name: Run pob-root-postinstall
-        run: bun run pob-root-postinstall
+        run: yarn pob-root-postinstall
 
       - name: Run pob update
         run: npx pob update --force

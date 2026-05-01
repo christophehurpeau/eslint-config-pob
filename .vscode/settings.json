@@ -1,9 +1,12 @@
 {
+  "search.exclude": {
+    "**/.yarn": true
+  },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
 
-  // set bun as package manager to run scripts and tasks
-  "npm.packageManager": "bun",
+  // set yarn as package manager to run scripts and tasks
+  "npm.packageManager": "yarn",
 
   // save config
   "editor.formatOnSave": true,

@@ -8,6 +8,7 @@
   "repository": "https://github.com/christophehurpeau/eslint-config-pob.git",
   "homepage": "https://github.com/christophehurpeau/eslint-config-pob",
   "type": "module",
+  "packageManager": "yarn@4.14.1",
   "engines": {
     "node": ">=22.18.0"
   },
@@ -16,11 +17,11 @@
   ],
   "scripts": {
     "checks": "node scripts/check-packages.js",
-    "lint": "bun run lint:prettier && bun run lint:eslint",
+    "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:eslint": "eslint --quiet .",
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
-    "prepare": "pob-root-postinstall",
+    "postinstall": "pob-root-postinstall",
     "test": "node --test",
     "tsc": "tsc -b"
   },
