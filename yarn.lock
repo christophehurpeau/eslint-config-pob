@@ -201,7 +201,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/json@npm:^1.0.1":
+"@eslint/json@npm:^1.2.0":
   version: 1.2.0
   resolution: "@eslint/json@npm:1.2.0"
   dependencies:
@@ -363,7 +363,7 @@ __metadata:
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@eslint/js": "npm:^10.0.1"
-    "@eslint/json": "npm:^1.0.1"
+    "@eslint/json": "npm:^1.2.0"
     "@pob/eslint-plugin": "npm:65.4.1"
     "@types/node": "npm:24.10.1"
     "@typescript-eslint/eslint-plugin": "npm:8.59.1"
