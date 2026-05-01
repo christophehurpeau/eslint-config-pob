@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [65.4.2](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.4.1...v65.4.2) (2026-05-01)
+
+Version bump for dependency: @pob/eslint-config
+
+
 ## [65.4.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.4.0...v65.4.1) (2026-05-01)
 
 Version bump for dependency: @pob/eslint-config
