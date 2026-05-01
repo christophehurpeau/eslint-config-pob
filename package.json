@@ -44,7 +44,7 @@
     "eslint-plugin-n": "17.24.0",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.2.0",
-    "eslint-plugin-unicorn": "63.0.0",
+    "eslint-plugin-unicorn": "64.0.0",
     "semver": "7.7.4",
     "typescript": "5.9.3"
   }
