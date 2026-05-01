@@ -45,8 +45,7 @@ export default () => {
   const extensions = "{js,cjs,mjs}";
 
   const testFiles = [
-    `**/*.test.${extensions}`,
-    `**/*.test-e2e.${extensions}`,
+    `**/*.{test,test-e2e,spec}.${extensions}`,
     `**/__tests__/**/*.${extensions}`,
     `**/__mocks__/**/*.${extensions}`,
   ];

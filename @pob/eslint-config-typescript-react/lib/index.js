@@ -76,9 +76,35 @@ export default () => {
           settings: {
             "import-x/resolver-next": [
               createNodeResolver({
-                extensions: [".js", ".ios.js", ".android.js"],
+                extensions: [
+                  ".js", // needed to resolve js files from node_modules
+                  ".ts",
+                  ".tsx",
+                  ".ios.ts",
+                  ".ios.tsx",
+                  ".android.ts",
+                  ".android.tsx",
+                ],
                 conditionNames: ["import", "react-native"],
               }),
+            ],
+          },
+          rules: {
+            "import-x/extensions": [
+              "error",
+              "always",
+              {
+                ignorePackages: true,
+                pattern: {
+                  js: "always",
+                  cjs: "always",
+                  mjs: "always",
+                  cts: "always",
+                  mts: "always",
+                  ts: "never",
+                  tsx: "never",
+                },
+              },
             ],
           },
         },
@@ -89,12 +115,30 @@ export default () => {
           settings: {
             "import-x/resolver-next": [
               createNodeResolver({
-                extensions: [".js", ".web.js"],
+                extensions: [".ts", ".tsx", ".web.ts", ".web.tsx"],
                 conditionNames: ["import", "browser"],
               }),
             ],
           },
           rules: {
+            rules: {
+              "import-x/extensions": [
+                "error",
+                "always",
+                {
+                  ignorePackages: true,
+                  pattern: {
+                    js: "always",
+                    cjs: "always",
+                    mjs: "always",
+                    cts: "always",
+                    mts: "never",
+                    ts: "never",
+                    tsx: "never",
+                  },
+                },
+              ],
+            },
             "import-x/no-unresolved": [
               "error",
               {

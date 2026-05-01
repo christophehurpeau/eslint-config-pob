@@ -8,6 +8,9 @@ export default [
       // https://github.com/airbnb/javascript/issues/2829
       "func-names": "error",
 
+      // legacy prop-types. We use TypeScript for type checking.
+      "react/prop-types": "off",
+
       // Enforce event handler naming conventions in JSX
       // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
       // 'react/jsx-handler-names': [
