@@ -1,3 +1,0 @@
-if [ -n "$(git diff HEAD@{1}..HEAD@{0} -- bun.lock)" ]; then
-  bun i --frozen-lockfile || true
-fi
