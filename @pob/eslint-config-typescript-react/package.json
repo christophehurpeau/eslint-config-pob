@@ -35,7 +35,7 @@
   "prettier": "@pob/root/prettier-config",
   "peerDependencies": {
     "eslint": "^9.39.1 || ^10.0.2",
-    "typescript": ">=5.0.0 <6.0.0"
+    "typescript": ">=5.0.0 <7.0.0"
   },
   "dependencies": {
     "@pob/eslint-config": "65.3.0",
@@ -48,6 +48,6 @@
   "devDependencies": {
     "@types/react": "19.2.14",
     "react": "19.2.5",
-    "typescript": "5.9.3"
+    "typescript": "6.0.3"
   }
 }
