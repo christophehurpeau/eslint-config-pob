@@ -159,7 +159,15 @@ export default () => {
 
   return {
     configs: {
-      baseModule,
+      baseModule: [
+        ...baseModule,
+        ...apply({
+          extensions,
+          mode: "directory",
+          files: ["**/scripts/"],
+          configs: [...nodePluginModuleConfigs, scriptsOverrideConfig],
+        }),
+      ],
       /** @deprecated */
       nodeModule,
       /** @deprecated */
