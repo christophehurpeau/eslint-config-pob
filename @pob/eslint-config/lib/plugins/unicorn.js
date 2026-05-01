@@ -372,6 +372,18 @@ export default [
 
       // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-response-static-json.md
       "unicorn/prefer-response-static-json": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/consistent-template-literal-escape.md
+      "unicorn/consistent-template-literal-escape": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-iterator-to-array.md
+      "unicorn/no-useless-iterator-to-array": "error",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-simple-condition-first.md
+      "unicorn/prefer-simple-condition-first": "off",
+
+      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/switch-case-break-position.md
+      "unicorn/switch-case-break-position": "error",
     },
   },
 ];
