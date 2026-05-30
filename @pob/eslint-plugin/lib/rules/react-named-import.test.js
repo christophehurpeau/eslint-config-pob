@@ -98,5 +98,19 @@ ruleTester.run("react-named-import", rule, {
         },
       ],
     },
+    {
+      code: `
+      import * as R from 'react';
+
+      export const simpleElement: R.ReactNode = <p>paragraph</p>;
+    `,
+      errors: [
+        {
+          messageId: "namespace",
+          line: 2,
+          column: 14,
+        },
+      ],
+    },
   ],
 });
