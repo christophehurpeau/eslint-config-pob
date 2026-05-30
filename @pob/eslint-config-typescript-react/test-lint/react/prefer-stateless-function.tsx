@@ -5,8 +5,9 @@ interface FooProps {
   foo?: string;
 }
 
-// eslint-disable-next-line react/prefer-stateless-function
+// eslint-disable-next-line react/prefer-stateless-function, @pob/react-named-import
 export class Foo extends React.Component<FooProps> {
+  // eslint-disable-next-line @pob/react-named-import
   render(): React.ReactNode {
     const { foo } = this.props;
 
