@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [65.5.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.4.3...v65.5.0) (2026-06-12)
+
+### Features
+
+* add namespace error
+* add test case for namespace import in react-named-import rule
+
 ## [65.4.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.4.0...v65.4.1) (2026-05-01)
 
 Note: no notable changes
