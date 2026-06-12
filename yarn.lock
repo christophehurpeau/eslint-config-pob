@@ -342,8 +342,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config-typescript-react@workspace:@pob/eslint-config-typescript-react"
   dependencies:
-    "@pob/eslint-config": "npm:65.4.3"
-    "@pob/eslint-plugin": "npm:65.4.1"
+    "@pob/eslint-config": "workspace:*"
+    "@pob/eslint-plugin": "workspace:*"
     "@types/node": "npm:24.10.1"
     "@types/react": "npm:19.2.14"
     eslint-plugin-import-x: "npm:4.16.2"
@@ -358,13 +358,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-config@npm:65.4.3, @pob/eslint-config@workspace:*, @pob/eslint-config@workspace:@pob/eslint-config":
+"@pob/eslint-config@workspace:*, @pob/eslint-config@workspace:@pob/eslint-config":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-config@workspace:@pob/eslint-config"
   dependencies:
     "@eslint/js": "npm:^10.0.1"
     "@eslint/json": "npm:^1.2.0"
-    "@pob/eslint-plugin": "npm:65.4.1"
+    "@pob/eslint-plugin": "workspace:*"
     "@types/node": "npm:24.10.1"
     "@typescript-eslint/eslint-plugin": "npm:8.59.1"
     "@typescript-eslint/parser": "npm:8.59.1"
@@ -385,7 +385,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pob/eslint-plugin@npm:65.4.1, @pob/eslint-plugin@workspace:@pob/eslint-plugin":
+"@pob/eslint-plugin@workspace:*, @pob/eslint-plugin@workspace:@pob/eslint-plugin":
   version: 0.0.0-use.local
   resolution: "@pob/eslint-plugin@workspace:@pob/eslint-plugin"
   dependencies:
@@ -517,21 +517,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.10.1":
+"@types/node@npm:24.10.1, @types/node@npm:>=22.19.1":
   version: 24.10.1
   resolution: "@types/node@npm:24.10.1"
   dependencies:
     undici-types: "npm:~7.16.0"
   checksum: 10c0/d6bca7a78f550fbb376f236f92b405d676003a8a09a1b411f55920ef34286ee3ee51f566203920e835478784df52662b5b2af89159d9d319352e9ea21801c002
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:>=22.19.1":
-  version: 25.6.0
-  resolution: "@types/node@npm:25.6.0"
-  dependencies:
-    undici-types: "npm:~7.19.0"
-  checksum: 10c0/d2d2015630ff098a201407f55f5077a20270ae4f465c739b40865cd9933b91b9c5d2b85568eadaf3db0801b91e267333ca7eb39f007428b173d1cdab4b339ac5
   languageName: node
   linkType: hard
 
@@ -3815,13 +3806,6 @@ __metadata:
   version: 7.16.0
   resolution: "undici-types@npm:7.16.0"
   checksum: 10c0/3033e2f2b5c9f1504bdc5934646cb54e37ecaca0f9249c983f7b1fc2e87c6d18399ebb05dc7fd5419e02b2e915f734d872a65da2e3eeed1813951c427d33cc9a
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~7.19.0":
-  version: 7.19.2
-  resolution: "undici-types@npm:7.19.2"
-  checksum: 10c0/7159f10546f9f6c47d36776bb1bbf8671e87c1e587a6fee84ae1f111ae8de4f914efa8ca0dfcd224f4f4a9dfc3f6028f627ccb5ddaccf82d7fd54671b89fac3e
   languageName: node
   linkType: hard
 
