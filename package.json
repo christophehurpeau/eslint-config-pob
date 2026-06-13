@@ -22,7 +22,7 @@
     "lint:prettier": "pob-root-prettier --check .",
     "lint:prettier:fix": "pob-root-prettier --write .",
     "postinstall": "pob-root-postinstall",
-    "test": "node --test",
+    "test": "node --test '**/*.test.{js,cjs,mjs}'",
     "tsc": "tsc -b"
   },
   "commitlint": {
