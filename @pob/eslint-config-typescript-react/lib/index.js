@@ -121,24 +121,22 @@ export default () => {
             ],
           },
           rules: {
-            rules: {
-              "import-x/extensions": [
-                "error",
-                "always",
-                {
-                  ignorePackages: true,
-                  pattern: {
-                    js: "always",
-                    cjs: "always",
-                    mjs: "always",
-                    cts: "always",
-                    mts: "never",
-                    ts: "never",
-                    tsx: "never",
-                  },
+            "import-x/extensions": [
+              "error",
+              "always",
+              {
+                ignorePackages: true,
+                pattern: {
+                  js: "always",
+                  cjs: "always",
+                  mjs: "always",
+                  cts: "always",
+                  mts: "never",
+                  ts: "never",
+                  tsx: "never",
                 },
-              ],
-            },
+              },
+            ],
             "import-x/no-unresolved": [
               "error",
               {
