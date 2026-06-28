@@ -1,6 +1,6 @@
 {
   "name": "@pob/eslint-config-typescript-react",
-  "version": "65.5.1",
+  "version": "65.6.0",
   "description": "eslint config files",
   "keywords": [],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",

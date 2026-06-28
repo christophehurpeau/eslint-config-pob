@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [65.6.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.5.1...v65.6.0) (2026-06-28)
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v8.62.0
+
+Version bump for dependency: @pob/eslint-plugin
+
+
 ## [65.5.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.5.0...v65.5.1) (2026-06-28)
 
 ### Bug Fixes
