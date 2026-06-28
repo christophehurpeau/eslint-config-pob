@@ -78,6 +78,8 @@ export default () => {
               createNodeResolver({
                 extensions: [
                   ".js", // needed to resolve js files from node_modules
+                  ".cjs",
+                  ".mjs",
                   ".ts",
                   ".tsx",
                   ".ios.ts",
@@ -115,7 +117,15 @@ export default () => {
           settings: {
             "import-x/resolver-next": [
               createNodeResolver({
-                extensions: [".ts", ".tsx", ".web.ts", ".web.tsx"],
+                extensions: [
+                  ".js", // needed to resolve js files from node_modules
+                  ".cjs",
+                  ".mjs",
+                  ".ts",
+                  ".tsx",
+                  ".web.ts",
+                  ".web.tsx",
+                ],
                 conditionNames: ["import", "browser"],
               }),
             ],
