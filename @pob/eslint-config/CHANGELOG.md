@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [65.5.1](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.5.0...v65.5.1) (2026-06-28)
+
+### Bug Fixes
+
+* use exact version for typescript-eslint
+
 ## [65.5.0](https://github.com/christophehurpeau/eslint-config-pob/compare/v65.4.3...v65.5.0) (2026-06-12)
 
 ### Bug Fixes
