@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@eslint/js": "^10.0.1",
-    "@eslint/json": "^1.2.0",
+    "@eslint/json": "^2.0.1",
     "@pob/eslint-plugin": "workspace:*",
     "@typescript-eslint/eslint-plugin": "8.62.0",
     "@typescript-eslint/parser": "8.62.0",
